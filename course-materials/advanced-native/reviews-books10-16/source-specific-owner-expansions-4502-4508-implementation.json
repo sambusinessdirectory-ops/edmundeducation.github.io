@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "source-specific-reviewed-existing-owner-alias-integration",
+  "status": "implemented-locally-review-only-no-publication",
+  "independentReadOnlyReview": "reviews-books10-16/read-only-current408-eleven-alias-candidates-owner-screen-held-exclusion-408.json",
+  "independentReadOnlyReviewSha256": "305bb26f385449b3ca92f8936402fffc71f57b040ac96dad540ee16298ac5ba3",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "changes": [
+    {
+      "ownerId": "advanced-native-1498",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1476-1500.json",
+      "sourceOrdinal": 4502,
+      "sourceId": "book10-16-2391",
+      "beforeFileSha256": "3bec22a6457b15ffd043c40593bc7c06a7380bb0bc63826b73b4c73ee2fbbde8",
+      "afterFileSha256": "cec56d623786471886574440b8166b7ea7cbbf3892fd39baf921c225f42f14cf",
+      "beforeOwnerSha256": "28c0a944690d3a9981b8aac38583ba225d1f93d92e5dd26852c7e273ed95e77c",
+      "afterOwnerSha256": "e6450007013a95e224aa5d4f10f1f9d2f0a6042f283ca209b87afc744ba2777a",
+      "sourceSentence": "Traditions are a bit like roots for a community.",
+      "sourceExpression": "traditions are a bit like roots",
+      "regexBranch": "\\btraditions\\s+are\\s+a\\s+bit\\s+like\\s+roots\\s+for\\s+a\\s+community\\b",
+      "assessmentSignatureSha256": "51885cd51103dbae6be613978fd6aebe022d56d931d54e5313e96affcb3e5a64",
+      "audioTextSignatureSha256": "4d2f1d89586f2a6f3fc9bc4d28b5ac8c9cec45a041e4775afa62543719c89415",
+      "oldSourceCount": 1,
+      "newSourceCount": 2
+    },
+    {
+      "ownerId": "advanced-native-1003",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1001-1025.json",
+      "sourceOrdinal": 4508,
+      "sourceId": "book10-16-2397",
+      "beforeFileSha256": "1bd7df4b9208d86b259aad55f39adb5dbaf0e5c7e38909a48441c76d60bcbff6",
+      "afterFileSha256": "85ec4111c5c5ac0103e2fc6e4960ab9c54e69f4b1805599ad292c30c67ddf2e1",
+      "beforeOwnerSha256": "a948f8baaf6978e50484275df7e76b461f625c56a16cc7e97e3bd4042378590b",
+      "afterOwnerSha256": "4217a7aa374c76d20d2c61691b89a18eddda80c350db13266b0f3ec213afb729",
+      "sourceSentence": "Reform means letting go of the ones that hold people back.",
+      "sourceExpression": "letting go of the ones that hold people back",
+      "regexBranch": "\\bhold\\s+people\\s+back\\b",
+      "assessmentSignatureSha256": "8a3456058beed139abcb34fe3d4fb28185f77c822cc13230be91c686d4ef2deb",
+      "audioTextSignatureSha256": "e4af9a1ea86e7492c54463a47e385971d9946c3c342ed485afb085303363d25f",
+      "oldSourceCount": 3,
+      "newSourceCount": 4
+    }
+  ],
+  "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+  "decisionBeforeSha256": "46485925953d6740cbee9932607832b4b88d491743434b55eb7a54b30f6402ea",
+  "decisionAfterSha256": "9b9c7ff98267abd61dde98e50ed87f82dddffa1808711266d5a4e08975ad38a2",
+  "assessedKeysPreserved": true,
+  "audioTextsPreserved": true,
+  "physicalRestraintExclusion": "Owner 1003 source 4508 teaches traditions restricting people’s progress; physically holding a person back is outside the target sense.",
+  "publication": false
+}

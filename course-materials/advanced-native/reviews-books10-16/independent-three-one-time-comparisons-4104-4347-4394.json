@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-source-specific-one-time-comparison-review",
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "userRule": "Skip one-time comparisons; record why.",
+  "reviewedSourceOrdinals": [
+    4104,
+    4347,
+    4394
+  ],
+  "recommendationCount": {
+    "exclude-one-time-comparison": 3
+  },
+  "decisionMutation": false,
+  "records": [
+    {
+      "sourceOrdinal": 4104,
+      "sourceId": "book10-16-1993",
+      "book": 15,
+      "question": 26,
+      "questionText": "Is it hard for old people to learn new skills?",
+      "sourceCategory": "Figurative use",
+      "sourceExpression": "climbing a steeper hill",
+      "exactSourceSentence": "For him, learning the new software felt like climbing a steeper hill.",
+      "guideMeaning": "Facing a more difficult learning task; a climbing metaphor.",
+      "sourceInventoryRawRowSha256": "8fea7e5ee80caba01aa72b604f71c901fd75b58bbc1be52c7db06c00130dbf7d",
+      "currentDecisionFile": "editorial-decisions-4092-4151.jsonl",
+      "currentDecisionRawRowSha256": "c3488ed78c59ae928d7f4f609a7e24ab33c07ddf2d5598afb95a89766a6399fa",
+      "currentAction": "hold-editorial",
+      "proposedDisposition": "exclude-one-time-comparison",
+      "sourceSpecificReason": "The sentence explicitly says learning new software felt like climbing a steeper hill. The source uses a task-specific comparative hill image, not the established lexical form “an uphill battle” or “an uphill climb”. A lesson on those established forms would silently replace the source expression, while a lesson on the entire hill image would teach a one-time comparison.",
+      "nearbyCanonicalOwnerConsidered": {
+        "id": "advanced-native-100",
+        "titleEn": "an uphill battle / an uphill climb",
+        "sourceMatchedAlias": false,
+        "targetPattern": "\\b(?:an\\s+uphill\\s+battle|an\\s+(?:endless\\s+)?uphill\\s+climb)\\b",
+        "detectorMatchesFullSourceSentence": false,
+        "moduleFile": "batch-0076-0100.json"
+      },
+      "reviewScope": "Source-bound lexical review only; not a universal claim that no speaker could ever use similar imagery."
+    },
+    {
+      "sourceOrdinal": 4347,
+      "sourceId": "book10-16-2236",
+      "book": 16,
+      "question": 16,
+      "questionText": "What do you think are some of the main differences between written communication and spoken communication?",
+      "sourceCategory": "Figurative use",
+      "sourceExpression": "carving something into stone",
+      "exactSourceSentence": "A formal letter can feel like carving something into stone.",
+      "guideMeaning": "Creating a fixed lasting message; a stonework metaphor.",
+      "sourceInventoryRawRowSha256": "bf68b2e47266957e7a46e2c0f972a0c5739b96023ac9257f9967d900713946da",
+      "currentDecisionFile": "editorial-decisions-4332-4391.jsonl",
+      "currentDecisionRawRowSha256": "0585b24d96b0e0d6a0af321aa9738b1450524f18c29ce714d425f06effe7837d",
+      "currentAction": "hold-editorial",
+      "proposedDisposition": "exclude-one-time-comparison",
+      "sourceSpecificReason": "The formal letter “can feel like carving something into stone” is an explicit simile constructed for the writing-versus-speech example. The reusable idiom “set in stone” is absent from the source sentence; it describes a settled state, while this line imagines the act of carving. Teaching or aliasing it as that idiom would change the source form and focus.",
+      "nearbyCanonicalOwnerConsidered": {
+        "id": "advanced-native-431",
+        "titleEn": "set in stone",
+        "sourceMatchedAlias": false,
+        "targetPattern": "\\bset in stone\\b",
+        "detectorMatchesFullSourceSentence": false,
+        "moduleFile": "batch-0426-0450.json"
+      },
+      "reviewScope": "Source-bound lexical review only; not a universal claim that no speaker could ever use similar imagery."
+    },
+    {
+      "sourceOrdinal": 4394,
+      "sourceId": "book10-16-2283",
+      "book": 16,
+      "question": 22,
+      "questionText": "What can be done to reduce traffic noise?",
+      "sourceCategory": "Figurative use",
+      "sourceExpression": "background music of city life",
+      "exactSourceSentence": "Horns should not be the background music of city life.",
+      "guideMeaning": "An assumed constant urban sound; a music metaphor.",
+      "sourceInventoryRawRowSha256": "8209fe0f1de11681037e6bc1c0d3ba57df7917623b932ceddfad922134adaa57",
+      "currentDecisionFile": "editorial-decisions-4392-4451.jsonl",
+      "currentDecisionRawRowSha256": "d89c04528b12d2870657078515169cc2c08c597facd3f47055a8d3604158a1f2",
+      "currentAction": "hold-editorial",
+      "proposedDisposition": "exclude-one-time-comparison",
+      "sourceSpecificReason": "The sentence ironically imagines horns as the “background music of city life”. “Background music” by itself is an ordinary reusable noun phrase, but the full figurative target is this source-specific horns-and-city image; no stable idiom is present. Existing “background noise” and “in the background” are different lexical targets and should not be substituted.",
+      "nearbyCanonicalOwnerConsidered": {
+        "owners": [
+          {
+            "id": "advanced-native-2021",
+            "titleEn": "background noise",
+            "targetPattern": "\\bbackground noise\\b",
+            "detectorMatchesFullSourceSentence": false,
+            "moduleFile": "batch-2001-2025.json"
+          },
+          {
+            "id": "advanced-native-1013",
+            "titleEn": "in the background",
+            "targetPattern": "\\bin the background\\b",
+            "detectorMatchesFullSourceSentence": false,
+            "moduleFile": "batch-1001-1025.json"
+          }
+        ],
+        "sourceMatchedAlias": false
+      },
+      "reviewScope": "Source-bound lexical review only; not a universal claim that no speaker could ever use similar imagery."
+    }
+  ],
+  "reviewNote": "All three recommendations are source-specific. Prior review had raised possible reusable cores for 4347 and 4394; this review rejects substitution of a different idiom or an ordinary literal noun phrase for the exact marked source expression."
+}

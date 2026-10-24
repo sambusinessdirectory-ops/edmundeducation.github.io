@@ -143,7 +143,7 @@
         "explanationZh": "比喻只說當時感覺遠離日常節奏，並不證明所有責任永久消失。"
       },
       "dialogue": {
-        "promptZh": "甲：這個留宿音樂工作坊與我平日辦公室生活很不同。這是否表示我已辭職？\n乙：？",
+        "promptZh": "甲：這個留宿音樂工作坊與我平日辦公室生活很不同。這是否表示我已辭職？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -163,7 +163,7 @@
         ],
         "answerId": "a",
         "explanationZh": "活動與日常不同，不等於辭職；比喻可描述短暫脫離平日節奏。",
-        "promptEn": "A: The overnight music workshop feels far from my usual office day. Does that mean I have quit my job?\nB: ?"
+        "promptEn": "A: The overnight music workshop feels far from my usual office day. Does that mean I have quit my job?\nWhat should B say?"
       },
       "speaking": {
         "en": "At the lakeside painting weekend, I left ordinary life behind for two days and returned to my shop on Monday.",
@@ -413,7 +413,7 @@
         "explanationZh": "借鑑後因應本地交通調整，並不是盲目照搬；另兩項都忽略本地條件。"
       },
       "dialogue": {
-        "promptZh": "甲：博物館用了另一座城市的售票系統，但不少本地訪客付現金。我們一定要放棄整個構想嗎？\n乙：？",
+        "promptZh": "甲：博物館用了另一座城市的售票系統，但不少本地訪客付現金。我們一定要放棄整個構想嗎？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -433,7 +433,7 @@
         ],
         "answerId": "a",
         "explanationZh": "可保留有用部分，但須因應本地現金付款需求調整，而非全盤照搬或全盤丟棄。",
-        "promptEn": "A: The museum copied a ticket system from another city, but many local visitors pay in cash. Must we throw the whole idea away?\nB: ?"
+        "promptEn": "A: The museum copied a ticket system from another city, but many local visitors pay in cash. Must we throw the whole idea away?\nWhat should B say?"
       },
       "speaking": {
         "en": "A city bakery cannot copy and paste the harvest festival recipe whose meaning comes from one village's farming history.",

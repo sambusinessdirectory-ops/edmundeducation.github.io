@@ -143,7 +143,7 @@
         "explanationZh": "孩子沒有使用隔音工具，也沒有形成私人聽覺空間；另兩項都有減少外界聲音。"
       },
       "dialogue": {
-        "promptZh": "甲：耳機讓我在咖啡店的談話聲中聽爵士樂，但朋友剛坐到我桌旁。我們聊天時，我應繼續戴着耳機嗎？\n乙：？",
+        "promptZh": "甲：耳機讓我在咖啡店的談話聲中聽爵士樂，但朋友剛坐到我桌旁。我們聊天時，我應繼續戴着耳機嗎？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -163,7 +163,7 @@
         ],
         "answerId": "a",
         "explanationZh": "聲音小天地適合獨自聽音樂，朋友加入後可先除下耳機交談。",
-        "promptEn": "A: My headphones let me enjoy jazz despite the café chatter, but my friend has just joined me at the table. Should I leave them on while we catch up?\nB: ?"
+        "promptEn": "A: My headphones let me enjoy jazz despite the café chatter, but my friend has just joined me at the table. Should I leave them on while we catch up?\nWhat should B say?"
       },
       "speaking": {
         "en": "My headphones create a sound bubble for editing music, but I pause the track when the stage manager calls.",
@@ -413,7 +413,7 @@
         "explanationZh": "整段致辭都忙於搬椅，事後又記不起內容，才有錯過當下的證據；不一定涉及螢幕。"
       },
       "dialogue": {
-        "promptZh": "甲：我拍到清晰的初雪影片，但那一分鐘一直查看曝光設定，沒有望過窗外。\n乙：？",
+        "promptZh": "甲：我拍到清晰的初雪影片，但那一分鐘一直查看曝光設定，沒有望過窗外。\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -433,7 +433,7 @@
         ],
         "answerId": "a",
         "explanationZh": "有錄影不代表有親眼感受；甲說自己整分鐘都在看設定。",
-        "promptEn": "A: I have a clear recording of the first snowfall, but I spent the entire minute checking exposure and never looked out the window.\nB: ?"
+        "promptEn": "A: I have a clear recording of the first snowfall, but I spent the entire minute checking exposure and never looked out the window.\nWhat should B say?"
       },
       "speaking": {
         "en": "I nearly missed the moment at the concert while checking messages, so I put my phone away for the final song.",
@@ -683,7 +683,7 @@
         "explanationZh": "若只有新甜點和今天售價，沒有具體過去做法或記憶，就缺少歷史連繫。"
       },
       "dialogue": {
-        "promptZh": "甲：這款節慶湯沿用渡輪冬季停航期間家庭使用的食譜。一碗湯能說出整條村的全部歷史嗎？\n乙：？",
+        "promptZh": "甲：這款節慶湯沿用渡輪冬季停航期間家庭使用的食譜。一碗湯能說出整條村的全部歷史嗎？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -703,7 +703,7 @@
         ],
         "answerId": "a",
         "explanationZh": "食譜可保存一段過去的做法，但不能等同整體歷史。",
-        "promptEn": "A: This festival soup follows the recipe families used during the winter ferry closures. Can one bowl tell us the whole village history?\nB: ?"
+        "promptEn": "A: This festival soup follows the recipe families used during the winter ferry closures. Can one bowl tell us the whole village history?\nWhat should B say?"
       },
       "speaking": {
         "en": "The festival bread is edible history because its grain mix recalls how families baked during the old harvest season.",

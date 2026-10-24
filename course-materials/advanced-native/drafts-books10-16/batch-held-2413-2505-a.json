@@ -157,8 +157,8 @@
         "answerId": "c"
       },
       "dialogue": {
-        "promptEn": "A: The two research teams have challenged each other’s methods three times, but they have now agreed on one test. Was that exchange pointless?\nB: ?",
-        "promptZh": "甲：兩個研究團隊已三度互相質疑研究方法，但現在同意採用一項測試。那段交流沒有用嗎？\n乙：？",
+        "promptEn": "A: The two research teams have challenged each other’s methods three times, but they have now agreed on one test. Was that exchange pointless?\nWhat should B say?",
+        "promptZh": "甲：兩個研究團隊已三度互相質疑研究方法，但現在同意採用一項測試。那段交流沒有用嗎？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -428,8 +428,8 @@
         "answerId": "c"
       },
       "dialogue": {
-        "promptEn": "A: The charity report says donations rose in every month, but its own table shows a drop in April. Can we keep that headline?\nB: ?",
-        "promptZh": "甲：慈善機構報告稱捐款每個月都增加，但其表格顯示四月下降。我們可以保留那個標題嗎？\n乙：？",
+        "promptEn": "A: The charity report says donations rose in every month, but its own table shows a drop in April. Can we keep that headline?\nWhat should B say?",
+        "promptZh": "甲：慈善機構報告稱捐款每個月都增加，但其表格顯示四月下降。我們可以保留那個標題嗎？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -699,8 +699,8 @@
         "answerId": "c"
       },
       "dialogue": {
-        "promptEn": "A: Our translator is handling four live chats and has missed two names. Can we give her another channel?\nB: ?",
-        "promptZh": "甲：我們的翻譯員同時處理四個即時對話，已漏掉兩個名字。還能給她多一個頻道嗎？\n乙：？",
+        "promptEn": "A: Our translator is handling four live chats and has missed two names. Can we give her another channel?\nWhat should B say?",
+        "promptZh": "甲：我們的翻譯員同時處理四個即時對話，已漏掉兩個名字。還能給她多一個頻道嗎？\n乙應如何回答？",
         "options": [
           {
             "id": "a",

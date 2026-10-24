@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "kind": "post-dialogue-repair-audio-queue-identity-attestation",
+  "createdAtUtc": "2026-10-24T07:13:39.122568+00:00",
+  "selectedLessons": 638,
+  "selectedAudioRoles": 2552,
+  "combinedAudioRoles": 2679,
+  "changedCanonicalAudioRoles": 127,
+  "selectedQueueSha256": "a3f2cb46673d69a7ff89913192b2419cd3b700418ee4fb79c9447c73fad9c18f",
+  "combinedQueueSha256": "83d45d58996ed8ab14a11324affa00b47051691f491f439cc23a3b81c255b473",
+  "priorCombinedQueueSha256": "83d45d58996ed8ab14a11324affa00b47051691f491f439cc23a3b81c255b473",
+  "combinedQueueByteIdenticalToPreCue": true,
+  "sourceCueChangeEvidenceSha256": "650343931b1cfea8220208702f9aabed59a0465195deac4bb42d0a0760807631",
+  "newSynthesisRequired": 0,
+  "newUploadRequiredForCueRepair": 0,
+  "limitations": "Byte identity of audio role queue proves no speech text/voice/key changes from this dialogue-cue repair; public hosting and listening remain unverified."
+}

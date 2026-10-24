@@ -171,8 +171,8 @@
         "explanationZh": "陶藝模版及學車導師的情境都有新手、暫時輔助和逐步獨立；資深編輯長期遵從客戶格式，沒有初學過渡。"
       },
       "dialogue": {
-        "promptEn": "A: The new library volunteers still need the colour-coded shelf map, but they want to sort returns without it eventually. Should we remove it tonight?\nB: ?",
-        "promptZh": "甲：圖書館新義工現在仍需要按顏色標示的書架地圖，但日後希望不用地圖也能整理還書。我們今晚就拿走它嗎？\n乙：？",
+        "promptEn": "A: The new library volunteers still need the colour-coded shelf map, but they want to sort returns without it eventually. Should we remove it tonight?\nWhat should B say?",
+        "promptZh": "甲：圖書館新義工現在仍需要按顏色標示的書架地圖，但日後希望不用地圖也能整理還書。我們今晚就拿走它嗎？\n乙應如何回答？",
         "options": [
           {
             "id": "a",

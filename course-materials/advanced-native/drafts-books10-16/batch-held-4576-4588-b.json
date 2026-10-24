@@ -143,7 +143,7 @@
         "explanationZh": "遠足者是實際路線受阻；本課指體驗新方法後不願再用舊方法。"
       },
       "dialogue": {
-        "promptZh": "甲：劇院的網上座位圖可顯示空位。我們一定要停止電話訂票嗎？\n乙：？",
+        "promptZh": "甲：劇院的網上座位圖可顯示空位。我們一定要停止電話訂票嗎？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -163,7 +163,7 @@
         ],
         "answerId": "a",
         "explanationZh": "網上選位較方便，不代表所有人都能或應放棄電話渠道。",
-        "promptEn": "A: The theatre's online seat map shows exactly which seats are free. Do we have to shut down telephone booking?\nB: ?"
+        "promptEn": "A: The theatre's online seat map shows exactly which seats are free. Do we have to shut down telephone booking?\nWhat should B say?"
       },
       "speaking": {
         "en": "After the recipe app sorted ingredients for me, it was hard to go back to searching through loose pages.",
@@ -413,7 +413,7 @@
         "explanationZh": "時間難得不等於當事人有錢；此處 luxury 是時間稀少的比喻。"
       },
       "dialogue": {
-        "promptZh": "甲：義工簡介會要三小時，但不少照顧者只能抽半小時。我們應否認定他們沒興趣？\n乙：？",
+        "promptZh": "甲：義工簡介會要三小時，但不少照顧者只能抽半小時。我們應否認定他們沒興趣？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -433,7 +433,7 @@
         ],
         "answerId": "a",
         "explanationZh": "可用時間有限不代表缺乏興趣；精簡及後續提問較能配合實際限制。",
-        "promptEn": "A: The volunteer briefing lasts three hours, but many carers can spare only half an hour. Should we assume they are not interested?\nB: ?"
+        "promptEn": "A: The volunteer briefing lasts three hours, but many carers can spare only half an hour. Should we assume they are not interested?\nWhat should B say?"
       },
       "speaking": {
         "en": "For the school meal team, time is a luxury during the morning rush, so clear labels save repeated checks.",

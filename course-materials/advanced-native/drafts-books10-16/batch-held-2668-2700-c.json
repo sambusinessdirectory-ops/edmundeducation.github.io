@@ -143,8 +143,8 @@
         "answerId": "c"
       },
       "dialogue": {
-        "promptEn": "A: Should we cut the visiting musicians’ explanations and play only the clips? The pupils have never heard these instruments.\nB: ?",
-        "promptZh": "甲：我們應否刪去客席樂師的講解，只播放片段？學生從未聽過這些樂器。\n乙：？",
+        "promptEn": "A: Should we cut the visiting musicians’ explanations and play only the clips? The pupils have never heard these instruments.\nWhat should B say?",
+        "promptZh": "甲：我們應否刪去客席樂師的講解，只播放片段？學生從未聽過這些樂器。\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -414,8 +414,8 @@
         "answerId": "c"
       },
       "dialogue": {
-        "promptEn": "A: We moved the storytelling night online this year. Does that mean the connection between grandparents and children has ended?\nB: ?",
-        "promptZh": "甲：今年故事之夜搬到網上。這是否表示祖父母與孩子之間的傳承已結束？\n乙：？",
+        "promptEn": "A: We moved the storytelling night online this year. Does that mean the connection between grandparents and children has ended?\nWhat should B say?",
+        "promptZh": "甲：今年故事之夜搬到網上。這是否表示祖父母與孩子之間的傳承已結束？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -685,8 +685,8 @@
         "answerId": "c"
       },
       "dialogue": {
-        "promptEn": "A: Why do we replace the broken ramp before buying new banners for the festival?\nB: ?",
-        "promptZh": "甲：為甚麼節慶要先修好損壞的斜道，再買新橫額？\n乙：？",
+        "promptEn": "A: Why do we replace the broken ramp before buying new banners for the festival?\nWhat should B say?",
+        "promptZh": "甲：為甚麼節慶要先修好損壞的斜道，再買新橫額？\n乙應如何回答？",
         "options": [
           {
             "id": "a",

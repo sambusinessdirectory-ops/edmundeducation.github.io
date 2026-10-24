@@ -143,8 +143,8 @@
         "answerId": "c"
       },
       "dialogue": {
-        "promptEn": "A: We corrected last year’s false attendance figure, so why do partners still ask to inspect this year’s records?\nB: ?",
-        "promptZh": "甲：我們已更正去年的錯誤出席數字，為何合作夥伴今年仍要求查看紀錄？\n乙：？",
+        "promptEn": "A: We corrected last year’s false attendance figure, so why do partners still ask to inspect this year’s records?\nWhat should B say?",
+        "promptZh": "甲：我們已更正去年的錯誤出席數字，為何合作夥伴今年仍要求查看紀錄？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -414,8 +414,8 @@
         "answerId": "b"
       },
       "dialogue": {
-        "promptEn": "A: Our literacy group is changing volunteers and materials. What should remain constant when we decide how to teach new readers?\nB: ?",
-        "promptZh": "甲：我們的識字小組要更換義工和教材。決定如何教新讀者時，甚麼應保持不變？\n乙：？",
+        "promptEn": "A: Our literacy group is changing volunteers and materials. What should remain constant when we decide how to teach new readers?\nWhat should B say?",
+        "promptZh": "甲：我們的識字小組要更換義工和教材。決定如何教新讀者時，甚麼應保持不變？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -685,8 +685,8 @@
         "answerId": "c"
       },
       "dialogue": {
-        "promptEn": "A: The team has a small equipment fund for the whole term. Should we use every dollar on the first camera we see?\nB: ?",
-        "promptZh": "甲：團隊有一筆供整學期使用的小額設備基金。我們應把每一元都花在第一部看到的相機上嗎？\n乙：？",
+        "promptEn": "A: The team has a small equipment fund for the whole term. Should we use every dollar on the first camera we see?\nWhat should B say?",
+        "promptZh": "甲：團隊有一筆供整學期使用的小額設備基金。我們應把每一元都花在第一部看到的相機上嗎？\n乙應如何回答？",
         "options": [
           {
             "id": "a",

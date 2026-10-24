@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "kind": "independent-read-only-focused-held-decision-review",
+  "status": "review-only-no-source-or-decision-change",
+  "snapshot": {
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "editorialDecisionManifestSha256": "b4c210caa55d0c0d410ba3a19338550888fda1318975ff84ff3d6dbc6c9eb47f",
+    "reviewedOrdinals": [
+      2302,
+      2356,
+      2676
+    ]
+  },
+  "method": "Read the exact guide DOCX table containing each phrase, its question and neighbouring entries; compared current earlier owner patterns and taught senses; checked learner-dictionary meanings or primary cultural usage to avoid assuming naturalness from the guide alone. Seven-step feasibility refers to the course structure, not a drafted or approved lesson.",
+  "counts": {
+    "reviewed": 3,
+    "retainHold": 2,
+    "candidateNewLessonPendingAuthorReview": 1,
+    "alias": 0,
+    "exclude": 0
+  },
+  "externalLexicalReferences": {
+    "cutAwayOxford": "https://www.oxfordlearnersdictionaries.com/definition/english/cut-away",
+    "cutawayFilmCambridge": "https://dictionary.cambridge.org/dictionary/english/cutaway",
+    "speakSameLanguageCambridge": "https://dictionary.cambridge.org/us/dictionary/english/speak-talk-the-same-language?topic=accepting-and-agreeing",
+    "stitchTogetherCambridge": "https://dictionary.cambridge.org/dictionary/english/stitch-together",
+    "socialRestorationUsage": "https://potter-museum.unimelb.edu.au/download/files/znss6j8p/production/bdd6484c6689910aa8e8deffa44198ea80fbfe90.pdf"
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2302,
+      "sourceId": "book10-16-0191",
+      "sourceBook": 10,
+      "sourceQuestion": 15,
+      "sourceQuestionText": "How are movies and real life different?",
+      "sourceSample": "S1",
+      "sourcePage": 18,
+      "exactSourceExpression": "cut away",
+      "exactGuideExample": "The editor chose to cut away the long introduction.",
+      "guideMeaningAndReason": "Remove an unnecessary section during editing; a useful phrasal verb.",
+      "sourceRawRowSha256": "09e3be3a50258681215866d5f1cc87e271b7401b858f8e99075e9d31d12167f0",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionFileSha256": "da36798833ea08474ced492210448ac0251fd8fb60cbbf0a2660a3c154aecd4d",
+      "decisionRawRowSha256": "fa9d23663fe3b3c079354b3613e7b8fe62e8d9ede8a21020257b22ee0e6d5ef0",
+      "ownerFileSha256": {},
+      "recommendation": "retain-editorial-hold-source-form",
+      "why": "The original example uses cut away the long introduction for deletion. Oxford Learner’s Dictionary teaches cut something away as removing by physical cutting; film cutaway can instead mean switching to a different shot. In this film-editing sentence, cut the introduction or cut out the introduction is safer. A seven-step lesson on cut away would need to teach either a less secure deletion collocation or a camera-shot sense not present in the guide.",
+      "ownerAnalysis": "No earlier owner of this exact film-editing deletion sense found. Do not assign an unrelated cutaway-shot owner.",
+      "sourceFidelityGate": "Keep the guide sentence verbatim and held; do not rewrite it to cut out and then claim that corrected wording was the source.",
+      "sevenStepTeachability": "Blocked: the source object long introduction and particle away do not supply a dependable teaching frame for six different assessed decisions.",
+      "nextEvidenceNeeded": "Find reliable editorial usage of cut away + an introduction/scene meaning delete, or author a corrected-source note with explicit approval for re-lemmatisation; then reassess."
+    },
+    {
+      "sourceOrdinal": 2356,
+      "sourceId": "book10-16-0245",
+      "sourceBook": 10,
+      "sourceQuestion": 18,
+      "sourceQuestionText": "Do different age groups like the same kind of films?",
+      "sourceSample": "S2",
+      "sourcePage": 23,
+      "exactSourceExpression": "speak different emotional languages",
+      "exactGuideExample": "The story can speak different emotional languages to children and parents.",
+      "guideMeaningAndReason": "Connect with different groups through different feelings; language is figurative.",
+      "sourceRawRowSha256": "674646a4b0520e87bd325c9664fa6da62fa0f36fba26a54ae53e159bda007982",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionFileSha256": "5b312a65962dcf2ae74d7473dc5cde526b41e4c1b560107418686d0f4b071ef1",
+      "decisionRawRowSha256": "1ea5b938f01f6c2bf06ed5e9570e5044d49d69000e5be4605f586e95337cdf3d",
+      "ownerFileSha256": {
+        "1577": "af0154ce3c391e5806899be9c6c3e7f6e00d0640df24c825dfb3ecbed9ac96b0",
+        "135": "7848efe56148b35499037db72bc73953b739daee3a6f2c463d6a3c791878dca9"
+      },
+      "recommendation": "retain-editorial-hold-target-scope",
+      "why": "The guide has the story speaking different emotional languages to children and parents. That expresses different audience responses, while the established same emotional language idiom concerns people understanding one another’s feelings. The guide’s agent story plus to-children-and-parents frame is creative and less stable than the adjacent guide item the same film lands differently; changing it to people speaking different emotional languages would alter the source teaching point.",
+      "ownerAnalysis": "Do not alias owner1577: same versus different is not merely polarity here; its agents and outcome differ. Owner135 land differently covers reception by audiences but not the source phrase itself, so a semantic paraphrase is not an alias.",
+      "sourceFidelityGate": "Retain exact story/children/parents sentence. Do not silently replace story with people or recast as a different idiom.",
+      "sevenStepTeachability": "Blocked pending a natural, reusable story-speaks-emotional-languages frame. Six varied assessments would likely collapse into repeated recognition of different audience reactions already covered by land differently.",
+      "nextEvidenceNeeded": "Locate independent natural usage of a story/work speaking different emotional languages to different audiences and prove at least two distinct transfer decisions beyond land differently; otherwise continue hold."
+    },
+    {
+      "sourceOrdinal": 2676,
+      "sourceId": "book10-16-0565",
+      "sourceBook": 11,
+      "sourceQuestion": 12,
+      "sourceQuestionText": "Do you think the government needs to do more to preserve traditional music? What could they do?",
+      "sourceSample": "S1",
+      "sourcePage": 52,
+      "exactSourceExpression": "stitch it back together",
+      "exactGuideExample": "The community worked to stitch it back together.",
+      "guideMeaningAndReason": "Restore something that was fragmented; a fabric metaphor.",
+      "sourceRawRowSha256": "9bc3408d2b3bb4895e549eb5e19b6f3f1abc9edab519b087a1ef1b11810ce4e3",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionFileSha256": "f63928eb76d71b9b264ecf0ddd0fef0c94b8b2b647f1ab5fe92828623c72ca66",
+      "decisionRawRowSha256": "a53435349f27edf35d777ba757ce5d78b32d8b7934548598885bab70ab19e8d1",
+      "ownerFileSha256": {
+        "1357": "892cc4d158497385839e2189591cf47fed2002c60ab4e0bf5728e0cc888e89e4",
+        "3823": "4e4da7dbdbdfb72a3db3a130348a57ddea1d98099760ddeb1d113e6ffbc21b72"
+      },
+      "recommendation": "candidate-new-lesson-after-bounded-author-and-review",
+      "why": "The guide labels stitch it back together as restoring something fragmented; back together gives a clear restoration outcome. In the traditional-music preservation question, the community is the agent, but the extracted source sentence leaves it unnamed. A transferable stitch something back together frame can apply to a fragmented activity, organisation or working relationship without claiming the source named a particular one.",
+      "ownerAnalysis": "Do not alias owner1357, which teaches knitting the social fabric of community relationships back together; the source does not name social fabric. Owner3823 teaches the noun social fabric, not the verb-frame stitch it back together.",
+      "sourceFidelityGate": "Quote The community worked to stitch it back together exactly in provenance and explicitly mark it as an unspecified antecedent. Original learner examples must name the broken whole before using it; do not invent source history or assert that it definitely names a music network.",
+      "sevenStepTeachability": "Feasible as a separate figurative verb-frame lesson: listening identifies a fragmented whole; four replies distinguish repair from mere continuation; scene checks whether separated parts can be reconnected; contrast distinguishes stitching back together from hurriedly stitching together a new deal or literal sewing; dialogue proposes concrete reconnection; speaking includes a named antecedent; writing transfers to a fresh broken programme with two original examples and glossary terms drawn from those examples.",
+      "nextEvidenceNeeded": "Author a narrowly detected lesson (stitch/stitches/stitched/stitching + named object/it + back together), verify the source sentence matches, inspect all six assessed decisions for distinctness, independently review English/Traditional Chinese, and check audio/layout before selecting."
+    }
+  ],
+  "mutations": []
+}

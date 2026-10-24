@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "kind": "selected-dialogue-cue-repair-exact-diff",
+  "createdAtUtc": "2026-10-24T07:05:57.208819+00:00",
+  "status": "local-unpublished",
+  "changedLessons": 20,
+  "rows": [
+    {
+      "sourceOrdinal": 2578,
+      "lessonId": "advanced-native-2578",
+      "file": "batch-2578-training-wheels-a.json",
+      "baselineRecordSha256": "8ee630ce530944ed404b98006a36bdb28100be42482b8cd5d6192a826cb54e36",
+      "revisedRecordSha256": "344a99ddb3196830df9967315ded15ba9dcaa569dfe8b637d61e056350b6b7dc",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2413,
+      "lessonId": "advanced-native-2413",
+      "file": "batch-held-2413-2505-a.json",
+      "baselineRecordSha256": "1f4865b3c44c31a4fe4d830e241b479ade99da001c9f0899794ef9d67b916fa4",
+      "revisedRecordSha256": "70772f978accd104d37dd30e92c293bf30fd8eaf6216b9d32b3ea4538547d630",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2467,
+      "lessonId": "advanced-native-2467",
+      "file": "batch-held-2413-2505-a.json",
+      "baselineRecordSha256": "9c67d5c87c37c51e143cb148a7c8b00e2b8861ff5e1ad629d0c8b6d452ee78b3",
+      "revisedRecordSha256": "aace9e64c25cdd855d858dfc2feb7b7eff0298a9e5f1b04382ce703832d82aa2",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2505,
+      "lessonId": "advanced-native-2505",
+      "file": "batch-held-2413-2505-a.json",
+      "baselineRecordSha256": "183cb3773d156cac6c7c35a07e6c7d911b4765a7905eff0f9cbb3c9854cd713b",
+      "revisedRecordSha256": "1863a30eee08499d961f0d4afc0681e284651151eec2e1184bfe82a4fc8577b7",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2473,
+      "lessonId": "advanced-native-2473",
+      "file": "batch-held-2473-replacement-a.json",
+      "baselineRecordSha256": "5409422a0f06ed7969be6b9ce069456b6ce1356502b1082041f67e9571e95ffe",
+      "revisedRecordSha256": "320eeaf3596bbf5ea41ebc56042a66a5a85069b0465a73ecd5943f0a1f7345ac",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2513,
+      "lessonId": "advanced-native-2513",
+      "file": "batch-held-2513-2627-b.json",
+      "baselineRecordSha256": "4a077b19826c2a74f5bdd9300743e6cc27e1f4eba6ea8c5548288f5d978be679",
+      "revisedRecordSha256": "a49085551bebde5149397415ee2aac04db772ac4b7698f4311831c4ca03e8e83",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2531,
+      "lessonId": "advanced-native-2531",
+      "file": "batch-held-2513-2627-b.json",
+      "baselineRecordSha256": "6e47b939afb2954c13e6150a4fb398ccef70b14978fd9a335e2bbfcb58e81421",
+      "revisedRecordSha256": "91132705abeb1f4ad0ca86ae9b006d69d7f4bdf966541c450231eec493d4fd85",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2627,
+      "lessonId": "advanced-native-2627",
+      "file": "batch-held-2513-2627-b.json",
+      "baselineRecordSha256": "67d9946c6a6ac3af5273d5028762e4caf0f76544adef4ef223b65f10e80bcfad",
+      "revisedRecordSha256": "20112f16cf824a8f96beb5f48ad582b5b08ebc6dff631e9b15a1bfcc8a3b2b49",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2668,
+      "lessonId": "advanced-native-2668",
+      "file": "batch-held-2668-2700-c.json",
+      "baselineRecordSha256": "e34675777b340a574bb4b91a9d49172bbed9ac2ead6597c1bd25ec6b905c3576",
+      "revisedRecordSha256": "f1682ef876fc534052ffa0361d466ca46edecd096f1adcc76c8cd2809c71fc9a",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2677,
+      "lessonId": "advanced-native-2677",
+      "file": "batch-held-2668-2700-c.json",
+      "baselineRecordSha256": "0fd93abbc04dcff883b62593babb5deef66706739ab4e9cfd0a96374c3baca33",
+      "revisedRecordSha256": "a57ead344c55106a5bf274718aad340f32c3530ba98cadcbec76c0c06466dbac",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2700,
+      "lessonId": "advanced-native-2700",
+      "file": "batch-held-2668-2700-c.json",
+      "baselineRecordSha256": "b7a94b2272e442ca0c0e5a54564db6bd824d1a8cc9df8e53bbb4a658f22dafe7",
+      "revisedRecordSha256": "bf0229b086f3d676b33cebda70477beb186473fe3171ad3387f06fe959fc4cb4",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 4310,
+      "lessonId": "advanced-native-4310",
+      "file": "batch-held-4310-4368-b.json",
+      "baselineRecordSha256": "c7b94039517561a2566c9e23cf5f207c13ab6e31328f5096e6e1a3410e00e08d",
+      "revisedRecordSha256": "b43de98c32e0692db104a71de3f2eb9f785590e9028fb14d0329d97729074437",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 4368,
+      "lessonId": "advanced-native-4368",
+      "file": "batch-held-4310-4368-b.json",
+      "baselineRecordSha256": "3578e7d719a48420a378f88dbb04f7ed687b4d3ff7902e204340043c4d6188c9",
+      "revisedRecordSha256": "61cebd569fddbed6326037c3fec3af02e3b26ec3119c1e9b84f4fa90b54a219d",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 4386,
+      "lessonId": "advanced-native-4386",
+      "file": "batch-held-4386-4448-b.json",
+      "baselineRecordSha256": "4410862b5882cd0d5099510734142326d76d8a3c6d64e049e75fa67a9bd9f69d",
+      "revisedRecordSha256": "d8dd434aea165e7e89b8b189a66a753be011705e26e25a2b7ad6f6ae5d95a0cb",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 4390,
+      "lessonId": "advanced-native-4390",
+      "file": "batch-held-4386-4448-b.json",
+      "baselineRecordSha256": "6870578de2bee80fa0871726f9e00215d62775295100bdd40ab41c7b9a59ac13",
+      "revisedRecordSha256": "3eb995e0525779ced2f55a9c0a0dd1fe8d7f9b0b9d52fa837b373c31eb9b4936",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 4448,
+      "lessonId": "advanced-native-4448",
+      "file": "batch-held-4386-4448-b.json",
+      "baselineRecordSha256": "41f16b5472cee18b4a4e39b71c823a4a59c5a2e67c6819cd9deb6bb618f164b5",
+      "revisedRecordSha256": "ac5129369cbcbe4b7e08b29971e2fecc3593cdc924ea66a5815ea59916d081f3",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 4576,
+      "lessonId": "advanced-native-4576",
+      "file": "batch-held-4576-4588-b.json",
+      "baselineRecordSha256": "1718b6acf6f77c875c2f6db81d920dda951220e14048da9e3fce069d05ae9259",
+      "revisedRecordSha256": "37a644796a0a7bc01b2b309523d84843791f14ef95818309fcf0a2b841324af7",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 4588,
+      "lessonId": "advanced-native-4588",
+      "file": "batch-held-4576-4588-b.json",
+      "baselineRecordSha256": "9cb05ce459fc338316e945a56dcbb8cf6c6f0f56eaa7694911c020a3c5a380f2",
+      "revisedRecordSha256": "87e11052bdb68f56e421e05a1623db4d38c80cc203f22b2069bc71e4d8fb67ba",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 4611,
+      "lessonId": "advanced-native-4611",
+      "file": "batch-held-4611-4689-b.json",
+      "baselineRecordSha256": "7415d85d3b5be8871735bdef80b30a55c8b9440be05331fae1a1e76caed312dd",
+      "revisedRecordSha256": "fc3ee856cda8578f0a8307696b1c348a76c11ad06ccec1d928910a9e752302c8",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    },
+    {
+      "sourceOrdinal": 4689,
+      "lessonId": "advanced-native-4689",
+      "file": "batch-held-4611-4689-b.json",
+      "baselineRecordSha256": "f56e30fbb2efba3663fe6d2500d645e054e64b9f7e78c1bfd5f2b49c20974adb",
+      "revisedRecordSha256": "8b1ec4659c4520ed6c5593b44de21e48548eba4224a89cb11ad0b54856990de8",
+      "changedPaths": [
+        "dialogue.promptEn",
+        "dialogue.promptZh"
+      ],
+      "answerOptionsAndKeysUnchanged": true
+    }
+  ],
+  "changedFiles": [
+    {
+      "file": "batch-2578-training-wheels-a.json",
+      "baselineSha256": "00df13142379f57370b1c599c60029aa623c7194696c9ebba65ce19592e64226",
+      "revisedSha256": "321d209ae87cec11f12ca602fddfedfc2600135cfccd905b53a7c5f0c30c33b1",
+      "changedLessonOrdinals": [
+        2578
+      ]
+    },
+    {
+      "file": "batch-held-2413-2505-a.json",
+      "baselineSha256": "458025cc450c8ead8950c5110282afcf0e9fde14900537fe7fbe75e5d3e8f750",
+      "revisedSha256": "e55f0d6daf64c59662e46cbd535f14f602ca4160529345670df372466942b69e",
+      "changedLessonOrdinals": [
+        2413,
+        2467,
+        2505
+      ]
+    },
+    {
+      "file": "batch-held-2473-replacement-a.json",
+      "baselineSha256": "3efc4145e140d232941ccf96dbfd451975388e94e9db342a2cafa149e1ff0660",
+      "revisedSha256": "34a8e4f16a0442eb592dcafd4dbc324652131d28a14c4a66b330c022e084aedd",
+      "changedLessonOrdinals": [
+        2473
+      ]
+    },
+    {
+      "file": "batch-held-2513-2627-b.json",
+      "baselineSha256": "24c02d808a49571eb130d58706755e11996fbcf168e9b0215124d24e090dcdc6",
+      "revisedSha256": "8f6bca52610153b445616bb6744ac44c2b9990747006c141c41ad5298f0ee3d5",
+      "changedLessonOrdinals": [
+        2513,
+        2531,
+        2627
+      ]
+    },
+    {
+      "file": "batch-held-2668-2700-c.json",
+      "baselineSha256": "81bce9af4c56b4c8151a8b9541f931f22fd52d782776b72deb3ac2544ca194be",
+      "revisedSha256": "523bb634064e5968f71243db490465a2fc479188e803b1d542aac8d1e55315b4",
+      "changedLessonOrdinals": [
+        2668,
+        2677,
+        2700
+      ]
+    },
+    {
+      "file": "batch-held-4310-4368-b.json",
+      "baselineSha256": "3a685e392c38a02702ba20b3b90b32d5fe07426676e49371574a774f05a63f67",
+      "revisedSha256": "ac0c4f53d5af47f9bc151fafff8eb6b5aa756b5a0fa5c88c6e373384a376c419",
+      "changedLessonOrdinals": [
+        4310,
+        4368
+      ]
+    },
+    {
+      "file": "batch-held-4386-4448-b.json",
+      "baselineSha256": "ce2cda104dbf16180f7f7225f4c608173dc58d0721184d71b7d3c27f6d9ae0b8",
+      "revisedSha256": "a86129f93eaf44cf53019e95eb06043b2bb61baf7d6f35b9a062c6ec648f7436",
+      "changedLessonOrdinals": [
+        4386,
+        4390,
+        4448
+      ]
+    },
+    {
+      "file": "batch-held-4576-4588-b.json",
+      "baselineSha256": "f30a15b60d9be62d3976bfc0ee3cb3862a866c17ce76c1c6c1a50228c34408a8",
+      "revisedSha256": "71b90b087401bb2554b45b66448dfbd2024121d51b1b340230650005aaa1d16f",
+      "changedLessonOrdinals": [
+        4576,
+        4588
+      ]
+    },
+    {
+      "file": "batch-held-4611-4689-b.json",
+      "baselineSha256": "617f64777eb0b8f31712298337f0b389809063e71671f1d57759bbebf3b105ec",
+      "revisedSha256": "a3aa358a92251ce46906a6e19b36ccf1de3ebdcb0229661f832538d74ddea791",
+      "changedLessonOrdinals": [
+        4611,
+        4689
+      ]
+    }
+  ],
+  "replacementEn": "B: ? → What should B say?",
+  "replacementZh": "乙：？ → 乙應如何回答？",
+  "selectedAudioQueueSha256BeforeAndAfter": "a3f2cb46673d69a7ff89913192b2419cd3b700418ee4fb79c9447c73fad9c18f",
+  "limitations": "Source-level exact-diff and selected audio queue identity; browser post-repair checks are separate."
+}

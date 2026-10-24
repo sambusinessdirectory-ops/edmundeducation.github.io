@@ -554,7 +554,7 @@
       "titleZh": "受到阻礙而難以前進",
       "category": "phrasal-verb",
       "target": {
-        "pattern": "\\b(?:hold|holds|holding|held) (?:(?:other people|the group|us|them|me|you|him|her|learners|students) )?back\\b"
+        "pattern": "\\b(?:hold|holds|holding|held) (?:(?:other people|the group|us|them|me|you|him|her|learners|students) )?back\\b|\\bhold\\s+people\\s+back\\b"
       },
       "sources": [
         {
@@ -598,14 +598,29 @@
           "sentence": "She worried about holding other people back during practice.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Actual PDF page137, table1, row5; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "book10-16-2397",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 226,
+          "book": 16,
+          "question": 34,
+          "sample": "S2",
+          "sourceBookPages": "82–83",
+          "locatorNote": "DOCX table 249, row 8; page refers to locally rendered PDF in intake summary. Source question: Do you think it is necessary to protect traditions?",
+          "sentence": "Reform means letting go of the ones that hold people back.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "letting go of the ones that hold people back",
+          "sourceCategory": "Idiom or set phrase"
         }
       ],
       "brief": {
         "meaningEn": "Prevent someone from progressing or developing as far or as quickly as they otherwise could.",
         "meaningZh": "阻礙某人按本來能達到的程度或速度發展。",
-        "grammar": "be held back by + obstacle; hold someone back; held is past and past participle. Put the object before back in hold them back.",
+        "grammar": "be held back by + obstacle; hold someone back; held is past and past participle. Put the object before back in hold them back. In the tradition-reform source, the ones refers to traditions; hold people back means limit people’s progress. Letting go of those traditions is a separate action, not part of this lesson’s target.",
         "register": "Common phrasal verb; this progress-limiting sense differs from withholding information or physically restraining someone.",
-        "boundaryZh": "需指出限制與進展的關係，不是任何等待都叫阻礙；也不表示學生因此毫無進步。",
+        "boundaryZh": "需指出限制與進展的關係，不是任何等待都叫阻礙；也不表示學生因此毫無進步。\n在傳統改革的例句，the ones 指傳統；hold people back 指阻礙人的發展，不指在門口用手攔住人等實際身體阻擋。\nletting go of 是另一個動作，並非本課目標片語。",
         "misconceptionZh": "先釐清障礙，再考慮調整，不把受阻直接當成缺乏能力。",
         "outcomeZh": "能描述實際限制及可行的下一步。"
       },
@@ -830,7 +845,7 @@
           "reviewer": "AI root",
           "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
         },
-        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending. AI owner expansion for source 4508 focuses only on figurative hold people back; the question resolves ones as traditions. Physical restraint is excluded; assessed questions and audio unchanged; no human or release approval."
       }
     },
     {

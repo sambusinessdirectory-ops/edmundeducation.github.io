@@ -5088,7 +5088,7 @@
       "titleZh": "傳統可以是支持的根源",
       "category": "figurative",
       "target": {
-        "pattern": "\\btradition\\s+can\\s+be\\s+a\\s+root\\b"
+        "pattern": "\\btradition\\s+can\\s+be\\s+a\\s+root\\b|\\btraditions\\s+are\\s+a\\s+bit\\s+like\\s+roots\\s+for\\s+a\\s+community\\b"
       },
       "sources": [
         {
@@ -5104,12 +5104,27 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "tradition can be a root",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-2391",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 226,
+          "book": 16,
+          "question": 34,
+          "sample": "S1",
+          "sourceBookPages": "82–83",
+          "locatorNote": "DOCX table 249, row 2; page refers to locally rendered PDF in intake summary. Source question: Do you think it is necessary to protect traditions?",
+          "sentence": "Traditions are a bit like roots for a community.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "traditions are a bit like roots",
+          "sourceCategory": "Figurative use"
         }
       ],
       "brief": {
         "meaningEn": "Tradition can provide grounding, belonging or strength.",
         "meaningZh": "傳統能提供基礎、歸屬或力量。",
-        "grammar": "tradition can be a root that + supportive effect",
+        "grammar": "tradition can be a root that + supportive effect. Traditions are a bit like roots for a community is a plural simile; name the community and the stabilising tradition rather than treating roots as literal or automatically beneficial.",
         "register": "neutral",
         "boundaryZh": "這是植物根的語境比喻，不是固定成語；can 表可能，不保證每項做法有幫助，也不表示來源應控制所有選擇。",
         "misconceptionZh": "這是植物根的語境比喻，不是固定成語；can 表可能，不保證每項做法有幫助，也不表示來源應控制所有選擇。",
@@ -5317,7 +5332,7 @@
           "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
         },
         "independentHumanApproval": false,
-        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed. AI owner expansion for source 4502 adds only the exact plural roots simile; same cultural-grounding sense; assessed questions and audio unchanged; no human or release approval."
       }
     },
     {

@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "kind": "read-only-current408-eleven-alias-candidate-owner-and-assessment-screen",
+  "status": "review-only-no-decision-owner-or-release-edits",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "reviewedSourceOrdinals": [
+    2349,
+    2757,
+    2942,
+    4154,
+    4431,
+    4468,
+    4502,
+    4508,
+    4545,
+    4665,
+    4688
+  ],
+  "counts": {
+    "ready-bounded": 2,
+    "conflict": 2,
+    "uncertain": 7
+  },
+  "method": "Compare each exact guide sentence and meaning with earlier canonical or selected-owner target regex, sense/grammar, source order, and current assessed answer/option identities. A regex hit alone is not a same-sense alias. Ready proposals are source-bounded and still require an independent implementation review before decision changes. Candidate regex branches were scanned against all 2,604 Books 10–16 source sentences; each matched only its intended source occurrence.",
+  "rows": [
+    {
+      "sourceOrdinal": 2349,
+      "sourceId": "book10-16-0238",
+      "expression": "all fireworks and not much substance",
+      "exactSourceSentence": "The speech was all fireworks and not much substance.",
+      "sourceMeaningAndReason": "Exciting in appearance but shallow in content; fireworks is a figurative spectacle.",
+      "sourceQuestion": "Do different age groups like the same kind of films?",
+      "sourceRawRowSha256": "9ae47fcb51b7aa4b939596ccdd587175fbc4e3285f665053a9d84e66d75ecd56",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionRawRowSha256": "e607eeb0d7042037ef8adeabc0e47d44f2ce01690740039faf5359f01e7cc9e3",
+      "candidateOwners": [
+        {
+          "id": "advanced-native-2961",
+          "sourceOrdinal": 2961,
+          "sourceOrderAllowsAlias": false,
+          "titleEn": "more show than substance",
+          "meaningEn": "Impressive presentation or publicity outweighs genuine practical value.",
+          "grammar": "More show than substance; compare visible display with what the event or proposal actually delivers. All glitter and no substance is a related display-versus-value judgement; glitter refers to surface attraction, not literal decorative material.",
+          "targetPattern": "\\bmore show than substance\\b|\\ball glitter and no substance\\b",
+          "targetPatternMatchesCompleteSourceSentence": false,
+          "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2961-3487-a.json",
+          "ownerFileSha256": "72c19db39d396e0d28855231e242d60a03c5e5e41e5fd6ddf68f75f90cdb8f2b",
+          "sourceAlreadyAttached": false,
+          "assessedKeyAndOptionIdFingerprintSha256": "1a9aa33e8ad37d54bb79f817720ccb1d6a1151a2d5a466bc8a887d762561076d"
+        }
+      ],
+      "verdict": "conflict",
+      "sourceSpecificReason": "Owner 2961 assesses surface display outweighing actual value, matching the judgement, but its selected source ordinal is later than 2349 and its patterns cover show/glitter rather than the bespoke fireworks variant. Earlier-owner contract and imagery both block a simple alias.",
+      "ownerEditsPerformed": false,
+      "decisionEditsPerformed": false
+    },
+    {
+      "sourceOrdinal": 2757,
+      "sourceId": "book10-16-0646",
+      "expression": "keep their roots alive",
+      "exactSourceSentence": "Community performances help keep their roots alive.",
+      "sourceMeaningAndReason": "Maintain a connection with cultural origins; a plant metaphor.",
+      "sourceQuestion": "In your country, do people prefer to listen to traditional music or foreign music?",
+      "sourceRawRowSha256": "e426b143b0f0ecd984b955428aa6f591f27e8e7440dd1592c640849437307a00",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionRawRowSha256": "5b92e1eee50bfee4eade1425f59bd252c670e773d24327de41adbcc62d5d328d",
+      "candidateOwners": [
+        {
+          "id": "advanced-native-4470",
+          "sourceOrdinal": 4470,
+          "sourceOrderAllowsAlias": false,
+          "titleEn": "keep its roots",
+          "meaningEn": "Stay connected to origins or defining traditions over time, including while changing or growing.",
+          "grammar": "Keep + possessive + roots, optionally followed by alive; roots is figurative. Name the actual origin, practice or people preserved. A new format can make the contrast visible, but change is not required for keeping roots alive.",
+          "targetPattern": "\\b(?:keep|keeps|kept|keeping) (?:its|their|our|his|her) roots(?: alive)?\\b",
+          "targetPatternMatchesCompleteSourceSentence": true,
+          "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-4466-4481-a.json",
+          "ownerFileSha256": "b4749ba641ad0a3d0da68568690e29675daf703146200d85a93900ee8059036c",
+          "sourceAlreadyAttached": true,
+          "assessedKeyAndOptionIdFingerprintSha256": "1a9aa33e8ad37d54bb79f817720ccb1d6a1151a2d5a466bc8a887d762561076d"
+        },
+        {
+          "id": "advanced-native-1498",
+          "sourceOrdinal": 1498,
+          "sourceOrderAllowsAlias": true,
+          "titleEn": "tradition can be a root",
+          "meaningEn": "Tradition can provide grounding, belonging or strength.",
+          "grammar": "tradition can be a root that + supportive effect",
+          "targetPattern": "\\btradition\\s+can\\s+be\\s+a\\s+root\\b",
+          "targetPatternMatchesCompleteSourceSentence": false,
+          "ownerFile": "course-materials/advanced-native/batches/batch-1476-1500.json",
+          "ownerFileSha256": "3bec22a6457b15ffd043c40593bc7c06a7380bb0bc63826b73b4c73ee2fbbde8",
+          "sourceAlreadyAttached": false,
+          "assessedKeyAndOptionIdFingerprintSha256": "bbf3c37a77ee6b1aa7a196a0727d6a26d832d90596504bc4f8f5dbed0e86fe9f"
+        }
+      ],
+      "verdict": "conflict",
+      "sourceSpecificReason": "Owner 4470 already contains this exact source and its detector matches keep their roots alive, but 4470 is later than 2757. Earlier root-metaphor lessons assess grounding or ancestry rather than active preservation. This requires an ownership/provenance redesign, not an alias to the later owner.",
+      "ownerEditsPerformed": false,
+      "decisionEditsPerformed": false
+    },
+    {
+      "sourceOrdinal": 2942,
+      "sourceId": "book10-16-0831",
+      "expression": "the mood can unravel",
+      "exactSourceSentence": "If the food is late, the mood can unravel.",
+      "sourceMeaningAndReason": "The atmosphere can lose coherence or break down; a fabric metaphor.",
+      "sourceQuestion": "What makes a good party?",
+      "sourceRawRowSha256": "916e17685c9fbf167a177ffa2a354311b6dade61d21cc10cfa4b6fb1bbaf044c",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionRawRowSha256": "c9ef566cc8863c1ac6e5e0644c389beb884e5e3071df5a377b4c909ce8249c5a",
+      "candidateOwners": [
+        {
+          "id": "advanced-native-1425",
+          "sourceOrdinal": 1425,
+          "sourceOrderAllowsAlias": true,
+          "titleEn": "start to unravel",
+          "meaningEn": "Begin to break down or lose coherence, especially a plan, arrangement or relationship.",
+          "grammar": "a plan / arrangement / partnership starts to unravel",
+          "targetPattern": "\\bstart(?:s|ed|ing)?\\s+to\\s+unravel\\b",
+          "targetPatternMatchesCompleteSourceSentence": false,
+          "ownerFile": "course-materials/advanced-native/batches/batch-1401-1425.json",
+          "ownerFileSha256": "b0f46ba9cc414f4c71195683e483018fce4cb39d4f8ddf45ad264518792142c6",
+          "sourceAlreadyAttached": false,
+          "assessedKeyAndOptionIdFingerprintSha256": "e43292ce9a81092d4f150b552d6d59f98e937a2631ce11349830b68e6be4e9cb"
+        }
+      ],
+      "verdict": "uncertain",
+      "sourceSpecificReason": "Owner 1425 assesses a plan or arrangement beginning to break down. A party mood deteriorating may share the fabric metaphor, but the source lacks start and uses the unusual mood can unravel subject; widening the owner would change its taught boundary.",
+      "ownerEditsPerformed": false,
+      "decisionEditsPerformed": false
+    },
+    {
+      "sourceOrdinal": 4154,
+      "sourceId": "book10-16-2043",
+      "expression": "switch off",
+      "exactSourceSentence": "During a dull lecture, the mind can switch off.",
+      "sourceMeaningAndReason": "Stop paying attention or thinking actively; a figurative phrasal verb.",
+      "sourceQuestion": "Can technology help people remember things better? How?",
+      "sourceRawRowSha256": "d59ac165e25adef263fc579c4a19a0777e6a99bb9d54ae5f58214c9ff41f6d1d",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl",
+      "decisionRawRowSha256": "bdcc3cb3ea80352c10c4876b585559e21ea23883b61fc244129c3e00143a1b93",
+      "candidateOwners": [
+        {
+          "id": "advanced-native-375",
+          "sourceOrdinal": 375,
+          "sourceOrderAllowsAlias": true,
+          "titleEn": "switch off",
+          "meaningEn": "Stop thinking about work or worries for a while and relax.",
+          "grammar": "switch off after work/from work; switched off in past. No device object is needed in this relaxation sense.",
+          "targetPattern": "\\bswitch(?:es|ed|ing)? off\\b",
+          "targetPatternMatchesCompleteSourceSentence": true,
+          "ownerFile": "course-materials/advanced-native/batches/batch-0351-0375.json",
+          "ownerFileSha256": "54f81bdf9c3bece9553c930afe857ad5ce6854f3ecbd117c605a3e641f631763",
+          "sourceAlreadyAttached": false,
+          "assessedKeyAndOptionIdFingerprintSha256": "90f423492cf938482dc0f6bf3edea254478da1a9e056eedb820393b1604f3d3f"
+        },
+        {
+          "id": "advanced-native-1487",
+          "sourceOrdinal": 1487,
+          "sourceOrderAllowsAlias": true,
+          "titleEn": "switch off straight away",
+          "meaningEn": "Stop paying attention or engaging almost immediately.",
+          "grammar": "listeners / students switch off straight away when + reason",
+          "targetPattern": "\\bswitch(?:es|ed|ing)?\\s+off\\s+straight\\s+away\\b",
+          "targetPatternMatchesCompleteSourceSentence": false,
+          "ownerFile": "course-materials/advanced-native/batches/batch-1476-1500.json",
+          "ownerFileSha256": "3bec22a6457b15ffd043c40593bc7c06a7380bb0bc63826b73b4c73ee2fbbde8",
+          "sourceAlreadyAttached": false,
+          "assessedKeyAndOptionIdFingerprintSha256": "bbf3c37a77ee6b1aa7a196a0727d6a26d832d90596504bc4f8f5dbed0e86fe9f"
+        },
+        {
+          "id": "advanced-native-2853",
+          "sourceOrdinal": 2853,
+          "sourceOrderAllowsAlias": true,
+          "titleEn": "brain switched off",
+          "meaningEn": "In an informal metaphor, not actively thinking or checking what one is told.",
+          "grammar": "With your brain switched off describes a person’s mental approach during a task; switched off modifies brain metaphorically. Unlike switch off from work, this lesson concerns uncritical attention to a claim.",
+          "targetPattern": "\\b(?:brain|brains)\\s+switched\\s+off\\b",
+          "targetPatternMatchesCompleteSourceSentence": false,
+          "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2833-2870-review-pilot-1.json",
+          "ownerFileSha256": "f245c757302ee73ecb3288c5365ea23eda920404a425034f85deafcc8d40dc8a",
+          "sourceAlreadyAttached": false,
+          "assessedKeyAndOptionIdFingerprintSha256": "38ec282717f4cfb75d2b7036d866afcd482efb7ff54ad2f4a367d4ea92831df2"
+        }
+      ],
+      "verdict": "uncertain",
+      "sourceSpecificReason": "Owner 375 is deliberate unwinding after work; owner 1487 is immediate attention loss and tests straight away; owner 2853 is uncritical reading with brain switched off. This source is involuntary mind-wandering during a dull lecture, with no immediate timing. None is a bounded same-sense owner as currently assessed.",
+      "ownerEditsPerformed": false,
+      "decisionEditsPerformed": false
+    },
+    {
+      "sourceOrdinal": 4431,
+      "sourceId": "book10-16-2320",
+      "expression": "wear a relationship thin",
+      "exactSourceSentence": "Repeated cancellations can wear a relationship thin.",
+      "sourceMeaningAndReason": "Gradually weaken a relationship; a fabric metaphor.",
+      "sourceQuestion": "In what situations do you think people need to, or should, apologise?",
+      "sourceRawRowSha256": "7ed8845ab02b678ed7fd1d15b2f1355398d50fa274a0a7b102ff3a08f890a736",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl",
+      "decisionRawRowSha256": "3842f3a396bd9065dca739d3e6aa460725083e648c7ab28dd3546341df6c4b0b",
+      "candidateOwners": [
+        {
+          "id": "advanced-native-1863",
+          "sourceOrdinal": 1863,
+          "sourceOrderAllowsAlias": true,
+          "titleEn": "wear thin",
+          "meaningEn": "Become gradually weaker or less convincing, enjoyable or effective through repetition or continued demands.",
+          "grammar": "the excitement can wear thin; wore thin / has worn thin; a feeling, explanation or patience may wear thin, with the subject specifying what weakens.",
+          "targetPattern": "\\b(?:wear(?:s|ing)?|wore|worn) thin\\b",
+          "targetPatternMatchesCompleteSourceSentence": false,
+          "ownerFile": "course-materials/advanced-native/batches/batch-1851-1875.json",
+          "ownerFileSha256": "2a945c4d4699d6735bdf2c27429f7c7560c9df0d5829948bc0b88118adca166c",
+          "sourceAlreadyAttached": false,
+          "assessedKeyAndOptionIdFingerprintSha256": "bbf3c37a77ee6b1aa7a196a0727d6a26d832d90596504bc4f8f5dbed0e86fe9f"
+        },
+        {
+          "id": "advanced-native-1525",
+          "sourceOrdinal": 1525,
+          "sourceOrderAllowsAlias": true,
+          "titleEn": "emotional thread from wearing thin",
+          "meaningEn": "In the pattern keep the emotional thread from wearing thin, prevent an emotional connection from gradually weakening.",
+          "grammar": "keep + the emotional thread + from + wearing thin; the marked fragment needs keep before it to express prevention",
+          "targetPattern": "\\bemotional\\s+thread\\s+from\\s+wearing\\s+thin\\b",
+          "targetPatternMatchesCompleteSourceSentence": false,
+          "ownerFile": "course-materials/advanced-native/batches/batch-1501-1525.json",
+          "ownerFileSha256": "f69d9351f6fe497a5cc24da9bda36c2d34caf577338c0b97307b8cf1e16429d2",
+          "sourceAlreadyAttached": false,
+          "assessedKeyAndOptionIdFingerprintSha256": "bbf3c37a77ee6b1aa7a196a0727d6a26d832d90596504bc4f8f5dbed0e86fe9f"
+        }
+      ],
+      "verdict": "uncertain",
+      "sourceSpecificReason": "Owner 1863 uses wear thin intransitively for a feeling or claim losing force. The source uses unusual transitive wear a relationship thin. Owner 1525 focuses preventing an emotional thread from wearing thin. Natural source wording and target grammar must be resolved before either owner can expand.",
+      "ownerEditsPerformed": false,
+      "decisionEditsPerformed": false
+    },
+    {
+      "sourceOrdinal": 4468,
+      "sourceId": "book10-16-2357",
+      "expression": "pass it on",
+      "exactSourceSentence": "Grandparents can pass it on to their children.",
+      "sourceMeaningAndReason": "Transfer a tradition or item to others; a natural phrasal verb.",
+      "sourceQuestion": "Do you think there are benefits of traditional products to locals?",
+      "sourceRawRowSha256": "c9febeed5fa221c3c04ce4f9684b32643c4d58761c79e636740dd4e159baadca",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionRawRowSha256": "b61633d038326d6a1095a1b5e4dc603e783d2e0a8a1735cd4d62c72060f547f5",
+      "candidateOwners": [
+        {
+          "id": "advanced-native-1326",
+          "sourceOrdinal": 1326,
+          "sourceOrderAllowsAlias": true,
+          "titleEn": "pass on values and stories",
+          "meaningEn": "Transmit knowledge, beliefs, experience, customs or remembered stories to other people, often by teaching, telling or showing them.",
+          "grammar": "Pass knowledge on to a new class or pass on knowledge; pass on values, experience and tradition, or stories to someone. Pass those stories on is the separable order. Passed/passing are natural forms. Transmission does not prove uptake.",
+          "targetPattern": "\\bpass(?:es|ed|ing)? on (?:our |their |his |her |the )?(?:values|experience and tradition|stories)\\b|\\bpass(?:es|ed|ing)? (?:our |their |his |her |the )?(?:values|experience and tradition) on\\b|\\bpass(?:es|ed|ing)? (?:those |the )stories on\\b|\\bpass(?:es|ed|ing)? (?:knowledge on|on knowledge)\\b",
+          "targetPatternMatchesCompleteSourceSentence": false,
+          "ownerFile": "course-materials/advanced-native/batches/batch-1326-1350.json",
+          "ownerFileSha256": "5be33c0004eb87f0223efb86230d8a0d99d032d28b3a08a0d932f433f4fd5a35",
+          "sourceAlreadyAttached": false,
+          "assessedKeyAndOptionIdFingerprintSha256": "db313803e1e30db332c96952ce46585743659a8a15132953d305c154f1fcadc8"
+        }
+      ],
+      "verdict": "uncertain",
+      "sourceSpecificReason": "Owner 1326 transmits values, knowledge, experience or stories. The source it could denote a traditional product or a tradition, and its own guide meaning says tradition or item. Without a clear antecedent in the exact sentence, an owner expansion risks teaching the wrong transfer sense.",
+      "ownerEditsPerformed": false,
+      "decisionEditsPerformed": false
+    },
+    {
+      "sourceOrdinal": 4502,
+      "sourceId": "book10-16-2391",
+      "expression": "traditions are a bit like roots",
+      "exactSourceSentence": "Traditions are a bit like roots for a community.",
+      "sourceMeaningAndReason": "Customs give a culture stability and connection to its past; a plant metaphor.",
+      "sourceQuestion": "Do you think it is necessary to protect traditions?",
+      "sourceRawRowSha256": "77b2dd2aef9b5d8b7849efd89ebbdba26d850b78bd997cdd844683695786ec4b",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionRawRowSha256": "f357620d5f5341e841158c1d1792d32e55fe1f00bcba28dd5a557e12627214d6",
+      "candidateOwners": [
+        {
+          "id": "advanced-native-1498",
+          "sourceOrdinal": 1498,
+          "sourceOrderAllowsAlias": true,
+          "titleEn": "tradition can be a root",
+          "meaningEn": "Tradition can provide grounding, belonging or strength.",
+          "grammar": "tradition can be a root that + supportive effect",
+          "targetPattern": "\\btradition\\s+can\\s+be\\s+a\\s+root\\b",
+          "targetPatternMatchesCompleteSourceSentence": false,
+          "ownerFile": "course-materials/advanced-native/batches/batch-1476-1500.json",
+          "ownerFileSha256": "3bec22a6457b15ffd043c40593bc7c06a7380bb0bc63826b73b4c73ee2fbbde8",
+          "sourceAlreadyAttached": false,
+          "assessedKeyAndOptionIdFingerprintSha256": "bbf3c37a77ee6b1aa7a196a0727d6a26d832d90596504bc4f8f5dbed0e86fe9f"
+        }
+      ],
+      "verdict": "ready-bounded",
+      "sourceSpecificReason": "The exact sentence likens traditions to roots that give a community stability and connection to its past. Earlier owner 1498 teaches tradition as a grounding root without claiming it controls choices; the metaphor and assessed decision match. Add only a source-anchored simile branch and an explanation of plural traditions/community, keeping existing keys.",
+      "ownerEditsPerformed": false,
+      "decisionEditsPerformed": false,
+      "boundedExpansionProposal": {
+        "ownerId": "advanced-native-1498",
+        "regexBranch": "\\btraditions\\s+are\\s+a\\s+bit\\s+like\\s+roots\\s+for\\s+a\\s+community\\b",
+        "positiveControls": [
+          "Traditions are a bit like roots for a community."
+        ],
+        "negativeControls": [
+          "Traditions are a bit like rules for a community.",
+          "Traditions are roots that must control every choice."
+        ],
+        "requiredOwnerContentChange": "Add exact source and explain the plural simile as possible grounding, not automatic authority over choices.",
+        "preserveAssessedQuestionIdsAndKeys": true,
+        "positiveControlMatches": [
+          true
+        ],
+        "negativeControlMatches": [
+          false,
+          false
+        ],
+        "fullBooks10To16InventoryPatternMatches": [
+          {
+            "sourceId": "book10-16-2391",
+            "exactSourceSentence": "Traditions are a bit like roots for a community."
+          }
+        ]
+      }
+    },
+    {
+      "sourceOrdinal": 4508,
+      "sourceId": "book10-16-2397",
+      "expression": "letting go of the ones that hold people back",
+      "exactSourceSentence": "Reform means letting go of the ones that hold people back.",
+      "sourceMeaningAndReason": "Abandoning traditions that restrict progress; paired fixed phrasal verbs.",
+      "sourceQuestion": "Do you think it is necessary to protect traditions?",
+      "sourceRawRowSha256": "e1676dac2d6afd4a0252af8e3da556789fa7913cb3b5ee0b098ff06550469406",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionRawRowSha256": "b20f3e367b1c7f0ce64d8b958b123f03e7b8e1dfeab55b176f38c8b5d2249343",
+      "candidateOwners": [
+        {
+          "id": "advanced-native-1003",
+          "sourceOrdinal": 1003,
+          "sourceOrderAllowsAlias": true,
+          "titleEn": "held back",
+          "meaningEn": "Prevent someone from progressing or developing as far or as quickly as they otherwise could.",
+          "grammar": "be held back by + obstacle; hold someone back; held is past and past participle. Put the object before back in hold them back.",
+          "targetPattern": "\\b(?:hold|holds|holding|held) (?:(?:other people|the group|us|them|me|you|him|her|learners|students) )?back\\b",
+          "targetPatternMatchesCompleteSourceSentence": false,
+          "ownerFile": "course-materials/advanced-native/batches/batch-1001-1025.json",
+          "ownerFileSha256": "1bd7df4b9208d86b259aad55f39adb5dbaf0e5c7e38909a48441c76d60bcbff6",
+          "sourceAlreadyAttached": false,
+          "assessedKeyAndOptionIdFingerprintSha256": "0ec8667386b7b5e5c818117c4982330a65f9ca3afa18811ea4cbbf6fe28c0e31"
+        }
+      ],
+      "verdict": "ready-bounded",
+      "sourceSpecificReason": "In the source question about protecting traditions, the ones denotes traditions. Hold people back expresses the earlier owner 1003 progress-limiting sense; letting go is a second action, not the owner target. Add only the hold people back subphrase with a source note resolving the antecedent and keep assessments on actual restriction of progress.",
+      "ownerEditsPerformed": false,
+      "decisionEditsPerformed": false,
+      "boundedExpansionProposal": {
+        "ownerId": "advanced-native-1003",
+        "regexBranch": "\\bhold\\s+people\\s+back\\b",
+        "positiveControls": [
+          "Reform means letting go of the ones that hold people back."
+        ],
+        "negativeControls": [
+          "Reform means letting go of the ones that hold people up.",
+          "The crowd held people back physically at the gate."
+        ],
+        "requiredOwnerContentChange": "Add exact source with question context: ones means traditions. Teach only hold people back as limiting development, not the complete letting-go clause. A semantic boundary check must reject physical restraint.",
+        "preserveAssessedQuestionIdsAndKeys": true,
+        "positiveControlMatches": [
+          true
+        ],
+        "negativeControlMatches": [
+          false,
+          false
+        ],
+        "fullBooks10To16InventoryPatternMatches": [
+          {
+            "sourceId": "book10-16-2397",
+            "exactSourceSentence": "Reform means letting go of the ones that hold people back."
+          }
+        ],
+        "semanticNegativeControlCaveat": "The regex also matches a physical-restraint sentence. The owner’s meaning, source question and review gate must reject that sense; regex matching alone is insufficient."
+      }
+    },
+    {
+      "sourceOrdinal": 4545,
+      "sourceId": "book10-16-2434",
+      "expression": "not standing still",
+      "exactSourceSentence": "Urban transport is not standing still.",
+      "sourceMeaningAndReason": "Continuing to develop; a fixed motion idiom.",
+      "sourceQuestion": "Do you think transportation is likely to continue to improve in the future?",
+      "sourceRawRowSha256": "da32d495433743c6a7261ee07ebd261bf1d0ca09912ca23dd221f40c52f8f6c3",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl",
+      "decisionRawRowSha256": "099ac9626d4e0b2ca0928bf62a07bfdf88b56926c497e1e874e7cc49f7b0b261",
+      "candidateOwners": [
+        {
+          "id": "advanced-native-1600",
+          "sourceOrdinal": 1600,
+          "sourceOrderAllowsAlias": true,
+          "titleEn": "needs do not stand still",
+          "meaningEn": "What people require changes over time rather than remaining fixed.",
+          "grammar": "our / people’s needs do not stand still as circumstances change; still describes a lack of movement figuratively",
+          "targetPattern": "\\bneeds\\s+(?:do\\s+not|don[’']t)\\s+stand\\s+still\\b",
+          "targetPatternMatchesCompleteSourceSentence": false,
+          "ownerFile": "course-materials/advanced-native/batches/batch-1576-1600.json",
+          "ownerFileSha256": "af0154ce3c391e5806899be9c6c3e7f6e00d0640df24c825dfb3ecbed9ac96b0",
+          "sourceAlreadyAttached": false,
+          "assessedKeyAndOptionIdFingerprintSha256": "bbf3c37a77ee6b1aa7a196a0727d6a26d832d90596504bc4f8f5dbed0e86fe9f"
+        }
+      ],
+      "verdict": "uncertain",
+      "sourceSpecificReason": "Owner 1600 tests changing needs in a family, while urban transport not standing still reports broad continuing development. Expanding to arbitrary changing systems would materially broaden title, contexts and assessed decision; a narrow source-anchored alias is not yet supported.",
+      "ownerEditsPerformed": false,
+      "decisionEditsPerformed": false
+    },
+    {
+      "sourceOrdinal": 4665,
+      "sourceId": "book10-16-2554",
+      "expression": "chip away at the place",
+      "exactSourceSentence": "Repeated trampling can chip away at the place.",
+      "sourceMeaningAndReason": "Gradually damage the site in small ways; a natural phrasal verb.",
+      "sourceQuestion": "What are the negative impacts of tourism in your country?",
+      "sourceRawRowSha256": "3cc2d04eb6cca586f6a3023e7de78948bcc578c74d28b14aa793812b3f65251b",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+      "decisionRawRowSha256": "f090e66351938df78a4b9719df1124d22f76b483bbe9cc510735684e383125fb",
+      "candidateOwners": [
+        {
+          "id": "advanced-native-178",
+          "sourceOrdinal": 178,
+          "sourceOrderAllowsAlias": true,
+          "titleEn": "chip away at",
+          "meaningEn": "Gradually weaken or reduce something through repeated small effects; confidence, stereotypes or resources can be eroded.",
+          "grammar": "chip away at + object, including confidence, savings, stereotypes or health; repeated small effects gradually weaken the object. Chipped and chipping mark inflection, and at remains before the object.",
+          "targetPattern": "(?:\\bchip(?:s|ped|ping)? away at (?:(?:my|your|his|her|our|their) (?:confidence|savings|budget)|(?:the )?stereotypes)\\b)|(?:\\bchip(?:s|ped|ping)? away at (?:my|your|his|her|our|their) health\\b)",
+          "targetPatternMatchesCompleteSourceSentence": false,
+          "ownerFile": "course-materials/advanced-native/batches/batch-0176-0200.json",
+          "ownerFileSha256": "b6aaa6ab9a5eae75205a1f7da705dbaf2f2af4528b2d3f6d061e2ede42ae0ba2",
+          "sourceAlreadyAttached": false,
+          "assessedKeyAndOptionIdFingerprintSha256": "6edaa60caf2e81d008203610f412d2d246cedac13449c5f0ffb34704d1a205bc"
+        }
+      ],
+      "verdict": "uncertain",
+      "sourceSpecificReason": "Owner 178 teaches cumulative figurative weakening of confidence, stereotypes, savings or health. Repeated trampling can physically damage a place, and chip away at the place is underspecified. Physical-site damage does not inherit the owner’s figurative assessment without source-language repair.",
+      "ownerEditsPerformed": false,
+      "decisionEditsPerformed": false
+    },
+    {
+      "sourceOrdinal": 4688,
+      "sourceId": "book10-16-2577",
+      "expression": "old formula alone",
+      "exactSourceSentence": "The city cannot rely on its old formula alone.",
+      "sourceMeaningAndReason": "A familiar approach that is no longer sufficient; a recipe metaphor.",
+      "sourceQuestion": "What can you say about the future of the tourism industry in your country?",
+      "sourceRawRowSha256": "c735c2408ac4481bca1d342138732791aa708cc92ea7932d7f4beb33c52ff2e1",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+      "decisionRawRowSha256": "6644a07b18f9899155b3dd958eff9a95440b6543aa9925568e0fc98582cca968",
+      "candidateOwners": [],
+      "verdict": "uncertain",
+      "sourceSpecificReason": "No earlier owner with a matching old-formula approach target and assessed decision was found. The sentence says an existing tourism strategy is insufficient on its own; it may support a new bounded target, but not a current same-sense alias.",
+      "ownerEditsPerformed": false,
+      "decisionEditsPerformed": false
+    }
+  ],
+  "mutations": []
+}

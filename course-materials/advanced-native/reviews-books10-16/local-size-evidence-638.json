@@ -1,0 +1,26 @@
+{
+  "kind": "exact-current-local-size-only",
+  "measuredAtUtc": "2026-10-24T06:58:02.791393+00:00",
+  "selectedManifestSha256": "5003e3634a585ef255989d658f5613cb2f9e1aef14fe1c90e898c82cefa4b3eb",
+  "previewRoot": "../preview-site-638-exact-cards/natural-english",
+  "authoredIndexedRecordCount": 2521,
+  "referencedContentShardCount": 95,
+  "allReferencedShardsExist": true,
+  "initialIndex": {
+    "bytes": 6918411,
+    "gzip9Bytes": 1598575,
+    "sha256": "43b037123feb363ef9a749e481603fc25c55e79bb2b5e89ac9f749b22025bd82"
+  },
+  "targetPatterns": {
+    "bytes": 218865,
+    "gzip9Bytes": 53721,
+    "sha256": "a0df63a298833fa72d3a336559165dad5704157c1cc7d0c2a1574519617608fe"
+  },
+  "referencedShardsTotal": {
+    "bytes": 37475889,
+    "gzip9Bytes": 6780529,
+    "maxOneShardBytes": 789252,
+    "maxOneShardGzip9Bytes": 147792
+  },
+  "limitations": "Filesystem byte/gzip proxy only; not CDN transfer headers, network request waterfall, user-device render/search timings, or hosting usage. Preview directory also contains stale unreferenced shards, excluded from referenced totals."
+}

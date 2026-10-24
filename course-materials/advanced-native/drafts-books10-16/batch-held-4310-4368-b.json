@@ -143,7 +143,7 @@
         "explanationZh": "遠足者是在真霧中行走；本課要表達的是缺少理解或資料的比喻用法。"
       },
       "dialogue": {
-        "promptZh": "甲：我們今天要推薦資助對象，但一直未收到評分準則。現在還能公平地排列申請嗎？\n乙：？",
+        "promptZh": "甲：我們今天要推薦資助對象，但一直未收到評分準則。現在還能公平地排列申請嗎？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -163,7 +163,7 @@
         ],
         "answerId": "a",
         "explanationZh": "缺少評分準則，不能有把握地公平排序；先索取準則才有清晰依據。",
-        "promptEn": "A: We have to recommend a grant recipient today, but the scoring rules were never sent to us. Can we still rank the applications fairly?\nB: ?"
+        "promptEn": "A: We have to recommend a grant recipient today, but the scoring rules were never sent to us. Can we still rank the applications fairly?\nWhat should B say?"
       },
       "speaking": {
         "en": "Without the flood map, our planning team is walking through fog about where homes can be built.",
@@ -413,7 +413,7 @@
         "explanationZh": "冰箱資料只陳列可量度的功能；另外兩項都以畫面喚起一種感受。"
       },
       "dialogue": {
-        "promptZh": "甲：圖書館宣傳展示孩子自豪地借到第一本書。我們是在聲稱圖書館會令每個孩子都變得有自信嗎？\n乙：？",
+        "promptZh": "甲：圖書館宣傳展示孩子自豪地借到第一本書。我們是在聲稱圖書館會令每個孩子都變得有自信嗎？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
@@ -433,7 +433,7 @@
         ],
         "answerId": "a",
         "explanationZh": "畫面可以喚起探索的喜悅，但宣傳訴求不等於保證所有孩子的實際感受。",
-        "promptEn": "A: Our library campaign shows children proudly borrowing their first book. Are we claiming the library will make every child confident?\nB: ?"
+        "promptEn": "A: Our library campaign shows children proudly borrowing their first book. Are we claiming the library will make every child confident?\nWhat should B say?"
       },
       "speaking": {
         "en": "The poster sells a feeling of welcome by showing neighbours greeting first-time visitors.",

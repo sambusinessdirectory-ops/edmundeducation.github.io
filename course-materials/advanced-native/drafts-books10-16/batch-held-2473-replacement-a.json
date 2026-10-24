@@ -143,8 +143,8 @@
         "answerId": "c"
       },
       "dialogue": {
-        "promptEn": "A: The theatre will still stage plays, but it wants to rent costumes to local schools as a small pilot. Are we leaving theatre work behind?\nB: ?",
-        "promptZh": "甲：劇院仍會上演戲劇，但想小規模試行把戲服租給本地學校。我們是在放棄劇院工作嗎？\n乙：？",
+        "promptEn": "A: The theatre will still stage plays, but it wants to rent costumes to local schools as a small pilot. Are we leaving theatre work behind?\nWhat should B say?",
+        "promptZh": "甲：劇院仍會上演戲劇，但想小規模試行把戲服租給本地學校。我們是在放棄劇院工作嗎？\n乙應如何回答？",
         "options": [
           {
             "id": "a",
