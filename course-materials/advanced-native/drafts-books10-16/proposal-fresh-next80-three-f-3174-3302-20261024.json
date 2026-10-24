@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-fresh-next80-three-f-proposal-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-3174",
+      "number": 3174,
+      "inventoryId": "expr-3174",
+      "titleEn": "not everything worth having comes quickly",
+      "titleZh": "值得擁有的事物未必很快得到",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bnot everything worth having comes quickly\\b",
+        "glossaryForbidden": [
+          "\\bnot everything worth having comes quickly\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Some valuable outcomes take time and sustained effort.",
+        "meaningZh": "某些有價值的成果需要時間和持續努力。",
+        "grammar": "A proverb-like full clause; not everything avoids the false absolute that all rewards are slow.",
+        "register": "Reflective advice about learning, work and relationships.",
+        "boundaryZh": "耐心不代表無限期等待，也不保證努力必有成果；要看是否有具體進展。",
+        "misconceptionZh": "不要把它改成「所有好東西都要很久」，也不要用它為無效方法找藉口。",
+        "outcomeZh": "能指出有價值的目標、可見進展及合理的耐心。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1063",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 99,
+          "book": 12,
+          "question": 32,
+          "sample": "S1",
+          "sourceBookPages": "77–79",
+          "locatorNote": "DOCX table 102, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The course taught her that not everything worth having comes quickly.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "not everything worth having comes quickly"
+        }
+      ],
+      "listening": {
+        "promptZh": "莉娜的進展說明甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her useful new skill grew through continued practice.",
+            "zh": "她靠持續練習逐漸掌握有用的新技能。"
+          },
+          {
+            "id": "b",
+            "en": "She could follow every story after one lesson.",
+            "zh": "她上一課後就能明白每個故事。"
+          },
+          {
+            "id": "c",
+            "en": "Months of practice brought no change at all.",
+            "zh": "練習了幾個月仍完全沒有進展。"
+          },
+          {
+            "id": "d",
+            "en": "She was told to stop practising because progress was slow.",
+            "zh": "有人因為她進展緩慢而叫她停止練習。"
+          }
+        ],
+        "explanationZh": "從只會自我介紹到能聽懂故事，顯示逐步累積的成果。",
+        "answerId": "a",
+        "en": "Lena practised sign language for months. At first she could introduce herself only, but later she could follow a neighbour’s short story. She learned that not everything worth having comes quickly.",
+        "zh": "莉娜練習手語數月。起初她只會自我介紹，後來已能明白鄰居講的小故事。她明白值得擁有的能力未必很快得到。"
+      },
+      "reply": {
+        "promptZh": "（莉娜練習手語後學到甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A useful skill can take months to develop.",
+            "zh": "有用的技能可能需要數月培養。"
+          },
+          {
+            "id": "b",
+            "en": "Small improvements can build into meaningful ability.",
+            "zh": "微小進步可以累積成有意義的能力。"
+          },
+          {
+            "id": "c",
+            "en": "Not everything worth having comes quickly.",
+            "zh": "值得擁有的事物未必很快得到。"
+          },
+          {
+            "id": "d",
+            "en": "Continued practice helped her understand more than before.",
+            "zh": "持續練習令她明白的內容比以前多。"
+          }
+        ],
+        "explanationZh": "四句都保留緩慢但可見的進展。",
+        "promptEn": "What did Lena learn from practising sign language?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "學生花一學期練習攝影，初期構圖雜亂，後來能拍出清晰記錄社區生活的作品，仍想繼續改進。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Not everything worth having comes quickly; her photographs show progress worth building on.",
+            "zh": "值得擁有的成果未必很快得到；她的照片顯示值得繼續發展的進步。"
+          },
+          {
+            "id": "b",
+            "en": "Her photographs improved, so there is no point checking what still needs work.",
+            "zh": "她的照片有進步，所以毋須再檢查有甚麼需要改進。"
+          },
+          {
+            "id": "c",
+            "en": "She spent a semester practising, but the final photos show the same confused framing as before.",
+            "zh": "她練習了一學期，最後的照片卻仍像起初一樣構圖雜亂。"
+          }
+        ],
+        "explanationZh": "已見進展而仍有改進空間，適合用耐心描述。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 not everything 說成「所有成果都慢」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Some worthwhile skills need patient work.",
+            "zh": "某些值得學的技能需要耐心練習。"
+          },
+          {
+            "id": "b",
+            "en": "Every worthwhile result must take a long time.",
+            "zh": "每項值得擁有的成果都一定需要很久。"
+          },
+          {
+            "id": "c",
+            "en": "Visible progress can justify continuing a course.",
+            "zh": "看得見的進展可支持繼續學習。"
+          }
+        ],
+        "explanationZh": "原句只說不是所有值得擁有的成果都會很快出現。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「練了三星期還不流利，是不是該放棄？」你知道他從不敢開口進步到能完成短對話。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Not everything worth having comes quickly; your short conversations show progress, so keep practising and review the method if that progress stops.",
+            "zh": "值得擁有的能力未必很快得到；你已能完成短對話，顯示有進步，可繼續練習；若進展停止，再檢討方法。"
+          },
+          {
+            "id": "b",
+            "en": "Three weeks is not long.",
+            "zh": "三星期不算久。"
+          },
+          {
+            "id": "c",
+            "en": "You can say short sentences now.",
+            "zh": "你現在可以說短句。"
+          }
+        ],
+        "explanationZh": "金句指出實際進步，也保留檢討方法的界線。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "She learned that not everything worth having comes quickly.",
+        "zh": "她明白值得擁有的事物未必很快得到。",
+        "promptZh": "先聽示範，再說出哪項能力是逐步學會的。",
+        "targetSpan": {
+          "start": 17,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：街坊合唱團練習數月才唱準一首難曲；錄音顯示音準逐次改善，指揮也安排每月檢討。用一至兩句英文說明耐心和進展。",
+        "selfCheckZh": "指出值得爭取的成果、錄音可見的進步及檢討方式；不要聲稱所有好結果都要等很久。",
+        "examples": [
+          {
+            "en": "Not everything worth having comes quickly: the choir’s recordings show steadier pitch after months of rehearsal, and monthly reviews guide its next steps.",
+            "zh": "值得爭取的成果未必很快得到：合唱團練習數月後，錄音顯示音準更穩定，每月檢討亦引導下一步。"
+          },
+          {
+            "en": "The choir knows not everything worth having comes quickly, so it checks each month’s recording for progress rather than repeating the song without feedback.",
+            "zh": "合唱團明白值得擁有的成果未必很快得到，因此每月檢查錄音中的進展，而非沒有意見就反覆練唱。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the choir’s recordings",
+            "zh": "合唱團的錄音",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 65
+            }
+          },
+          {
+            "en": "steadier pitch",
+            "zh": "更穩定的音準",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 85
+            }
+          },
+          {
+            "en": "monthly reviews",
+            "zh": "每月檢討",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 132
+            }
+          },
+          {
+            "en": "each month’s recording",
+            "zh": "每月的錄音",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 94
+            }
+          },
+          {
+            "en": "for progress",
+            "zh": "有否進步",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 107
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Not everything worth having comes quickly, but patient work still needs feedback.",
+          "zh": "值得擁有的成果未必很快得到，但耐心努力仍需要意見。"
+        },
+        {
+          "en": "Not everything worth having comes quickly; measurable improvement can still make a slow start worthwhile.",
+          "zh": "值得擁有的成果未必很快得到；若有可量度的進步，起步慢仍有價值。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3244",
+      "number": 3244,
+      "inventoryId": "expr-3244",
+      "titleEn": "avoid the same trap again",
+      "titleZh": "避免再犯同一個錯誤",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:avoid|avoids|avoided|avoiding) the same trap again\\b",
+        "glossaryForbidden": [
+          "\\bthe same trap again\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Prevent a repeated mistake or harmful pattern after recognising what caused it before.",
+        "meaningZh": "找出以往出錯的原因後，避免再次犯同一類錯誤。",
+        "grammar": "Trap is metaphorical; same and again make the recurrence essential to the source meaning.",
+        "register": "Planning, editing and decision reviews.",
+        "boundaryZh": "檢查表可提醒人留意已知風險，但不能保證完全不會出錯。",
+        "misconceptionZh": "不要把 trap 當成真正的捕獸器，也不要只談一項從未發生的新問題。",
+        "outcomeZh": "能指出上次錯誤、警示步驟和如何在今次決定前使用它。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1133",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 105,
+          "book": 12,
+          "question": 39,
+          "sample": "S1",
+          "sourceBookPages": "94–95",
+          "locatorNote": "DOCX table 109, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The checklist helps us avoid the same trap again.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "same trap again"
+        }
+      ],
+      "listening": {
+        "promptZh": "檢查表提醒籌辦者先做甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Confirm the speaker’s date before paying for the hall.",
+            "zh": "付場地費前先確認講者日期。"
+          },
+          {
+            "id": "b",
+            "en": "Book the hall first and ask the speaker afterwards.",
+            "zh": "先預訂場地，之後才問講者。"
+          },
+          {
+            "id": "c",
+            "en": "Cancel every event so there can be no fee.",
+            "zh": "取消所有活動，以免支付費用。"
+          },
+          {
+            "id": "d",
+            "en": "Ignore the cancellation fee from last year.",
+            "zh": "不理會去年的取消費。"
+          }
+        ],
+        "explanationZh": "先確認講者日期，針對去年的重複風險。",
+        "answerId": "a",
+        "en": "Last year, a club booked a hall before confirming the speaker’s date and paid a cancellation fee. This year, its checklist requires date confirmation first, helping the organisers avoid the same trap again.",
+        "zh": "去年，一個學會未確認講者日期便預訂場地，結果支付了取消費。今年的檢查表要求先確認日期，幫助籌辦者避免再犯同一個錯誤。"
+      },
+      "reply": {
+        "promptZh": "（籌辦者為何加入核對日期這一步？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They wanted to learn from last year’s cancellation.",
+            "zh": "他們想從去年的取消事件吸取教訓。"
+          },
+          {
+            "id": "b",
+            "en": "They needed to confirm the speaker before booking.",
+            "zh": "他們需要在預訂前確認講者日期。"
+          },
+          {
+            "id": "c",
+            "en": "They hoped to avoid the same trap again.",
+            "zh": "他們希望避免再犯同一個錯誤。"
+          },
+          {
+            "id": "d",
+            "en": "They wanted to reduce the risk of another fee.",
+            "zh": "他們想減低再次付取消費的風險。"
+          }
+        ],
+        "explanationZh": "四句都關乎避免去年訂場地次序錯誤再發生。",
+        "promptEn": "Why did the organisers add a date check?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "義工上次沒有核對食物過敏資料，就印好晚宴餐牌，最後要全部重印。今次他們先請參加者確認資料再送印。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The new check should help them avoid the same trap again.",
+            "zh": "新增的核對步驟應有助他們避免再犯同一個錯誤。"
+          },
+          {
+            "id": "b",
+            "en": "They collected allergy details, but still sent the menu to print before checking them.",
+            "zh": "他們收集了過敏資料，卻仍在核對前把餐牌送印。"
+          },
+          {
+            "id": "c",
+            "en": "The old reprint was costly, but the current menu needs no participant information.",
+            "zh": "上次重印成本高，但今次餐牌毋須參考參加者資料。"
+          }
+        ],
+        "explanationZh": "先核對才送印，直接處理上次的錯誤。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句誤把 trap 當成真正的裝置？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A checklist can remind people of a past mistake.",
+            "zh": "檢查表可以提醒人們以往的錯誤。"
+          },
+          {
+            "id": "b",
+            "en": "They need to remove an actual animal trap from the hall.",
+            "zh": "他們要從場地移走一個真正的捕獸器。"
+          },
+          {
+            "id": "c",
+            "en": "Changing the order of steps may prevent the mistake recurring.",
+            "zh": "改變步驟次序可能防止錯誤重演。"
+          }
+        ],
+        "explanationZh": "這裏以陷阱比喻容易重犯的錯誤。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "隊員說：「今年有檢查表就萬無一失。」你知道去年因未核對講者日期而取消場地。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The checklist can help us avoid the same trap again by confirming the speaker before booking, though we still need to complete each check carefully.",
+            "zh": "檢查表要求我們訂場地前先確認講者日期，可幫助避免再犯同一個錯誤；但仍須仔細完成每項核對。"
+          },
+          {
+            "id": "b",
+            "en": "We have a checklist now.",
+            "zh": "我們現在有檢查表。"
+          },
+          {
+            "id": "c",
+            "en": "Last year we paid a fee.",
+            "zh": "去年我們付了費用。"
+          }
+        ],
+        "explanationZh": "金句指出重複風險和檢查表的實際限制。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The date check helps the club avoid the same trap again.",
+        "zh": "核對日期有助學會避免再犯同一個錯誤。",
+        "promptZh": "先聽示範，再說出去年哪個步驟做得太早。",
+        "targetSpan": {
+          "start": 30,
+          "end": 55
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生會上次在未測試咪高峰前公布網上直播，開場後才發現沒有聲音。今次活動前一天做完整收音測試。用一至兩句英文描述改進。",
+        "selfCheckZh": "指出上次的重複風險、今次的測試時間，以及測試只能降低風險。",
+        "examples": [
+          {
+            "en": "A full microphone test the day before the event should help the council avoid the same trap again after last year’s silent livestream.",
+            "zh": "學生會在活動前一天完整測試咪高峰，應有助避免去年直播沒有聲音的錯誤重演。"
+          },
+          {
+            "en": "To avoid the same trap again, the students will check the audio before advertising a live broadcast, although they must still monitor it on the day.",
+            "zh": "為避免再犯同一個錯誤，學生會在宣傳直播前檢查聲音，但活動當天仍須監察。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A full microphone test",
+            "zh": "完整的咪高峰測試",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 22
+            }
+          },
+          {
+            "en": "the day before the event",
+            "zh": "活動前一天",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 47
+            }
+          },
+          {
+            "en": "last year’s silent livestream",
+            "zh": "去年沒有聲音的直播",
+            "exampleIndex": 0,
+            "span": {
+              "start": 104,
+              "end": 133
+            }
+          },
+          {
+            "en": "the audio",
+            "zh": "聲音",
+            "exampleIndex": 1,
+            "span": {
+              "start": 54,
+              "end": 63
+            }
+          },
+          {
+            "en": "on the day",
+            "zh": "活動當天",
+            "exampleIndex": 1,
+            "span": {
+              "start": 137,
+              "end": 147
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A warning note may help a team avoid the same trap again.",
+          "zh": "警示提示可能幫團隊避免再犯同一個錯誤。"
+        },
+        {
+          "en": "They avoided the same trap again by checking the figures before publication.",
+          "zh": "他們在發布前核對數字，避免再犯同一個錯誤。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3302",
+      "number": 3302,
+      "inventoryId": "expr-3302",
+      "titleEn": "too reactive",
+      "titleZh": "過於被動地應付眼前事情",
+      "category": "natural",
+      "target": {
+        "pattern": "\\btoo reactive\\b",
+        "glossaryForbidden": [
+          "\\btoo reactive\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "So driven by immediate demands that longer-term priorities receive too little attention.",
+        "meaningZh": "過分被眼前要求牽着走，以致較長遠的優先事項得不到足夠注意。",
+        "grammar": "Too marks a degree judged excessive for the goal; reactive contrasts with planned or proactive action.",
+        "register": "Time management, work habits and planning.",
+        "boundaryZh": "對突發事情作出回應本身沒有錯；問題是沒有留下時間處理重要的預定工作。",
+        "misconceptionZh": "不要把 reactive 說成完全不作任何回應，也不要把使用日曆當作一定能解決所有中斷。",
+        "outcomeZh": "能指出突發要求如何擠走計劃中的重要工作，並提出可行緩衝。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1191",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 111,
+          "book": 12,
+          "question": 45,
+          "sample": "S1",
+          "sourceBookPages": "106–107",
+          "locatorNote": "DOCX table 115, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Without a calendar, life can become too reactive.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "life can become too reactive"
+        }
+      ],
+      "listening": {
+        "promptZh": "尼高的工作安排出了甚麼問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Immediate messages displaced an important deadline.",
+            "zh": "即時訊息擠走了一項有期限的重要工作。"
+          },
+          {
+            "id": "b",
+            "en": "He completed the grant proposal ahead of time.",
+            "zh": "他提早完成了資助申請。"
+          },
+          {
+            "id": "c",
+            "en": "He refused to answer any new message.",
+            "zh": "他拒絕回覆任何新訊息。"
+          },
+          {
+            "id": "d",
+            "en": "Every small request was more urgent than the Monday proposal.",
+            "zh": "每項小要求都比星期一到期的申請更緊急。"
+          }
+        ],
+        "explanationZh": "小要求佔用時間，令重要申請尚未開始。",
+        "answerId": "a",
+        "en": "Without a calendar, Niko answered every new message as soon as it arrived. By Friday, he had handled small requests but had not started the grant proposal due on Monday. His week had become too reactive.",
+        "zh": "沒有使用日曆的尼高每收到新訊息便立即回覆。到星期五，他處理了不少小要求，卻仍未開始撰寫星期一到期的資助申請。這一星期他過於被動地應付眼前事情。"
+      },
+      "reply": {
+        "promptZh": "（尼高為何需要換一種安排一星期的方法？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He had responded to small tasks but missed time for the proposal.",
+            "zh": "他處理了小事，卻沒有留時間寫申請。"
+          },
+          {
+            "id": "b",
+            "en": "He needed to protect time for Monday’s deadline.",
+            "zh": "他需要預留時間應付星期一的期限。"
+          },
+          {
+            "id": "c",
+            "en": "His schedule had become too reactive.",
+            "zh": "他的日程變得過於被動地應付眼前事情。"
+          },
+          {
+            "id": "d",
+            "en": "He was letting each incoming message set his priorities.",
+            "zh": "他讓每條新訊息決定工作先後。"
+          }
+        ],
+        "explanationZh": "四句都指即時要求取代了長遠優先事項。",
+        "promptEn": "Why did Niko need a different plan for the week?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "圖書館主任每次收到小查詢便立即中斷編排下月活動；到了月底，場地申請仍未提交。他決定每天留半小時專門處理活動。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "His old routine was too reactive, so the reserved time may protect the application work.",
+            "zh": "他舊有的工作方式過於被動地應付眼前事情，預留時間或有助處理申請。"
+          },
+          {
+            "id": "b",
+            "en": "His old routine was too reactive because he answered every query late.",
+            "zh": "他舊有的工作方式過於被動，因為他每項查詢都回覆得太遲。"
+          },
+          {
+            "id": "c",
+            "en": "The reserved time proves that future queries will never interrupt him.",
+            "zh": "預留時間證明日後查詢永遠不會打斷他。"
+          }
+        ],
+        "explanationZh": "問題在於即時小查詢擠走了有期限的場地申請。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 reactive 誤解成完全不回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It can be useful to respond to an urgent request.",
+            "zh": "回應緊急要求可以有用。"
+          },
+          {
+            "id": "b",
+            "en": "Being too reactive means ignoring every message.",
+            "zh": "過於被動地應付眼前事情，就是完全不理會任何訊息。"
+          },
+          {
+            "id": "c",
+            "en": "A protected work period can help with longer-term tasks.",
+            "zh": "預留不受打擾的工作時段可幫助完成較長遠的任務。"
+          }
+        ],
+        "explanationZh": "問題是被即時要求主導，而不是完全不作回應。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我一收到訊息就回覆，怎會有問題？」你看到資助申請還沒開始，而期限是星期一。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Answering messages helps, but the week is too reactive if each one delays the grant proposal; reserve a block for the deadline and handle truly urgent requests separately.",
+            "zh": "回覆訊息有用，但若每條訊息都拖延資助申請，這星期就過於被動地應付眼前事情；應為期限預留時段，另行處理真正緊急的要求。"
+          },
+          {
+            "id": "b",
+            "en": "There are many messages.",
+            "zh": "訊息很多。"
+          },
+          {
+            "id": "c",
+            "en": "The proposal is due on Monday.",
+            "zh": "申請星期一到期。"
+          }
+        ],
+        "explanationZh": "金句承認回應有用，同時保護有期限的重要工作。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Without a plan, his week became too reactive.",
+        "zh": "沒有計劃的一星期令他過於被動地應付眼前事情。",
+        "promptZh": "先聽示範，再說出哪項重要工作被眼前要求擠走。",
+        "targetSpan": {
+          "start": 32,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區花園組織者每天只處理臨時工具借用訊息，沒有時間安排下周義工輪值。他們改為每天固定時間回覆借用要求，另外預留時間排班。用一至兩句英文描述改動。",
+        "selfCheckZh": "指出即時要求擠走甚麼預定工作，以及新時間安排如何回應；不要說借用訊息不必理會。",
+        "examples": [
+          {
+            "en": "Their planning became too reactive when tool requests displaced the volunteer rota, so they set a daily reply period and protected time for next week’s shifts.",
+            "zh": "工具借用要求擠走義工輪值安排時，他們的規劃變得過於被動；因此設下每日回覆時段，並為下周輪班預留時間。"
+          },
+          {
+            "en": "The team was too reactive while answering each loan message at once; a fixed reply window now leaves room to organise the volunteers without ignoring requests.",
+            "zh": "團隊每有借用訊息便立即回覆，過於被動地應付眼前事情；固定回覆時段讓他們可以安排義工，同時沒有忽略要求。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "tool requests",
+            "zh": "工具借用要求",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 53
+            }
+          },
+          {
+            "en": "the volunteer rota",
+            "zh": "義工輪值安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 82
+            }
+          },
+          {
+            "en": "a daily reply period",
+            "zh": "每日回覆時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 116
+            }
+          },
+          {
+            "en": "each loan message",
+            "zh": "每則借用訊息",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 59
+            }
+          },
+          {
+            "en": "a fixed reply window",
+            "zh": "固定回覆時段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 69,
+              "end": 89
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A team can become too reactive if every minor request interrupts planned work.",
+          "zh": "若每項小要求都打斷預定工作，團隊可能過於被動地應付眼前事情。"
+        },
+        {
+          "en": "Scheduling reply time helped her respond without being too reactive.",
+          "zh": "安排回覆時段幫她作出回應，同時不致過於被動地應付眼前事情。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

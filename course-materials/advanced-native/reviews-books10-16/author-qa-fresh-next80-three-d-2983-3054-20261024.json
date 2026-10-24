@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "source-bound-author-self-check-proposal-only",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-three-d-2983-3054-20261024.json",
+  "proposalSha256": "f8d6c07b57ebdade5d15e55a44cac9c56797057e74c37513a1b6745bc95045d2",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/read-only-fresh-next80-current313-holds-source-owner-screen-20261024.json",
+  "sourceScreenSha256": "fb6f0b47b9d6a1f36ace56e20956c51974e8cc1f39904ca43bd2da2539f37159",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "be7a43e026859490d3637af4a45027ac82c0ec432f327f782995e47ea898cc28",
+  "lessonCount": 3,
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 2983,
+      "sourceId": "book10-16-0872",
+      "sourceRawRowSha256": "72b2c8439d6c44e790b9336a9500d426383018e44297c6a5c62740a5e179f3f2",
+      "decisionFile": "books10-16/editorial-decisions-2952-3011.jsonl",
+      "decisionRawRowSha256": "6582f30f523b1342978f49326c0a8248f135336d0019649c44cdf02f40b82158",
+      "sourceExpression": "tone and texture",
+      "guideSentence": "Small choices give daily life its tone and texture.",
+      "guideMeaning": "The overall emotional quality and detail of life; sensory language used figuratively.",
+      "sourcePage": 81,
+      "sourceBook": 12,
+      "sourceQuestion": 12,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3000,
+      "sourceId": "book10-16-0889",
+      "sourceRawRowSha256": "6fa92d38e969e61211b818f249f7722689f57119023fe5d4cfd93cc4c1bf7311",
+      "decisionFile": "books10-16/editorial-decisions-2952-3011.jsonl",
+      "decisionRawRowSha256": "9a4146fe56a96220e4b2a964636fc03892d9ea76fbb4e8ffdcb9dce2e6861fa9",
+      "sourceExpression": "the feeling of being managed",
+      "guideSentence": "Teenagers often resist the feeling of being managed.",
+      "guideMeaning": "The sense that another person is controlling one's decisions; a useful precise phrase.",
+      "sourcePage": 82,
+      "sourceBook": 12,
+      "sourceQuestion": 14,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3054,
+      "sourceId": "book10-16-0943",
+      "sourceRawRowSha256": "0a5f13bfa52771a5e0adbca9211d4115c2bc4dd3bce3839e110781370a015895",
+      "decisionFile": "books10-16/editorial-decisions-3012-3071.jsonl",
+      "decisionRawRowSha256": "2eaac70d832543d1838772228d0965798be22985319e46d6eb1cba172009a254",
+      "sourceExpression": "build a world out of words",
+      "guideSentence": "A skilled writer can build a world out of words.",
+      "guideMeaning": "Create a vivid fictional setting through language; a construction metaphor.",
+      "sourcePage": 87,
+      "sourceBook": 12,
+      "sourceQuestion": 19,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    }
+  ],
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-2983",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3000",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3054",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "authorSelfCheck": {
+    "sourceSenseAndBoundary": "Source senses, evidence limits and use boundaries are specified in the briefs and questions.",
+    "distinctSevenStepContract": "Each proposal contains listening, four-valid reply, scene, boundary, dialogue, speaking and independent writing content.",
+    "translationPairing": "English source contexts, choices, models and suggested answers have paired Traditional Chinese.",
+    "writingSupport": "Two changed-context examples and five exact answer-derived target-free glossary spans per lesson.",
+    "selectionAndRelease": "No selected manifest, source decision, release index, audio asset or SOP audit modified."
+  },
+  "independentEnglishReview": "pending",
+  "independentChineseReview": "pending",
+  "mediaReview": "pending",
+  "browserDeviceQA": "pending",
+  "releaseApproval": false,
+  "knownIssues": [
+    "Unselected hold-editorial proposals awaiting independent review."
+  ]
+}

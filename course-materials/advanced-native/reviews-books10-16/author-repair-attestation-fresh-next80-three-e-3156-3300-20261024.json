@@ -1,0 +1,58 @@
+{
+  "kind": "exact-hash-focused-editorial-repair",
+  "priorProposalSha256": "993956b83402bace3fff2fbd4d6133959b4247ce0c03d77a264c036f09deed67",
+  "independentReviewSha256": "b8ea6b643488596b35e324aa44e309f2fd1d5aeccad10ae1f1d81cda8366337a",
+  "repairedProposalSha256": "b3de67af6559ceddfcc81e41fae613c7075dcd13d8084fc4e5025997ed54282b",
+  "changes": [
+    {
+      "lesson": 3156,
+      "fields": [
+        ".writing.glossary[3].span.start",
+        ".writing.glossary[3].span.end",
+        ".writing.glossary[4].span.start",
+        ".writing.glossary[4].span.end",
+        ".writing.examples[1].en",
+        ".writing.examples[1].zh",
+        ".scene.options[1].en",
+        ".scene.options[1].zh",
+        ".scene.options[2].en",
+        ".scene.options[2].zh"
+      ]
+    },
+    {
+      "lesson": 3190,
+      "fields": [
+        ".scene.options[1].en",
+        ".scene.options[1].zh",
+        ".scene.options[2].en",
+        ".scene.options[2].zh"
+      ]
+    },
+    {
+      "lesson": 3300,
+      "fields": [
+        ".writing.glossary[0].span.start",
+        ".writing.glossary[0].span.end",
+        ".writing.glossary[1].span.start",
+        ".writing.glossary[1].span.end",
+        ".writing.glossary[2].span.start",
+        ".writing.glossary[2].span.end",
+        ".writing.glossary[3].span.start",
+        ".writing.glossary[3].span.end",
+        ".writing.glossary[3].en",
+        ".writing.glossary[3].zh",
+        ".writing.glossary[4].span.start",
+        ".writing.glossary[4].span.end",
+        ".writing.examples[0].en",
+        ".writing.examples[0].zh",
+        ".writing.examples[1].en",
+        ".writing.examples[1].zh",
+        ".scene.options[1].en",
+        ".scene.options[1].zh",
+        ".scene.options[2].en",
+        ".scene.options[2].zh"
+      ]
+    }
+  ],
+  "selectionChanged": false
+}

@@ -1,0 +1,97 @@
+{
+  "kind": "independent-final-focused-proposal-rereview",
+  "date": "2026-10-24",
+  "verdict": "pass-unselected",
+  "binding": {
+    "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-five-c-2328-2765-20261024.json",
+    "proposalSha256": "e05973e58b102294b9d7d1920d9998f2919771b167326f19da86406aae4ce17e",
+    "previousProposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-five-c-2328-2765-pre-repair-20261024.json",
+    "previousProposalSha256": "830a3303b655c609abf6d05495aea77101bd944d4eacc3a93409fe64be7765a1",
+    "previousIndependentReportFile": "course-materials/advanced-native/reviews-books10-16/independent-review-next80-five-c-2328-2765-20261024.json",
+    "previousIndependentReportSha256": "03ed751a0bf3ce8ae2cb9f89b22ca0262c7eafd1b95a55ab0871f38c448d8fca",
+    "authorQaFile": "course-materials/advanced-native/reviews-books10-16/author-qa-current-next80-five-c-2328-2765-20261024.json",
+    "authorQaSha256": "fb17372b7455adebfaf2cd93eeac4890ede5bdfa1412c816f24c83567091f0c7",
+    "originalityReportFile": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-current-next80-five-c-2328-2765-20261024.json",
+    "originalityReportSha256": "b051b763c7e85174e3da5abd7d39d2ea4c0be1dc9f82c80d91df6ba130249334",
+    "authorRepairAttestationFile": "course-materials/advanced-native/reviews-books10-16/author-repair-attestation-next80-five-c-2328-2765-20261024.json",
+    "authorRepairAttestationSha256": "66fd3f6fb93414a1c0dae958c5a3873788c29dd20633392c0792ded598e95c69",
+    "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "counts": {
+    "lessons": 5,
+    "sevenStepSections": 35,
+    "assessedQuestions": 30,
+    "priorBlockersResolved": 4,
+    "priorAdvisoriesResolved": 1,
+    "currentBlockers": 0,
+    "currentAdvisories": 0
+  },
+  "focusedFindings": {
+    "2328": "Writing now transfers from school-year groups to cyclist/driver road design, and both models include shared crossing signals, a residual cycle-lane difference, and cautious wording.",
+    "2695": "Chinese scene answer now matches broad more accessible rather than narrowing solely to affordability.",
+    "2720": "Transport notices remain posted as usual but become less prominent amid market posts; no unsupported lower posting frequency.",
+    "2765": "Reply B now says exactly two trains and a late bus in both languages, matching listening model."
+  },
+  "lessons": [
+    {
+      "ordinal": 2328,
+      "verdict": "pass",
+      "changedFields": [
+        "writing"
+      ],
+      "lessonCanonicalSha256": "da0435e500576c3daa9b8f7cf26874d141d62a27f875fa0ef1a93eafdbcfb244",
+      "sourceExact": true,
+      "sevenSteps": true,
+      "fourValidReplyOptions": "editorially pass",
+      "writingGlossarySpanAndTargetFree": true
+    },
+    {
+      "ordinal": 2515,
+      "verdict": "pass",
+      "changedFields": [],
+      "lessonCanonicalSha256": "4085f38d30868dad92ce4526c42dc18c5d62ee7543975bd520b73ff59d7dfefa",
+      "sourceExact": true,
+      "sevenSteps": true,
+      "fourValidReplyOptions": "editorially pass",
+      "writingGlossarySpanAndTargetFree": true
+    },
+    {
+      "ordinal": 2695,
+      "verdict": "pass",
+      "changedFields": [
+        "scene"
+      ],
+      "lessonCanonicalSha256": "874686a53375d75a2e5a9f8a0b034c0d6f260340ac3921c7ae4f70c24de90055",
+      "sourceExact": true,
+      "sevenSteps": true,
+      "fourValidReplyOptions": "editorially pass",
+      "writingGlossarySpanAndTargetFree": true
+    },
+    {
+      "ordinal": 2720,
+      "verdict": "pass",
+      "changedFields": [
+        "writing"
+      ],
+      "lessonCanonicalSha256": "ff1bab3695729e36fa02cc044c56fbde6cb915a80d6e721231c0143759728304",
+      "sourceExact": true,
+      "sevenSteps": true,
+      "fourValidReplyOptions": "editorially pass",
+      "writingGlossarySpanAndTargetFree": true
+    },
+    {
+      "ordinal": 2765,
+      "verdict": "pass",
+      "changedFields": [
+        "reply"
+      ],
+      "lessonCanonicalSha256": "77de2aab28a4f58eaf984c82a5ec3a79546c4e116571e46c08cf079b462ba591",
+      "sourceExact": true,
+      "sevenSteps": true,
+      "fourValidReplyOptions": "editorially pass",
+      "writingGlossarySpanAndTargetFree": true
+    }
+  ],
+  "releaseState": "unselected; no manifest, decision, media, or publication changes"
+}

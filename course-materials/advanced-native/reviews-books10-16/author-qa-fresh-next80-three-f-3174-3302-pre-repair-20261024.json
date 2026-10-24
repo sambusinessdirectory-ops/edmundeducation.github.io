@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "source-bound-author-self-check-proposal-only",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-three-f-3174-3302-20261024.json",
+  "proposalSha256": "9a6803b70648620ffbdd21851c1c17cc860354f3da02c0adaa7a64e03dd16a1f",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/read-only-fresh-next80-current313-holds-source-owner-screen-20261024.json",
+  "sourceScreenSha256": "fb6f0b47b9d6a1f36ace56e20956c51974e8cc1f39904ca43bd2da2539f37159",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "be7a43e026859490d3637af4a45027ac82c0ec432f327f782995e47ea898cc28",
+  "lessonCount": 3,
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 3174,
+      "sourceId": "book10-16-1063",
+      "sourceRawRowSha256": "10031786c7529516672b281aeb919a68056dc9a16e36eaddfd85d91612aecd24",
+      "decisionFile": "books10-16/editorial-decisions-3132-3191.jsonl",
+      "decisionRawRowSha256": "bfe1c837e450444f8b64a3c4d97d858254379c9834f0b4a9f3b530ee8e3b0936",
+      "sourceExpression": "not everything worth having comes quickly",
+      "guideSentence": "The course taught her that not everything worth having comes quickly.",
+      "guideMeaning": "Valuable results often require patience; a natural proverb-like pattern.",
+      "sourcePage": 99,
+      "sourceBook": 12,
+      "sourceQuestion": 32,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3244,
+      "sourceId": "book10-16-1133",
+      "sourceRawRowSha256": "6846b1a6d758a7e35509d5aa3bc9ec2541c3bf2609de980bc81d9fb934ef7a80",
+      "decisionFile": "books10-16/editorial-decisions-3192-3251.jsonl",
+      "decisionRawRowSha256": "73e1fdb874a7921ceca3226fdf153e5fa8dfa6933676bad8fbdd852ba46b9eba",
+      "sourceExpression": "same trap again",
+      "guideSentence": "The checklist helps us avoid the same trap again.",
+      "guideMeaning": "Repeat an avoidable mistake; a fixed trap metaphor.",
+      "sourcePage": 105,
+      "sourceBook": 12,
+      "sourceQuestion": 39,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3302,
+      "sourceId": "book10-16-1191",
+      "sourceRawRowSha256": "8cc12ed8a682dfe0a8a20b1bf59b377b821dba29d221d33eb3d2c9989b035ed4",
+      "decisionFile": "books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionRawRowSha256": "04f9e7903d8f19a5937faf9fe4a6072f9df9be1f28d6c3425abac79b6213be70",
+      "sourceExpression": "life can become too reactive",
+      "guideSentence": "Without a calendar, life can become too reactive.",
+      "guideMeaning": "Daily action can be driven by emergencies rather than intention; a precise planning phrase.",
+      "sourcePage": 111,
+      "sourceBook": 12,
+      "sourceQuestion": 45,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    }
+  ],
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-3174",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3244",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3302",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "authorSelfCheck": {
+    "sourceSenseAndBoundary": "Source senses, evidence limits and use boundaries are specified in the briefs and questions.",
+    "distinctSevenStepContract": "Each proposal contains listening, four-valid reply, scene, boundary, dialogue, speaking and independent writing content.",
+    "translationPairing": "English source contexts, choices, models and suggested answers have paired Traditional Chinese.",
+    "writingSupport": "Two changed-context examples and five exact answer-derived target-free glossary spans per lesson.",
+    "selectionAndRelease": "No selected manifest, source decision, release index, audio asset or SOP audit modified."
+  },
+  "independentEnglishReview": "pending",
+  "independentChineseReview": "pending",
+  "mediaReview": "pending",
+  "browserDeviceQA": "pending",
+  "releaseApproval": false,
+  "knownIssues": [
+    "Unselected hold-editorial proposals awaiting independent review."
+  ]
+}

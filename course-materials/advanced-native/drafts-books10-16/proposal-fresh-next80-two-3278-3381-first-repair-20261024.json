@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-fresh-next80-two-proposal-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-3278",
+      "number": 3278,
+      "inventoryId": "expr-3278",
+      "titleEn": "turn the home into a battlefield",
+      "titleZh": "令家裏變成爭吵不斷的地方",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:turn|turns|turned|turning) the home into a battlefield\\b",
+        "glossaryForbidden": [
+          "\\bthe home into a battlefield\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Make family life feel like constant conflict by turning ordinary rules or disagreements into repeated fights.",
+        "meaningZh": "把日常規矩或分歧變成反覆爭吵，令家庭生活充滿衝突。",
+        "grammar": "Turn the home into a battlefield is a war metaphor; the source says firm limits need not cause this.",
+        "register": "Informal parenting and household conflict.",
+        "boundaryZh": "設立明確界線不等於家裏必定爭吵；要看溝通和執行方式。",
+        "misconceptionZh": "不要把一次普通意見不合說成持續的戰場，也不要理解為真正戰爭。",
+        "outcomeZh": "能指出造成反覆衝突的做法，並提出可行的較平和替代方式。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1167",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 108,
+          "book": 12,
+          "question": 42,
+          "sample": "S2",
+          "sourceBookPages": "100–101",
+          "locatorNote": "DOCX table 112, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Firm limits need not mean turning the home into a battlefield.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "turning the home into a battlefield"
+        }
+      ],
+      "listening": {
+        "promptZh": "新做法如何改變家中的情況？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It set a clear rule without prompting another nightly fight.",
+            "zh": "它訂下清晰規則，沒有再引發每晚爭吵。"
+          },
+          {
+            "id": "b",
+            "en": "It removed every limit on phone use.",
+            "zh": "它取消了所有使用手機的限制。"
+          },
+          {
+            "id": "c",
+            "en": "It worked because the family stopped reviewing the rule.",
+            "zh": "它之所以有效，是因為家人停止檢討規則。"
+          },
+          {
+            "id": "d",
+            "en": "It replaced the weekly review with daily punishments.",
+            "zh": "它以每日懲罰取代每週檢討。"
+          }
+        ],
+        "explanationZh": "清晰規則和定期檢討減少反覆爭吵。",
+        "answerId": "a",
+        "en": "A family argued every evening about phone time. Instead of adding a new punishment each day, they agreed on a bedtime rule and a weekly review. The rule helped without turning the home into a battlefield.",
+        "zh": "一家人每晚都為使用手機的時間爭吵。他們不再每天加新懲罰，而是議定睡前規則，每週檢討一次。這規則有幫助，也沒有令家裏變成爭吵不斷的地方。"
+      },
+      "reply": {
+        "promptZh": "（議定的手機規則達到甚麼效果？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gave the family a clear expectation.",
+            "zh": "它讓家人有明確預期。"
+          },
+          {
+            "id": "b",
+            "en": "It reduced repeated evening arguments.",
+            "zh": "它減少晚間反覆爭吵。"
+          },
+          {
+            "id": "c",
+            "en": "It avoided turning the home into a battlefield.",
+            "zh": "它避免令家裏變成爭吵不斷的地方。"
+          },
+          {
+            "id": "d",
+            "en": "It allowed them to review the rule together.",
+            "zh": "它讓家人可以一起檢討規則。"
+          }
+        ],
+        "explanationZh": "四句都指出規則清晰且毋須以反覆爭吵維持。",
+        "promptEn": "What did the agreed phone rule achieve?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "兩名兄妹常為共用書桌爭執。家人訂出輪流使用時間，容許有需要時交換，之後爭執明顯減少。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A fair schedule can keep the disagreement from turning the home into a battlefield.",
+            "zh": "公平時間表可避免這分歧令家裏變成爭吵不斷的地方。"
+          },
+          {
+            "id": "b",
+            "en": "The timetable worked because neither sibling was allowed to swap times.",
+            "zh": "時間表之所以有效，是因為兄妹都不准交換時段。"
+          },
+          {
+            "id": "c",
+            "en": "The rota clarified turns, but the nightly desk arguments continued as before.",
+            "zh": "輪值表說清了先後次序，但每晚的書桌爭執仍如往常。"
+          }
+        ],
+        "explanationZh": "輪流使用和彈性交換處理分歧，不必令衝突持續。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 battlefield 誤作字面上的戰爭？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Repeated shouting can make home feel hostile.",
+            "zh": "反覆叫嚷會令家裏氣氛緊張。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase means the family is taking part in an armed conflict.",
+            "zh": "這說法表示一家人正在參與武裝衝突。"
+          },
+          {
+            "id": "c",
+            "en": "A calm discussion can support a firm limit.",
+            "zh": "平靜討論可幫助執行明確界線。"
+          }
+        ],
+        "explanationZh": "這裏以戰場比喻家庭反覆爭吵，並非真正戰爭。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「一訂規矩，家裏就一定吵個不停。」你知道另一家人用固定時間表處理共用書桌。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A firm rule need not turn the home into a battlefield; a shared desk schedule can settle repeated disputes without nightly shouting.",
+            "zh": "明確規矩不一定令家裏變成爭吵不斷的地方；共用書桌的時間表可處理反覆爭執，毋須每晚叫嚷。"
+          },
+          {
+            "id": "b",
+            "en": "A desk schedule might help the siblings.",
+            "zh": "書桌時間表可能幫助兄妹。"
+          },
+          {
+            "id": "c",
+            "en": "Rules do not always cause arguments.",
+            "zh": "規矩不一定引發爭吵。"
+          }
+        ],
+        "explanationZh": "金句保留明確界線，並說明如何減少衝突。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "A clear phone rule did not turn the home into a battlefield.",
+        "zh": "清晰的手機規則沒有令家裏變成爭吵不斷的地方。",
+        "promptZh": "先聽示範，再說出規則如何避免反覆爭吵。",
+        "targetSpan": {
+          "start": 27,
+          "end": 59
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：三名室友常為廚房清潔爭吵，其中一人建議輪值表和每週短會議。用一至兩句英文說明如何處理分歧。",
+        "selfCheckZh": "指出清潔分工和溝通方式，避免把一次小事寫成真正戰爭。",
+        "examples": [
+          {
+            "en": "A weekly cleaning rota could keep the argument from turning the home into a battlefield, because each flatmate would know their task.",
+            "zh": "每週清潔輪值表可避免這場爭執令家裏變成爭吵不斷的地方，因為每位室友都清楚自己的工作。"
+          },
+          {
+            "en": "Rather than turn the home into a battlefield over dirty dishes, the flatmates can use a short weekly meeting to adjust the rota.",
+            "zh": "室友可透過每週短會議調整輪值表，而不是為髒碗碟令家裏變成爭吵不斷的地方。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A weekly cleaning rota",
+            "zh": "每週清潔輪值表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 22
+            }
+          },
+          {
+            "en": "each flatmate",
+            "zh": "每位室友",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 110
+            }
+          },
+          {
+            "en": "their task",
+            "zh": "自己的工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 132
+            }
+          },
+          {
+            "en": "dirty dishes",
+            "zh": "髒碗碟",
+            "exampleIndex": 1,
+            "span": {
+              "start": 50,
+              "end": 62
+            }
+          },
+          {
+            "en": "a short weekly meeting",
+            "zh": "每週短會議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 86,
+              "end": 108
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A clear boundary need not turn the home into a battlefield.",
+          "zh": "清晰界線不一定令家裏變成爭吵不斷的地方。"
+        },
+        {
+          "en": "Repeated shouting can turn the home into a battlefield, even when the original issue is small.",
+          "zh": "即使原本只是小問題，反覆叫嚷也可令家裏變成爭吵不斷的地方。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3381",
+      "number": 3381,
+      "inventoryId": "expr-3381",
+      "titleEn": "gadget-heavy",
+      "titleZh": "電子設備繁多的",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bgadget-heavy\\b",
+        "glossaryForbidden": [
+          "\\bgadget-heavy\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Containing or relying on many electronic devices.",
+        "meaningZh": "配備或依賴大量電子設備。",
+        "grammar": "A hyphenated adjective before or after a noun; heavy refers to a high concentration of gadgets, not physical weight.",
+        "register": "Description of offices, rooms, vehicles or exhibitions.",
+        "boundaryZh": "電子設備多不必然難用，也不必然比簡單設計好；需要分開描述數量與易用性。",
+        "misconceptionZh": "不要把 heavy 當作設備實際重量，也不要自動推論科技過度複雜。",
+        "outcomeZh": "能指出具體設備，並另外評價使用體驗。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1270",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 118,
+          "book": 13,
+          "question": 1,
+          "sample": "S1",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 122, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Their new office is gadget-heavy but easy to use.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "gadget-heavy"
+        }
+      ],
+      "listening": {
+        "promptZh": "這間教室有甚麼特點？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It contains many electronic devices but remains easy to use.",
+            "zh": "它有很多電子設備，但仍然易用。"
+          },
+          {
+            "id": "b",
+            "en": "It has many devices, so beginners must have struggled with the controls.",
+            "zh": "它有很多設備，所以初學者一定覺得操作困難。"
+          },
+          {
+            "id": "c",
+            "en": "The devices are physically too heavy to move.",
+            "zh": "設備實際太重，無法搬動。"
+          },
+          {
+            "id": "d",
+            "en": "Beginners could not understand any control.",
+            "zh": "初學者完全看不懂操作方式。"
+          }
+        ],
+        "explanationZh": "設備多描述配置，易用性則是另一項觀察。",
+        "answerId": "a",
+        "en": "A community cooking studio added tablet-guided ovens, smart scales and motion sensors. The room looked gadget-heavy, yet beginners found the controls easy to follow.",
+        "zh": "社區烹飪教室加設平板指引焗爐、智能磅和感應器。教室看來電子設備繁多，但初學者發現操作指示很易跟上。"
+      },
+      "reply": {
+        "promptZh": "（初學者如何看待新教室？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They saw plenty of devices but could follow the controls.",
+            "zh": "他們看到很多設備，也能跟上操作。"
+          },
+          {
+            "id": "b",
+            "en": "The electronics did not prevent them from using the room.",
+            "zh": "電子設備沒有妨礙他們使用教室。"
+          },
+          {
+            "id": "c",
+            "en": "It was gadget-heavy but easy to use.",
+            "zh": "它電子設備繁多，但仍然易用。"
+          },
+          {
+            "id": "d",
+            "en": "The studio had several smart tools with clear instructions.",
+            "zh": "教室有多種智能工具，指示亦清晰。"
+          }
+        ],
+        "explanationZh": "四句都指出設備多與易用並存。",
+        "promptEn": "How did the beginners experience the new studio?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一間酒店房有智能窗簾、平板燈光控制和語音助理，但入住者需要半小時才學會操作。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The room is gadget-heavy, and its controls take time to learn.",
+            "zh": "房間電子設備繁多，操作需要時間學習。"
+          },
+          {
+            "id": "b",
+            "en": "The half-hour learning period shows the controls are intuitive for first-time guests.",
+            "zh": "花半小時學習操作，顯示首次入住的客人能直覺使用。"
+          },
+          {
+            "id": "c",
+            "en": "The room is gadget-heavy mainly because its furniture is physically weighty.",
+            "zh": "房間之所以電子設備繁多，主要是因為傢俬實際很重。"
+          }
+        ],
+        "explanationZh": "指出設備多，也忠實反映學習成本。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句誤解了 heavy 在這裏的意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The vehicle has many built-in screens and sensors.",
+            "zh": "車上有很多內置屏幕和感應器。"
+          },
+          {
+            "id": "b",
+            "en": "Each gadget must weigh several kilograms.",
+            "zh": "每件設備一定重達數公斤。"
+          },
+          {
+            "id": "c",
+            "en": "The number of devices says nothing by itself about usability.",
+            "zh": "單憑設備數目，無法判斷是否易用。"
+          }
+        ],
+        "explanationZh": "gadget-heavy 指電子設備繁多，而不是每件設備很重。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事問：「新會議室看來很 gadget-heavy，一定很難用吧？」你知道設備有清晰標籤和簡單指引。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is gadget-heavy, with several screens and microphones, but clear labels make the controls straightforward.",
+            "zh": "會議室電子設備繁多，有多個屏幕和咪高峰，但清晰標籤令操作簡單。"
+          },
+          {
+            "id": "b",
+            "en": "The room has several screens.",
+            "zh": "房間有多個屏幕。"
+          },
+          {
+            "id": "c",
+            "en": "The controls have clear labels.",
+            "zh": "操作裝置有清晰標籤。"
+          }
+        ],
+        "explanationZh": "金句指出設備數量，並把易用性分開評價。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The cooking studio was gadget-heavy, yet the controls remained simple.",
+        "zh": "烹飪教室電子設備繁多，但操作仍然簡單。",
+        "promptZh": "先聽示範，再說出哪兩項描述可以同時成立。",
+        "targetSpan": {
+          "start": 23,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：流動科學展覽車配備互動屏幕、感應器和電子顯微鏡；導覽員會逐步示範，小學生也能完成活動。用一至兩句英文介紹展覽車。",
+        "selfCheckZh": "列出具體電子設備，並另外說明逐步示範如何影響易用性；不要只憑設備數量斷言難用。",
+        "examples": [
+          {
+            "en": "The mobile science exhibit is gadget-heavy, with interactive screens and sensors, but a guide demonstrates each step for pupils.",
+            "zh": "流動科學展覽車電子設備繁多，有互動屏幕和感應器，但導覽員會向學生逐步示範。"
+          },
+          {
+            "en": "Although the display is gadget-heavy, pupils can use the digital microscope after a short guided demonstration.",
+            "zh": "展覽電子設備雖然繁多，學生在簡短導覽示範後也能使用電子顯微鏡。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "interactive screens",
+            "zh": "互動屏幕",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 68
+            }
+          },
+          {
+            "en": "sensors",
+            "zh": "感應器",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 80
+            }
+          },
+          {
+            "en": "each step",
+            "zh": "每一步",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 116
+            }
+          },
+          {
+            "en": "the digital microscope",
+            "zh": "電子顯微鏡",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 75
+            }
+          },
+          {
+            "en": "a short guided demonstration",
+            "zh": "簡短導覽示範",
+            "exampleIndex": 1,
+            "span": {
+              "start": 82,
+              "end": 110
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A gadget-heavy room can still be easy to use if its controls are clear.",
+          "zh": "電子設備繁多的房間若操作清晰，仍可易於使用。"
+        },
+        {
+          "en": "The coach was gadget-heavy, with several screens that passengers could turn off.",
+          "zh": "這輛長途巴士電子設備繁多，設有多個乘客可關閉的屏幕。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

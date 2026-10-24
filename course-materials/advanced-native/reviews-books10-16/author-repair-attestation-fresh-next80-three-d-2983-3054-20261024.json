@@ -1,0 +1,40 @@
+{
+  "kind": "exact-hash-focused-editorial-repair",
+  "priorProposalSha256": "ef74d823a6251d6e72e32aee5b3ce4eca5d20fa41662426e741bd7a2b52ec6f3",
+  "independentReviewSha256": "78ce1cf88e19013bcaabb2cd63e56fd5eece5d6c787af052c451d93484851dd5",
+  "repairedProposalSha256": "f8d6c07b57ebdade5d15e55a44cac9c56797057e74c37513a1b6745bc95045d2",
+  "changes": [
+    {
+      "lesson": 2983,
+      "fields": [
+        ".scene.options[1].zh",
+        ".scene.options[1].en",
+        ".scene.options[2].zh",
+        ".scene.options[2].en"
+      ]
+    },
+    {
+      "lesson": 3000,
+      "fields": [
+        ".scene.options[1].zh",
+        ".scene.options[1].en",
+        ".scene.options[2].zh",
+        ".scene.options[2].en",
+        ".scene.promptZh"
+      ]
+    },
+    {
+      "lesson": 3054,
+      "fields": [
+        ".scene.explanationZh",
+        ".scene.options[1].zh",
+        ".scene.options[1].en",
+        ".scene.options[2].zh",
+        ".scene.options[2].en"
+      ]
+    }
+  ],
+  "selectionChanged": false,
+  "focusedReviewSha256": "0d8e0aa222b1eaa5937df0600fe03b35a3f860c9fa07c02fb12894d61c2504c9",
+  "focusedReviewFinding": "3000 scene stem did not establish employee preference; added explicit reaction."
+}

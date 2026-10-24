@@ -1,0 +1,96 @@
+{
+  "kind": "independent-exact-hash-proposal-editorial-review",
+  "date": "2026-10-24",
+  "binding": {
+    "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-three-e-3156-3300-20261024.json",
+    "proposalSha256": "993956b83402bace3fff2fbd4d6133959b4247ce0c03d77a264c036f09deed67",
+    "authorQaFile": "course-materials/advanced-native/reviews-books10-16/author-qa-fresh-next80-three-e-3156-3300-20261024.json",
+    "authorQaSha256": "dd8b6a808b2255d6f57f52bebf2463ee3924799449840760c06c74d64d24686d",
+    "originalityReportFile": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-fresh-next80-three-e-3156-3300-20261024.json",
+    "originalityReportSha256": "d5e3681e96ad09e1dd7f47502a21a31da4eecbc0bfadc5da560487a187b19f20",
+    "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "counts": {
+    "lessons": 3,
+    "steps": 21,
+    "assessedQuestions": 18,
+    "audioRequestsInIsolatedBuild": 12,
+    "blockingIssues": 4,
+    "advisories": 1
+  },
+  "sharedChecks": {
+    "sourceTargetMeaning": "pass for all three, including source-normalized fit the person",
+    "isolatedBuildAndCheck": "pass; zero schema or build review flags",
+    "fourValidReplies": "pass; four defensible replies and exactly one target-bearing golden reply per lesson",
+    "listeningKeysAndChineseCore": "pass",
+    "glossarySpansAndTargetFree": "pass for all fifteen glossary entries",
+    "speakingTargetSpans": "pass",
+    "originality": "author screen has no substantial source overlap; no source-example borrowing beyond target found in spot-check"
+  },
+  "rows": [
+    {
+      "ordinal": 3156,
+      "sourceId": "book10-16-1045",
+      "sourceSentence": "Her patience showed a quiet kind of strength during the delay.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3132-3191.jsonl",
+      "decisionFileSha256": "4dadc97300a549e8bdf5be89fc135cdf75bd0cbb1328631265e1298419427eca",
+      "decisionRawRowSha256": "1170f1745b5ee247e33d7ae24de550bb0e84f5e643fecf3155bb0d3de6b1f90c",
+      "verdict": "block-targeted-scene-repair",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "B says the volunteer stopped as soon as the hospital became busy, while the stem says she kept helping through a busy day. C says her help had no effect merely because she did not ask for praise. Both contradict stated facts or add a non sequitur, so the question does not seriously test the quiet-strength sense.",
+          "repair": "Use two plausible partial readings of the same prolonged hospital help: one captures practical directions but misses sustained patience, and another notices calmness but understates the active help. Keep A uniquely complete and English/Chinese aligned."
+        }
+      ],
+      "advisories": [
+        {
+          "field": "writing.examples[1].en/.zh",
+          "finding": "The model adds 'for hours' / 花幾小時 although the writing prompt says only until service resumed. Prefer 'through the interruption' or another duration supported by the prompt."
+        }
+      ]
+    },
+    {
+      "ordinal": 3190,
+      "sourceId": "book10-16-1079",
+      "sourceSentence": "Useful advice has to fit the person receiving it.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3132-3191.jsonl",
+      "decisionFileSha256": "4dadc97300a549e8bdf5be89fc135cdf75bd0cbb1328631265e1298419427eca",
+      "decisionRawRowSha256": "32aeeebced7483e94570ae87736530bcb332bd59103a14533b252e276729f59c",
+      "verdict": "block-targeted-scene-repair",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "B invents unlimited video download access despite the student's unreliable connection; that possibility could even make the video plan suitable if available. C jumps from one offline student to the obviously false claim that notes are best for everyone. The distractors should instead probe the specific student-fit inference without introducing a potentially valid alternate solution.",
+          "repair": "Keep the student's unstable network and offline notes in both near misses, but make them incomplete: e.g. focus on offline access without explaining why it suits this student, or assume the original video is suitable merely because it suits classmates. Do not invent download capability."
+        }
+      ],
+      "advisories": []
+    },
+    {
+      "ordinal": 3300,
+      "sourceId": "book10-16-1189",
+      "sourceSentence": "Writers should pay attention to nuance in word choice.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionFileSha256": "95880f36ad71d4d15ab06f63b854387c1bf6964f152a90841020581c781f295d",
+      "decisionRawRowSha256": "b73dd0b520d1e34626917ec58429402b2b9208fa9952c31c88325fecd751f74b",
+      "verdict": "block-targeted-scene-and-writing-repair",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "B says the formality difference cannot matter; C claims the formal wording proves less sincere regret. Both are conspicuous absolute claims, while the stem already states the two wordings differ in formality. The set tests rejection of absolutes more than attention to a subtle tone difference.",
+          "repair": "Use two plausible close readings grounded in sorry versus I regret the inconvenience: one notices shared apology but overlooks formal register, and one notices formality but overstates how much the underlying apology changes. Avoid cannot/proves absolutes."
+        },
+        {
+          "field": "writing.examples[0,1].en/.zh",
+          "finding": "The writing prompt assigns the edit to a school 主任, but model 1 changes the actor to principal/校長. Model 2 says the notice itself 'paid attention to nuance', although an editor or school officer does so; its Chinese similarly assigns attention to the notice.",
+          "repair": "Keep the prompt's school officer as the actor in model 1 and both translations. In model 2, make a person notice the nuance or say the revised notice reflects careful attention to nuance; update any affected glossary spans."
+        }
+      ],
+      "advisories": []
+    }
+  ],
+  "overallVerdict": "block-until-three-scene-foil-sets-and-3300-writing-agency-are-repaired; unselected",
+  "releaseState": "Review only; selected lessons, decisions, media, assessment database, and live site were not changed."
+}

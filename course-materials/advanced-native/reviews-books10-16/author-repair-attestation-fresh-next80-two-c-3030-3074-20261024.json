@@ -1,0 +1,44 @@
+{
+  "kind": "exact-hash-focused-editorial-repair",
+  "priorProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-c-3030-3074-pre-repair-20261024.json",
+  "priorProposalSha256": "5db989a702619c3bad2329c947a65c7691952639ec2f740ff4a04fd0d9253216",
+  "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-review-fresh-next80-two-c-3030-3074-20261024.json",
+  "independentReviewSha256": "04b74c3c3a9c164f0ee9c4da73fa29b88df9d2be515fb7a9ddd297b1c6ee379d",
+  "repairedProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-c-3030-3074-20261024.json",
+  "repairedProposalSha256": "6feb58de26c2938f20dcb5a59b07e6f89db28fbe787394e80aee5993b33bc873",
+  "changes": [
+    {
+      "lesson": 3030,
+      "fields": [
+        ".scene.explanationZh",
+        ".scene.options[1].zh",
+        ".scene.options[1].en",
+        ".scene.options[2].zh",
+        ".scene.options[2].en"
+      ]
+    },
+    {
+      "lesson": 3074,
+      "fields": [
+        ".listening.zh",
+        ".brief.misconceptionZh",
+        ".brief.boundaryZh",
+        ".writing.examples[0].zh",
+        ".writing.examples[0].en",
+        ".writing.examples[1].zh",
+        ".writing.glossary[0].en",
+        ".writing.glossary[0].zh",
+        ".writing.glossary[0].span.end",
+        ".writing.glossary[1].span.end",
+        ".writing.glossary[1].span.start",
+        ".writing.glossary[2].span.end",
+        ".writing.glossary[2].span.start",
+        ".scene.options[1].zh",
+        ".scene.options[1].en",
+        ".scene.options[2].zh",
+        ".scene.options[2].en"
+      ]
+    }
+  ],
+  "selectionChanged": false
+}

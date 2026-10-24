@@ -1,4 +1,4 @@
-import importedIndex from './advanced-imported.generated.mjs?v=20261016-full-course-v1';
+import importedIndex from './advanced-imported.generated.mjs?v=20261024-books10-16-730';
 
 // Keep full lesson payloads out of the shared catalogue. Successful shards are
 // cached; failed fetches can be retried without retaining a rejected promise.

@@ -1,0 +1,159 @@
+{
+  "kind": "independent-hash-bound-proposal-review",
+  "date": "2026-10-24",
+  "scope": "Five unselected source-bound seven-step owner proposals; no selection, decision or release mutation",
+  "binding": {
+    "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-five-c-2328-2765-20261024.json",
+    "proposalSha256": "830a3303b655c609abf6d05495aea77101bd944d4eacc3a93409fe64be7765a1",
+    "authorQaFile": "course-materials/advanced-native/reviews-books10-16/author-qa-current-next80-five-c-2328-2765-20261024.json",
+    "authorQaSha256": "2d4d6dc2aeed8a8067a972bd309d30e2b815a578ae3b64b7494976c625157aa9",
+    "originalityFile": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-current-next80-five-c-2328-2765-20261024.json",
+    "originalitySha256": "4610270b1011489e91a278c58c9c60a206c5ec9c407478f6bfcfd1ed8a7d89e0",
+    "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "counts": {
+    "lessons": 5,
+    "steps": 35,
+    "assessedQuestions": 30,
+    "blockingIssues": 4,
+    "advisories": 1,
+    "blockedLessons": 3
+  },
+  "overallVerdict": "block-until-targeted-repair",
+  "rows": [
+    {
+      "ordinal": 2328,
+      "sourceId": "book10-16-0217",
+      "sourceSentence": "The gap is probably smaller than stereotypes suggest once we compare real choices.",
+      "sourceRawRowSha256": "1bb1725edbc8ab1cf020fa191a2901f30e12afefd5c68f49ac73e440b2c9e52f",
+      "decision": {
+        "file": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+        "fileSha256": "7677a373b2e944cbd296f26cfbea6613407b69a729f712667a28a1b43bbae932",
+        "rawRowSha256": "352b183a0244557a21ffde86f632c4506f75379307f79c4b04efd87f62f822db",
+        "action": "hold-editorial"
+      },
+      "lessonCanonicalSha256": "717bf30801c78fa95d43f6f16e198b9b6acb6fe0436172115530a1ee3a6eb337",
+      "sevenStepsPresent": true,
+      "fourReplyOptions": true,
+      "twoWritingModels": true,
+      "glossarySpansAndTargetExclusion": "pass",
+      "verdict": "block",
+      "blockers": [
+        {
+          "field": "writing.promptZh / writing.examples",
+          "type": "changed-context-transfer",
+          "finding": "The writing task reuses the new-student versus final-year-student survey context already used in scene and dialogue. It is labelled a new scenario but does not test transfer to a different domain.",
+          "repair": "Use an actually different pair and decision domain, with both English models and Chinese translations adjusted."
+        },
+        {
+          "field": "writing.examples[1]",
+          "type": "self-check-omission",
+          "finding": "The prompt and self-check require a shared choice AND a remaining difference. Model 2 names the shared adjustable schedule and need for a larger trial, but gives no remaining difference.",
+          "repair": "Include the specified residual difference in model 2, or revise the writing task and self-check coherently."
+        }
+      ],
+      "advisories": []
+    },
+    {
+      "ordinal": 2515,
+      "sourceId": "book10-16-0404",
+      "sourceSentence": "Friendship runs on care, not convenience.",
+      "sourceRawRowSha256": "2d17e19dcb2484bc23b5c2cf672b2e749a25d98c15c5ecf8d38588befde95a8c",
+      "decision": {
+        "file": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+        "fileSha256": "b01fc30530d11161cf467e0146e43d720e1bdf886072b3459b1e52ee454d4296",
+        "rawRowSha256": "47d5d5adc54d639cb571e4f5669a0a0456c713fe70bf176762ff68f1d0752513",
+        "action": "hold-editorial"
+      },
+      "lessonCanonicalSha256": "4085f38d30868dad92ce4526c42dc18c5d62ee7543975bd520b73ff59d7dfefa",
+      "sevenStepsPresent": true,
+      "fourReplyOptions": true,
+      "twoWritingModels": true,
+      "glossarySpansAndTargetExclusion": "pass",
+      "verdict": "pass",
+      "blockers": [],
+      "advisories": []
+    },
+    {
+      "ordinal": 2695,
+      "sourceId": "book10-16-0584",
+      "sourceSentence": "A cheaper subscription makes the official route easier.",
+      "sourceRawRowSha256": "f5d45540abf930c7e820ab9e8b7be127011c1fb3a22a78d2a7033b05e2c080be",
+      "decision": {
+        "file": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+        "fileSha256": "3315242d21da48007bb341992c40684b2e1c03cf37b7b1eccd3a21f02252dd5a",
+        "rawRowSha256": "cb3bc0b0b2bfd825b6ea6152d3f8dfc0e0e1d25cf51cf45d39acd984235d311d",
+        "action": "hold-editorial"
+      },
+      "lessonCanonicalSha256": "e57b920b35542a209a6d9bbdf5d524e609906b3920738c148379274294694fe4",
+      "sevenStepsPresent": true,
+      "fourReplyOptions": true,
+      "twoWritingModels": true,
+      "glossarySpansAndTargetExclusion": "pass",
+      "verdict": "pass-with-advisory",
+      "blockers": [],
+      "advisories": [
+        {
+          "field": "scene.options[a].en / .zh",
+          "finding": "English “more accessible” describes access broadly, while Chinese “更易負擔” specifies affordability. The price-based scene supports both, but the translation should match the English claim more closely."
+        }
+      ]
+    },
+    {
+      "ordinal": 2720,
+      "sourceId": "book10-16-0609",
+      "sourceSentence": "Short videos can dominate the scroll for weeks.",
+      "sourceRawRowSha256": "c24e34dbbba904c08a6422855507ace0451c4f8a61e12318efa06f7c81ac6fa2",
+      "decision": {
+        "file": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+        "fileSha256": "8aad95442c55441751afd076867dcd2b8525198d0e21cdce8f7ad318d7ce3e21",
+        "rawRowSha256": "39728b55e551da97745ade3cf4e829357caf4aa1d15114b6e34d28a711384251",
+        "action": "hold-editorial"
+      },
+      "lessonCanonicalSha256": "0d5f168802a136bd7fe3b1e37b57a6c1d2686ade8404b637dc01c3089fcf60bb",
+      "sevenStepsPresent": true,
+      "fourReplyOptions": true,
+      "twoWritingModels": true,
+      "glossarySpansAndTargetExclusion": "pass",
+      "verdict": "block",
+      "blockers": [
+        {
+          "field": "writing.examples[1]",
+          "type": "prompt-fidelity",
+          "finding": "The prompt says transport notices continue to be posted as usual (仍照常發布), but the model says transport updates “appeared less often.” That introduces a frequency decline absent from, and potentially at odds with, the prompt.",
+          "repair": "Say they remained available but were less prominent amid the market content, in matching English and Chinese."
+        }
+      ],
+      "advisories": []
+    },
+    {
+      "ordinal": 2765,
+      "sourceId": "book10-16-0654",
+      "sourceSentence": "The long journey risks turning the whole evening into a mission.",
+      "sourceRawRowSha256": "96e1437a5f9845a4954af8a690ba67c80e53d4643a358b0a0fb8a1ef62ff64e7",
+      "decision": {
+        "file": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+        "fileSha256": "8aad95442c55441751afd076867dcd2b8525198d0e21cdce8f7ad318d7ce3e21",
+        "rawRowSha256": "20031bdd40d5566c5e9b82e0066a85ff62de8a23de1e96522f0949aa6e762220",
+        "action": "hold-editorial"
+      },
+      "lessonCanonicalSha256": "4837955ccd5a3ced982a43104cc17e4966e370ff65ba02ff136a86395fc79f06",
+      "sevenStepsPresent": true,
+      "fourReplyOptions": true,
+      "twoWritingModels": true,
+      "glossarySpansAndTargetExclusion": "pass",
+      "verdict": "block",
+      "blockers": [
+        {
+          "field": "reply.options[b].en / .zh",
+          "type": "listening-fact-mismatch",
+          "finding": "The listening model specifies two trains and then a late bus. The reply option says “Two train changes” / “兩次轉車,” which normally implies more transfers between trains than supported. This undermines one of the four supposedly valid reply choices.",
+          "repair": "Use “Two trains and a late bus make the outing demanding” and align the Chinese, or state exact transfers in the model."
+        }
+      ],
+      "advisories": []
+    }
+  ],
+  "integrity": "Source sentences and expressions match exact inventory rows; all five source decisions remain hold-editorial; four replies and two writing models exist per lesson; every writing glossary span resolves to model text and excludes target; author QA and originality reports were examined by exact hash. Independent editorial blockers still require author repair."
+}

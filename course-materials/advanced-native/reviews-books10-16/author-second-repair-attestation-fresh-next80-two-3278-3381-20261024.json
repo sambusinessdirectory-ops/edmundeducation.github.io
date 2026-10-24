@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "exact-hash-second-focused-editorial-repair-unselected",
+  "priorProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-3278-3381-first-repair-20261024.json",
+  "priorProposalSha256": "35a3f4e9a816542b970ed051abf94218a8ee61a6f12a8dced1e06e23d4b57dda",
+  "firstFocusedReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-focused-rereview-fresh-next80-two-3278-3381-20261024.json",
+  "firstFocusedReviewSha256": "c608cdc7aff0bd18ec6a07aed8e0c47f92d59a0aab7bd8a17d9d5dad3f75609e",
+  "repairedProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-3278-3381-20261024.json",
+  "repairedProposalSha256": "3c60d64c6cc6bb7741c821e868afbdc9fe247af9911a24e716ea1d1aaeb8f731",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-fresh-next80-two-3278-3381-20261024.json",
+  "authorQaSha256": "4fccef3c9c990f362a09b527869c47c1edb9d44136c2142721a56cad591157d8",
+  "originalityPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-fresh-next80-two-3278-3381-20261024.json",
+  "originalitySha256": "87c61432ee4326056c1e0499f7540bb450959e6d107a5d8f7a6920075d442d84",
+  "changes": [
+    {
+      "lesson": 3381,
+      "field": ".scene.options[2].en",
+      "old": "The room is gadget-heavy mainly because its furniture is physically weighty.",
+      "new": "The room has several gadgets, but they are only decorative and do not control its features."
+    },
+    {
+      "lesson": 3381,
+      "field": ".scene.options[2].zh",
+      "old": "房間之所以電子設備繁多，主要是因為傢俬實際很重。",
+      "new": "房間有多件電子設備，但它們只是裝飾，並不能控制房間功能。"
+    }
+  ],
+  "selectionAndReleaseUnchanged": true,
+  "focusedIndependentRereview": "pending"
+}

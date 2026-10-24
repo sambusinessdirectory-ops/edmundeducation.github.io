@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-fresh-next80-two-b-proposal-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-2897",
+      "number": 2897,
+      "inventoryId": "expr-2897",
+      "titleEn": "a steady adult presence",
+      "titleZh": "穩定陪伴孩子的成年人",
+      "category": "natural",
+      "target": {
+        "pattern": "\\ba steady adult presence\\b",
+        "glossaryForbidden": [
+          "\\bsteady adult presence\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A reliable adult who remains involved over time, helping a child feel supported and secure.",
+        "meaningZh": "一名長期可靠地參與孩子生活的成年人，讓孩子感到有人支持並有安全感。",
+        "grammar": "Presence here means continuing personal availability and attention, not merely standing in a room.",
+        "register": "Parenting, mentoring and youth support.",
+        "boundaryZh": "可由家長、導師或其他可信任成年人提供，不必是同一名成年人每分每秒都在場。",
+        "misconceptionZh": "一次熱心探訪未必等於長期穩定的陪伴；也不代表孩子不能有其他支持。",
+        "outcomeZh": "能分辨持續可靠的支持與一次性的幫助。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0786",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 73,
+          "book": 12,
+          "question": 2,
+          "sample": "S2",
+          "sourceBookPages": "6–9",
+          "locatorNote": "DOCX table 72, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A steady adult presence helps children feel secure.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "steady adult presence"
+        }
+      ],
+      "listening": {
+        "promptZh": "瑪雅的支持有甚麼特點？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She showed up regularly and remembered each child’s work.",
+            "zh": "她定期到場，也記得每個孩子的作品。"
+          },
+          {
+            "id": "b",
+            "en": "She visited only once and forgot their names.",
+            "zh": "她只探訪一次，便忘了他們的名字。"
+          },
+          {
+            "id": "c",
+            "en": "She gave a gift but never spoke to the children.",
+            "zh": "她送了禮物，卻從不跟孩子說話。"
+          },
+          {
+            "id": "d",
+            "en": "She replaced every other adult in their lives.",
+            "zh": "她取代了孩子生活中的所有其他成年人。"
+          }
+        ],
+        "explanationZh": "定期出現和記得孩子的事，顯示可靠而持續的支持。",
+        "answerId": "a",
+        "en": "At the after-school art club, Maya met the same children every Tuesday, remembered their projects and checked how they were doing after class. Maya offered a steady adult presence that helped them feel secure.",
+        "zh": "在課後藝術小組，瑪雅每星期二都見同一群孩子，記得他們的作品，也在課後問候近況。瑪雅持續陪伴孩子，讓他們感到安心。"
+      },
+      "reply": {
+        "promptZh": "（孩子在藝術小組為何感到安心？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They could rely on Maya each week.",
+            "zh": "他們每週都能依靠瑪雅。"
+          },
+          {
+            "id": "b",
+            "en": "Maya noticed how their projects were going.",
+            "zh": "瑪雅留意他們的作品進展。"
+          },
+          {
+            "id": "c",
+            "en": "They had a steady adult presence.",
+            "zh": "他們有一名成年人穩定陪伴。"
+          },
+          {
+            "id": "d",
+            "en": "The same supportive mentor kept returning.",
+            "zh": "同一位支持他們的導師持續回來。"
+          }
+        ],
+        "explanationZh": "四句都指出支持不是一次性的，而是持續可靠。",
+        "promptEn": "Why did the children feel secure at the art club?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一名轉校學生每週與同一位輔導員短談；輔導員記得上週談過的困難，也在需要時跟進。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The counsellor provides a steady adult presence during the transition.",
+            "zh": "輔導員在轉校期間提供穩定的成年人陪伴。"
+          },
+          {
+            "id": "b",
+            "en": "The counsellor gave one helpful introduction but did not keep in touch.",
+            "zh": "輔導員作過一次有幫助的介紹，但之後沒有保持聯絡。"
+          },
+          {
+            "id": "c",
+            "en": "The weekly meetings were routine, with no attention to the student’s earlier concerns.",
+            "zh": "每週會面只是例行公事，沒有留意學生先前的疑慮。"
+          }
+        ],
+        "explanationZh": "定期短談和後續跟進呈現持續可靠的支持。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 steady 誤解為「完全不用調整」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A reliable adult can adapt the kind of help a child needs.",
+            "zh": "可靠的成年人可按孩子需要調整協助方式。"
+          },
+          {
+            "id": "b",
+            "en": "Steady means giving exactly the same advice every time, even when circumstances change.",
+            "zh": "穩定就是不論情況如何轉變，每次都給完全相同的建議。"
+          },
+          {
+            "id": "c",
+            "en": "A mentor may stay involved while listening to new concerns.",
+            "zh": "導師可持續參與，同時聆聽新出現的疑慮。"
+          }
+        ],
+        "explanationZh": "steady 指可靠而持續，不是僵化重複同一做法。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「有位嘉賓來過學校一次，算不算 steady adult presence？」你知道學生每週仍由班主任跟進。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The guest’s visit may help, but a steady adult presence comes from someone like the teacher who keeps checking in each week.",
+            "zh": "嘉賓探訪可能有幫助，但穩定的成年人陪伴來自班主任這類每週持續跟進的人。"
+          },
+          {
+            "id": "b",
+            "en": "The guest may have been encouraging.",
+            "zh": "嘉賓可能帶來鼓勵。"
+          },
+          {
+            "id": "c",
+            "en": "The teacher speaks to students every week.",
+            "zh": "班主任每週都與學生交談。"
+          }
+        ],
+        "explanationZh": "金句尊重一次幫助，同時分清持續跟進的意義。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Maya offered a steady adult presence by meeting the children every week.",
+        "zh": "瑪雅每週與孩子見面，提供穩定的成年人陪伴。",
+        "promptZh": "先聽示範，再說出她支持孩子的頻率。",
+        "targetSpan": {
+          "start": 13,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名孩子搬到另一個城市後，阿姨每逢星期日視像通話，記得孩子先前擔心的新學校問題，也會問候情況有否改善。用一至兩句英文說明這種支持。",
+        "selfCheckZh": "指出阿姨定期聯絡並記得孩子的疑慮；她不必住在同一城市，也不代表全天候待命。",
+        "examples": [
+          {
+            "en": "Even from another city, the aunt offers a steady adult presence through Sunday calls and follow-up about the new school.",
+            "zh": "即使身在另一個城市，阿姨仍透過星期日通話和對新學校的跟進，提供穩定的成年人陪伴。"
+          },
+          {
+            "en": "Her regular video calls give the child a steady adult presence during the move, because she remembers his worries and checks what has changed.",
+            "zh": "搬遷期間，阿姨定期視像通話，記得孩子的憂慮並問候情況有何變化，讓孩子得到穩定的成年人陪伴。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "another city",
+            "zh": "另一個城市",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 22
+            }
+          },
+          {
+            "en": "Sunday calls",
+            "zh": "星期日通話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 84
+            }
+          },
+          {
+            "en": "the new school",
+            "zh": "新學校",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 119
+            }
+          },
+          {
+            "en": "regular video calls",
+            "zh": "定期視像通話",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 23
+            }
+          },
+          {
+            "en": "his worries",
+            "zh": "孩子的憂慮",
+            "exampleIndex": 1,
+            "span": {
+              "start": 102,
+              "end": 113
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A steady adult presence can come from a mentor who checks in consistently.",
+          "zh": "穩定的成年人陪伴可來自持續問候的導師。"
+        },
+        {
+          "en": "One inspiring visit is helpful, but a steady adult presence takes time.",
+          "zh": "一次鼓舞人心的探訪有幫助，但穩定的成年人陪伴需要時間。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3029",
+      "number": 3029,
+      "inventoryId": "expr-3029",
+      "titleEn": "have both a conscience and a backbone",
+      "titleZh": "既有良知也有堅持原則的勇氣",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:have|has|had|having) both a conscience and a backbone\\b",
+        "glossaryForbidden": [
+          "\\bboth a conscience and a backbone\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Combine ethical awareness of what is right with the courage to act on it under pressure.",
+        "meaningZh": "既能察覺甚麼做法合乎道德，也有勇氣在壓力下依原則行事。",
+        "grammar": "Conscience names moral judgement; backbone is figurative firmness. The pair requires both, not just kindness or stubbornness.",
+        "register": "Leadership and ethical decisions.",
+        "boundaryZh": "有良知不等於每個決定都容易；有骨氣也不等於不聽證據或拒絕妥協。",
+        "misconceptionZh": "不要把只會同情但不行動，或只會強硬卻不顧對錯的人，都稱為兼備兩者。",
+        "outcomeZh": "能指出一項道德關注，以及在壓力下採取的具體正確行動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0918",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 85,
+          "book": 12,
+          "question": 16,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 86, row 14; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good leaders have both a conscience and a backbone.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "have both a conscience and a backbone"
+        }
+      ],
+      "listening": {
+        "promptZh": "主管的決定兼顧了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She noticed a risk to customers and acted despite sales pressure.",
+            "zh": "她留意到顧客風險，並在銷售壓力下採取行動。"
+          },
+          {
+            "id": "b",
+            "en": "She ignored the missing ingredient to protect sales.",
+            "zh": "她為保住銷售而無視漏列成分。"
+          },
+          {
+            "id": "c",
+            "en": "She stopped all sales without checking the label.",
+            "zh": "她沒有核對標籤就停止所有銷售。"
+          },
+          {
+            "id": "d",
+            "en": "She cared only about the shop’s reputation.",
+            "zh": "她只關心店舖聲譽。"
+          }
+        ],
+        "explanationZh": "察覺顧客風險是良知；頂住忙碌壓力改正錯誤則需勇氣。",
+        "answerId": "a",
+        "en": "A shop supervisor found that a cake label left out a nut ingredient. Even though the weekend sale was busy, she stopped the sale and corrected the label. Her decision showed she had both a conscience and a backbone.",
+        "zh": "一名店舖主管發現蛋糕標籤漏列堅果成分。雖然週末生意繁忙，她仍暫停售賣並改正標籤。她的決定顯示她既有良知，也有堅持原則的勇氣。"
+      },
+      "reply": {
+        "promptZh": "（主管表現了哪兩項品質？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She recognised a safety problem and dealt with it.",
+            "zh": "她辨識安全問題並處理。"
+          },
+          {
+            "id": "b",
+            "en": "She protected customers despite commercial pressure.",
+            "zh": "她在商業壓力下保障顧客。"
+          },
+          {
+            "id": "c",
+            "en": "She had both a conscience and a backbone.",
+            "zh": "她既有良知，也有堅持原則的勇氣。"
+          },
+          {
+            "id": "d",
+            "en": "She made the ethical choice and stood by it.",
+            "zh": "她作出合乎道德的選擇，並堅持到底。"
+          }
+        ],
+        "explanationZh": "四句都涵蓋道德判斷和頂住壓力採取行動。",
+        "promptEn": "What qualities did the supervisor show?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "慈善活動負責人發現募款數字被誇大。公開更正會令活動延誤，但她核實後仍向捐款人說明。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has both a conscience and a backbone: she checks the figures and corrects them openly.",
+            "zh": "她既有良知，也有堅持原則的勇氣：她核對數字並公開更正。"
+          },
+          {
+            "id": "b",
+            "en": "She cared about donors but planned to delay any public correction until after the event.",
+            "zh": "她關心捐款人，卻打算把公開更正延至活動結束後。"
+          },
+          {
+            "id": "c",
+            "en": "She acted decisively by announcing a correction before checking whether the figures were wrong.",
+            "zh": "她在未核實數字是否有誤前便宣布更正，表現得果斷。"
+          }
+        ],
+        "explanationZh": "核實數字表現道德關注，公開更正則需要勇氣。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句誤把 backbone 當作固執？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Courage can include admitting a mistake and correcting it.",
+            "zh": "勇氣可以包括承認錯誤並改正。"
+          },
+          {
+            "id": "b",
+            "en": "Having a backbone means refusing all evidence and never changing any decision.",
+            "zh": "有骨氣就是拒絕所有證據，永不改變任何決定。"
+          },
+          {
+            "id": "c",
+            "en": "A principled person can still listen carefully.",
+            "zh": "堅持原則的人仍可細心聆聽。"
+          }
+        ],
+        "explanationZh": "backbone 是按原則行事的勇氣，不是拒絕證據。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「主管知道標籤漏列堅果，但週末太忙，先照賣吧。」你知道顧客可能受到影響。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A good supervisor has both a conscience and a backbone: she protects customers by pausing sales and fixing the label, even when the shop is busy.",
+            "zh": "好主管既有良知，也有堅持原則的勇氣：即使店舖繁忙，她仍暫停售賣並修正標籤，以保障顧客。"
+          },
+          {
+            "id": "b",
+            "en": "The label should list the nuts.",
+            "zh": "標籤應列出堅果。"
+          },
+          {
+            "id": "c",
+            "en": "The weekend sale is busy.",
+            "zh": "週末生意繁忙。"
+          }
+        ],
+        "explanationZh": "金句指出道德風險與頂住壓力的具體行動。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The supervisor had both a conscience and a backbone when she corrected the cake label despite pressure.",
+        "zh": "主管在壓力下仍改正蛋糕標籤，顯示她既有良知，也有堅持原則的勇氣。",
+        "promptZh": "先聽示範，再說出她在甚麼壓力下仍採取行動。",
+        "targetSpan": {
+          "start": 15,
+          "end": 51
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區活動廳準備舉辦大型節目，工作人員為了方便把物資箱放在無障礙入口前。負責人發現這會妨礙輪椅使用者，儘管同事反對，她仍要求搬走箱子。用一至兩句英文評價其決定。",
+        "selfCheckZh": "指出無障礙通道的需要，以及負責人在同事反對下仍採取的行動；不要聲稱已有意外發生。",
+        "examples": [
+          {
+            "en": "The coordinator has both a conscience and a backbone: she protects wheelchair access by moving supplies despite objections from the event team.",
+            "zh": "負責人既有良知，也有堅持原則的勇氣：儘管活動團隊反對，她仍搬走物資，保障輪椅使用者出入。"
+          },
+          {
+            "en": "When the team wanted to keep boxes at the entrance, she showed she had both a conscience and a backbone by insisting on a clear route for visitors.",
+            "zh": "當團隊想把箱子留在入口時，她堅持為訪客保留暢通通道，顯示她既有良知，也有堅持原則的勇氣。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "wheelchair access",
+            "zh": "輪椅使用者出入",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 84
+            }
+          },
+          {
+            "en": "moving supplies",
+            "zh": "搬走物資",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 103
+            }
+          },
+          {
+            "en": "the event team",
+            "zh": "活動團隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 142
+            }
+          },
+          {
+            "en": "boxes at the entrance",
+            "zh": "入口處的箱子",
+            "exampleIndex": 1,
+            "span": {
+              "start": 29,
+              "end": 50
+            }
+          },
+          {
+            "en": "a clear route for visitors",
+            "zh": "訪客的暢通通道",
+            "exampleIndex": 1,
+            "span": {
+              "start": 120,
+              "end": 146
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A leader can have both a conscience and a backbone by admitting an error under pressure.",
+          "zh": "領袖在壓力下承認錯誤，可表現出良知和堅持原則的勇氣。"
+        },
+        {
+          "en": "To have both a conscience and a backbone is to care about consequences and act on that concern.",
+          "zh": "兼備良知和堅持原則的勇氣，就是關心後果並據此行動。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

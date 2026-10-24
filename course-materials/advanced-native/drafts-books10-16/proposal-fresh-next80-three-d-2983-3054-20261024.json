@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-fresh-next80-three-d-proposal-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-2983",
+      "number": 2983,
+      "inventoryId": "expr-2983",
+      "titleEn": "tone and texture",
+      "titleZh": "整體氛圍與細節",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\btone and texture\\b",
+        "glossaryForbidden": [
+          "\\btone and texture\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "The overall feeling and small distinctive details of an experience.",
+        "meaningZh": "一段經歷的整體感受和令它顯得鮮明的細節。",
+        "grammar": "Tone suggests emotional quality; texture suggests varied lived details. Both are figurative here.",
+        "register": "Reflective descriptions of daily life, places and stories.",
+        "boundaryZh": "不要把日常生活的 tone 當成電話鈴聲，或把 texture 限於物件的表面觸感。",
+        "misconceptionZh": "這組詞描述感受與細節，不保證生活一定愉快。",
+        "outcomeZh": "能指出哪些小選擇改變了整體感受，以及哪些細節因此變得鮮明。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0872",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 81,
+          "book": 12,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "32–33",
+          "locatorNote": "DOCX table 82, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Small choices give daily life its tone and texture.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "tone and texture"
+        }
+      ],
+      "listening": {
+        "promptZh": "共同晚餐改變了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It made the week feel warmer through repeated stories and meals.",
+            "zh": "反覆分享故事和一起吃飯，令一星期感覺更溫暖。"
+          },
+          {
+            "id": "b",
+            "en": "It solved all of the family’s problems at once.",
+            "zh": "它一下子解決了一家人的所有問題。"
+          },
+          {
+            "id": "c",
+            "en": "It changed only the sound of the dining-room bell.",
+            "zh": "它只改變了飯廳鈴聲。"
+          },
+          {
+            "id": "d",
+            "en": "It made Friday meals unfamiliar and less personal.",
+            "zh": "它令星期五的晚餐變得陌生而欠缺個人色彩。"
+          }
+        ],
+        "explanationZh": "故事與熟悉菜式改變了整體感受和生活細節，並非解決所有問題。",
+        "answerId": "a",
+        "en": "A family began eating dinner together on Fridays. The meal did not solve every problem, but the shared stories and familiar recipes gave the week a warmer tone and texture.",
+        "zh": "一家人開始在星期五一起吃晚飯。這頓飯並沒有解決所有問題，但大家分享的故事和熟悉的菜式，令一星期多了溫暖的氛圍和細節。"
+      },
+      "reply": {
+        "promptZh": "（星期五的晚餐怎樣影響這家人的一星期？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gave them a warmer shared routine.",
+            "zh": "它給了他們較溫暖的共同習慣。"
+          },
+          {
+            "id": "b",
+            "en": "Their stories added personal detail to the week.",
+            "zh": "他們的故事為一星期添上個人色彩。"
+          },
+          {
+            "id": "c",
+            "en": "It gave the week a warmer tone and texture.",
+            "zh": "它令一星期更有溫暖的氛圍和生活細節。"
+          },
+          {
+            "id": "d",
+            "en": "Familiar food made their time together feel different.",
+            "zh": "熟悉的食物令相聚時間有了不同感受。"
+          }
+        ],
+        "explanationZh": "四句都描述共同晚餐帶來的感受和細節。",
+        "promptEn": "How did the Friday meal affect the family’s week?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一間社區圖書館在閱讀角加入居民手寫薦書卡，訪客因而感到更親切，也發現各人的閱讀趣味。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The notes give the reading corner a more personal tone and texture.",
+            "zh": "這些薦書卡令閱讀角更有親切的氛圍和個人細節。"
+          },
+          {
+            "id": "b",
+            "en": "The cards help visitors choose books, but do not change how welcoming the corner feels.",
+            "zh": "薦書卡有助訪客選書，但沒有令閱讀角感覺更親切。"
+          },
+          {
+            "id": "c",
+            "en": "The handwriting changes the corner’s appearance, but reveals little about the residents’ different tastes.",
+            "zh": "手寫字改變了閱讀角的外觀，卻很少顯示居民不同的閱讀趣味。"
+          }
+        ],
+        "explanationZh": "手寫薦書卡同時改變閱讀角的感受，並展示各人的趣味。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句誤把 texture 只理解成物件表面？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Shared habits can shape the feel of a week.",
+            "zh": "共同習慣可以改變一星期的感受。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase refers only to whether the dinner table feels rough or smooth.",
+            "zh": "這組詞只指飯桌表面是粗糙還是光滑。"
+          },
+          {
+            "id": "c",
+            "en": "Small details can make a place feel distinctive.",
+            "zh": "細節可以令一個地方更鮮明。"
+          }
+        ],
+        "explanationZh": "這裏的 texture 是生活細節的比喻，並非桌面的觸感。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「薦書卡只是紙張，真的會改變閱讀角嗎？」你知道訪客讀了卡片後更願意交流。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The cards change the corner’s tone and texture: handwritten choices make it feel welcoming and give visitors details to discuss.",
+            "zh": "薦書卡改變了閱讀角的氛圍和細節：手寫選書令它更親切，也給訪客交流的話題。"
+          },
+          {
+            "id": "b",
+            "en": "The cards are handwritten.",
+            "zh": "卡片是手寫的。"
+          },
+          {
+            "id": "c",
+            "en": "Visitors have something to read.",
+            "zh": "訪客有東西可讀。"
+          }
+        ],
+        "explanationZh": "金句同時交代整體感受和具體細節。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Handwritten recommendations gave the library corner a friendly tone and texture.",
+        "zh": "手寫薦書卡令圖書館的閱讀角更有親切氛圍和鮮明細節。",
+        "promptZh": "先聽示範，再說出哪項細節令閱讀角感覺不同。",
+        "targetSpan": {
+          "start": 63,
+          "end": 79
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：長者中心把原本冷清的等候區改成小型植物角，並讓會員輪流寫植物照顧提示。用一至兩句英文描述這些選擇如何改變等候經驗。",
+        "selfCheckZh": "指出整體感受和一項具體細節；不要聲稱等候時間因此縮短。",
+        "examples": [
+          {
+            "en": "The plants and members’ care notes gave the waiting room a gentler tone and texture, although the appointment times stayed the same.",
+            "zh": "植物和會員寫的照顧提示令等候區氣氛更柔和，也添上生活細節，但預約時間沒有改變。"
+          },
+          {
+            "en": "A rotating set of care notes gave the room a personal tone and texture, while the plants welcomed waiting visitors.",
+            "zh": "輪流更新的照顧提示令房間更有個人氛圍與細節；植物則令等候訪客感到受歡迎。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the waiting room",
+            "zh": "等候區",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 56
+            }
+          },
+          {
+            "en": "members’ care notes",
+            "zh": "會員寫的照顧提示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 15,
+              "end": 34
+            }
+          },
+          {
+            "en": "the appointment times",
+            "zh": "預約時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 115
+            }
+          },
+          {
+            "en": "A rotating set of care notes",
+            "zh": "輪流更新的照顧提示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 28
+            }
+          },
+          {
+            "en": "waiting visitors",
+            "zh": "等候的訪客",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 114
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The music changed the café’s tone and texture without changing its menu.",
+          "zh": "音樂沒有改變咖啡店的餐牌，卻改變了店內的氛圍和細節。"
+        },
+        {
+          "en": "Small shared habits can give ordinary days a distinctive tone and texture.",
+          "zh": "共同的小習慣可令平凡日子有鮮明的氛圍與細節。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3000",
+      "number": 3000,
+      "inventoryId": "expr-3000",
+      "titleEn": "the feeling of being managed",
+      "titleZh": "被別人管着的感覺",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bthe feeling of being managed\\b",
+        "glossaryForbidden": [
+          "\\bthe feeling of being managed\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "The uncomfortable sense that someone else is directing one’s choices too closely.",
+        "meaningZh": "覺得別人過分主導自己的選擇而感到不自在。",
+        "grammar": "Being managed is a passive -ing clause after the feeling of; the concern is perceived control, not necessarily the helper’s intention.",
+        "register": "Family, work and education discussions about autonomy.",
+        "boundaryZh": "即使建議出於好意，對方仍可能覺得選擇被接管；不應反推對方完全拒絕幫助。",
+        "misconceptionZh": "不要把這句誤解成單純不喜歡安排時間，也不要假定所有指引都不受歡迎。",
+        "outcomeZh": "能說明哪個決定被別人代做，以及怎樣保留當事人的選擇權。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0889",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 82,
+          "book": 12,
+          "question": 14,
+          "sample": "S1",
+          "sourceBookPages": "36–38",
+          "locatorNote": "DOCX table 84, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Teenagers often resist the feeling of being managed.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the feeling of being managed"
+        }
+      ],
+      "listening": {
+        "promptZh": "美娜為何提出自己選活動？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She wanted some control over her own weekend choices.",
+            "zh": "她想對自己的週末選擇保留一些決定權。"
+          },
+          {
+            "id": "b",
+            "en": "She disliked every activity her father suggested.",
+            "zh": "她不喜歡父親建議的所有活動。"
+          },
+          {
+            "id": "c",
+            "en": "Her father had not made any suggestions.",
+            "zh": "她父親完全沒有提出建議。"
+          },
+          {
+            "id": "d",
+            "en": "She wanted someone else to decide all the activities.",
+            "zh": "她希望由別人決定所有活動。"
+          }
+        ],
+        "explanationZh": "她接受建議，但想保留部分選擇權。",
+        "answerId": "a",
+        "en": "Mina’s father chose every activity for her weekend. She liked his suggestions, but resisted the feeling of being managed and asked to choose one activity herself.",
+        "zh": "美娜的父親替她選好週末的每項活動。她喜歡父親的建議，卻不喜歡被別人管着的感覺，於是提出自己選一項活動。"
+      },
+      "reply": {
+        "promptZh": "（美娜為何要求自己選一項活動？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She wanted a say in the weekend plan.",
+            "zh": "她想對週末計劃有發言權。"
+          },
+          {
+            "id": "b",
+            "en": "She resisted the feeling of being managed.",
+            "zh": "她不喜歡被別人管着的感覺。"
+          },
+          {
+            "id": "c",
+            "en": "She preferred to choose something herself.",
+            "zh": "她寧願自己作出部分選擇。"
+          },
+          {
+            "id": "d",
+            "en": "She liked the suggestions but wanted more autonomy.",
+            "zh": "她喜歡那些建議，但想有更多自主權。"
+          }
+        ],
+        "explanationZh": "四句都說明她想保留決定權，而非拒絕所有建議。",
+        "promptEn": "Why did Mina ask to pick one activity?",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "一位員工願意聽取主管意見，但主管每天改寫她的工作清單，連先後次序也不讓她決定。她表示希望自行安排工作的先後。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She appreciates advice but dislikes the feeling of being managed.",
+            "zh": "她感激意見，卻不喜歡被別人管着的感覺。"
+          },
+          {
+            "id": "b",
+            "en": "She accepts the manager’s suggestions but wants the manager to keep setting her daily task order.",
+            "zh": "她接受主管建議，也希望主管繼續決定她每天工作的先後次序。"
+          },
+          {
+            "id": "c",
+            "en": "She objects to the late timing of each rewritten list, rather than to losing control over the order.",
+            "zh": "她不滿的是每天工作清單改寫得太遲，而不是失去決定先後的權利。"
+          }
+        ],
+        "explanationZh": "接受建議與不願被接管每個決定可以同時成立。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把不喜歡被管着誤解為拒絕一切幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A person may welcome options while choosing for themselves.",
+            "zh": "一個人可以歡迎別人提供選項，同時自己作決定。"
+          },
+          {
+            "id": "b",
+            "en": "If she dislikes being managed, she must refuse every suggestion.",
+            "zh": "她若不喜歡被人管着，就一定拒絕所有建議。"
+          },
+          {
+            "id": "c",
+            "en": "Being consulted can make a plan feel more collaborative.",
+            "zh": "得到徵詢可令計劃更像共同商議。"
+          }
+        ],
+        "explanationZh": "不喜歡選擇被接管，不等於拒絕所有建議。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我只是幫她排好所有工作，她為何不高興？」你知道對方想自己決定先後次序。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She may value your advice but dislike the feeling of being managed; offer priorities as options and let her choose the order.",
+            "zh": "她可能重視你的意見，卻不喜歡被別人管着的感覺；你可以提供工作優先次序作參考，讓她自己決定先後。"
+          },
+          {
+            "id": "b",
+            "en": "She wants a different order.",
+            "zh": "她想用另一個次序。"
+          },
+          {
+            "id": "c",
+            "en": "Your advice may be useful.",
+            "zh": "你的意見可能有用。"
+          }
+        ],
+        "explanationZh": "金句承認好意，並給予保留選擇權的做法。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "She liked the suggestions but resisted the feeling of being managed.",
+        "zh": "她喜歡那些建議，卻不喜歡被別人管着的感覺。",
+        "promptZh": "先聽示範，再指出「接受建議」與「自己決定」如何並存。",
+        "targetSpan": {
+          "start": 39,
+          "end": 67
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區計劃顧問替居民選好花園設計；居民願意看草圖，但希望自行投票決定最後方案。用一至兩句英文說明居民的感受與要求。",
+        "selfCheckZh": "說明居民並非拒絕草圖，而是希望保留最後選擇權。",
+        "examples": [
+          {
+            "en": "Residents welcomed the design sketches but disliked the feeling of being managed, so they asked to vote on the final garden plan.",
+            "zh": "居民歡迎設計草圖，卻不喜歡被別人管着的感覺，因此要求就最後的花園方案投票。"
+          },
+          {
+            "en": "The consultant’s drawings were useful, yet the feeling of being managed remained until residents were offered a final vote.",
+            "zh": "顧問的圖則有用，但居民仍有被別人管着的感覺，直到他們獲得最後投票的機會。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "design sketches",
+            "zh": "設計草圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 38
+            }
+          },
+          {
+            "en": "to vote",
+            "zh": "投票",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 103
+            }
+          },
+          {
+            "en": "the final garden plan",
+            "zh": "最後的花園方案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 128
+            }
+          },
+          {
+            "en": "The consultant’s drawings",
+            "zh": "顧問的圖則",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 25
+            }
+          },
+          {
+            "en": "a final vote",
+            "zh": "最後一次投票",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 122
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A learner may like useful feedback yet dislike the feeling of being managed.",
+          "zh": "學習者可能喜歡有用的意見，卻不喜歡被別人管着的感覺。"
+        },
+        {
+          "en": "Giving people a choice can reduce the feeling of being managed.",
+          "zh": "給予人們選擇權，可以減少被別人管着的感覺。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3054",
+      "number": 3054,
+      "inventoryId": "expr-3054",
+      "titleEn": "build a world out of words",
+      "titleZh": "用文字建構一個世界",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:build|builds|built|building) a world out of words\\b",
+        "glossaryForbidden": [
+          "\\ba world out of words\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Create a vivid imagined setting through writing rather than physical construction.",
+        "meaningZh": "以寫作塑造鮮明的想像場景，而不是實際建造地方。",
+        "grammar": "Build and out of form a creative-construction metaphor; words are the writer’s material.",
+        "register": "Literary discussion, storytelling and creative writing.",
+        "boundaryZh": "鮮明世界需要場景、人物與細節相互配合；並非只要堆砌華麗字詞便能做到。",
+        "misconceptionZh": "不要把 world 當成真正建成的地方，亦不要說沒有圖畫就不能想像場景。",
+        "outcomeZh": "能指出文字中的具體線索如何令讀者想像一個地方。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0943",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 87,
+          "book": 12,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "49–50",
+          "locatorNote": "DOCX table 89, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A skilled writer can build a world out of words.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "build a world out of words"
+        }
+      ],
+      "listening": {
+        "promptZh": "作者如何令讀者想像街市？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She used sensory details to make the setting vivid.",
+            "zh": "她用感官細節令場景鮮明。"
+          },
+          {
+            "id": "b",
+            "en": "She built a real market before writing the story.",
+            "zh": "她先建造真正的街市才寫故事。"
+          },
+          {
+            "id": "c",
+            "en": "She avoided describing sounds, places and smells.",
+            "zh": "她避免描寫聲音、地方和氣味。"
+          },
+          {
+            "id": "d",
+            "en": "She relied on a map rather than any words.",
+            "zh": "她只靠地圖，沒有用文字。"
+          }
+        ],
+        "explanationZh": "聲音、石級與麵包等文字細節令場景具體。",
+        "answerId": "a",
+        "en": "In a short story, the writer described the market’s closing calls, wet stone steps and warm bread from a corner stall. With those details, she built a world out of words that readers could picture.",
+        "zh": "在短篇故事裏，作者描寫街市收檔的叫賣聲、濕漉漉的石級，以及街角攤檔的熱麵包。藉着這些細節，她用文字建構了一個讀者能想像的世界。"
+      },
+      "reply": {
+        "promptZh": "（作者用街市細節達到了甚麼效果？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She helped readers picture the market.",
+            "zh": "她幫讀者想像街市。"
+          },
+          {
+            "id": "b",
+            "en": "She gave the setting sounds and physical details.",
+            "zh": "她讓場景有聲音和具體細節。"
+          },
+          {
+            "id": "c",
+            "en": "She built a world out of words.",
+            "zh": "她用文字建構了一個世界。"
+          },
+          {
+            "id": "d",
+            "en": "She made a fictional place feel present to readers.",
+            "zh": "她令虛構地方彷彿呈現在讀者眼前。"
+          }
+        ],
+        "explanationZh": "四句都說明文字如何令想像場景變得鮮明。",
+        "promptEn": "What did the writer achieve with the market details?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "學生寫一段關於山村的故事，提到霧中的石橋、清晨的鐘聲和屋裏的炭火，讀者因此彷彿身在村中。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The student built a world out of words by giving the village vivid details.",
+            "zh": "學生以鮮明細節用文字建構了一個山村世界。"
+          },
+          {
+            "id": "b",
+            "en": "The details make the village seem distant and unfamiliar rather than placing readers inside it.",
+            "zh": "這些細節令山村顯得遙遠陌生，而不是令讀者彷彿身在其中。"
+          },
+          {
+            "id": "c",
+            "en": "The writing helps readers picture separate objects, but never joins them into a sense of village life.",
+            "zh": "文字讓讀者想像個別物件，卻沒有把它們連成山村生活的感覺。"
+          }
+        ],
+        "explanationZh": "石橋、鐘聲和炭火彼此呼應，讓讀者彷彿身在山村，而不只是看到零散物件。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 build 誤解為實際建造？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A few well-chosen details can make a setting vivid.",
+            "zh": "幾個恰當細節可以令場景鮮明。"
+          },
+          {
+            "id": "b",
+            "en": "The author must put up real buildings before readers can imagine the village.",
+            "zh": "作者必須先建起真正的房屋，讀者才能想像山村。"
+          },
+          {
+            "id": "c",
+            "en": "Readers can picture a place through sound and smell descriptions.",
+            "zh": "讀者可從聲音和氣味的描寫想像地方。"
+          }
+        ],
+        "explanationZh": "這裏的 build 是創作比喻，不是實際建築。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「故事沒有插圖，讀者怎會看見那個山村？」你讀到石橋、鐘聲和炭火的描寫。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The bridge, bell and hearth let the author build a world out of words, giving readers enough clues to picture the village without illustrations.",
+            "zh": "石橋、鐘聲和爐火讓作者用文字建構一個世界，提供足夠線索，讓讀者不用插圖也能想像山村。"
+          },
+          {
+            "id": "b",
+            "en": "The story mentions a bridge.",
+            "zh": "故事提到一座橋。"
+          },
+          {
+            "id": "c",
+            "en": "Illustrations are not essential.",
+            "zh": "插圖並非必不可少。"
+          }
+        ],
+        "explanationZh": "金句把文字細節與讀者形成畫面的過程連起來。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "With the market’s sounds and smells, she built a world out of words.",
+        "zh": "透過街市的聲音和氣味，她用文字建構了一個世界。",
+        "promptZh": "先聽示範，再指出哪兩種感官細節讓場景變得鮮明。",
+        "targetSpan": {
+          "start": 41,
+          "end": 67
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：少年寫一篇海底研究站的科幻故事，描述窗外的藍光、儀器的低鳴和狹窄走廊。用一至兩句英文介紹這些細節如何幫助讀者想像場景。",
+        "selfCheckZh": "至少指出兩項文字細節和讀者如何想像研究站；不要寫成少年真的建造了研究站。",
+        "examples": [
+          {
+            "en": "The young writer built a world out of words with blue light beyond the windows and the low hum of instruments inside the station.",
+            "zh": "少年作者用窗外的藍光和站內儀器的低鳴，以文字建構海底研究站的世界。"
+          },
+          {
+            "en": "The writer built a world out of words with a narrow corridor and the glow outside, letting readers picture life beneath the sea.",
+            "zh": "作者以狹窄走廊和窗外的光用文字建構一個世界，讓讀者想像海底生活。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "blue light",
+            "zh": "藍光",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 59
+            }
+          },
+          {
+            "en": "the low hum of instruments",
+            "zh": "儀器的低鳴",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 109
+            }
+          },
+          {
+            "en": "inside the station",
+            "zh": "在研究站內",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 128
+            }
+          },
+          {
+            "en": "a narrow corridor",
+            "zh": "狹窄走廊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 60
+            }
+          },
+          {
+            "en": "beneath the sea",
+            "zh": "在海底",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 127
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Choosing details readers can sense helps a novelist build a world out of words.",
+          "zh": "小說家可選擇讀者能感受到的細節，用文字建構一個世界。"
+        },
+        {
+          "en": "The place existed only on the page, but the writer built a world out of words that felt real.",
+          "zh": "那個地方只存在於書頁上，但作者用文字建構出彷彿真實的世界。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

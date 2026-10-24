@@ -1,0 +1,368 @@
+{
+  "kind": "independent-fresh-next80-source-sense-vetting",
+  "date": "2026-10-24",
+  "binding": {
+    "triageFile": "course-materials/advanced-native/reviews-books10-16/read-only-fresh-next80-current313-holds-source-owner-screen-20261024.json",
+    "triageSha256": "fb6f0b47b9d6a1f36ace56e20956c51974e8cc1f39904ca43bd2da2539f37159",
+    "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "decisionManifestPath": "course-materials/advanced-native/books10-16/editorial-decision-manifest.json",
+    "decisionManifestSha256": "b4c210caa55d0c0d410ba3a19338550888fda1318975ff84ff3d6dbc6c9eb47f",
+    "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "selectedManifestSha256": "706bb293ffac720e3a71e383ce2954e6ef714b5f067225b1bbb06e9da325b9b1",
+    "selectedProvenancePath": "course-materials/advanced-native/provenance/curated-module-index.json",
+    "selectedProvenanceSha256": "54bbf40d5a780657f78e46127f5307a0260fb6a13894d50b9a5a49212fbfe393"
+  },
+  "bindingAudit": {
+    "sourceAndDecisionRowsVerified": 80,
+    "mismatches": 0
+  },
+  "scope": {
+    "screenRows": 80,
+    "focusedRows": 17,
+    "distinctOwnerLeads": 5,
+    "aliasOrNearLeads": 5,
+    "oneTimeCandidate": 1,
+    "additionalHoldReassessment": 6
+  },
+  "actionableAuthoringList": [
+    {
+      "priority": 1,
+      "ordinal": 3278,
+      "reason": "clear conflict metaphor with useful boundary"
+    },
+    {
+      "priority": 2,
+      "ordinal": 3381,
+      "reason": "natural device-density compound; not inherently negative"
+    },
+    {
+      "priority": 3,
+      "ordinal": 2897,
+      "reason": "reusable steady-support collocation despite transparency"
+    },
+    {
+      "priority": 4,
+      "ordinal": 3029,
+      "reason": "conditional: maintain precise distinction from selected backbone lessons"
+    },
+    {
+      "priority": 5,
+      "ordinal": 3030,
+      "reason": "additional clear reusable phrase wrongly held mainly for transparency"
+    },
+    {
+      "priority": 6,
+      "ordinal": 3074,
+      "reason": "additional clear reusable scarcity phrase"
+    },
+    {
+      "priority": 7,
+      "ordinal": 3244,
+      "reason": "conditional: use source-bound avoid the same trap again, not clipped fragment"
+    }
+  ],
+  "holdOrAliasGates": [
+    "2923 lacks a clean standalone source-bound target and overlaps selected wear-off lesson.",
+    "2872 and 2942 are not safe aliases based on broad semantic similarity.",
+    "3010 and 3352 are same-sense aliases only after bounded detector/provenance work; 3366 existing detector matches but owner scope still needs review.",
+    "3055 qualifies for documented one-time comparison exclusion under the user’s narrow rule."
+  ],
+  "overCautionAssessment": "Yes, some of the 69 generic hold rationales over-weight fixed idiom status. At least 3030 and 3074 are common reusable forms, and 2889/3300 are ordinary but potentially useful collocations. Reassess teachability and source fidelity rather than excluding ordinary wording automatically; do not force all transparent clauses into seven-step lessons.",
+  "rows": [
+    {
+      "sourceOrdinal": 2897,
+      "sourceId": "book10-16-0786",
+      "expression": "steady adult presence",
+      "exactGuideSentence": "A steady adult presence helps children feel secure.",
+      "guideMeaning": "Reliable and emotionally available support; a natural parenting collocation.",
+      "sourceRawRowSha256": "5701a48d5ef4d857e7619caa8715f436e2dbc4fb0cb7ed44da8b9728c51a8ef1",
+      "decisionFile": "books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionFileSha256": "f67d00e5535f7bce22d1bfdb652b3643b300f479fc7eb94d3e4a5e230c28d8be",
+      "decisionRawRowSha256": "fdbe47346c420ffe5b53e44c5eff5637021aff479755d08ab243d78cb5964672",
+      "currentAction": "hold-editorial",
+      "recommendation": "distinct-reusable-lesson-candidate-pending-vetting",
+      "independentVerdict": "author-candidate-lower-priority",
+      "reason": "Natural, reusable parenting collocation despite transparent wording. A seven-step lesson can distinguish a consistently available trusted adult from a single helpful visit; do not imply a parent is the only possible adult."
+    },
+    {
+      "sourceOrdinal": 2923,
+      "sourceId": "book10-16-0812",
+      "expression": "keeps giving long after the excitement wears off",
+      "exactGuideSentence": "A well-made game keeps giving long after the excitement wears off.",
+      "guideMeaning": "Continues providing value after initial novelty fades; giving is figurative.",
+      "sourceRawRowSha256": "ae9ed6dcfbac740cab68b5a178043c8740e64827777897315ec363bababf3a24",
+      "decisionFile": "books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionFileSha256": "f67d00e5535f7bce22d1bfdb652b3643b300f479fc7eb94d3e4a5e230c28d8be",
+      "decisionRawRowSha256": "67158d45b107c1d9dbcb03ed3e32f6278940c20313aa73be9f93314e41a33926",
+      "currentAction": "hold-editorial",
+      "recommendation": "distinct-reusable-lesson-candidate-pending-vetting",
+      "independentVerdict": "retain-hold-target-boundary",
+      "reason": "The full clause joins two ideas. The selected 568 already teaches initial shine wearing off; bare keeps giving is broad, and changing it to gift that keeps on giving would not preserve source form. Require a reusable source-bound target before authoring."
+    },
+    {
+      "sourceOrdinal": 3029,
+      "sourceId": "book10-16-0918",
+      "expression": "have both a conscience and a backbone",
+      "exactGuideSentence": "Good leaders have both a conscience and a backbone.",
+      "guideMeaning": "Combine ethical care with courage and boundaries; paired body metaphors.",
+      "sourceRawRowSha256": "929460666beb571d5519e83b38001bb3f16a8bba776f9a6815c34c8f3601589f",
+      "decisionFile": "books10-16/editorial-decisions-3012-3071.jsonl",
+      "decisionFileSha256": "4ed6de0eb8bbb07aab7bc5679f68d43d31d67bdeebd42f516df03590cb1ba7f5",
+      "decisionRawRowSha256": "59889f654358f73d68d7206096790eaeb87ae87bcc5d4c160102053d7a493794",
+      "currentAction": "hold-editorial",
+      "recommendation": "distinct-reusable-lesson-candidate-pending-vetting",
+      "independentVerdict": "conditional-distinct-candidate",
+      "reason": "Paired conscience plus backbone can teach ethical judgement plus courage to act. Selected 539 kindness needs a backbone and 1907 moral backbone partly overlap, so a new lesson must explicitly teach conscience as moral discernment, not merely caring or firmness; no direct alias."
+    },
+    {
+      "sourceOrdinal": 3278,
+      "sourceId": "book10-16-1167",
+      "expression": "turning the home into a battlefield",
+      "exactGuideSentence": "Firm limits need not mean turning the home into a battlefield.",
+      "guideMeaning": "Making family life feel like constant conflict; a war metaphor.",
+      "sourceRawRowSha256": "220794ace4e1c921b8c1a3ab86ad9670ac18fac53a083efcdf27a02cc67fe42f",
+      "decisionFile": "books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionFileSha256": "b45269be53245db1ab537035efff099441fd0c59c5feeed70617c26aa0ab9c78",
+      "decisionRawRowSha256": "a58536f5749e68f84172b34b23e3a67534def49b0c769a4661fc298973bedcc4",
+      "currentAction": "hold-editorial",
+      "recommendation": "distinct-reusable-lesson-candidate-pending-vetting",
+      "independentVerdict": "author-candidate",
+      "reason": "Natural transferable figurative conflict construction: turning a home into a battlefield means escalating family disagreement, not physical warfare. Preserve source negation that firm limits need not create constant conflict; change writing context from listening."
+    },
+    {
+      "sourceOrdinal": 3381,
+      "sourceId": "book10-16-1270",
+      "expression": "gadget-heavy",
+      "exactGuideSentence": "Their new office is gadget-heavy but easy to use.",
+      "guideMeaning": "Containing or relying on many electronic devices; a concise natural compound.",
+      "sourceRawRowSha256": "a292d3a72ef85409ab3239864f878f7e2bb15c0fdbf9bf5db76942b13dfe0a2f",
+      "decisionFile": "books10-16/editorial-decisions-3372-3431.jsonl",
+      "decisionFileSha256": "79c644538e0367cb9a982b6946fea1096c0042dd02259f716f3581988b3ac13a",
+      "decisionRawRowSha256": "38bd43f27898f25cd026d5d9e44f2e635a11430f0f7a4c1821a41691f9e89df0",
+      "currentAction": "hold-editorial",
+      "recommendation": "distinct-reusable-lesson-candidate-pending-vetting",
+      "independentVerdict": "author-candidate",
+      "reason": "Productive gadget-heavy adjective describes an environment with many devices. The source contrasts this with ease of use, so do not make gadget-heavy inherently bad or hard to operate; use several changed settings."
+    },
+    {
+      "sourceOrdinal": 2872,
+      "sourceId": "book10-16-0761",
+      "expression": "puts information in the palm of our hand",
+      "exactGuideSentence": "A phone puts information in the palm of our hand.",
+      "guideMeaning": "Makes facts instantly accessible through mobile devices; a body-part image.",
+      "sourceRawRowSha256": "0c213ca83290f13c2b40f7b4af8f16c44c398811d13a6762795f0f720fc13579",
+      "decisionFile": "books10-16/editorial-decisions-2832-2891.jsonl",
+      "decisionFileSha256": "2a58f5271f296220c9b93a0ff478fe49bfb5adfca7ce563785363e66df53c430",
+      "decisionRawRowSha256": "afde0b226c15a39b5e624035189ba7349ced518c03210f8f9bc4ed741f706244",
+      "currentAction": "hold-editorial",
+      "recommendation": "selected-owner-alias-or-near-alias-candidate",
+      "independentVerdict": "retain-hold-no-alias",
+      "reason": "At your fingertips (owner 699) means readily available information, but the source puts information in the palm of the hand through a physically held phone. Different lexical image and owner target; same broad outcome is insufficient for alias. Consider a bounded standalone mobile-access expression only after naturalness review.",
+      "candidateSelectedOwner": {
+        "moduleId": "advanced-native-699",
+        "titleEn": "at your fingertips",
+        "meaningEn": "Readily available so that someone can find and use it easily, especially information.",
+        "learnerPayloadSha256": "580cf96bb9984aed579847072c42b0fc6de82a8a9f695351b8e74698188e62b7",
+        "provenanceIndexSha256": "54bbf40d5a780657f78e46127f5307a0260fb6a13894d50b9a5a49212fbfe393"
+      }
+    },
+    {
+      "sourceOrdinal": 2942,
+      "sourceId": "book10-16-0831",
+      "expression": "the mood can unravel",
+      "exactGuideSentence": "If the food is late, the mood can unravel.",
+      "guideMeaning": "The atmosphere can lose coherence or break down; a fabric metaphor.",
+      "sourceRawRowSha256": "916e17685c9fbf167a177ffa2a354311b6dade61d21cc10cfa4b6fb1bbaf044c",
+      "decisionFile": "books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionFileSha256": "f67d00e5535f7bce22d1bfdb652b3643b300f479fc7eb94d3e4a5e230c28d8be",
+      "decisionRawRowSha256": "c9ef566cc8863c1ac6e5e0644c389beb884e5e3071df5a377b4c909ce8249c5a",
+      "currentAction": "hold-editorial",
+      "recommendation": "selected-owner-alias-or-near-alias-candidate",
+      "independentVerdict": "retain-hold-no-alias",
+      "reason": "Owner 1425 start to unravel covers plans, arrangements, relationships losing coherence; source mood unravel describes atmosphere deteriorating and has uncertain naturalness. Do not widen the existing owner to a weak new subject without evidence.",
+      "candidateSelectedOwner": {
+        "moduleId": "advanced-native-1425",
+        "titleEn": "start to unravel",
+        "meaningEn": "Begin to break down or lose coherence, especially a plan, arrangement or relationship.",
+        "learnerPayloadSha256": "c8ff31df0b38aec65f7d236bb380f264dad468526f0422e25a8431f702b895d9",
+        "provenanceIndexSha256": "54bbf40d5a780657f78e46127f5307a0260fb6a13894d50b9a5a49212fbfe393"
+      }
+    },
+    {
+      "sourceOrdinal": 3010,
+      "sourceId": "book10-16-0899",
+      "expression": "the roads they did not take",
+      "exactGuideSentence": "People sometimes wonder about the roads they did not take.",
+      "guideMeaning": "Alternative life choices they never pursued; a familiar road metaphor.",
+      "sourceRawRowSha256": "4e2e4b7e676d2e7bb40def651313e9b9fda6c900ceaf9a946097ad65b97c1d8e",
+      "decisionFile": "books10-16/editorial-decisions-2952-3011.jsonl",
+      "decisionFileSha256": "e6e4f348543c5a4154ebb9fb31f62f38596a775f927812fabc06573e26024581",
+      "decisionRawRowSha256": "2c564c1e9b18e47474103b42806989f16ea979533b5183dca47d81bff0a128e3",
+      "currentAction": "hold-editorial",
+      "recommendation": "selected-owner-alias-or-near-alias-candidate",
+      "independentVerdict": "conditional-same-sense-alias",
+      "reason": "Roads they did not take is a plural paraphrase of owner 3014 the road not taken: unchosen life paths. Current owner detector matches only singular fixed form, so no link until a bounded plural source form is accepted and provenance and target checks pass; no assessed-answer changes by default.",
+      "candidateSelectedOwner": {
+        "moduleId": "advanced-native-3014",
+        "titleEn": "the road not taken",
+        "meaningEn": "A meaningful alternative life path that someone did not choose.",
+        "targetPattern": "\\bthe road not taken\\b",
+        "selectedBatchFile": "batch-3006-3057-a.json",
+        "selectedBatchSha256": "df6d4cc414c04cc48bb1618b6c216e866733439a1901fac171e35aeb7a02f40c"
+      }
+    },
+    {
+      "sourceOrdinal": 3352,
+      "sourceId": "book10-16-1241",
+      "expression": "life does not always move in a straight line",
+      "exactGuideSentence": "Her career shows that life does not always move in a straight line.",
+      "guideMeaning": "A career need not follow one simple path; a road metaphor.",
+      "sourceRawRowSha256": "e84fa47e2ebcd4479a747ff1c0770f90c43e4dda39f8add631c9d9f190364986",
+      "decisionFile": "books10-16/editorial-decisions-3312-3371.jsonl",
+      "decisionFileSha256": "3463ed274b503e30c9b1d721a0d83fabe1420088f6ea5d71b9d17b5cfc3f9557",
+      "decisionRawRowSha256": "a6d4b33b2c01d47862b78848bd2a61d53dffdb5e2711a8efcf119bb31ba1e10f",
+      "currentAction": "hold-editorial",
+      "recommendation": "selected-owner-alias-or-near-alias-candidate",
+      "independentVerdict": "conditional-same-sense-alias",
+      "reason": "Life does not always move in a straight line expresses uneven life/career progress, matching owner 4548 not a straight line. Current detector misses the move-in form; only alias after a bounded detector expansion and provenance review.",
+      "candidateSelectedOwner": {
+        "moduleId": "advanced-native-4548",
+        "titleEn": "not a straight line",
+        "meaningEn": "Progress does not happen smoothly or uniformly; it can include setbacks and changes of direction.",
+        "targetPattern": "\\bnot\\s+(?:always\\s+)?a\\s+straight\\s+line\\b",
+        "selectedBatchFile": "batch-4548-4612-review-pilot.json",
+        "selectedBatchSha256": "be697ff9a40c5f53b69df8a6793e5dacf9a68e6820e31a6f3ee7237f67a338ba"
+      }
+    },
+    {
+      "sourceOrdinal": 3366,
+      "sourceId": "book10-16-1255",
+      "expression": "as life unfolds",
+      "exactGuideSentence": "Goals can change as life unfolds.",
+      "guideMeaning": "As events develop over time; a fabric metaphor.",
+      "sourceRawRowSha256": "bde6d39a8e0f7e3915f6681403e77128bc77bfed44ae47fecb7714a4f5d59414",
+      "decisionFile": "books10-16/editorial-decisions-3312-3371.jsonl",
+      "decisionFileSha256": "3463ed274b503e30c9b1d721a0d83fabe1420088f6ea5d71b9d17b5cfc3f9557",
+      "decisionRawRowSha256": "8fd875c184d4fffb19b1712ef0663804f26340aca1e01df6dcf5515bda4a0b7c",
+      "currentAction": "hold-editorial",
+      "recommendation": "selected-owner-alias-or-near-alias-candidate",
+      "independentVerdict": "conditional-same-sense-alias",
+      "reason": "As life unfolds uses unfold for life events developing over time, close to owner 2303 develop gradually. Existing detector matches unfolds; attach source only after confirming owner narrative is broad enough for life progression and bilingual interpretation remains faithful.",
+      "candidateSelectedOwner": {
+        "moduleId": "advanced-native-2303",
+        "titleEn": "unfold",
+        "meaningEn": "Develop or become clear gradually as successive details emerge.",
+        "targetPattern": "\\b(?:unfold|unfolds|unfolded|unfolding)\\b",
+        "selectedBatchFile": "batch-reviewed-retained-holds-twenty-2193-4542-selected-20261024.json",
+        "selectedBatchSha256": "771c6870a52a4bc3e51824e944dd128f0091a0fd40dee823e8dc7bb5006c73b5"
+      }
+    },
+    {
+      "sourceOrdinal": 3055,
+      "sourceId": "book10-16-0944",
+      "expression": "the engine under the bonnet",
+      "exactGuideSentence": "In design, imagination is the engine under the bonnet.",
+      "guideMeaning": "The essential driving force behind work; a vehicle metaphor.",
+      "sourceRawRowSha256": "440a9c0ddcdb02547157932dedfe3db455dd2d6a2b4c86e026954f192fa74e98",
+      "decisionFile": "books10-16/editorial-decisions-3012-3071.jsonl",
+      "decisionFileSha256": "4ed6de0eb8bbb07aab7bc5679f68d43d31d67bdeebd42f516df03590cb1ba7f5",
+      "decisionRawRowSha256": "0e466d0263a799eab6db69b065f5c55acac5f09b15e1cfdaa74a2d7a7d41c672",
+      "currentAction": "hold-editorial",
+      "recommendation": "one-time-comparison-exclusion-candidate",
+      "independentVerdict": "approve-one-time-comparison-exclusion",
+      "reason": "In design, imagination is the engine under the bonnet is a tailored one-sentence vehicle analogy for an unseen driving force. The literal engine under a bonnet is not itself the reusable figurative unit. Record this source-specific reason; do not infer that under the bonnet in other contexts should be excluded."
+    },
+    {
+      "sourceOrdinal": 3030,
+      "sourceId": "book10-16-0919",
+      "expression": "out in the open",
+      "exactGuideSentence": "Children often show their imagination out in the open.",
+      "guideMeaning": "Visible rather than hidden; a conventional phrase.",
+      "sourceRawRowSha256": "756d92a5c0012f472022ca0d0e1cc915113cd1108ac9e5d57f33e75d35fa349e",
+      "decisionFile": "books10-16/editorial-decisions-3012-3071.jsonl",
+      "decisionFileSha256": "4ed6de0eb8bbb07aab7bc5679f68d43d31d67bdeebd42f516df03590cb1ba7f5",
+      "decisionRawRowSha256": "0fda926d6d973b4514d99ba4e07415191e82f1c7fcc963e6239df800d3c66d83",
+      "currentAction": "hold-editorial",
+      "recommendation": "retain-editorial-hold-concrete-defect",
+      "independentVerdict": "promote-to-authoring-screen",
+      "reason": "Out in the open is a conventional reusable visibility expression. The source applies it to children showing imagination publicly; it should not stay on hold solely because the expression is transparent. Check natural use and teach openly/visible versus hidden."
+    },
+    {
+      "sourceOrdinal": 3074,
+      "sourceId": "book10-16-0963",
+      "expression": "out of almost nothing",
+      "exactGuideSentence": "They made a game out of almost nothing.",
+      "guideMeaning": "With very few resources or materials; a conventional phrase.",
+      "sourceRawRowSha256": "c6867726703637ea409568bed2bfbb1b9c602ee579687d8f73e4b9ad06e2df1d",
+      "decisionFile": "books10-16/editorial-decisions-3072-3131.jsonl",
+      "decisionFileSha256": "520f2ff881287c1a70652caae85452a81ece22792923c75488332df6e74af7c1",
+      "decisionRawRowSha256": "be9f465d7d3f5c39a0963101c9704d9d79ce88b31c32fb8cbeea9c6e95d1e1a9",
+      "currentAction": "hold-editorial",
+      "recommendation": "retain-editorial-hold-concrete-defect",
+      "independentVerdict": "promote-to-authoring-screen",
+      "reason": "Out of almost nothing is a conventional resource-scarcity phrase, source-bound in making a game with very few materials. It supports changed contexts such as creating a useful result with limited resources; distinguish figurative scarcity from literally no materials."
+    },
+    {
+      "sourceOrdinal": 3212,
+      "sourceId": "book10-16-1101",
+      "expression": "steady hand on the wheel",
+      "exactGuideSentence": "Her advice was a steady hand on the wheel.",
+      "guideMeaning": "Calm guidance or control; a fixed driving metaphor.",
+      "sourceRawRowSha256": "9d39453a5c5bb4ba2b5f4c95cab576af07ff1965f2fa93d936b19b72301fa3a7",
+      "decisionFile": "books10-16/editorial-decisions-3192-3251.jsonl",
+      "decisionFileSha256": "610ac287765455d6acf7dd8b81091bef4b0036200e20331be78329e82ab71b91",
+      "decisionRawRowSha256": "0dab43bb335aeb4f81eb47e43715a92288b0e92a7384670416398de4fe5cbc43",
+      "currentAction": "hold-editorial",
+      "recommendation": "retain-editorial-hold-concrete-defect",
+      "independentVerdict": "conditional-authoring-screen",
+      "reason": "A steady hand on the wheel is a recognizable guidance metaphor, but source makes advice—not a person—the steady hand. Check naturalness and overlap with selected 1968 before a distinct lesson; fixedness-only hold may be over-cautious."
+    },
+    {
+      "sourceOrdinal": 3244,
+      "sourceId": "book10-16-1133",
+      "expression": "same trap again",
+      "exactGuideSentence": "The checklist helps us avoid the same trap again.",
+      "guideMeaning": "Repeat an avoidable mistake; a fixed trap metaphor.",
+      "sourceRawRowSha256": "6846b1a6d758a7e35509d5aa3bc9ec2541c3bf2609de980bc81d9fb934ef7a80",
+      "decisionFile": "books10-16/editorial-decisions-3192-3251.jsonl",
+      "decisionFileSha256": "610ac287765455d6acf7dd8b81091bef4b0036200e20331be78329e82ab71b91",
+      "decisionRawRowSha256": "73e1fdb874a7921ceca3226fdf153e5fa8dfa6933676bad8fbdd852ba46b9eba",
+      "currentAction": "hold-editorial",
+      "recommendation": "retain-editorial-hold-concrete-defect",
+      "independentVerdict": "conditional-authoring-screen",
+      "reason": "The same trap again is clipped but the source avoid the same trap again gives a natural, reusable avoid-an-old-mistake construction. Consider the full source-bound verb phrase rather than treating the fragment as a standalone idiom."
+    },
+    {
+      "sourceOrdinal": 2889,
+      "sourceId": "book10-16-0778",
+      "expression": "minor setbacks",
+      "exactGuideSentence": "Minor setbacks can help learners practise patience.",
+      "guideMeaning": "Small difficulties that test resilience; a natural learning collocation.",
+      "sourceRawRowSha256": "895b416c14616ff200eaa751c32d375fad701b4705e14bad619517daf64624bd",
+      "decisionFile": "books10-16/editorial-decisions-2832-2891.jsonl",
+      "decisionFileSha256": "2a58f5271f296220c9b93a0ff478fe49bfb5adfca7ce563785363e66df53c430",
+      "decisionRawRowSha256": "3cdd9ad7188c9342a898f644c30d0dead3fb53abdeb4d19e0ce05f2a1e6483ec",
+      "currentAction": "hold-editorial",
+      "recommendation": "retain-editorial-hold-concrete-defect",
+      "independentVerdict": "reconsider-ordinary-collocation",
+      "reason": "Minor setbacks is transparent but reusable, and the user has not authorized excluding ordinary useful expressions. Keep hold until seven-step distinctness is tested; do not reject merely for lack of idiom status."
+    },
+    {
+      "sourceOrdinal": 3300,
+      "sourceId": "book10-16-1189",
+      "expression": "pay attention to nuance",
+      "exactGuideSentence": "Writers should pay attention to nuance in word choice.",
+      "guideMeaning": "Notice small differences in meaning or tone; a useful language-learning collocation.",
+      "sourceRawRowSha256": "c9ed52dbf56f1c9cb1da531a7c00dafd6d9773b669302ff32cb3c09037cca362",
+      "decisionFile": "books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionFileSha256": "b45269be53245db1ab537035efff099441fd0c59c5feeed70617c26aa0ab9c78",
+      "decisionRawRowSha256": "b73dd0b520d1e34626917ec58429402b2b9208fa9952c31c88325fecd751f74b",
+      "currentAction": "hold-editorial",
+      "recommendation": "retain-editorial-hold-concrete-defect",
+      "independentVerdict": "reconsider-ordinary-collocation",
+      "reason": "Pay attention to nuance is ordinary but pedagogically useful in writing. Fixedness alone is not a sufficient reason to drop it from a source-complete course; test whether it supports distinct practice or should remain documented hold."
+    }
+  ],
+  "mutation": "none; recommendations only; no editorial decision, selected manifest or lesson content changed"
+}

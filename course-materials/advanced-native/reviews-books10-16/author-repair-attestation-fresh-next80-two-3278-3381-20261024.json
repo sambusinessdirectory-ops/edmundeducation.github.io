@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "kind": "exact-hash-editorial-repair-attestation-unselected",
+  "priorProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-3278-3381-pre-repair-20261024.json",
+  "priorProposalSha256": "b12027cf4b89d81d901339dac34198f8b436e75d4613f5bc7844fefcdd24abf3",
+  "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-review-fresh-next80-two-3278-3381-20261024.json",
+  "independentReviewSha256": "cef94ae91f8d2ea94ef842959f1b34fc847b9481413a8fd4146ebad2ada7d389",
+  "repairedProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-3278-3381-20261024.json",
+  "repairedProposalSha256": "35a3f4e9a816542b970ed051abf94218a8ee61a6f12a8dced1e06e23d4b57dda",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-fresh-next80-two-3278-3381-20261024.json",
+  "authorQaSha256": "2ec8f4097063ac36acbca623c00fadb888f67d319ed0c2bed79f460b389b8d6d",
+  "originalityPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-fresh-next80-two-3278-3381-20261024.json",
+  "originalitySha256": "2fbf0f8aad81a1e450d345bace242d8c28c17b3d898dc86f0a02845fee924144",
+  "changes": [
+    {
+      "lesson": 3278,
+      "field": ".listening.options[2].en",
+      "old": "It made the family stop speaking to one another.",
+      "new": "It worked because the family stopped reviewing the rule."
+    },
+    {
+      "lesson": 3278,
+      "field": ".listening.options[2].zh",
+      "old": "它令家人不再交談。",
+      "new": "它之所以有效，是因為家人停止檢討規則。"
+    },
+    {
+      "lesson": 3278,
+      "field": ".scene.promptZh",
+      "old": "兩名兄妹常為共用書桌爭執。家人訂出輪流使用時間，並容許有需要時交換。哪句最貼切？",
+      "new": "兩名兄妹常為共用書桌爭執。家人訂出輪流使用時間，容許有需要時交換，之後爭執明顯減少。哪句最貼切？"
+    },
+    {
+      "lesson": 3278,
+      "field": ".scene.options[1].en",
+      "old": "The schedule proves the siblings never disagreed.",
+      "new": "The timetable worked because neither sibling was allowed to swap times."
+    },
+    {
+      "lesson": 3278,
+      "field": ".scene.options[1].zh",
+      "old": "時間表證明兄妹從未有分歧。",
+      "new": "時間表之所以有效，是因為兄妹都不准交換時段。"
+    },
+    {
+      "lesson": 3278,
+      "field": ".scene.options[2].en",
+      "old": "A clear rule requires everyone to argue every night.",
+      "new": "The rota clarified turns, but the nightly desk arguments continued as before."
+    },
+    {
+      "lesson": 3278,
+      "field": ".scene.options[2].zh",
+      "old": "清晰規則要求各人每晚爭吵。",
+      "new": "輪值表說清了先後次序，但每晚的書桌爭執仍如往常。"
+    },
+    {
+      "lesson": 3381,
+      "field": ".listening.options[1].en",
+      "old": "It has no electronic equipment at all.",
+      "new": "It has many devices, so beginners must have struggled with the controls."
+    },
+    {
+      "lesson": 3381,
+      "field": ".listening.options[1].zh",
+      "old": "它完全沒有電子設備。",
+      "new": "它有很多設備，所以初學者一定覺得操作困難。"
+    },
+    {
+      "lesson": 3381,
+      "field": ".scene.options[1].en",
+      "old": "The room contains no electronic features.",
+      "new": "The half-hour learning period shows the controls are intuitive for first-time guests."
+    },
+    {
+      "lesson": 3381,
+      "field": ".scene.options[1].zh",
+      "old": "房間沒有電子功能。",
+      "new": "花半小時學習操作，顯示首次入住的客人能直覺使用。"
+    },
+    {
+      "lesson": 3381,
+      "field": ".scene.options[2].en",
+      "old": "The room must be easy for every guest because it has devices.",
+      "new": "The room is gadget-heavy mainly because its furniture is physically weighty."
+    },
+    {
+      "lesson": 3381,
+      "field": ".scene.options[2].zh",
+      "old": "房間有設備，所以每位住客一定覺得易用。",
+      "new": "房間之所以電子設備繁多，主要是因為傢俬實際很重。"
+    },
+    {
+      "lesson": 3381,
+      "field": ".writing.examples[1].zh",
+      "old": "展覽設備雖然繁多，學生在簡短導覽示範後也能使用電子顯微鏡。",
+      "new": "展覽電子設備雖然繁多，學生在簡短導覽示範後也能使用電子顯微鏡。"
+    }
+  ],
+  "sourceAndDecisionFieldsUnchanged": true,
+  "selectionAndReleaseUnchanged": true,
+  "focusedIndependentRereview": "pending"
+}

@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-fresh-next80-three-e-proposal-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-3156",
+      "number": 3156,
+      "inventoryId": "expr-3156",
+      "titleEn": "a quiet kind of strength",
+      "titleZh": "不張揚的堅韌",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba quiet kind of strength\\b",
+        "glossaryForbidden": [
+          "\\ba quiet kind of strength\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Steady resilience or patience that is valuable without drawing attention.",
+        "meaningZh": "毋須張揚、卻有價值的耐性與韌性。",
+        "grammar": "Strength is figurative; quiet describes how this capacity appears, not whether someone speaks.",
+        "register": "Reflective accounts of patience, caregiving and difficult periods.",
+        "boundaryZh": "不張揚不等於毫無行動；需要指出在甚麼壓力下仍持續做了甚麼。",
+        "misconceptionZh": "不要把 quiet 誤作只因為不說話，也不要把 strength 限於肌肉力量。",
+        "outcomeZh": "能以具體而持續的行動說明不張揚的堅韌。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1045",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 97,
+          "book": 12,
+          "question": 31,
+          "sample": "S1",
+          "sourceBookPages": "74–76",
+          "locatorNote": "DOCX table 101, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Her patience showed a quiet kind of strength during the delay.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a quiet kind of strength"
+        }
+      ],
+      "listening": {
+        "promptZh": "美怡怎樣應對延誤？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She stayed patient and helped others while waiting.",
+            "zh": "她等候期間保持耐性並幫助其他人。"
+          },
+          {
+            "id": "b",
+            "en": "She made the ferry arrive immediately.",
+            "zh": "她令渡輪立即到達。"
+          },
+          {
+            "id": "c",
+            "en": "She ignored the older traveller and stopped updating the group.",
+            "zh": "她沒有理會年長旅客，也停止向大家說明情況。"
+          },
+          {
+            "id": "d",
+            "en": "She proved her physical strength by lifting the ferry equipment.",
+            "zh": "她搬起渡輪設備，證明自己有體力。"
+          }
+        ],
+        "explanationZh": "平靜、持續的幫助在壓力下表現韌性。",
+        "answerId": "a",
+        "en": "The ferry was delayed for hours, and several passengers became impatient. Mei calmly helped an older traveller find a seat and kept the group informed. That calm help was a quiet kind of strength.",
+        "zh": "渡輪延誤了幾小時，幾名乘客開始不耐煩。美怡平靜地幫一位年長旅客找座位，並持續向大家說明情況。她平靜的幫助是一種不張揚的堅韌。"
+      },
+      "reply": {
+        "promptZh": "（美怡應對延誤的方式顯示甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She remained steady when others became impatient.",
+            "zh": "別人不耐煩時，她仍保持穩定。"
+          },
+          {
+            "id": "b",
+            "en": "She cared for a traveller who needed help.",
+            "zh": "她照顧有需要的旅客。"
+          },
+          {
+            "id": "c",
+            "en": "That calm help was a quiet kind of strength.",
+            "zh": "她平靜的幫助是一種不張揚的堅韌。"
+          },
+          {
+            "id": "d",
+            "en": "She continued to help without seeking attention.",
+            "zh": "她持續幫忙，沒有刻意引人注目。"
+          }
+        ],
+        "explanationZh": "四句都指出在壓力下持續而平靜地幫忙。",
+        "promptEn": "What did Mei’s response to the delay show?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "醫院義工在繁忙的一天不斷幫新來者找病房、解釋路線；她沒有抱怨，也沒有要求表揚。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her steady help was a quiet kind of strength.",
+            "zh": "她持續的幫助是一種不張揚的堅韌。"
+          },
+          {
+            "id": "b",
+            "en": "Her contribution mattered mainly because she memorised the hospital map, rather than because she kept helping under pressure.",
+            "zh": "她的貢獻主要在於記熟醫院地圖，而非在壓力下持續幫忙。"
+          },
+          {
+            "id": "c",
+            "en": "Her help was quiet because she spoke softly, not because she persisted through the busy day.",
+            "zh": "她的幫助之所以「安靜」，是因為她說話輕聲，而不是因為她在繁忙一天仍堅持協助。"
+          }
+        ],
+        "explanationZh": "持續幫助與不求表揚合在一起，顯示不張揚的韌性。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句誤把 strength 只看成體力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Patience can matter during a stressful delay.",
+            "zh": "在令人焦急的延誤中，耐性很重要。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase can only describe someone who lifts heavy objects.",
+            "zh": "這說法只能形容能舉起重物的人。"
+          },
+          {
+            "id": "c",
+            "en": "Steady care can show resilience.",
+            "zh": "持續照顧別人可以顯示韌性。"
+          }
+        ],
+        "explanationZh": "此處的力量是耐性與韌性的比喻。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「她只是平靜地幫人找路，算甚麼本事？」你看見她一整天都在忙碌的醫院協助訪客。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Helping confused visitors patiently all day takes a quiet kind of strength, even if she never asks for praise.",
+            "zh": "整天耐心幫迷路訪客需要一種不張揚的堅韌，即使她從不求表揚。"
+          },
+          {
+            "id": "b",
+            "en": "She was at the hospital all day.",
+            "zh": "她整天都在醫院。"
+          },
+          {
+            "id": "c",
+            "en": "Some visitors needed directions.",
+            "zh": "有些訪客需要指路。"
+          }
+        ],
+        "explanationZh": "金句以持續行動和壓力作證據。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Mei showed a quiet kind of strength by helping others despite the delay.",
+        "zh": "雖然渡輪延誤，美怡仍幫助別人，展現出不張揚的堅韌。",
+        "promptZh": "先聽示範，再說出她哪項行動顯示韌性。",
+        "targetSpan": {
+          "start": 11,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：街坊中心突然停電，一位職員一邊安撫排隊的人，一邊逐一核對紙本預約名單，直到服務恢復。用一至兩句英文描述他的表現。",
+        "selfCheckZh": "指出停電壓力、持續的具體行動，以及這種力量並非體力。",
+        "examples": [
+          {
+            "en": "During the power cut, the worker showed a quiet kind of strength by calming the queue and checking each paper booking until service resumed.",
+            "zh": "停電期間，這位職員安撫人龍並逐一核對紙本預約，直到服務恢復，展現出不張揚的堅韌。"
+          },
+          {
+            "en": "Checking paper bookings while reassuring visitors took a quiet kind of strength; the worker stayed steady under pressure.",
+            "zh": "職員一邊安撫訪客，一邊核對紙本預約，在壓力下保持穩定，展現出不張揚的堅韌。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the power cut",
+            "zh": "停電",
+            "exampleIndex": 0,
+            "span": {
+              "start": 7,
+              "end": 20
+            }
+          },
+          {
+            "en": "the queue",
+            "zh": "人龍",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 85
+            }
+          },
+          {
+            "en": "each paper booking",
+            "zh": "每項紙本預約",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 117
+            }
+          },
+          {
+            "en": "reassuring visitors",
+            "zh": "安撫訪客",
+            "exampleIndex": 1,
+            "span": {
+              "start": 30,
+              "end": 49
+            }
+          },
+          {
+            "en": "under pressure",
+            "zh": "在壓力下",
+            "exampleIndex": 1,
+            "span": {
+              "start": 106,
+              "end": 120
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Careful support during a crisis can show a quiet kind of strength.",
+          "zh": "危機中的細心支援可以展現不張揚的堅韌。"
+        },
+        {
+          "en": "Her calm persistence was a quiet kind of strength, not a sign that she felt no strain.",
+          "zh": "她平靜地堅持是一種不張揚的堅韌，並不表示她毫無壓力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3190",
+      "number": 3190,
+      "inventoryId": "expr-3190",
+      "titleEn": "fit the person",
+      "titleZh": "切合當事人的情況",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:fit|fits|fitted|fitting) the person\\b",
+        "glossaryForbidden": [
+          "\\bthe person\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Suit an individual’s circumstances, needs or abilities.",
+        "meaningZh": "切合某人的處境、需要或能力。",
+        "grammar": "Fit uses a clothing-size metaphor for suitability; advice is the thing that fits.",
+        "register": "Advice, teaching and service design.",
+        "boundaryZh": "即使建議普遍有效，也應按當事人的具體情況調整；不是每個人都需要同一做法。",
+        "misconceptionZh": "不要把 fit 解作衣服尺寸，也不要把「適合某人」等同「對所有人有效」。",
+        "outcomeZh": "能指出當事人的一項具體限制，以及怎樣調整建議。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1079",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 100,
+          "book": 12,
+          "question": 34,
+          "sample": "S1",
+          "sourceBookPages": "82–83",
+          "locatorNote": "DOCX table 104, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Useful advice has to fit the person receiving it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "has to fit the person"
+        }
+      ],
+      "listening": {
+        "promptZh": "教練為何改動計劃？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Arun’s early shift made the morning run impractical.",
+            "zh": "阿倫要上早班，早上長跑並不實際。"
+          },
+          {
+            "id": "b",
+            "en": "Arun asked for a more demanding morning run.",
+            "zh": "阿倫要求早上跑得更久。"
+          },
+          {
+            "id": "c",
+            "en": "The evening walk would suit every person equally.",
+            "zh": "傍晚步行對每個人都同樣合適。"
+          },
+          {
+            "id": "d",
+            "en": "The trainer learned that Arun no longer wanted any exercise.",
+            "zh": "教練得知阿倫完全不想做運動。"
+          }
+        ],
+        "explanationZh": "修改時間和強度是因應阿倫的上班時間。",
+        "answerId": "a",
+        "en": "A trainer suggested a long morning run to everyone. When she learned that Arun worked early shifts, she changed his plan to a short evening walk. The advice finally fit the person receiving it.",
+        "zh": "教練原本建議每個人早上長跑。知道阿倫要上早班後，她把他的計劃改成傍晚短步行。建議終於切合接受建議的人的情況。"
+      },
+      "reply": {
+        "promptZh": "（修改後的計劃為何更適合阿倫？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It matched his work schedule.",
+            "zh": "它配合他的工作時間。"
+          },
+          {
+            "id": "b",
+            "en": "It gave him a realistic way to exercise.",
+            "zh": "它給他一種實際可行的運動方式。"
+          },
+          {
+            "id": "c",
+            "en": "The advice fit the person.",
+            "zh": "建議切合當事人的情況。"
+          },
+          {
+            "id": "d",
+            "en": "The trainer adjusted the plan after learning about his shift.",
+            "zh": "教練知道他的輪班安排後調整了計劃。"
+          }
+        ],
+        "explanationZh": "四句都指出建議因應當事人的時間限制。",
+        "promptEn": "Why did the revised plan work better for Arun?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "老師建議每位學生用影片複習，但一位學生沒有穩定網絡；老師改給她可離線閱讀的筆記。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The revised advice fits the person because it works without a reliable connection.",
+            "zh": "修改後的建議切合這位學生的情況，因為她毋須依賴穩定網絡。"
+          },
+          {
+            "id": "b",
+            "en": "The videos should remain the sole recommendation because visual explanations matter more than her unreliable connection.",
+            "zh": "影片應繼續是唯一建議，因為視覺講解比她網絡不穩定的問題更重要。"
+          },
+          {
+            "id": "c",
+            "en": "The offline notes suit her mainly because they use simpler language, rather than because she can access them without internet.",
+            "zh": "離線筆記適合她，主要因為字眼較簡單，而不是因為她毋須上網也能閱讀。"
+          }
+        ],
+        "explanationZh": "可離線筆記回應了這位學生的具體限制。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 fit 誤當成衣服尺寸？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Good advice should suit a person’s circumstances.",
+            "zh": "好建議應切合某人的處境。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase asks whether the person can physically wear the advice.",
+            "zh": "這說法問的是當事人能否把建議穿在身上。"
+          },
+          {
+            "id": "c",
+            "en": "A plan may need changing when someone works different hours.",
+            "zh": "某人工作時間不同時，計劃可能要調整。"
+          }
+        ],
+        "explanationZh": "這裏的 fit 比喻建議是否切合處境。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「人人都可以看影片複習，為甚麼要另外準備筆記？」你知道其中一名學生沒有穩定網絡。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Useful advice must fit the person; offline notes give this student a way to revise without relying on a steady connection.",
+            "zh": "有用的建議要切合當事人的情況；離線筆記讓這位學生毋須依賴穩定網絡也能複習。"
+          },
+          {
+            "id": "b",
+            "en": "Offline notes may help.",
+            "zh": "離線筆記可能有幫助。"
+          },
+          {
+            "id": "c",
+            "en": "The student’s connection is unreliable.",
+            "zh": "這位學生的網絡不穩定。"
+          }
+        ],
+        "explanationZh": "金句用具體限制解釋為何需要調整建議。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The new study plan fits the person because it works offline.",
+        "zh": "新的溫習計劃切合這位學生的情況，因為它可以離線使用。",
+        "promptZh": "先聽示範，再指出學生哪項限制令修改有需要。",
+        "targetSpan": {
+          "start": 19,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：職業顧問先建議求職者參加晚間課程，後來知道她晚上要照顧家人，便改推薦周末班。用一至兩句英文說明建議為何要調整。",
+        "selfCheckZh": "指出照顧責任如何令晚間課程不合適，以及新安排怎樣切合她；不要說周末班適合所有人。",
+        "examples": [
+          {
+            "en": "The weekend class fits the person better because she cares for relatives in the evenings and cannot attend the original course.",
+            "zh": "周末班更切合這位求職者，因為她晚上要照顧家人，無法參加原來的課程。"
+          },
+          {
+            "en": "After hearing about her caregiving duties, the adviser changed the schedule so the training would fit the person rather than a standard timetable.",
+            "zh": "顧問知道她要照顧家人後調整上課時間，讓培訓切合當事人的情況，而非一律按標準時間表安排。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The weekend class",
+            "zh": "周末班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "relatives",
+            "zh": "家人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 72
+            }
+          },
+          {
+            "en": "the original course",
+            "zh": "原來的課程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 126
+            }
+          },
+          {
+            "en": "her caregiving duties",
+            "zh": "她照顧家人的責任",
+            "exampleIndex": 1,
+            "span": {
+              "start": 20,
+              "end": 41
+            }
+          },
+          {
+            "en": "the schedule",
+            "zh": "上課時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 75
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A useful plan fits the person when it respects their real constraints.",
+          "zh": "有用的計劃若顧及當事人的實際限制，便切合其情況。"
+        },
+        {
+          "en": "The teacher changed the task to fit the person rather than insisting on one method for all.",
+          "zh": "老師調整任務以切合這位學生，沒有堅持人人使用同一方法。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3300",
+      "number": 3300,
+      "inventoryId": "expr-3300",
+      "titleEn": "pay attention to nuance",
+      "titleZh": "留意細微差別",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:pay|pays|paid|paying) attention to nuance\\b",
+        "glossaryForbidden": [
+          "\\battention to nuance\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Notice subtle differences in meaning, tone or effect.",
+        "meaningZh": "留意意思、語氣或效果上的細微差別。",
+        "grammar": "Nuance is usually uncountable in this collocation; the object of attention is a small but meaningful distinction.",
+        "register": "Writing, editing, translation and interpretation.",
+        "boundaryZh": "不等於吹毛求疵；細微差別要能影響讀者如何理解句子。",
+        "misconceptionZh": "不要只檢查拼字正確與否，也不要假定近義詞在所有語境可互換。",
+        "outcomeZh": "能指出至少兩個近似表達的不同語氣，以及這差別對讀者有甚麼影響。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1189",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 110,
+          "book": 12,
+          "question": 44,
+          "sample": "S2",
+          "sourceBookPages": "104–105",
+          "locatorNote": "DOCX table 114, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Writers should pay attention to nuance in word choice.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pay attention to nuance"
+        }
+      ],
+      "listening": {
+        "promptZh": "編輯為何改動字句？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The new request sounded less forceful.",
+            "zh": "新的要求聽來較不強硬。"
+          },
+          {
+            "id": "b",
+            "en": "The first request contained a spelling mistake.",
+            "zh": "第一句有拼字錯誤。"
+          },
+          {
+            "id": "c",
+            "en": "The two requests asked for completely different tasks.",
+            "zh": "兩句要求完成完全不同的工作。"
+          },
+          {
+            "id": "d",
+            "en": "She wanted volunteers to leave earlier instead.",
+            "zh": "她反而希望義工早點離開。"
+          }
+        ],
+        "explanationZh": "改動的是要求的語氣，並非工作內容。",
+        "answerId": "a",
+        "en": "In a letter to volunteers, the editor changed “You must stay late” to “Could you stay a little longer?” Both asked for more time, but she paid attention to nuance because the second sounded less demanding.",
+        "zh": "在一封寫給義工的信中，編輯把「你們必須留下來」改為「你們可以多留一會兒嗎？」兩句都要求多花時間，但她留意細微差別，因為第二句聽來較不強硬。"
+      },
+      "reply": {
+        "promptZh": "（編輯注意到兩句要求有甚麼不同？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They sought extra time but sounded different.",
+            "zh": "兩句都要求多花時間，但語氣不同。"
+          },
+          {
+            "id": "b",
+            "en": "The second wording was less demanding.",
+            "zh": "第二種說法較不強硬。"
+          },
+          {
+            "id": "c",
+            "en": "She paid attention to nuance.",
+            "zh": "她留意細微差別。"
+          },
+          {
+            "id": "d",
+            "en": "A small wording change could affect the reader’s response.",
+            "zh": "字眼的小改動可能影響讀者的反應。"
+          }
+        ],
+        "explanationZh": "四句都關乎相近意思的語氣差別。",
+        "promptEn": "What did the editor notice about the two requests?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "翻譯員考慮把「抱歉」譯成 “sorry” 還是 “I regret the inconvenience”；兩者都致歉，但正式程度不同。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is worth paying attention to nuance in formality.",
+            "zh": "值得留意正式程度上的細微差別。"
+          },
+          {
+            "id": "b",
+            "en": "The longer apology should be chosen for every reader because it names the inconvenience.",
+            "zh": "較長的道歉句提到帶來的不便，因此應對每位讀者都使用它。"
+          },
+          {
+            "id": "c",
+            "en": "The shorter apology should be chosen for a formal notice because brevity matters more than tone.",
+            "zh": "正式通告應用較短的道歉句，因為簡短比語氣更重要。"
+          }
+        ],
+        "explanationZh": "正式程度是有意義的細微語氣差別，不能只看基本意思。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句忽略了 nuance 的意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Small shifts in tone can change how a request is received.",
+            "zh": "語氣稍變，會影響別人怎樣理解要求。"
+          },
+          {
+            "id": "b",
+            "en": "If two expressions share a basic meaning, they are always interchangeable.",
+            "zh": "兩種說法若基本意思相同，就永遠可以互換。"
+          },
+          {
+            "id": "c",
+            "en": "An editor may choose a less forceful verb for a volunteer message.",
+            "zh": "編輯可能為義工訊息選用較不強硬的動詞。"
+          }
+        ],
+        "explanationZh": "基本意思相近不代表語氣與使用場合完全相同。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「兩句都在請義工留下，何必改字？」你知道讀者是自願幫忙的人。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should pay attention to nuance: both request more time, but the softer wording respects that volunteers can choose whether to stay.",
+            "zh": "我們應留意細微差別：兩句都要求多花時間，但較柔和的說法尊重義工可自行決定是否留下。"
+          },
+          {
+            "id": "b",
+            "en": "The second sentence is shorter.",
+            "zh": "第二句較短。"
+          },
+          {
+            "id": "c",
+            "en": "The letter addresses volunteers.",
+            "zh": "這封信是寫給義工的。"
+          }
+        ],
+        "explanationZh": "金句指出語氣差別與義工的選擇權。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The editor paid attention to nuance when she softened the request.",
+        "zh": "編輯把要求寫得較柔和時，留意了細微差別。",
+        "promptZh": "先聽示範，再指出兩句要求的語氣有何不同。",
+        "targetSpan": {
+          "start": 11,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校通告原本寫「學生必須立即回覆」，主任改成「請在星期五前回覆」，因為實際期限是星期五。用一至兩句英文說明改動的效果。",
+        "selfCheckZh": "指出原句和改句在急迫感上的差異，以及星期五期限；不要說答覆變成可有可無。",
+        "examples": [
+          {
+            "en": "The school administrator paid attention to nuance by replacing “immediately” with a Friday deadline, making the notice accurate without dropping the requirement to reply.",
+            "zh": "學校主任留意細微差別，把「立即」改成星期五期限，令通告準確，同時保留回覆要求。"
+          },
+          {
+            "en": "By paying attention to nuance, the school administrator kept the reply requirement but gave families until Friday instead of demanding an instant answer.",
+            "zh": "學校主任留意細微差別，保留回覆要求，卻讓家庭有時間在星期五前回答，而非要求立即答覆。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a Friday deadline",
+            "zh": "星期五期限",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 99
+            }
+          },
+          {
+            "en": "the notice",
+            "zh": "通告",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 118
+            }
+          },
+          {
+            "en": "the requirement to reply",
+            "zh": "回覆要求",
+            "exampleIndex": 0,
+            "span": {
+              "start": 145,
+              "end": 169
+            }
+          },
+          {
+            "en": "until Friday",
+            "zh": "在星期五前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 113
+            }
+          },
+          {
+            "en": "families",
+            "zh": "家庭",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 100
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A careful translator pays attention to nuance in level of formality.",
+          "zh": "細心的翻譯員會留意正式程度的細微差別。"
+        },
+        {
+          "en": "We paid attention to nuance because “immediately” implied a deadline the school had not set.",
+          "zh": "我們留意細微差別，因為「立即」暗示了學校其實沒有訂下的期限。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

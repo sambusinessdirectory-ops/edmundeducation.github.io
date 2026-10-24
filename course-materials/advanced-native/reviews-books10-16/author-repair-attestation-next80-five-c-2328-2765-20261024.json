@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "kind": "exact-hash-editorial-repair-attestation-unselected",
+  "priorProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-five-c-2328-2765-pre-repair-20261024.json",
+  "priorProposalSha256": "830a3303b655c609abf6d05495aea77101bd944d4eacc3a93409fe64be7765a1",
+  "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-review-next80-five-c-2328-2765-20261024.json",
+  "independentReviewSha256": "03ed751a0bf3ce8ae2cb9f89b22ca0262c7eafd1b95a55ab0871f38c448d8fca",
+  "repairedProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-five-c-2328-2765-20261024.json",
+  "repairedProposalSha256": "e05973e58b102294b9d7d1920d9998f2919771b167326f19da86406aae4ce17e",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-current-next80-five-c-2328-2765-20261024.json",
+  "authorQaSha256": "fb17372b7455adebfaf2cd93eeac4890ede5bdfa1412c816f24c83567091f0c7",
+  "originalityPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-current-next80-five-c-2328-2765-20261024.json",
+  "originalitySha256": "b051b763c7e85174e3da5abd7d39d2ea4c0be1dc9f82c80d91df6ba130249334",
+  "changes": [
+    {
+      "lesson": 2328,
+      "field": ".writing.promptZh",
+      "old": "新情境：學校以為新生與畢業班會選完全不同的活動安排；小型試行中，兩組都優先選擇可自行調整的時段，但對活動長度仍有不同意見。用一至兩句英文評估原假設。",
+      "new": "新情境：市政府原以為騎單車與駕車通勤者對路口設計的想法完全相反；一項小型試行訪問發現，兩組都重視清晰的過路訊號，但對單車道應佔多少空間仍有不同意見。用一至兩句英文評估原假設。"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.selfCheckZh",
+      "old": "指出共同選擇和仍有的差異，保留小型試行的不確定性。",
+      "new": "指出共同的安全需求及單車道空間上的差異，並用 probably 保留小型試行的不確定性。"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.examples[0].en",
+      "old": "The gap is probably smaller than stereotypes suggest: both year groups preferred flexible times, although they differed on session length.",
+      "new": "The gap is probably smaller than stereotypes suggest: cyclists and drivers both favoured clear crossing signals, though they differed on cycle-lane space."
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.examples[0].zh",
+      "old": "實際差距很可能比刻板印象所說的細：兩個年級組都較喜歡彈性時段，但對每節長度有不同意見。",
+      "new": "實際差距很可能比刻板印象所說的細：騎單車和駕車者都重視清晰的過路訊號，但對單車道空間有不同意見。"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.examples[1].en",
+      "old": "Because both cohorts picked adjustable schedules, the gap is probably smaller than stereotypes suggest; a larger trial could test that impression.",
+      "new": "In a small pilot survey, both groups asked for clearer crossing signals but disagreed on cycle-lane space; the gap is probably smaller than stereotypes suggest."
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.examples[1].zh",
+      "old": "兩組學生都選可調整時間表，因此實際差距很可能比刻板印象所說的細；較大規模的試行可進一步驗證。",
+      "new": "在一項小型試行訪問中，兩組都要求更清晰的過路訊號，卻對單車道空間有分歧；實際差距很可能比刻板印象所說的細。"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[0].en",
+      "old": "both year groups",
+      "new": "cyclists and drivers"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[0].zh",
+      "old": "兩個年級組",
+      "new": "騎單車和駕車者"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[0].span.end",
+      "old": 70,
+      "new": 74
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[1].en",
+      "old": "flexible times",
+      "new": "clear crossing signals"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[1].zh",
+      "old": "彈性時段",
+      "new": "清晰的過路訊號"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[1].span.start",
+      "old": 81,
+      "new": 89
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[1].span.end",
+      "old": 95,
+      "new": 111
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[2].en",
+      "old": "session length",
+      "new": "cycle-lane space"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[2].zh",
+      "old": "每節長度",
+      "new": "單車道空間"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[2].span.start",
+      "old": 123,
+      "new": 137
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[2].span.end",
+      "old": 137,
+      "new": 153
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[3].en",
+      "old": "adjustable schedules",
+      "new": "a small pilot survey"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[3].zh",
+      "old": "可調整時間表",
+      "new": "小型試行訪問"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[3].span.start",
+      "old": 28,
+      "new": 3
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[3].span.end",
+      "old": 48,
+      "new": 23
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[4].en",
+      "old": "a larger trial",
+      "new": "clearer crossing signals"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[4].zh",
+      "old": "較大規模試行",
+      "new": "更清晰的過路訊號"
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[4].span.start",
+      "old": 104,
+      "new": 47
+    },
+    {
+      "lesson": 2328,
+      "field": ".writing.glossary[4].span.end",
+      "old": 118,
+      "new": 71
+    },
+    {
+      "lesson": 2695,
+      "field": ".scene.options[0].zh",
+      "old": "正式認可的途徑現在對學生更易負擔。",
+      "new": "正式認可的途徑現在更容易讓學生使用。"
+    },
+    {
+      "lesson": 2720,
+      "field": ".writing.examples[1].en",
+      "old": "For several days, stall pictures dominated the scroll locally; transport updates remained available but appeared less often.",
+      "new": "For several days, stall pictures dominated the scroll locally; transport updates continued as usual but were less prominent among the market posts."
+    },
+    {
+      "lesson": 2720,
+      "field": ".writing.examples[1].zh",
+      "old": "連續數天，攤位照片佔據了本地動態消息；交通更新仍可找到，只是出現得較少。",
+      "new": "連續數天，攤位照片佔據了本地動態消息；交通更新仍照常發布，但在大量市集貼文之間較不顯眼。"
+    },
+    {
+      "lesson": 2765,
+      "field": ".reply.options[1].en",
+      "old": "Two train changes and a late bus make the outing demanding.",
+      "new": "Two trains and a late bus make the outing demanding."
+    },
+    {
+      "lesson": 2765,
+      "field": ".reply.options[1].zh",
+      "old": "兩次轉車和深夜巴士令外出變得費神。",
+      "new": "兩程火車和一班深夜巴士令外出變得費神。"
+    }
+  ],
+  "sourceInventoryAndDecisionFieldsUnchanged": true,
+  "selectionAndReleaseUnchanged": true,
+  "focusedIndependentRereview": "pending"
+}

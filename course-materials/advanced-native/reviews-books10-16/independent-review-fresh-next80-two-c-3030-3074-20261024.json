@@ -1,0 +1,81 @@
+{
+  "kind": "independent-hash-bound-proposal-review",
+  "date": "2026-10-24",
+  "binding": {
+    "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-c-3030-3074-20261024.json",
+    "proposalSha256": "5db989a702619c3bad2329c947a65c7691952639ec2f740ff4a04fd0d9253216",
+    "authorQaFile": "course-materials/advanced-native/reviews-books10-16/author-qa-fresh-next80-two-c-3030-3074-20261024.json",
+    "authorQaSha256": "dfd8e28c5344a50785fc51c7876a427fc14b3641e6894c77fb0568afc8ab687e",
+    "originalityReportFile": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-fresh-next80-two-c-3030-3074-20261024.json",
+    "originalityReportSha256": "049a7fea264adf12ca09d92361d401ab4ef8fe2f11cdeb54b491e5bd90222522",
+    "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "counts": {
+    "lessons": 2,
+    "steps": 14,
+    "assessedQuestions": 12,
+    "blockingIssues": 3,
+    "advisories": 1
+  },
+  "overallVerdict": "block-until-targeted-repair",
+  "rows": [
+    {
+      "ordinal": 3030,
+      "sourceId": "book10-16-0919",
+      "sourceSentence": "Children often show their imagination out in the open.",
+      "sourceRawRowSha256": "756d92a5c0012f472022ca0d0e1cc915113cd1108ac9e5d57f33e75d35fa349e",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl",
+      "decisionFileSha256": "4ed6de0eb8bbb07aab7bc5679f68d43d31d67bdeebd42f516df03590cb1ba7f5",
+      "decisionRawRowSha256": "0fda926d6d973b4514d99ba4e07415191e82f1c7fcc963e6239df800d3c66d83",
+      "lessonCanonicalSha256": "af2586fcdd5e309b00e03c88e067a64d69c8e749e70c725a0f8b0ec428b5f55c",
+      "sourceSense": "pass",
+      "sevenSteps": "pass",
+      "fourValidReplies": "pass",
+      "glossarySpansAndTargetFree": "pass",
+      "verdict": "block-targeted-repair",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "The wrong choices jump to outdoor costume use or claim only the designer can see drafts after the source says the cast can see the shared wall. Both can be rejected without applying the public-visibility sense; B also repeats the contrast question’s literal-outdoor misconception.",
+          "repair": "Use plausible near misses grounded in the posted draft and cast feedback, e.g. overstate who beyond the cast can see it or mistake visible draft for final approval, while keeping A uniquely best."
+        }
+      ],
+      "advisories": []
+    },
+    {
+      "ordinal": 3074,
+      "sourceId": "book10-16-0963",
+      "sourceSentence": "They made a game out of almost nothing.",
+      "sourceRawRowSha256": "c6867726703637ea409568bed2bfbb1b9c602ee579687d8f73e4b9ad06e2df1d",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3072-3131.jsonl",
+      "decisionFileSha256": "520f2ff881287c1a70652caae85452a81ece22792923c75488332df6e74af7c1",
+      "decisionRawRowSha256": "be9f465d7d3f5c39a0963101c9704d9d79ce88b31c32fb8cbeea9c6e95d1e1a9",
+      "lessonCanonicalSha256": "b4452c4598bfffb4cd8ac5fdc7b7130a7abaa64e522f7d268e0c466cc30a1c00",
+      "sourceSense": "pass",
+      "sevenSteps": "pass",
+      "fourValidReplies": "pass",
+      "glossarySpansAndTargetFree": "pass",
+      "verdict": "block-targeted-repair",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "The wrong choices assert a professional drum kit or a silent performance, both remote from the described cans-and-spoons rhythm. They do not test whether almost nothing means a few materials.",
+          "repair": "Use near misses about the actual few objects, such as saying the band had no materials at all or claiming the cans were enough only because they had a full instrument set; retain one best key."
+        },
+        {
+          "field": "writing.examples[0].en/.zh and glossary",
+          "finding": "The writing prompt says paper cartons and boards were used to make a reusable seedling rack (育苗架). Model 1 instead claims they made reusable seed trays (育苗盤), changing the object. Glossary inherits that wrong answer.",
+          "repair": "Change model 1 and answer-derived glossary to the seedling rack in both languages; keep model 2 and source meaning coherent."
+        }
+      ],
+      "advisories": [
+        {
+          "field": "listening.zh and writing.examples[0,1].zh",
+          "finding": "Chinese repeatedly renders material scarcity as near-zero cost/resources (“幾乎沒有成本”, “幾乎不花資源”, “幾乎不靠甚麼資源”). The English source means very few materials, not necessarily zero cost. Prefer 用極少材料/資源 throughout."
+        }
+      ]
+    }
+  ],
+  "releaseState": "unselected; no decisions, manifest, media, or deployment mutated"
+}

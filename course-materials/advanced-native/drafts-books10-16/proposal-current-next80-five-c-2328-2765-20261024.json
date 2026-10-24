@@ -1,0 +1,1353 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-current-next80-five-c-proposal-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-2328",
+      "number": 2328,
+      "inventoryId": "expr-2328",
+      "titleEn": "the gap is probably smaller than stereotypes suggest",
+      "titleZh": "實際差距很可能比刻板印象所說的細",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bthe gap is probably smaller than stereotypes suggest\\b",
+        "glossaryForbidden": [
+          "\\bthe gap\\b",
+          "\\bstereotypes suggest\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A cautious comparison: observed differences between groups appear less pronounced than assumptions imply.",
+        "meaningZh": "審慎比較：觀察到的群體差異似乎沒有先入觀念所暗示的那麼大。",
+        "grammar": "Probably keeps the conclusion provisional; it does not claim the groups are identical.",
+        "register": "Discussion of surveys, preferences and evidence.",
+        "boundaryZh": "需要比較實際選擇的資料，不能只以一兩個個案作結論。",
+        "misconceptionZh": "不要把「差距較小」說成「完全沒有差異」，也不要重複刻板印象作事實。",
+        "outcomeZh": "能指出兩組選擇的重疊處及仍有的不確定性。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0217",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 20,
+          "book": 10,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 16, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The gap is probably smaller than stereotypes suggest once we compare real choices.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the gap is probably smaller than stereotypes suggest"
+        }
+      ],
+      "listening": {
+        "promptZh": "調查結果支持甚麼審慎判斷？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The two groups shared some preferences despite some differences.",
+            "zh": "兩組人在部分喜好上相近，雖然仍有差異。"
+          },
+          {
+            "id": "b",
+            "en": "The survey proves their preferences are identical.",
+            "zh": "調查證明兩組喜好完全相同。"
+          },
+          {
+            "id": "c",
+            "en": "Only younger visitors were asked about benches.",
+            "zh": "只有年輕訪客被問及座椅。"
+          },
+          {
+            "id": "d",
+            "en": "Sports choices were the only facilities in the survey.",
+            "zh": "調查只涉及運動設施。"
+          }
+        ],
+        "explanationZh": "座椅和樹蔭的重疊使「差異極大」的預想需要修正。",
+        "answerId": "a",
+        "en": "The park committee expected age groups to want very different facilities. In a small survey, both often chose shade and benches, although their sports preferences differed. The gap is probably smaller than stereotypes suggest.",
+        "zh": "公園委員會原以為不同年齡組想要的設施大不相同。一項小型調查中，兩組人都常選樹蔭和座椅，雖然運動喜好不同。實際差距很可能比刻板印象所說的細。"
+      },
+      "reply": {
+        "promptZh": "（委員會從調查學到甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Both age groups valued some of the same facilities.",
+            "zh": "兩個年齡組都重視部分相同設施。"
+          },
+          {
+            "id": "b",
+            "en": "The apparent age divide was not as large in every choice.",
+            "zh": "並非每項選擇都顯示很大的年齡差異。"
+          },
+          {
+            "id": "c",
+            "en": "The gap is probably smaller than stereotypes suggest.",
+            "zh": "實際差距很可能比刻板印象所說的細。"
+          },
+          {
+            "id": "d",
+            "en": "The survey complicated the committee’s first assumption.",
+            "zh": "調查令委員會最初的假設變得不那麼簡單。"
+          }
+        ],
+        "explanationZh": "四句都指實際選擇比最初假設更相近。",
+        "promptEn": "What did the committee learn from the survey?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "有人斷言新生和畢業班一定想要完全不同的溫習工具；初步問卷顯示兩組都重視清晰的時間表，但還有其他差異。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The gap is probably smaller than stereotypes suggest.",
+            "zh": "實際差距很可能比刻板印象所說的細。"
+          },
+          {
+            "id": "b",
+            "en": "The groups have identical preferences in every respect.",
+            "zh": "兩組在所有方面喜好完全相同。"
+          },
+          {
+            "id": "c",
+            "en": "The survey cannot say anything about their shared preference.",
+            "zh": "調查完全不能說明兩組相同的喜好。"
+          }
+        ],
+        "explanationZh": "兩組有明顯重疊，但仍有其他差異，因此用 probably。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句保留了 probably 所表達的審慎程度？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The early results suggest a smaller gap, but more data would help.",
+            "zh": "初步結果顯示差距較小，但更多資料會有幫助。"
+          },
+          {
+            "id": "b",
+            "en": "One small survey proves no group difference can ever exist.",
+            "zh": "一項小型調查證明群體差異永遠不存在。"
+          },
+          {
+            "id": "c",
+            "en": "Stereotypes are more reliable than recorded choices.",
+            "zh": "刻板印象比記錄下來的選擇更可靠。"
+          }
+        ],
+        "explanationZh": "probably 表示根據現有資料作審慎推論。",
+        "answerId": "a"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「新生與畢業班的需要一定天差地別。」你看到兩組都選清晰時間表，但問卷樣本不大。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The gap is probably smaller than stereotypes suggest; both groups chose clear schedules, though we should collect more responses.",
+            "zh": "實際差距很可能比刻板印象所說的細；兩組都選清晰時間表，但仍應收集更多回覆。"
+          },
+          {
+            "id": "b",
+            "en": "Both groups chose clear schedules.",
+            "zh": "兩組都選清晰時間表。"
+          },
+          {
+            "id": "c",
+            "en": "The current sample is small.",
+            "zh": "目前樣本較小。"
+          }
+        ],
+        "explanationZh": "金句指出重疊證據，同時保留樣本限制。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The gap is probably smaller than stereotypes suggest because both groups valued quiet seating.",
+        "zh": "兩組都重視安靜座位，因此實際差距很可能比刻板印象所說的細。",
+        "promptZh": "先聽示範，再說出調查中哪項選擇相近。",
+        "targetSpan": {
+          "start": 0,
+          "end": 52
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：市政府原以為騎單車與駕車通勤者對路口設計的想法完全相反；一項小型試行訪問發現，兩組都重視清晰的過路訊號，但對單車道應佔多少空間仍有不同意見。用一至兩句英文評估原假設。",
+        "selfCheckZh": "指出共同的安全需求及單車道空間上的差異，並用 probably 保留小型試行的不確定性。",
+        "examples": [
+          {
+            "en": "The gap is probably smaller than stereotypes suggest: cyclists and drivers both favoured clear crossing signals, though they differed on cycle-lane space.",
+            "zh": "實際差距很可能比刻板印象所說的細：騎單車和駕車者都重視清晰的過路訊號，但對單車道空間有不同意見。"
+          },
+          {
+            "en": "In a small pilot survey, both groups asked for clearer crossing signals but disagreed on cycle-lane space; the gap is probably smaller than stereotypes suggest.",
+            "zh": "在一項小型試行訪問中，兩組都要求更清晰的過路訊號，卻對單車道空間有分歧；實際差距很可能比刻板印象所說的細。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "cyclists and drivers",
+            "zh": "騎單車和駕車者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 74
+            }
+          },
+          {
+            "en": "clear crossing signals",
+            "zh": "清晰的過路訊號",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 111
+            }
+          },
+          {
+            "en": "cycle-lane space",
+            "zh": "單車道空間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 153
+            }
+          },
+          {
+            "en": "a small pilot survey",
+            "zh": "小型試行訪問",
+            "exampleIndex": 1,
+            "span": {
+              "start": 3,
+              "end": 23
+            }
+          },
+          {
+            "en": "clearer crossing signals",
+            "zh": "更清晰的過路訊號",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 71
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When real choices overlap, the gap is probably smaller than stereotypes suggest.",
+          "zh": "當實際選擇重疊，差距很可能比刻板印象所說的細。"
+        },
+        {
+          "en": "A careful reader may say the gap is probably smaller than stereotypes suggest, while asking for more evidence.",
+          "zh": "審慎的讀者可說差距很可能比刻板印象所說的細，同時要求更多證據。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2515",
+      "number": 2515,
+      "inventoryId": "expr-2515",
+      "titleEn": "friendship runs on care",
+      "titleZh": "友誼靠關懷維繫",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bfriendship runs on care\\b",
+        "glossaryForbidden": [
+          "\\bfriendship\\b",
+          "\\bruns on care\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A friendship is sustained by attention and support, not merely by what is convenient for each person.",
+        "meaningZh": "友誼靠持續關心和支持維繫，不只是雙方方便時才來往。",
+        "grammar": "Runs on is a mechanical metaphor for what sustains a relationship; it does not make care a fuel measured in units.",
+        "register": "Informal reflection on friendship.",
+        "boundaryZh": "關懷可表現為傾聽或守約，不等於朋友必須隨時放下所有事。",
+        "misconceptionZh": "不要把照顧朋友變成單方面無限付出。",
+        "outcomeZh": "能指出一項具體、彼此尊重的關懷行動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0404",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 37,
+          "book": 10,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "80–82",
+          "locatorNote": "DOCX table 33, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Friendship runs on care, not convenience.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "friendship runs on care"
+        }
+      ],
+      "listening": {
+        "promptZh": "蓮娜的行動顯示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She checked on her friend without expecting a favour.",
+            "zh": "她關心朋友，沒有期待回報。"
+          },
+          {
+            "id": "b",
+            "en": "She spoke only when she needed a ticket.",
+            "zh": "她只有需要門票時才說話。"
+          },
+          {
+            "id": "c",
+            "en": "She ignored the illness to avoid inconvenience.",
+            "zh": "她為免麻煩而不理會朋友生病。"
+          },
+          {
+            "id": "d",
+            "en": "She expected her friend to attend despite being ill.",
+            "zh": "她要求生病的朋友仍要出席。"
+          }
+        ],
+        "explanationZh": "她在朋友需要關心時主動聯絡。",
+        "answerId": "a",
+        "en": "When Lena’s friend missed the art show after an illness, Lena called to ask how she was and sent photos without asking for a favour. She said friendship runs on care, not convenience.",
+        "zh": "蓮娜的朋友生病後錯過藝術展，蓮娜打電話問候，又傳照片給她，沒有要求回報。她說友誼靠關懷維繫，而非只求方便。"
+      },
+      "reply": {
+        "promptZh": "（蓮娜那句話是甚麼意思？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Friends should notice each other’s needs.",
+            "zh": "朋友應留意彼此的需要。"
+          },
+          {
+            "id": "b",
+            "en": "Support matters even when there is no immediate benefit.",
+            "zh": "即使沒有即時好處，支持仍重要。"
+          },
+          {
+            "id": "c",
+            "en": "Friendship runs on care.",
+            "zh": "友誼靠關懷維繫。"
+          },
+          {
+            "id": "d",
+            "en": "Her call was about concern, not a favour.",
+            "zh": "她打電話是出於關心，而非求助。"
+          }
+        ],
+        "explanationZh": "四句都說明她主動關心朋友的原因。",
+        "promptEn": "What did Lena mean by her comment?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一位朋友在搬家期間壓力很大，另一位答應星期六聽她說說近況，並先確認自己有時間。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Friendship runs on care, including keeping a realistic promise to listen.",
+            "zh": "友誼靠關懷維繫，包括守住自己能做到的傾聽承諾。"
+          },
+          {
+            "id": "b",
+            "en": "A caring friend must abandon every existing commitment.",
+            "zh": "關心朋友就必須放下所有既有承諾。"
+          },
+          {
+            "id": "c",
+            "en": "Listening has no value unless a favour is returned.",
+            "zh": "若沒有回報，傾聽便沒有價值。"
+          }
+        ],
+        "explanationZh": "在能力範圍內履行承諾，是具體且互相尊重的關懷。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把關懷誤解為必須無限犧牲？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ask when your friend would welcome a call.",
+            "zh": "問朋友甚麼時候方便通話。"
+          },
+          {
+            "id": "b",
+            "en": "You must be available every minute or you are not a real friend.",
+            "zh": "你必須每分鐘都有空，否則就不是真朋友。"
+          },
+          {
+            "id": "c",
+            "en": "A small check-in can be meaningful.",
+            "zh": "簡單問候也可以有意義。"
+          }
+        ],
+        "explanationZh": "關懷不要求無限待命，仍須尊重彼此界線。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我不能每天陪她，還算關心嗎？」你知道她會守約，每週通話一次。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Friendship runs on care, not constant availability; keeping your weekly call is a real way to show it.",
+            "zh": "友誼靠關懷維繫，不靠無時無刻待命；守住每週通話的約定就是具體表現。"
+          },
+          {
+            "id": "b",
+            "en": "Your weekly call can matter to her.",
+            "zh": "每週通話對她可能很重要。"
+          },
+          {
+            "id": "c",
+            "en": "You do not have to call every day.",
+            "zh": "你毋須每天通話。"
+          }
+        ],
+        "explanationZh": "金句保留關懷和合理界線，並指出具體做法。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Lena believed friendship runs on care when she checked on her ill friend.",
+        "zh": "蓮娜打電話問候生病的朋友時，認為友誼靠關懷維繫。",
+        "promptZh": "先聽示範，再說出她做了哪項不求回報的事。",
+        "targetSpan": {
+          "start": 14,
+          "end": 37
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩名朋友住在不同城市，不能常見面；一人每月記得問候對方的重要日子，另一人也會在朋友忙碌時給予理解。用一至兩句英文說明友誼如何維繫。",
+        "selfCheckZh": "指出雙方各一項關懷行動，不要暗示友誼要求每天聯絡。",
+        "examples": [
+          {
+            "en": "Friendship runs on care: one friend remembers important dates, and the other respects busy weeks without demanding daily calls.",
+            "zh": "友誼靠關懷維繫：一人記得重要日子，另一人尊重忙碌的星期，不要求每天通話。"
+          },
+          {
+            "en": "Even across cities, friendship runs on care when both people check in thoughtfully and make room for each other’s schedules.",
+            "zh": "即使分居兩城，雙方用心問候並體諒彼此時間安排，友誼仍靠關懷維繫。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "important dates",
+            "zh": "重要日子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 61
+            }
+          },
+          {
+            "en": "busy weeks",
+            "zh": "忙碌的星期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 96
+            }
+          },
+          {
+            "en": "daily calls",
+            "zh": "每天通話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 126
+            }
+          },
+          {
+            "en": "across cities",
+            "zh": "分居兩城",
+            "exampleIndex": 1,
+            "span": {
+              "start": 5,
+              "end": 18
+            }
+          },
+          {
+            "en": "each other’s schedules",
+            "zh": "彼此時間安排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 123
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Friendship runs on care, but care can fit within healthy boundaries.",
+          "zh": "友誼靠關懷維繫，而關懷可以與健康界線並存。"
+        },
+        {
+          "en": "Friendship runs on care when people listen and keep realistic promises.",
+          "zh": "人們傾聽並守住可行承諾時，友誼便靠關懷維繫。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2695",
+      "number": 2695,
+      "inventoryId": "expr-2695",
+      "titleEn": "the official route",
+      "titleZh": "正式認可的途徑",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe official route\\b",
+        "glossaryForbidden": [
+          "\\bthe official route\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "The authorised or approved way to gain access, rather than an unofficial workaround.",
+        "meaningZh": "取得服務或內容的正式認可途徑，而非未獲授權的繞道方法。",
+        "grammar": "Route is figurative here; it may be a website, licence or approved channel rather than a road.",
+        "register": "Digital access, tickets and services.",
+        "boundaryZh": "正式途徑是否方便與它是否獲認可，是兩個不同問題。",
+        "misconceptionZh": "不能只因途徑較便宜便推斷它一定正式；須有授權證據。",
+        "outcomeZh": "能指出正式渠道及使用者為何能透過它取得內容。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0584",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 54,
+          "book": 11,
+          "question": 13,
+          "sample": "S2",
+          "sourceBookPages": "33–36",
+          "locatorNote": "DOCX table 49, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A cheaper subscription makes the official route easier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the official route"
+        }
+      ],
+      "listening": {
+        "promptZh": "甚麼令正式途徑更易使用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The library offered licensed e-books through its app.",
+            "zh": "圖書館透過應用程式借出已獲授權的電子書。"
+          },
+          {
+            "id": "b",
+            "en": "The unofficial scans became licensed automatically.",
+            "zh": "非正式掃描本自動變成獲授權版本。"
+          },
+          {
+            "id": "c",
+            "en": "Students no longer needed any reading device.",
+            "zh": "學生毋須再使用任何閱讀裝置。"
+          },
+          {
+            "id": "d",
+            "en": "The library stopped lending books.",
+            "zh": "圖書館停止借書。"
+          }
+        ],
+        "explanationZh": "獲授權的圖書館借閱渠道變得容易取得。",
+        "answerId": "a",
+        "en": "A city library began lending licensed e-books through its app at no extra charge. Students who had relied on unofficial scans could now use the official route more easily.",
+        "zh": "市立圖書館開始透過應用程式免費借出已獲授權的電子書。以往依賴非正式掃描本的學生，現在可以更容易使用正式認可的途徑。"
+      },
+      "reply": {
+        "promptZh": "（學生取得電子書的方式有甚麼變化？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They could borrow licensed copies through the library.",
+            "zh": "他們可透過圖書館借閱獲授權版本。"
+          },
+          {
+            "id": "b",
+            "en": "They had an approved alternative to unofficial scans.",
+            "zh": "他們有了非正式掃描本以外的認可選擇。"
+          },
+          {
+            "id": "c",
+            "en": "The official route became easier to use.",
+            "zh": "正式認可的途徑變得更易使用。"
+          },
+          {
+            "id": "d",
+            "en": "They could use the app for authorised access.",
+            "zh": "他們可用應用程式取得獲授權的內容。"
+          }
+        ],
+        "explanationZh": "四句都指出授權借閱途徑更易使用。",
+        "promptEn": "What changed for the students?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "演出門票原先只能在昂貴的代理網站購買，主辦方現在增設可負擔的官方學生票。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The official route is now more accessible to students.",
+            "zh": "正式認可的途徑現在更容易讓學生使用。"
+          },
+          {
+            "id": "b",
+            "en": "Every low-priced resale ticket is officially approved.",
+            "zh": "每張廉價轉售票都獲官方認可。"
+          },
+          {
+            "id": "c",
+            "en": "The organiser has stopped selling tickets.",
+            "zh": "主辦方已停止售票。"
+          }
+        ],
+        "explanationZh": "官方學生票降低正式購票途徑的門檻。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 official route 誤讀成實際道路？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A licensed app can provide authorised access.",
+            "zh": "已獲授權的應用程式可提供正式途徑。"
+          },
+          {
+            "id": "b",
+            "en": "It must be a road marked on the city map.",
+            "zh": "它一定是市區地圖上標出的道路。"
+          },
+          {
+            "id": "c",
+            "en": "A cheaper authorised option may reduce reliance on workarounds.",
+            "zh": "較便宜的認可選擇可能減少對繞道方法的依賴。"
+          }
+        ],
+        "explanationZh": "route 在此比喻取得內容的渠道。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「轉售平台很便宜，就當它是官方票吧？」你知道主辦方有官方學生票。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A low price alone does not make a resale listing the official route; use the organiser’s student-ticket page to check the approved option.",
+            "zh": "價格低本身不代表轉售平台是正式途徑；到主辦方學生票網頁核對認可選項吧。"
+          },
+          {
+            "id": "b",
+            "en": "The organiser has a student-ticket page.",
+            "zh": "主辦方設有學生票網頁。"
+          },
+          {
+            "id": "c",
+            "en": "A cheap listing may still need checking.",
+            "zh": "便宜的票仍可能需要核對。"
+          }
+        ],
+        "explanationZh": "金句區分低價與授權，並提出核對方法。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The library app made the official route easier for students seeking licensed books.",
+        "zh": "圖書館應用程式令學生更容易循正式途徑取得已獲授權的書。",
+        "promptZh": "先聽示範，再說出哪個渠道已獲授權。",
+        "targetSpan": {
+          "start": 21,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校透過校內網站，以較低價提供科學模擬程式的認可授權。學生以往會從來源不明的鏡像網站下載。用一至兩句英文說明正式途徑如何變得可行。",
+        "selfCheckZh": "指出校內網站和認可授權怎樣讓學生避開來源不明的下載渠道；不要說所有鏡像網站必定有害。",
+        "examples": [
+          {
+            "en": "The school portal makes the official route easier to use: students can download the licensed simulator at a reduced price.",
+            "zh": "校內網站讓正式途徑更易使用：學生能以較低價下載獲授權的模擬程式。"
+          },
+          {
+            "en": "Through an approved licence, students can take the official route without relying on unidentified file mirrors.",
+            "zh": "有了認可授權，學生可以循正式途徑取得程式，毋須依賴來源不明的檔案鏡像網站。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The school portal",
+            "zh": "校內網站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "the licensed simulator",
+            "zh": "獲授權的模擬程式",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 102
+            }
+          },
+          {
+            "en": "a reduced price",
+            "zh": "較低價",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 121
+            }
+          },
+          {
+            "en": "an approved licence",
+            "zh": "認可授權",
+            "exampleIndex": 1,
+            "span": {
+              "start": 8,
+              "end": 27
+            }
+          },
+          {
+            "en": "unidentified file mirrors",
+            "zh": "來源不明的檔案鏡像網站",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 110
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An affordable licence can make the official route easier than an unofficial copy.",
+          "zh": "可負擔的授權可令正式途徑比非正式副本更容易使用。"
+        },
+        {
+          "en": "The official route may be a website rather than a street.",
+          "zh": "正式認可的途徑可以是網站，而不是街道。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2720",
+      "number": 2720,
+      "inventoryId": "expr-2720",
+      "titleEn": "dominate the scroll",
+      "titleZh": "佔據動態消息大部分版面",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:dominate|dominates|dominated|dominating) the scroll\\b",
+        "glossaryForbidden": [
+          "\\bdominat(?:e|es|ed|ing) the scroll\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Occupy a large share of what people encounter in an online feed.",
+        "meaningZh": "佔據網上動態消息中讀者經常看到的大部分內容。",
+        "grammar": "The scroll is the moving feed; this does not mean every post on the internet is about one topic.",
+        "register": "Online attention and media coverage.",
+        "boundaryZh": "一段時間內很顯眼，不保證內容長期重要或準確。",
+        "misconceptionZh": "本課與 vanish into the scroll 相反：前者佔據眼前版面，後者被新內容蓋過。",
+        "outcomeZh": "能指出哪類貼文、在哪段時間、在哪個動態消息中佔優勢。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0609",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 56,
+          "book": 11,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "40–42",
+          "locatorNote": "DOCX table 51, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Short videos can dominate the scroll for weeks.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "dominate the scroll"
+        }
+      ],
+      "listening": {
+        "promptZh": "候選人短片在動態消息中有甚麼地位？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They appeared far more often than most other posts.",
+            "zh": "它們比大多數其他貼文更常出現。"
+          },
+          {
+            "id": "b",
+            "en": "The school removed every other post.",
+            "zh": "學校刪除了所有其他貼文。"
+          },
+          {
+            "id": "c",
+            "en": "The election ended before any videos appeared.",
+            "zh": "選舉在任何短片出現前已結束。"
+          },
+          {
+            "id": "d",
+            "en": "The videos were seen only by teachers.",
+            "zh": "只有教師看到那些短片。"
+          }
+        ],
+        "explanationZh": "短片佔了大部分動態消息，但其他內容仍在。",
+        "answerId": "a",
+        "en": "During a school election, short candidate videos filled most of the student feed for nearly two weeks. They dominated the scroll, though other school news was still posted.",
+        "zh": "學校選舉期間，候選人的短片在近兩星期內佔滿學生動態消息的大部分版面。它們佔據了動態消息，雖然其他校園消息仍有發布。"
+      },
+      "reply": {
+        "promptZh": "（學生在選舉期間的動態消息中主要看到甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Candidate clips appeared repeatedly.",
+            "zh": "候選人短片反覆出現。"
+          },
+          {
+            "id": "b",
+            "en": "Election videos occupied much of the feed.",
+            "zh": "選舉影片佔據大部分動態消息。"
+          },
+          {
+            "id": "c",
+            "en": "Candidate videos dominated the scroll.",
+            "zh": "候選人短片佔據了動態消息。"
+          },
+          {
+            "id": "d",
+            "en": "Other school posts had less visibility for a while.",
+            "zh": "其他校園貼文有一段時間較不顯眼。"
+          }
+        ],
+        "explanationZh": "四句都指出候選人短片暫時佔據大量版面。",
+        "promptEn": "What did students see in their feed during the election?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一個校園美食節期間，食物攤位照片連續數天在校內動態消息最多，其他貼文仍有出現。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The festival pictures dominate the scroll this week.",
+            "zh": "本週美食節照片佔據了動態消息。"
+          },
+          {
+            "id": "b",
+            "en": "Every other school post has been deleted.",
+            "zh": "所有其他校園貼文都被刪除。"
+          },
+          {
+            "id": "c",
+            "en": "The pictures were popular only in private messages.",
+            "zh": "照片只在私人訊息中受歡迎。"
+          }
+        ],
+        "explanationZh": "照片佔大部分版面，不代表其他貼文消失。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 dominate 說得過於絕對？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One topic may fill most of a particular feed.",
+            "zh": "一個題材可佔某個動態消息的大部分版面。"
+          },
+          {
+            "id": "b",
+            "en": "It means every online post everywhere covers the same topic.",
+            "zh": "這表示全網每篇貼文都談同一題材。"
+          },
+          {
+            "id": "c",
+            "en": "A dominant topic may fade when new posts arrive.",
+            "zh": "佔優勢的題材也可能隨新貼文出現而消退。"
+          }
+        ],
+        "explanationZh": "此處指特定動態消息中佔很大比例，不是全網唯一內容。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「為何最近打開學校動態消息全是候選人？」你知道選舉短片被大量分享，但其他貼文仍在。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Election clips have dominated the scroll for two weeks because students keep sharing them, though other posts remain.",
+            "zh": "學生持續轉發選舉短片，它們已佔據動態消息兩星期，但其他貼文仍在。"
+          },
+          {
+            "id": "b",
+            "en": "Students share the clips often.",
+            "zh": "學生經常轉發短片。"
+          },
+          {
+            "id": "c",
+            "en": "Other school posts are still available.",
+            "zh": "其他校園貼文仍可找到。"
+          }
+        ],
+        "explanationZh": "金句說明內容、時間及並非全網排他的範圍。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Candidate videos dominated the scroll while other school posts remained online.",
+        "zh": "候選人短片佔據了動態消息，但其他校園貼文仍在網上。",
+        "promptZh": "先聽示範，再說出哪類短片佔了版面。",
+        "targetSpan": {
+          "start": 17,
+          "end": 37
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區小農市集舉行一星期，居民的本地動態消息中每天都有大量攤位照片和食譜，交通及活動通知仍照常發布。用一至兩句英文描述網上情況。",
+        "selfCheckZh": "指出市集內容佔大量本地版面，但不說其他消息全部消失。",
+        "examples": [
+          {
+            "en": "Market photos and recipes dominated the scroll in the neighbourhood feed that week, although routine notices were still posted.",
+            "zh": "那一週，市集照片和食譜佔據了街坊動態消息，雖然日常通告仍有發布。"
+          },
+          {
+            "en": "For several days, stall pictures dominated the scroll locally; transport updates continued as usual but were less prominent among the market posts.",
+            "zh": "連續數天，攤位照片佔據了本地動態消息；交通更新仍照常發布，但在大量市集貼文之間較不顯眼。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Market photos",
+            "zh": "市集照片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 13
+            }
+          },
+          {
+            "en": "recipes",
+            "zh": "食譜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 25
+            }
+          },
+          {
+            "en": "routine notices",
+            "zh": "日常通告",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 108
+            }
+          },
+          {
+            "en": "stall pictures",
+            "zh": "攤位照片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 18,
+              "end": 32
+            }
+          },
+          {
+            "en": "transport updates",
+            "zh": "交通更新",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 80
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "One event can dominate the scroll for a week without replacing every other post.",
+          "zh": "一個活動可以佔據動態消息一星期，而不會取代所有其他貼文。"
+        },
+        {
+          "en": "The campaign dominated the scroll until fresh topics drew attention away.",
+          "zh": "宣傳活動一度佔據動態消息，直至新話題分散注意力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2765",
+      "number": 2765,
+      "inventoryId": "expr-2765",
+      "titleEn": "turn the whole evening into a mission",
+      "titleZh": "令整個晚上變成繁複任務",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bturn(?:s|ed|ing)? the whole evening into a mission\\b",
+        "glossaryForbidden": [
+          "\\bthe whole evening into a mission\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Make a simple evening plan feel demanding because it requires substantial extra effort or logistics.",
+        "meaningZh": "原本簡單的晚間安排因額外工夫或繁複安排而變得費神。",
+        "grammar": "Mission is a figurative demanding task, not necessarily a military assignment.",
+        "register": "Informal planning and trade-offs.",
+        "boundaryZh": "不是只要有一項小麻煩便一定算 mission；重點是整個晚上都被安排拖住。",
+        "misconceptionZh": "這說法可帶輕微誇張，並非表示活動不值得參加。",
+        "outcomeZh": "能指出哪些具體安排使簡單活動變得費神。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0654",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 60,
+          "book": 11,
+          "question": 20,
+          "sample": "S2",
+          "sourceBookPages": "51–52",
+          "locatorNote": "DOCX table 56, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The long journey risks turning the whole evening into a mission.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "turning the whole evening into a mission"
+        }
+      ],
+      "listening": {
+        "promptZh": "米拉的顧慮是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The travel would take much more effort than the concert itself.",
+            "zh": "交通安排可能比音樂會本身更費力。"
+          },
+          {
+            "id": "b",
+            "en": "The concert had been cancelled.",
+            "zh": "音樂會已取消。"
+          },
+          {
+            "id": "c",
+            "en": "She had never taken a train before.",
+            "zh": "她從未乘過火車。"
+          },
+          {
+            "id": "d",
+            "en": "The one-hour concert would last all night.",
+            "zh": "一小時的音樂會會持續整晚。"
+          }
+        ],
+        "explanationZh": "多段交通和回程安排使簡單看演出變得費神。",
+        "answerId": "a",
+        "en": "Mira wanted to attend a one-hour concert after work, but the venue required two trains, a late bus home and a long walk from the stop. She worried the trip would turn the whole evening into a mission.",
+        "zh": "米拉下班後想聽一場一小時的音樂會，但場地要轉乘兩程火車，回家還要搭深夜巴士並從車站走很久。她擔心這趟行程會令整個晚上變成繁複任務。"
+      },
+      "reply": {
+        "promptZh": "（米拉為何可能不去音樂會？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The long journey would absorb much of the evening.",
+            "zh": "長途交通會耗掉晚上的大部分時間。"
+          },
+          {
+            "id": "b",
+            "en": "Two trains and a late bus make the outing demanding.",
+            "zh": "兩程火車和一班深夜巴士令外出變得費神。"
+          },
+          {
+            "id": "c",
+            "en": "The journey could turn the whole evening into a mission.",
+            "zh": "這趟行程可能令整個晚上變成繁複任務。"
+          },
+          {
+            "id": "d",
+            "en": "Getting home after the event would take planning.",
+            "zh": "活動後回家需要周詳安排。"
+          }
+        ],
+        "explanationZh": "四句都指出交通安排使短活動變得繁複。",
+        "promptEn": "Why might Mira skip the concert?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "朋友只想買一份外賣，但店舖太遠、要轉車、還須到另一分店付款；他本來想輕鬆過晚上。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The errand could turn the whole evening into a mission.",
+            "zh": "這趟外出可能令整個晚上變成繁複任務。"
+          },
+          {
+            "id": "b",
+            "en": "The errand will take only a few minutes.",
+            "zh": "這趟外出只會花幾分鐘。"
+          },
+          {
+            "id": "c",
+            "en": "The food has already been delivered to his home.",
+            "zh": "食物已送到他家。"
+          }
+        ],
+        "explanationZh": "多項額外安排令一件簡單事變得費神。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 mission 誤作軍事任務？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Several transfers can make an outing feel demanding.",
+            "zh": "多次轉車會令外出顯得費神。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase means the traveller has been ordered into combat.",
+            "zh": "這片語表示旅客奉命投入戰鬥。"
+          },
+          {
+            "id": "c",
+            "en": "An easier venue might simplify the plan.",
+            "zh": "較易抵達的場地可能簡化安排。"
+          }
+        ],
+        "explanationZh": "mission 在此比喻繁複任務，並非軍事命令。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「去市中心吃飯為何這樣猶豫？」餐廳只開一小時，去程要兩次轉車，回程還要等很久。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The travel and waiting would turn the whole evening into a mission for one short meal; let us choose a nearer place.",
+            "zh": "為吃一頓短短的飯，轉車和等候會令整個晚上變成繁複任務；不如選較近的地方。"
+          },
+          {
+            "id": "b",
+            "en": "The restaurant is far away.",
+            "zh": "餐廳很遠。"
+          },
+          {
+            "id": "c",
+            "en": "We could choose somewhere closer.",
+            "zh": "我們可以選較近的地方。"
+          }
+        ],
+        "explanationZh": "金句指出多段安排與較簡單的替代方案。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Two trains and a late bus could turn the whole evening into a mission.",
+        "zh": "兩程火車和一班深夜巴士可能令整個晚上變成繁複任務。",
+        "promptZh": "先聽示範，再指出哪幾項交通安排令外出費神。",
+        "targetSpan": {
+          "start": 32,
+          "end": 69
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：家人原打算在家煮一頓簡單晚餐，卻發現材料要分別到三間店買，焗爐也要先借用鄰居家的。用一至兩句英文解釋為何改煮另一道菜。",
+        "selfCheckZh": "指出採購和設備安排累積成負擔，並提出較簡單選擇。",
+        "examples": [
+          {
+            "en": "Shopping at three stores and borrowing an oven would turn the whole evening into a mission, so the family chose a simpler dish.",
+            "zh": "到三間店採購再借焗爐會令整個晚上變成繁複任務，所以家人改煮較簡單的菜。"
+          },
+          {
+            "en": "A simple dinner should not turn the whole evening into a mission; they can use ingredients already at home instead.",
+            "zh": "一頓簡單晚餐不應令整個晚上變成繁複任務；他們可以改用家裏已有的材料。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "three stores",
+            "zh": "三間店",
+            "exampleIndex": 0,
+            "span": {
+              "start": 12,
+              "end": 24
+            }
+          },
+          {
+            "en": "borrowing an oven",
+            "zh": "借焗爐",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 46
+            }
+          },
+          {
+            "en": "a simpler dish",
+            "zh": "較簡單的菜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 126
+            }
+          },
+          {
+            "en": "A simple dinner",
+            "zh": "簡單晚餐",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "ingredients already at home",
+            "zh": "家裏已有的材料",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 106
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A long collection route may turn the whole evening into a mission for a small purchase.",
+          "zh": "為了一件小商品走很長的取貨路線，可能令整個晚上變成繁複任務。"
+        },
+        {
+          "en": "Choosing a nearby venue keeps the plan from turning the whole evening into a mission.",
+          "zh": "選較近的場地可避免令整個晚上變成繁複任務。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

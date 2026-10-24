@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "kind": "hash-bound-unpublished-selection-integration",
+  "date": "2026-10-24",
+  "status": "integrated-locally-unpublished",
+  "reviewedProposals": [
+    {
+      "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-five-c-2328-2765-20261024.json",
+      "proposalSha256": "e05973e58b102294b9d7d1920d9998f2919771b167326f19da86406aae4ce17e",
+      "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-final-focused-next80-five-c-2328-2765-20261024.json",
+      "independentReviewSha256": "6f6e2adffd874de63728f261c532ac47b8c7a8c1520bd1a01d411952bee5d4bf"
+    },
+    {
+      "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-b-2897-3029-20261024.json",
+      "proposalSha256": "8fc929a072d5ee84ac8847dd21864c221491efbaabea69cbf9f7aed639e81d1c",
+      "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-final-focused-rereview-fresh-next80-two-b-2897-3029-20261024.json",
+      "independentReviewSha256": "73910706806e273f929810675ea61f561b5af3979a3db73ba1a9100884bd8be6"
+    },
+    {
+      "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-3278-3381-20261024.json",
+      "proposalSha256": "3c60d64c6cc6bb7741c821e868afbdc9fe247af9911a24e716ea1d1aaeb8f731",
+      "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-final-rereview-fresh-next80-two-3278-3381-20261024.json",
+      "independentReviewSha256": "51cd9228dbeaa0a13e25212446c06b2fb5aa814ef346d03a113d1bcb5b226f06"
+    }
+  ],
+  "newBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-reviewed-nine-2328-3381-selected-20261024.json",
+  "newBatchSha256": "2fbed81060cecb378eb5bf9d5363e6e5a1f8f6ba94c6b9f32394596374ec387b",
+  "ordinals": [
+    2328,
+    2515,
+    2695,
+    2720,
+    2765,
+    2897,
+    3029,
+    3278,
+    3381
+  ],
+  "beforeSelectedManifestSha256": "706bb293ffac720e3a71e383ce2954e6ef714b5f067225b1bbb06e9da325b9b1",
+  "afterSelectedManifestSha256": "be7a43e026859490d3637af4a45027ac82c0ec432f327f782995e47ea898cc28",
+  "decisionFilesChanged": [
+    "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl"
+  ],
+  "contentFidelity": "All selected lesson objects equal independently reviewed proposal objects after removing only review metadata.",
+  "publication": {
+    "pushed": false,
+    "deployed": false,
+    "databaseApplied": false,
+    "releaseApproved": false,
+    "liveLessonsAdded": 0
+  }
+}

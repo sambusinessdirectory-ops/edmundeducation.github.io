@@ -1,0 +1,87 @@
+{
+  "kind": "independent-exact-hash-proposal-editorial-review",
+  "date": "2026-10-24",
+  "binding": {
+    "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-three-f-3174-3302-20261024.json",
+    "proposalSha256": "9a6803b70648620ffbdd21851c1c17cc860354f3da02c0adaa7a64e03dd16a1f",
+    "authorQaFile": "course-materials/advanced-native/reviews-books10-16/author-qa-fresh-next80-three-f-3174-3302-20261024.json",
+    "authorQaSha256": "b6ea3d860872e7bbcfdbc1999d394d699fbe2deccb0a675038d4c56954ddab2e",
+    "originalityReportFile": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-fresh-next80-three-f-3174-3302-20261024.json",
+    "originalityReportSha256": "96a9eb81c8784270b3a03aa94b007e9c69c0d3d67ce436468378bf10296d3f79",
+    "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "counts": {
+    "lessons": 3,
+    "steps": 21,
+    "assessedQuestions": 18,
+    "audioRequestsInIsolatedBuild": 12,
+    "blockingIssues": 4
+  },
+  "sharedChecks": {
+    "sourceTargetMeaning": "pass, including the full recurrence-bearing 3244 source target and source-bound 3302 excess degree",
+    "isolatedBuildAndCheck": "pass; zero schema or build review flags",
+    "fourValidReplies": "pass; four contextually defensible replies and one target-bearing golden answer for each lesson",
+    "speakingSpans": "pass",
+    "writingGlossarySpansAndTargetFree": "pass mechanically for all fifteen answer-derived entries",
+    "bilingualCore": "pass except the specifically noted model-2 timeline claim",
+    "originality": "author screen reports no substantial or near-full overlap; spot-check found no source-example reproduction beyond target"
+  },
+  "rows": [
+    {
+      "ordinal": 3174,
+      "sourceId": "book10-16-1063",
+      "sourceSentence": "The course taught her that not everything worth having comes quickly.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3132-3191.jsonl",
+      "decisionFileSha256": "4dadc97300a549e8bdf5be89fc135cdf75bd0cbb1328631265e1298419427eca",
+      "decisionRawRowSha256": "bfe1c837e450444f8b64a3c4d97d858254379c9834f0b4a9f3b530ee8e3b0936",
+      "verdict": "block-targeted-scene-repair",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "B says there is no point checking for more improvement, though the stem says the student wants to keep improving. C says the final photos show exactly the initial confused framing, though the stem states they clearly document community life. Both can be rejected by direct contradiction without interpreting slow, valuable progress.",
+          "repair": "Use the same semester and photographs in close partial readings: one notices improvement but treats it as finished rather than still developing; another notices time spent but misses the evidence of meaningful progress. Keep A uniquely best."
+        }
+      ]
+    },
+    {
+      "ordinal": 3244,
+      "sourceId": "book10-16-1133",
+      "sourceSentence": "The checklist helps us avoid the same trap again.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3192-3251.jsonl",
+      "decisionFileSha256": "610ac287765455d6acf7dd8b81091bef4b0036200e20331be78329e82ab71b91",
+      "decisionRawRowSha256": "73e1fdb874a7921ceca3226fdf153e5fa8dfa6933676bad8fbdd852ba46b9eba",
+      "verdict": "block-targeted-scene-and-writing-repair",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "B says the volunteers again printed before checking allergies, directly contradicting the new sequence in the stem. C says current menus need no participant information although the stem says participants confirm their allergy details. Both are obvious denials rather than plausible recurrence-risk near misses.",
+          "repair": "Keep both print timing and allergy confirmation present in the alternatives; make one overclaim that the check guarantees no future menu problem and the other focus on collecting data without checking it before printing. A should remain the one defensible source-bound answer."
+        },
+        {
+          "field": "writing.examples[1].en/.zh",
+          "finding": "The prompt says this time students will test the microphone the day before the event. Model 2 instead says they will check audio before advertising the broadcast, which is a different, unsupported ordering; the Chinese repeats the added claim. The prompt does not say advertising now happens after the day-before test.",
+          "repair": "State the specified day-before-event audio test in both languages, preserving the boundary that testing reduces rather than eliminates risk; update affected glossary spans if the English answer changes."
+        }
+      ]
+    },
+    {
+      "ordinal": 3302,
+      "sourceId": "book10-16-1191",
+      "sourceSentence": "Without a calendar, life can become too reactive.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionFileSha256": "95880f36ad71d4d15ab06f63b854387c1bf6964f152a90841020581c781f295d",
+      "decisionRawRowSha256": "04f9e7903d8f19a5937faf9fe4a6072f9df9be1f28d6c3425abac79b6213be70",
+      "verdict": "block-targeted-scene-repair",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "B redefines too reactive as answering every small query late, opposite the stem's immediate interruptions. C makes the absolute prediction that reserved time prevents all future interruptions. Neither is a close reading of the actual trade-off between quick replies and the delayed venue application.",
+          "repair": "Use two context-compatible partial interpretations: one credits fast replies without noticing the displaced application, and one recognises the application but assumes a protected slot alone guarantees completion. Avoid inventing late replies or an absolute no-interruptions claim."
+        }
+      ]
+    }
+  ],
+  "overallVerdict": "block-until-three-scene-foil-sets-and-3244-writing-timeline-are-repaired; unselected",
+  "releaseState": "Read-only review; selected manifest, decisions, media, assessment database, and live site unchanged."
+}

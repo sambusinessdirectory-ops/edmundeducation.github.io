@@ -1,0 +1,22 @@
+{
+  "status": "mechanical-source-overlap-screen-not-editorial-approval",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-c-3030-3074-20261024.json",
+  "proposalSha256": "6feb58de26c2938f20dcb5a59b07e6f89db28fbe787394e80aee5993b33bc873",
+  "inventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "inventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "lessons": 2,
+  "sourceExamples": 2604,
+  "learnerFacingStrings": 48,
+  "counts": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "target-or-short-overlap": 0
+  },
+  "nearCounts": {
+    "near-full": 0,
+    "review-near-full": 0
+  },
+  "hits": [],
+  "nearHits": []
+}

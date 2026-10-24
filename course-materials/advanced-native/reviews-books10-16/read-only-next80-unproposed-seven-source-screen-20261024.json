@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "read-only-source-specific-unproposed-candidate-screen",
+  "screenPath": "course-materials/advanced-native/reviews-books10-16/read-only-next80-current361-holds-source-owner-screen-20261024.json",
+  "screenSha256": "65deae1273ec80df2d5a9d8edefc42bec56b2745f8b631bd0112d9ed769d2321",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "706bb293ffac720e3a71e383ce2954e6ef714b5f067225b1bbb06e9da325b9b1",
+  "rows": [
+    {
+      "sourceOrdinal": 3956,
+      "sourceId": "book10-16-1845",
+      "exactGuideSentence": "After the injury, she learned it was better to move wisely than to push recklessly.",
+      "sourceRawRowSha256": "24452b31b6b5bac23d8380fcbbd89512e3faf60806cfcbb319e659c4f586c1fb",
+      "decisionFile": "books10-16/editorial-decisions-3912-3971.jsonl",
+      "decisionRawRowSha256": "1f6f98508ee00e2ca211cba5f33f141ca3e8c7e80a3825a5c810707bb15ba0e3",
+      "currentDecision": "hold-editorial",
+      "readOnlyRecommendation": "retain-editorial-hold",
+      "reason": "The extracted target omits the essential comparative frame “better to”; teaching the fragment as a standalone expression would be ungrammatical. Do not invent a wider source quotation or relax the target detector.",
+      "decisionChanged": false
+    },
+    {
+      "sourceOrdinal": 4585,
+      "sourceId": "book10-16-2474",
+      "exactGuideSentence": "A free seat on a bad system is still a bad ride for commuters.",
+      "sourceRawRowSha256": "585cef20d47a5fad226145115076868dc3059b530a414ce0cbae20e55e78b451",
+      "decisionFile": "books10-16/editorial-decisions-4572-4631.jsonl",
+      "decisionRawRowSha256": "5199a6b22f96b4b0a0057e2c6d8a39af7c5e0ad1cc1fea20fe738bb2df756e09",
+      "currentDecision": "hold-editorial",
+      "readOnlyRecommendation": "retain-editorial-hold",
+      "reason": "The sentence is a source-specific transport aphorism. Its full wording is not a reusable lexical unit, and a narrowed fragment would change the source sense; needs a distinct transferable target before authoring.",
+      "decisionChanged": false
+    },
+    {
+      "sourceOrdinal": 2177,
+      "sourceId": "book10-16-0066",
+      "exactGuideSentence": "If you walk out of the door too late, no app can fix the delay.",
+      "sourceRawRowSha256": "10aa29878fc7b16be0a7af90b28c50725376d9ec6cf981e0b5ef352687ee8d1a",
+      "decisionFile": "books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionRawRowSha256": "a4a2307d9c139af715b229fcbb44bb4f1939dd38e9469ad960256532a4ed0395",
+      "currentDecision": "hold-editorial",
+      "readOnlyRecommendation": "retain-editorial-hold",
+      "reason": "The words describe a literal late departure. No distinct idiomatic or figurative sense remains beyond “leave too late”; seven-step content would test ordinary timing rather than a reusable expression.",
+      "decisionChanged": false
+    },
+    {
+      "sourceOrdinal": 2655,
+      "sourceId": "book10-16-0544",
+      "exactGuideSentence": "On the old charts, a hit song had time to breathe.",
+      "sourceRawRowSha256": "5976c5d2871ab7d5041c3c7e48d61ad41474942d40a38b0b40f34400c71430ad",
+      "decisionFile": "books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionRawRowSha256": "1783de199f5a95f8e5de9dbae267b66ef6e3cb63a8ddd32f14f4cb66bf63dd3f",
+      "currentDecision": "hold-editorial",
+      "readOnlyRecommendation": "retain-editorial-hold",
+      "reason": "Music-chart/listener-life sense is distinct from selected narrative-pacing owner 2398; naturalness and reusable target form remain unestablished. See independent 2655→2398 source/sense report.",
+      "decisionChanged": false
+    },
+    {
+      "sourceOrdinal": 2663,
+      "sourceId": "book10-16-0552",
+      "exactGuideSentence": "Hearing that tune felt like opening a time capsule.",
+      "sourceRawRowSha256": "53cbecb2ff26a3a1b4b1a06b93032e20427399213e691d8b36694cadb99d38d1",
+      "decisionFile": "books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionRawRowSha256": "65e5ab1eac236858e4cc4092258dcb5a79d977c69b169d7aa3b7da03220ad328",
+      "currentDecision": "hold-editorial",
+      "readOnlyRecommendation": "one-time-comparison-exclusion-candidate",
+      "reason": "The source explicitly says hearing a tune “felt like opening a time capsule”. The comparison is a one-time image in this sentence; under the user’s skip-one-time-comparisons rule, record it rather than force a standalone seven-step lesson.",
+      "decisionChanged": false
+    },
+    {
+      "sourceOrdinal": 2706,
+      "sourceId": "book10-16-0595",
+      "exactGuideSentence": "Customers felt locked out at the front door by high prices.",
+      "sourceRawRowSha256": "961ae55703351831aade20dbdee705c9f2ccea2d061a65d79d575d09906dbf78",
+      "decisionFile": "books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionRawRowSha256": "d5615e68281a2cd73ddd2692a0792e6fd20c17200a83e8d9cf3d66e6c4bc0d05",
+      "currentDecision": "hold-editorial",
+      "readOnlyRecommendation": "retain-editorial-hold",
+      "reason": "Independent source-specific screen: this is an access-exclusion image, distinct from selected 2703’s unofficial-workaround sense, so no alias. However, “locked out at the front door” is a bespoke companion image; natural reusable forms are “locked out of” and “priced out of”. Do not teach the exact front-door wording as a standard reusable expression without a source-bound natural re-lemma. Not a one-time exclusion.",
+      "decisionChanged": false
+    },
+    {
+      "sourceOrdinal": 2748,
+      "sourceId": "book10-16-0637",
+      "exactGuideSentence": "CDs are no longer at the head of the table.",
+      "sourceRawRowSha256": "5fe3eb33562962348f21105be41bd01f412e3974b729bfc6e8a42337be201d85",
+      "decisionFile": "books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionRawRowSha256": "a63884a2d19f01fe679ee5239e5143c9999694801e7ad93c3c35909067d2efb4",
+      "currentDecision": "hold-editorial",
+      "readOnlyRecommendation": "retain-editorial-hold",
+      "reason": "Earlier independently reviewed proposal overextended “at the head of the table” from creative CDs ranking to inanimate menus/products and repeated near-paraphrase writing models. Kept as lexical/naturalness hold, not a one-time exclusion.",
+      "decisionChanged": false
+    }
+  ],
+  "selectionOrDecisionMutation": false
+}

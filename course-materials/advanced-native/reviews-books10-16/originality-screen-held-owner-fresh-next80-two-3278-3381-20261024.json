@@ -1,0 +1,93 @@
+{
+  "status": "mechanical-source-overlap-screen-not-editorial-approval",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-3278-3381-20261024.json",
+  "proposalSha256": "3c60d64c6cc6bb7741c821e868afbdc9fe247af9911a24e716ea1d1aaeb8f731",
+  "inventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "inventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "lessons": 2,
+  "sourceExamples": 2604,
+  "learnerFacingStrings": 48,
+  "counts": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "target-or-short-overlap": 5
+  },
+  "nearCounts": {
+    "near-full": 0,
+    "review-near-full": 0
+  },
+  "hits": [
+    {
+      "lesson": 3278,
+      "field": "listening.en",
+      "sourceId": "book10-16-1167",
+      "sourceExpression": "turning the home into a battlefield",
+      "sourceExample": "Firm limits need not mean turning the home into a battlefield.",
+      "learnerText": "A family argued every evening about phone time. Instead of adding a new punishment each day, they agreed on a bedtime rule and a weekly review. The rule helped without turning the home into a battlefield.",
+      "sharedText": "turning the home into a battlefield",
+      "sharedTokens": 6,
+      "targetTokens": 6,
+      "excessTokens": 0,
+      "sourceCoverage": 0.545,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3278,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-1167",
+      "sourceExpression": "turning the home into a battlefield",
+      "sourceExample": "Firm limits need not mean turning the home into a battlefield.",
+      "learnerText": "It avoided turning the home into a battlefield.",
+      "sharedText": "turning the home into a battlefield",
+      "sharedTokens": 6,
+      "targetTokens": 6,
+      "excessTokens": 0,
+      "sourceCoverage": 0.545,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3278,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-1167",
+      "sourceExpression": "turning the home into a battlefield",
+      "sourceExample": "Firm limits need not mean turning the home into a battlefield.",
+      "learnerText": "A fair schedule can keep the disagreement from turning the home into a battlefield.",
+      "sharedText": "turning the home into a battlefield",
+      "sharedTokens": 6,
+      "targetTokens": 6,
+      "excessTokens": 0,
+      "sourceCoverage": 0.545,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3278,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-1167",
+      "sourceExpression": "turning the home into a battlefield",
+      "sourceExample": "Firm limits need not mean turning the home into a battlefield.",
+      "learnerText": "A weekly cleaning rota could keep the argument from turning the home into a battlefield, because each flatmate would know their task.",
+      "sharedText": "turning the home into a battlefield",
+      "sharedTokens": 6,
+      "targetTokens": 6,
+      "excessTokens": 0,
+      "sourceCoverage": 0.545,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3381,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-1270",
+      "sourceExpression": "gadget-heavy",
+      "sourceExample": "Their new office is gadget-heavy but easy to use.",
+      "learnerText": "It was gadget-heavy but easy to use.",
+      "sharedText": "gadget heavy but easy to use",
+      "sharedTokens": 6,
+      "targetTokens": 2,
+      "excessTokens": 4,
+      "sourceCoverage": 0.6,
+      "severity": "target-or-short-overlap"
+    }
+  ],
+  "nearHits": []
+}

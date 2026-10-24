@@ -1,0 +1,39 @@
+{
+  "kind": "independent-final-exact-hash-focused-proposal-rereview",
+  "date": "2026-10-24",
+  "binding": {
+    "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-three-d-2983-3054-20261024.json",
+    "proposalSha256": "f8d6c07b57ebdade5d15e55a44cac9c56797057e74c37513a1b6745bc95045d2",
+    "priorFocusedReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-focused-rereview-fresh-next80-three-d-2983-3054-20261024.json",
+    "priorFocusedReviewSha256": "0d8e0aa222b1eaa5937df0600fe03b35a3f860c9fa07c02fb12894d61c2504c9",
+    "authorQaSha256": "6bfbd8b8a5b19e50a2949ef12b5e88f614d3fa624101a1aa8578d2f0eda5a8b6",
+    "originalityReportSha256": "c01a9300da99750cbb1820edbab5fcd5bed697368c4ad8695c08a34a563bb1d2",
+    "repairAttestationSha256": "a4f812d1a30bdb497b9d556c3f07b978aa94733e4a95c38f88c02f8bdc406681"
+  },
+  "scope": "Review only the final 3000 scene prompt repair and confirm that earlier independently passed 2983/3054 lesson content is unchanged from the previous focused review.",
+  "rows": [
+    {
+      "ordinal": 2983,
+      "verdict": "pass-carried-forward-unchanged",
+      "finding": "Previously reviewed scene and all other learner content remain unchanged."
+    },
+    {
+      "ordinal": 3000,
+      "verdict": "pass-focused-rereview",
+      "finding": "The stem now says the employee wishes to set her own task order. That supports A's autonomy reading, directly rules out B's wish for continued managerial ordering, and leaves C's late-timing claim unsupported. The source-bound feeling-of-being-managed meaning and Chinese options remain aligned."
+    },
+    {
+      "ordinal": 3054,
+      "verdict": "pass-carried-forward-unchanged",
+      "finding": "Previously reviewed scene and all other learner content remain unchanged."
+    }
+  ],
+  "counts": {
+    "lessons": 3,
+    "sevenStepLessons": 3,
+    "assessedQuestions": 18,
+    "remainingBlockers": 0
+  },
+  "overallVerdict": "pass-final-focused-independent-rereview; proposals remain unselected",
+  "releaseState": "No selected manifest, decision ledger, media, assessment database, browser release or live site changed by this review."
+}

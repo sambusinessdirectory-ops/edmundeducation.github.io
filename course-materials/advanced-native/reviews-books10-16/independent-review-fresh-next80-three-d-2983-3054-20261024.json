@@ -1,0 +1,91 @@
+{
+  "kind": "independent-exact-hash-proposal-editorial-review",
+  "date": "2026-10-24",
+  "binding": {
+    "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-three-d-2983-3054-20261024.json",
+    "proposalSha256": "ef74d823a6251d6e72e32aee5b3ce4eca5d20fa41662426e741bd7a2b52ec6f3",
+    "authorQaFile": "course-materials/advanced-native/reviews-books10-16/author-qa-fresh-next80-three-d-2983-3054-20261024.json",
+    "authorQaSha256": "d7d225c6918cea9bfefac2ec7b31930ae6088dd2f0b07dded6c0f7e25b2d68fb",
+    "originalityReportFile": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-fresh-next80-three-d-2983-3054-20261024.json",
+    "originalityReportSha256": "ca6d9ace7b7ae27a247ee74f4027c432b169a73cc3a18965f7d12d59926da69c",
+    "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "counts": {
+    "lessons": 3,
+    "steps": 21,
+    "assessedQuestions": 18,
+    "audioRequestsInIsolatedBuild": 12,
+    "blockingIssues": 3,
+    "advisories": 1
+  },
+  "sharedChecks": {
+    "exactSourceSentenceAndTargetSense": "pass for all three; ordinary or transparent but reusable wording was not disqualified",
+    "isolatedBuildAndCheck": "pass; zero schema or build review flags",
+    "fourValidReplies": "pass; each reply set has four contextually valid answers and one target-bearing golden answer",
+    "bilingualMeaningAndNegation": "pass on reviewed fields",
+    "writingTransferAndGlossary": "pass; each changed context has two complete bilingual models; all glossary spans match answer text and omit target",
+    "speakingTargetSpans": "pass for all three",
+    "originality": "author screen reports no substantial source overlap; independent spot-check found no source-example reuse beyond the taught target"
+  },
+  "rows": [
+    {
+      "ordinal": 2983,
+      "sourceId": "book10-16-0872",
+      "sourceSentence": "Small choices give daily life its tone and texture.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+      "decisionFileSha256": "e6e4f348543c5a4154ebb9fb31f62f38596a775f927812fabc06573e26024581",
+      "decisionRawRowSha256": "6582f30f523b1342978f49326c0a8248f135336d0019649c44cdf02f40b82158",
+      "verdict": "block-targeted-scene-repair",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "The stem already says visitors feel welcomed and discover neighbours' reading tastes. B says they never read or notice the posted cards; C says recommendations reveal no reading choices. Both are direct denials of stated facts, so the learner can choose A without interpreting figurative tone and texture.",
+          "repair": "Keep the cards, visitors and changed atmosphere in both foils, but make each a close incomplete inference: for example, notice only warmth while overlooking the individual reading preferences, or notice varied recommendations without connecting them to the room's overall feel. Preserve A as the one complete target answer."
+        }
+      ],
+      "advisories": []
+    },
+    {
+      "ordinal": 3000,
+      "sourceId": "book10-16-0889",
+      "sourceSentence": "Teenagers often resist the feeling of being managed.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+      "decisionFileSha256": "e6e4f348543c5a4154ebb9fb31f62f38596a775f927812fabc06573e26024581",
+      "decisionRawRowSha256": "9a4146fe56a96220e4b2a964636fc03892d9ea76fbb4e8ffdcb9dce2e6861fa9",
+      "verdict": "block-targeted-scene-repair",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "Both foils turn a nuanced autonomy issue into an absolute with must: B says welcoming advice requires welcoming daily task-list rewrites; C says wanting priority control requires rejecting every suggestion. The stem explicitly allows advice while rejecting total control, and the wrong answers repeat the contrast exercise's obvious misconception.",
+          "repair": "Use distinct plausible workplace near misses that respect her willingness to hear advice, such as treating the manager's suggestions as optional while overlooking who controls the final order, or assuming a one-time shared plan resolves the daily takeover. Keep the English/Chinese implications aligned and A uniquely complete."
+        }
+      ],
+      "advisories": []
+    },
+    {
+      "ordinal": 3054,
+      "sourceId": "book10-16-0943",
+      "sourceSentence": "A skilled writer can build a world out of words.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl",
+      "decisionFileSha256": "500c6ea720453ba346c9b15cd3e9624706fd55987a05f6b627dd8d905d058431",
+      "decisionRawRowSha256": "2eaac70d832543d1838772228d0965798be22985319e46d6eb1cba172009a254",
+      "verdict": "block-targeted-scene-repair",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "B says readers learned nothing about atmosphere after the stem says they could picture the village. C says only a photograph could enable imagination despite the detailed writing. These negate the stem outright; C also repeats the no-illustration misconception in the dialogue task.",
+          "repair": "Keep the same village details and a possible imagined place in the foils, but make each explanation incomplete or wrongly attribute the vividness to a secondary factor. The correct answer should uniquely connect the writer's words to the reader's imagined world."
+        }
+      ],
+      "advisories": [
+        {
+          "field": "listening.options[b,c,d]",
+          "finding": "The alternatives are distant literal-world or no-description errors. They are keyed correctly, but a later distractor polish could make one or two closer to the described market rather than another literal-metaphor check."
+        }
+      ]
+    }
+  ],
+  "overallVerdict": "block-until-three-scene-foil-sets-are-repaired; proposals remain unselected",
+  "releaseState": "Review only; no selected manifest, decision ledger, media, assessment database or live site changed."
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "independent-exact-hash-focused-proposal-rereview",
+  "date": "2026-10-24",
+  "binding": {
+    "repairedProposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-three-d-2983-3054-20261024.json",
+    "repairedProposalSha256": "15d8602ee24b274a161887e5932e38ee3c8171e04a08c717a3438f0d2fd42067",
+    "preservedPriorProposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-three-d-2983-3054-pre-repair-20261024.json",
+    "preservedPriorProposalSha256": "ef74d823a6251d6e72e32aee5b3ce4eca5d20fa41662426e741bd7a2b52ec6f3",
+    "priorReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-review-fresh-next80-three-d-2983-3054-20261024.json",
+    "priorReviewSha256": "78ce1cf88e19013bcaabb2cd63e56fd5eece5d6c787af052c451d93484851dd5",
+    "repairAttestationFile": "course-materials/advanced-native/reviews-books10-16/author-repair-attestation-fresh-next80-three-d-2983-3054-20261024.json",
+    "repairAttestationSha256": "aab722a175ca0272bd8c148bf99776f3cd0e5697a0ab9cf657a70918d5de5242",
+    "authorQaSha256": "fadb2f063225ef4ff00128c381d8d811a0afaa649ac19eceb8e0c8df5fbed93a",
+    "originalityReportSha256": "08eb5d0291c544d3bf571909a16a2831a7a8b308cedb2b95d6882204291c30df"
+  },
+  "scope": "Focused rereview of scene repairs. The three scene objects alone changed; source, reply, writing, glossary, audio text, and seven-step structure remain as previously reviewed.",
+  "counts": {
+    "lessons": 3,
+    "priorSceneBlockersCleared": 2,
+    "remainingBlockingIssues": 1
+  },
+  "rows": [
+    {
+      "ordinal": 2983,
+      "verdict": "pass-focused-rereview",
+      "finding": "The revised foils stay inside the same library scene and isolate the two necessary components: warmth of the room versus varied resident reading tastes. A alone accounts for both tone and texture, and Chinese matches each English choice."
+    },
+    {
+      "ordinal": 3000,
+      "verdict": "block-stem-key-fairness",
+      "blockingIssue": {
+        "field": "scene.promptZh with scene.options[a,b]",
+        "finding": "The stem says an employee is willing to hear advice and a manager chooses her task order, but never states whether she objects or wants the final ordering decision. Revised B says she wants the manager to keep setting that order, which remains possible on the stated facts; A says she dislikes feeling managed. The stem therefore does not uniquely support A over B.",
+        "repair": "Add a concrete employee reaction to the Chinese stem, such as '她表示想自己決定工作的先後次序', while retaining the willingness to hear advice and daily list rewrite. Then B is unsupported and A becomes uniquely best. Do not change the source meaning or the four valid reply set."
+      }
+    },
+    {
+      "ordinal": 3054,
+      "verdict": "pass-focused-rereview",
+      "finding": "The revised foils remain in the mountain-village scene and test whether descriptive details combine into an immersive setting; C is a plausible partial reading of the separate images, while A alone captures the source-bound writing metaphor. Chinese and the revised explanation are aligned."
+    }
+  ],
+  "overallVerdict": "one-blocker-remains-in-3000-scene-stem; all three proposals remain unselected",
+  "releaseState": "Read-only review; no selected manifest, decisions, media, assessment data or live release changed."
+}

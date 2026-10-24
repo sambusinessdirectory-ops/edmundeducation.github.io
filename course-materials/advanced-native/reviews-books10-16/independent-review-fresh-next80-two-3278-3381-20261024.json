@@ -1,0 +1,88 @@
+{
+  "kind": "independent-hash-bound-proposal-review",
+  "date": "2026-10-24",
+  "binding": {
+    "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-3278-3381-20261024.json",
+    "proposalSha256": "b12027cf4b89d81d901339dac34198f8b436e75d4613f5bc7844fefcdd24abf3",
+    "authorQaFile": "course-materials/advanced-native/reviews-books10-16/author-qa-fresh-next80-two-3278-3381-20261024.json",
+    "authorQaSha256": "7993f6b68cf97eb7d24fca1e37cb0fc6a4587495c84e514142ded05ec5768525",
+    "originalityReportFile": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-fresh-next80-two-3278-3381-20261024.json",
+    "originalityReportSha256": "96319a59615adf97881b28bf3642844ff11e5fa26a4103dac1dfa4c417fe6473",
+    "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "counts": {
+    "lessons": 2,
+    "steps": 14,
+    "assessedQuestions": 12,
+    "blockedLessons": 2,
+    "blockingDistractorSets": 2,
+    "advisories": 3
+  },
+  "overallVerdict": "block-until-targeted-foil-repair",
+  "rows": [
+    {
+      "ordinal": 3278,
+      "sourceId": "book10-16-1167",
+      "sourceSentence": "Firm limits need not mean turning the home into a battlefield.",
+      "sourceRawRowSha256": "220794ace4e1c921b8c1a3ab86ad9670ac18fac53a083efcdf27a02cc67fe42f",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionFileSha256": "b45269be53245db1ab537035efff099441fd0c59c5feeed70617c26aa0ab9c78",
+      "decisionRawRowSha256": "a58536f5749e68f84172b34b23e3a67534def49b0c769a4661fc298973bedcc4",
+      "lessonCanonicalSha256": "7cc8ec994650ab26af6cc01cb9b7820d6bd422c0c46f984d58e0075d6c2fd755",
+      "sourceSense": "pass",
+      "sevenSteps": "pass",
+      "fourValidReplies": "pass",
+      "writingContextAndGlossary": "pass",
+      "originalityReport": "zero-substantive-overlap-per-exact-author-report",
+      "verdict": "block-distractor-quality",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "Both wrong choices are implausible absolutes (“schedule proves the siblings never disagreed”; “clear rule requires everyone to argue every night”). The learner can reject them without applying the source metaphor or the shared-desk facts.",
+          "repair": "Replace with context-compatible near misses that preserve at least part of the scheduling story but misstate the effect or scope; keep exactly one best target answer."
+        }
+      ],
+      "advisories": [
+        {
+          "field": "listening.options[c]",
+          "finding": "“It made the family stop speaking to one another” is another remote foil; a plausible misunderstanding of the rule/weekly review would test comprehension better."
+        }
+      ]
+    },
+    {
+      "ordinal": 3381,
+      "sourceId": "book10-16-1270",
+      "sourceSentence": "Their new office is gadget-heavy but easy to use.",
+      "sourceRawRowSha256": "a292d3a72ef85409ab3239864f878f7e2bb15c0fdbf9bf5db76942b13dfe0a2f",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+      "decisionFileSha256": "79c644538e0367cb9a982b6946fea1096c0042dd02259f716f3581988b3ac13a",
+      "decisionRawRowSha256": "38bd43f27898f25cd026d5d9e44f2e635a11430f0f7a4c1821a41691f9e89df0",
+      "lessonCanonicalSha256": "014ba90d8474df50dbe085b066c841aa5e7176ec1c80a7abe3811352193be978",
+      "sourceSense": "pass",
+      "sevenSteps": "pass",
+      "fourValidReplies": "pass",
+      "writingContextAndGlossary": "pass",
+      "originalityReport": "zero-substantive-overlap-per-exact-author-report",
+      "verdict": "block-distractor-quality",
+      "blockers": [
+        {
+          "field": "scene.options[b] and scene foil set",
+          "finding": "The scene lists smart curtains, tablet controls and voice assistant, so “contains no electronic features” is impossible without reading the expression; together with option c’s blanket “must be easy” claim, the two foils offer no plausible interpretation of a gadget-rich but hard-to-learn room.",
+          "repair": "Use at least one context-compatible near miss (for example, correctly note the devices but wrongly claim the half-hour learning period proves ease or physical weight); preserve one uniquely best answer and bilingual alignment."
+        }
+      ],
+      "advisories": [
+        {
+          "field": "listening.options[b]",
+          "finding": "“It has no electronic equipment at all” is an obvious contradiction to the enumerated devices; a more credible device/usability mix would provide stronger discrimination."
+        },
+        {
+          "field": "writing.examples[1].zh",
+          "finding": "Chinese “展覽設備雖然繁多” omits the electronic-device sense conveyed by gadget-heavy; adding 電子 would make the bilingual target explicit."
+        }
+      ]
+    }
+  ],
+  "releaseState": "unselected; no decisions, manifests, media or deployment changed"
+}

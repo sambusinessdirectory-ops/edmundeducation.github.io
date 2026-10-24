@@ -1,5 +1,5 @@
-import {esc} from './catalogue.mjs?v=20261016-full-course-v1';
-import importedTargetPatterns from './advanced-targets.generated.mjs?v=20261016-full-course-v1';
+import {esc} from './catalogue.mjs?v=20261024-books10-16-730';
+import importedTargetPatterns from './advanced-targets.generated.mjs?v=20261024-books10-16-730';
 
 // Reviewed surface forms. New lessons must add their forms before publication.
 export const targetPatterns={

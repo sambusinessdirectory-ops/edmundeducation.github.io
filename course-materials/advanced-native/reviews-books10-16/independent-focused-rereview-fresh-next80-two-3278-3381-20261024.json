@@ -1,0 +1,58 @@
+{
+  "kind": "independent-focused-rereview",
+  "date": "2026-10-24",
+  "binding": {
+    "currentProposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-3278-3381-20261024.json",
+    "currentProposalSha256": "35a3f4e9a816542b970ed051abf94218a8ee61a6f12a8dced1e06e23d4b57dda",
+    "previousProposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-3278-3381-pre-repair-20261024.json",
+    "previousProposalSha256": "b12027cf4b89d81d901339dac34198f8b436e75d4613f5bc7844fefcdd24abf3",
+    "priorIndependentReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-review-fresh-next80-two-3278-3381-20261024.json",
+    "priorIndependentReviewSha256": "cef94ae91f8d2ea94ef842959f1b34fc847b9481413a8fd4146ebad2ada7d389",
+    "authorQaFile": "course-materials/advanced-native/reviews-books10-16/author-qa-fresh-next80-two-3278-3381-20261024.json",
+    "authorQaSha256": "2ec8f4097063ac36acbca623c00fadb888f67d319ed0c2bed79f460b389b8d6d",
+    "originalityReportFile": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-fresh-next80-two-3278-3381-20261024.json",
+    "originalityReportSha256": "2fbf0f8aad81a1e450d345bace242d8c28c17b3d898dc86f0a02845fee924144",
+    "repairAttestationFile": "course-materials/advanced-native/reviews-books10-16/author-repair-attestation-fresh-next80-two-3278-3381-20261024.json",
+    "repairAttestationSha256": "f9400e2f36de9b64b784360989c021a259b4102c316edf3974a7f8747f9fce51"
+  },
+  "overallVerdict": "3278-pass-3381-one-blocker-remains",
+  "counts": {
+    "lessons": 2,
+    "priorBlockingSetsResolved": 1,
+    "remainingBlockingFoils": 1
+  },
+  "rows": [
+    {
+      "ordinal": 3278,
+      "verdict": "pass",
+      "changedFields": [
+        "listening",
+        "scene"
+      ],
+      "priorBlockerResolved": true,
+      "priorAdvisoryResolved": true,
+      "finding": "Scene B now misstates the allowed swaps and C misstates whether nightly conflict fell, both grounded in the scene. Listening C now misstates weekly review. No answer ambiguity."
+    },
+    {
+      "ordinal": 3381,
+      "verdict": "block-one-scene-foil",
+      "changedFields": [
+        "listening",
+        "scene",
+        "writing"
+      ],
+      "resolved": [
+        "writing Chinese explicitly says electronic devices",
+        "listening B now tests device count versus usability",
+        "scene B uses the half-hour fact as a near miss"
+      ],
+      "remainingBlocker": {
+        "field": "scene.options[c]",
+        "finding": "“The room is gadget-heavy mainly because its furniture is physically weighty” is logically self-contradictory and not a plausible interpretation of the hotel-room evidence. It duplicates the literal-heavy misconception already tested in contrast.",
+        "repair": "Replace with a coherent, context-compatible near miss that uses the listed devices or half-hour learning period but is wrong about usability/scope."
+      },
+      "advisory": "Listening B and D both express essentially the same wrong hard-to-use inference; optional variety would strengthen the four-choice task."
+    }
+  ],
+  "releaseState": "unselected; no manifest/decision/media/deploy mutation"
+}

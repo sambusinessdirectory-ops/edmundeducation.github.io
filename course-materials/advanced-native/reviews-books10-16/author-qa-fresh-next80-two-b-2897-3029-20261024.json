@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "source-bound-author-self-check-proposal-only",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-b-2897-3029-20261024.json",
+  "proposalSha256": "8fc929a072d5ee84ac8847dd21864c221491efbaabea69cbf9f7aed639e81d1c",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/read-only-fresh-next80-current313-holds-source-owner-screen-20261024.json",
+  "sourceScreenSha256": "fb6f0b47b9d6a1f36ace56e20956c51974e8cc1f39904ca43bd2da2539f37159",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "706bb293ffac720e3a71e383ce2954e6ef714b5f067225b1bbb06e9da325b9b1",
+  "lessonCount": 2,
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 2897,
+      "sourceId": "book10-16-0786",
+      "sourceRawRowSha256": "5701a48d5ef4d857e7619caa8715f436e2dbc4fb0cb7ed44da8b9728c51a8ef1",
+      "decisionFile": "books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionRawRowSha256": "fdbe47346c420ffe5b53e44c5eff5637021aff479755d08ab243d78cb5964672",
+      "sourceExpression": "steady adult presence",
+      "guideSentence": "A steady adult presence helps children feel secure.",
+      "guideMeaning": "Reliable and emotionally available support; a natural parenting collocation.",
+      "sourcePage": 73,
+      "sourceBook": 12,
+      "sourceQuestion": 2,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3029,
+      "sourceId": "book10-16-0918",
+      "sourceRawRowSha256": "929460666beb571d5519e83b38001bb3f16a8bba776f9a6815c34c8f3601589f",
+      "decisionFile": "books10-16/editorial-decisions-3012-3071.jsonl",
+      "decisionRawRowSha256": "59889f654358f73d68d7206096790eaeb87ae87bcc5d4c160102053d7a493794",
+      "sourceExpression": "have both a conscience and a backbone",
+      "guideSentence": "Good leaders have both a conscience and a backbone.",
+      "guideMeaning": "Combine ethical care with courage and boundaries; paired body metaphors.",
+      "sourcePage": 85,
+      "sourceBook": 12,
+      "sourceQuestion": 16,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    }
+  ],
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-2897",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3029",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "authorSelfCheck": {
+    "sourceSenseAndBoundary": "Source senses, evidence limits and use boundaries are specified in the briefs and questions.",
+    "distinctSevenStepContract": "Each proposal contains listening, four-valid reply, scene, boundary, dialogue, speaking and independent writing content.",
+    "translationPairing": "English source contexts, choices, models and suggested answers have paired Traditional Chinese.",
+    "writingSupport": "Two changed-context examples and five exact answer-derived target-free glossary spans per lesson.",
+    "selectionAndRelease": "No selected manifest, source decision, release index, audio asset or SOP audit modified."
+  },
+  "independentEnglishReview": "pending",
+  "independentChineseReview": "pending",
+  "mediaReview": "pending",
+  "browserDeviceQA": "pending",
+  "releaseApproval": false,
+  "knownIssues": [
+    "Unselected hold-editorial proposals awaiting independent review."
+  ]
+}

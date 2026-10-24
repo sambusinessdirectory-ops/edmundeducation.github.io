@@ -1,0 +1,51 @@
+{
+  "status": "mechanical-source-overlap-screen-not-editorial-approval",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-three-d-2983-3054-20261024.json",
+  "proposalSha256": "f8d6c07b57ebdade5d15e55a44cac9c56797057e74c37513a1b6745bc95045d2",
+  "inventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "inventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "lessons": 3,
+  "sourceExamples": 2604,
+  "learnerFacingStrings": 72,
+  "counts": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "target-or-short-overlap": 2
+  },
+  "nearCounts": {
+    "near-full": 0,
+    "review-near-full": 0
+  },
+  "hits": [
+    {
+      "lesson": 3054,
+      "field": "dialogue.options[0].en",
+      "sourceId": "book10-16-0943",
+      "sourceExpression": "build a world out of words",
+      "sourceExample": "A skilled writer can build a world out of words.",
+      "learnerText": "The bridge, bell and hearth let the author build a world out of words, giving readers enough clues to picture the village without illustrations.",
+      "sharedText": "build a world out of words",
+      "sharedTokens": 6,
+      "targetTokens": 6,
+      "excessTokens": 0,
+      "sourceCoverage": 0.6,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3054,
+      "field": "takeaways[0].en",
+      "sourceId": "book10-16-0943",
+      "sourceExpression": "build a world out of words",
+      "sourceExample": "A skilled writer can build a world out of words.",
+      "learnerText": "Choosing details readers can sense helps a novelist build a world out of words.",
+      "sharedText": "build a world out of words",
+      "sharedTokens": 6,
+      "targetTokens": 6,
+      "excessTokens": 0,
+      "sourceCoverage": 0.6,
+      "severity": "target-or-short-overlap"
+    }
+  ],
+  "nearHits": []
+}

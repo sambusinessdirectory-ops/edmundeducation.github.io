@@ -1,7 +1,7 @@
-import {modules,moduleMap,allQuestionMap,correct,completed,latestRun,daily,hkDate,esc,hydrateModule} from './catalogue.mjs?v=20261016-full-course-v1';
-import {englishText,chineseText,promptText} from './advanced-display.mjs?v=20261016-full-course-v1';
-import {audioManifest} from './audio/manifest.mjs?v=20261016-full-course-v1';
-import {eventsByModule} from './progress-index.mjs?v=20261016-full-course-v1';
+import {modules,moduleMap,allQuestionMap,correct,completed,latestRun,daily,hkDate,esc,hydrateModule} from './catalogue.mjs?v=20261024-books10-16-730';
+import {englishText,chineseText,promptText} from './advanced-display.mjs?v=20261024-books10-16-730';
+import {audioManifest} from './audio/manifest.mjs?v=20261024-books10-16-730';
+import {eventsByModule} from './progress-index.mjs?v=20261024-books10-16-730';
 import {mountRecorder,listRecordings,storeRecording} from './recording.mjs?v=20260929-lesson102v4';
 const voiceAudio=new Audio();let voiceRequest=0,voiceLabel=null;const voiceUrls=new Map();
 const advancedCourse=document.body.dataset.course==='advanced-native';

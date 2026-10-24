@@ -1,0 +1,59 @@
+{
+  "kind": "independent-final-exact-hash-focused-proposal-rereview",
+  "date": "2026-10-24",
+  "binding": {
+    "repairedProposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-c-3030-3074-20261024.json",
+    "repairedProposalSha256": "6feb58de26c2938f20dcb5a59b07e6f89db28fbe787394e80aee5993b33bc873",
+    "priorProposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-c-3030-3074-pre-repair-20261024.json",
+    "priorProposalSha256": "5db989a702619c3bad2329c947a65c7691952639ec2f740ff4a04fd0d9253216",
+    "priorIndependentReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-review-fresh-next80-two-c-3030-3074-20261024.json",
+    "priorIndependentReviewSha256": "04b74c3c3a9c164f0ee9c4da73fa29b88df9d2be515fb7a9ddd297b1c6ee379d",
+    "repairAttestationFile": "course-materials/advanced-native/reviews-books10-16/author-repair-attestation-fresh-next80-two-c-3030-3074-20261024.json",
+    "repairAttestationSha256": "ce853c9a069f7a3054f0f7e1deb3bc5a76fc295acfec8b153a1b2c20c6f18dc0",
+    "authorQaSha256": "0a6cc505781328fc5f01bdebd460e3f077a20b24de0fb37b9f712a1d36883e49",
+    "originalityReportSha256": "dd2d876b1e7b67b14aaad60ef70e1d50cffd8c930f07def49a7a7139dc2d0dc4",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "scope": "Read-only review of changed fields against the prior three blockers and one Chinese advisory; unchanged lesson fields, source and held decision rows checked for consistency. No selected content or decisions changed.",
+  "checks": {
+    "proposalLessons": 2,
+    "sevenStepLessons": 2,
+    "compiledAssessmentQuestions": 12,
+    "compiledAudioRequests": 8,
+    "buildAndCheck": "pass; zero review flags in isolated draft build",
+    "sourceSentenceTargetMatch": "pass for both exact source sentences",
+    "fourValidReplyOptions": "pass for both; one target-bearing golden reply each",
+    "glossaryAnswerSpansAndTargetFree": "pass; all revised spans exactly slice the corresponding English writing answers",
+    "speakingTargetSpans": "pass",
+    "sourceDecisionRowBindings": "pass; both source rows remain hold-editorial and unchanged at row level",
+    "independentHumanOrLiveQa": "not claimed"
+  },
+  "rows": [
+    {
+      "ordinal": 3030,
+      "sourceSentence": "Children often show their imagination out in the open.",
+      "decisionRawRowSha256": "0fda926d6d973b4514d99ba4e07415191e82f1c7fcc963e6239df800d3c66d83",
+      "verdict": "pass-focused-rereview",
+      "findings": [
+        "The revised scene foils stay on the posted costume drafts: one falsely limits cast comments, and one substitutes finished costumes for drafts. The stem explicitly establishes both draft visibility and cast feedback, so the target-bearing answer remains uniquely best.",
+        "The revised Chinese scene explanation now explicitly covers visibility and discussion; each changed English foil matches its Chinese translation.",
+        "The original source-bound visibility sense and seven-step learner content remain intact."
+      ],
+      "blockingIssues": []
+    },
+    {
+      "ordinal": 3074,
+      "sourceSentence": "They made a game out of almost nothing.",
+      "decisionRawRowSha256": "be9f465d7d3f5c39a0963101c9704d9d79ce88b31c32fb8cbeea9c6e95d1e1a9",
+      "verdict": "pass-focused-rereview",
+      "findings": [
+        "The revised scene foils use the same cans and spoons but falsely assign the completed rhythm to a teacher or deny that the group shaped a performance. The stem says the band composed a performable rhythm, so the scarce-material target answer is uniquely best.",
+        "Writing model 1 now makes the reusable seedling rack required by the prompt; its Chinese says 育苗架, and the revised answer-derived glossary and exact spans agree. Model 2 also says seedling rack.",
+        "Revised Chinese listening and writing descriptions state 極少量材料 or 材料極少. The brief expressly distinguishes scarce resources from zero materials or necessarily zero cost."
+      ],
+      "blockingIssues": []
+    }
+  ],
+  "overallVerdict": "pass-focused-independent-rereview; proposals remain unselected",
+  "releaseState": "No selected manifest, decision ledger, media, assessment database, browser release, or live site changed by this review."
+}

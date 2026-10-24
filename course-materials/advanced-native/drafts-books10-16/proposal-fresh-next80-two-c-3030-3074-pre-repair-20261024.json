@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-fresh-next80-two-c-proposal-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-3030",
+      "number": 3030,
+      "inventoryId": "expr-3030",
+      "titleEn": "out in the open",
+      "titleZh": "公開呈現出來",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bout in the open\\b",
+        "glossaryForbidden": [
+          "\\bout in the open\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Visible to others rather than kept hidden or confined to private thought.",
+        "meaningZh": "讓其他人看得見，而不是藏起來或只留在心裏。",
+        "grammar": "The source applies the phrase to children openly showing imagination; it does not mean physically outdoors.",
+        "register": "Creative work, ideas and public sharing.",
+        "boundaryZh": "公開呈現想法不等於要求分享每個私人念頭，也不保證所有人都同意。",
+        "misconceptionZh": "不要把 open 誤作露天地方；重點是別人能看見表達。",
+        "outcomeZh": "能指出原本隱藏的內容、怎樣展示，以及誰能看見。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0919",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 85,
+          "book": 12,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "43–46",
+          "locatorNote": "DOCX table 87, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Children often show their imagination out in the open.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "out in the open"
+        }
+      ],
+      "listening": {
+        "promptZh": "學生怎樣公開表達想法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They showed sketches and discussed them with classmates.",
+            "zh": "他們展示草圖並與同學討論。"
+          },
+          {
+            "id": "b",
+            "en": "They kept every drawing inside their private notebooks.",
+            "zh": "他們把所有圖畫留在私人筆記簿內。"
+          },
+          {
+            "id": "c",
+            "en": "They moved the workshop to an outdoor park.",
+            "zh": "他們把工作坊搬到戶外公園。"
+          },
+          {
+            "id": "d",
+            "en": "They let only the teacher see the sketches.",
+            "zh": "他們只讓教師看草圖。"
+          }
+        ],
+        "explanationZh": "共用展板與同學討論令想法可被看見。",
+        "answerId": "a",
+        "en": "At a children’s design workshop, pupils pinned early sketches to a shared board and talked through the ideas with classmates. Their imagination was out in the open rather than hidden in private notebooks.",
+        "zh": "在兒童設計工作坊，學生把初步草圖釘在共用展板上，並與同學討論想法。他們的想像力公開呈現，不再只藏於私人筆記簿。"
+      },
+      "reply": {
+        "promptZh": "（學生使用共用展板後有甚麼改變？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their draft ideas became visible to classmates.",
+            "zh": "同學可以看到他們的初步想法。"
+          },
+          {
+            "id": "b",
+            "en": "They could discuss sketches that had been private.",
+            "zh": "他們可以討論原本只在私人筆記裏的草圖。"
+          },
+          {
+            "id": "c",
+            "en": "Their imagination was out in the open.",
+            "zh": "他們的想像力公開呈現。"
+          },
+          {
+            "id": "d",
+            "en": "The board made their work available for feedback.",
+            "zh": "展板讓作品可以得到意見。"
+          }
+        ],
+        "explanationZh": "四句都指出想法由私人筆記轉為可供他人觀看和討論。",
+        "promptEn": "What changed when the pupils used the shared board?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "劇團把服裝初稿貼在排練室的共用牆上，演員可提出意見；草稿原本只存於設計師電腦。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The costume ideas are now out in the open for the cast to discuss.",
+            "zh": "服裝構思現在公開呈現，演員可以討論。"
+          },
+          {
+            "id": "b",
+            "en": "The costumes must be worn outdoors.",
+            "zh": "服裝必須在戶外穿著。"
+          },
+          {
+            "id": "c",
+            "en": "Only the designer can see the drafts.",
+            "zh": "只有設計師看得到初稿。"
+          }
+        ],
+        "explanationZh": "從私人電腦轉到共用牆，構思可被演員看見。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句誤把 open 當成「露天」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A shared display can make ideas visible.",
+            "zh": "共用展示可讓想法被看見。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase means the drawings have to be placed outside the building.",
+            "zh": "這片語表示圖畫必須放在建築物外面。"
+          },
+          {
+            "id": "c",
+            "en": "People can discuss a plan once it is no longer hidden.",
+            "zh": "計劃不再隱藏後，人們便可討論。"
+          }
+        ],
+        "explanationZh": "out in the open 在此指公開可見，與是否在戶外無關。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「初稿還在我的電腦，大家怎樣給意見？」你準備把它貼在團隊共用板上。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Put the draft out in the open on the shared board so colleagues can see it and suggest changes, while keeping private notes separate.",
+            "zh": "把初稿放到共用板公開展示，讓同事看見並提出修改建議；私人筆記則另外保存。"
+          },
+          {
+            "id": "b",
+            "en": "The shared board is available.",
+            "zh": "共用板可以使用。"
+          },
+          {
+            "id": "c",
+            "en": "Colleagues may have suggestions.",
+            "zh": "同事可能有建議。"
+          }
+        ],
+        "explanationZh": "金句指出展示渠道、可見對象和保留私人內容的界線。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The children put their designs out in the open on a shared board.",
+        "zh": "孩子把設計貼在共用展板上，公開呈現出來。",
+        "promptZh": "先聽示範，再說出誰可以看到那些設計。",
+        "targetSpan": {
+          "start": 31,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區規劃小組原先只在內部檢視單車徑草案；現在把草圖放在公開會議的展板上，讓居民在修改前提出意見。用一至兩句英文描述改動。",
+        "selfCheckZh": "指出草案如何由內部文件轉成居民可見及可評論的內容；不要說最終路線已獲批准。",
+        "examples": [
+          {
+            "en": "The planning group put its draft cycle route out in the open at a public meeting, inviting residents to comment before revisions.",
+            "zh": "規劃小組在公開會議展示單車徑草案，讓居民在修改前提出意見。"
+          },
+          {
+            "en": "With the route sketch out in the open on display boards, neighbours can review the proposal instead of guessing what the planners intend.",
+            "zh": "路線草圖在展板上公開呈現後，街坊可以檢視提案，不必猜測規劃者的想法。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "its draft cycle route",
+            "zh": "單車徑草案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 44
+            }
+          },
+          {
+            "en": "a public meeting",
+            "zh": "公開會議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 80
+            }
+          },
+          {
+            "en": "before revisions",
+            "zh": "在修改前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 128
+            }
+          },
+          {
+            "en": "the route sketch",
+            "zh": "路線草圖",
+            "exampleIndex": 1,
+            "span": {
+              "start": 5,
+              "end": 21
+            }
+          },
+          {
+            "en": "the proposal",
+            "zh": "提案",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 91
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An idea can be out in the open once its creator shares a draft.",
+          "zh": "創作者分享初稿後，構思便可以公開呈現。"
+        },
+        {
+          "en": "The plan was out in the open for discussion, although no final decision had been made.",
+          "zh": "計劃已公開供人討論，但尚未有最終決定。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3074",
+      "number": 3074,
+      "inventoryId": "expr-3074",
+      "titleEn": "out of almost nothing",
+      "titleZh": "幾乎不靠甚麼資源就做成",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bout of almost nothing\\b",
+        "glossaryForbidden": [
+          "\\bout of almost nothing\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Create something useful or enjoyable with very few materials or resources.",
+        "meaningZh": "只用極少材料或資源，做出有用或有趣的東西。",
+        "grammar": "Out of introduces the scant materials used; almost does not mean literally no materials at all.",
+        "register": "Resourceful making, play and community projects.",
+        "boundaryZh": "強調善用有限資源，不代表製作過程必然沒有時間、技巧或他人幫助。",
+        "misconceptionZh": "不要把 almost nothing 說成完全沒有材料，也不要把昂貴設備寫成幾乎沒有資源。",
+        "outcomeZh": "能指出少量實際材料，以及如何善用它們做出成果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0963",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 89,
+          "book": 12,
+          "question": 21,
+          "sample": "S1",
+          "sourceBookPages": "53–54",
+          "locatorNote": "DOCX table 91, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "They made a game out of almost nothing.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "out of almost nothing"
+        }
+      ],
+      "listening": {
+        "promptZh": "孩子用了甚麼資源？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A few simple items such as boxes, chalk and string.",
+            "zh": "少量簡單物品，例如箱子、粉筆和繩子。"
+          },
+          {
+            "id": "b",
+            "en": "An expensive set of sports equipment.",
+            "zh": "一套昂貴的運動器材。"
+          },
+          {
+            "id": "c",
+            "en": "No materials of any kind.",
+            "zh": "完全沒有任何材料。"
+          },
+          {
+            "id": "d",
+            "en": "A professionally built obstacle course.",
+            "zh": "專業建造的障礙賽道。"
+          }
+        ],
+        "explanationZh": "活動用了少量簡單材料，並非完全沒有材料。",
+        "answerId": "a",
+        "en": "The youth club had only chalk, empty boxes and string for a rainy-day activity. The children made an indoor obstacle course out of almost nothing and spent the afternoon playing.",
+        "zh": "青年中心為雨天活動只備有粉筆、空箱和繩子。孩子用幾乎沒有成本的少量材料做成室內障礙賽道，玩了一個下午。"
+      },
+      "reply": {
+        "promptZh": "（孩子怎樣令下午變得有趣？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They turned simple supplies into a course.",
+            "zh": "他們用簡單用品做出賽道。"
+          },
+          {
+            "id": "b",
+            "en": "They used boxes and string creatively.",
+            "zh": "他們有創意地使用箱子和繩子。"
+          },
+          {
+            "id": "c",
+            "en": "They made an obstacle course out of almost nothing.",
+            "zh": "他們用極少材料做成障礙賽道。"
+          },
+          {
+            "id": "d",
+            "en": "They found a game in the few materials available.",
+            "zh": "他們善用手頭不多的材料做出遊戲。"
+          }
+        ],
+        "explanationZh": "四句都說明如何用少量材料創造活動。",
+        "promptEn": "How did the children make the afternoon enjoyable?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "學校樂隊只有幾個空罐和木匙，卻編出一段可在午膳表演的節奏。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They created a percussion piece out of almost nothing.",
+            "zh": "他們用極少材料創作一段敲擊樂。"
+          },
+          {
+            "id": "b",
+            "en": "They bought a full professional drum kit first.",
+            "zh": "他們先買了一整套專業鼓。"
+          },
+          {
+            "id": "c",
+            "en": "They performed without making any sound.",
+            "zh": "他們演出時沒有發出任何聲音。"
+          }
+        ],
+        "explanationZh": "空罐和木匙是少量實際材料，可創作節奏。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 almost 誤讀成「完全」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A few reused items can still count as very limited resources.",
+            "zh": "幾件重用物品仍可算是資源極少。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase means the maker used literally no materials at all.",
+            "zh": "這片語表示製作者真的完全沒有使用材料。"
+          },
+          {
+            "id": "c",
+            "en": "Time and skill may still be needed.",
+            "zh": "仍可能需要時間和技巧。"
+          }
+        ],
+        "explanationZh": "almost nothing 是強調材料少，不是字面上零材料。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「空罐和木匙也算材料，怎能說 out of almost nothing？」你知道樂隊沒有其他樂器。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The band created a rhythm out of almost nothing: the few reused items were real materials, but they had no full set of instruments.",
+            "zh": "樂隊用極少材料創作節奏：幾件重用物品確是材料，但他們沒有整套樂器。"
+          },
+          {
+            "id": "b",
+            "en": "The band used some empty cans.",
+            "zh": "樂隊用了幾個空罐。"
+          },
+          {
+            "id": "c",
+            "en": "They did not have a full drum kit.",
+            "zh": "他們沒有整套鼓。"
+          }
+        ],
+        "explanationZh": "金句保留少量材料的事實，也解釋誇張程度。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The club made an obstacle course out of almost nothing: just boxes, chalk and string.",
+        "zh": "青年中心用極少材料做成障礙賽道：只有箱子、粉筆和繩子。",
+        "promptZh": "先聽示範，再說出用到的三種材料。",
+        "targetSpan": {
+          "start": 33,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區花園沒有預算買育苗盤，義工用紙盒和幾塊舊木板做成可重用的育苗架。用一至兩句英文描述他們如何善用資源。",
+        "selfCheckZh": "指出實際用到的少量重用材料，以及做出的用途；不要寫成完全沒有材料或不用工夫。",
+        "examples": [
+          {
+            "en": "The volunteers made reusable seed trays out of almost nothing, using paper cartons and a few old boards instead of new equipment.",
+            "zh": "義工幾乎不花資源，用紙盒和幾塊舊木板代替新設備，做成可重用的育苗盤。"
+          },
+          {
+            "en": "With reused cartons and spare timber, the garden team built a seedling rack out of almost nothing, though it still took careful work.",
+            "zh": "花園團隊用重用紙盒和剩餘木材做成育苗架，幾乎不靠甚麼資源，但仍花了心思。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "reusable seed trays",
+            "zh": "可重用的育苗盤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 20,
+              "end": 39
+            }
+          },
+          {
+            "en": "paper cartons",
+            "zh": "紙盒",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 82
+            }
+          },
+          {
+            "en": "a few old boards",
+            "zh": "幾塊舊木板",
+            "exampleIndex": 0,
+            "span": {
+              "start": 87,
+              "end": 103
+            }
+          },
+          {
+            "en": "reused cartons",
+            "zh": "重用紙盒",
+            "exampleIndex": 1,
+            "span": {
+              "start": 5,
+              "end": 19
+            }
+          },
+          {
+            "en": "a seedling rack",
+            "zh": "育苗架",
+            "exampleIndex": 1,
+            "span": {
+              "start": 60,
+              "end": 75
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "With a little time, children can create a new pastime out of almost nothing.",
+          "zh": "孩子只要有一點時間，就可以用極少材料創造新的消遣活動。"
+        },
+        {
+          "en": "The artists made a street display out of almost nothing, but they still planned it carefully.",
+          "zh": "藝術家用極少材料做成街頭展覽，但仍仔細規劃。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

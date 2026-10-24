@@ -1,0 +1,55 @@
+{
+  "kind": "independent-final-focused-rereview",
+  "date": "2026-10-24",
+  "binding": {
+    "currentProposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-b-2897-3029-20261024.json",
+    "currentProposalSha256": "8fc929a072d5ee84ac8847dd21864c221491efbaabea69cbf9f7aed639e81d1c",
+    "previousProposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-b-2897-3029-pre-repair-20261024.json",
+    "previousProposalSha256": "c82401d5e17939914e2613a676605b7a854c84668747a13165d5f084f66d0cac",
+    "priorIndependentReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-review-fresh-next80-two-b-2897-3029-20261024.json",
+    "priorIndependentReviewSha256": "494cc86515534576d3bcf54ab2f95c75c701904241aeff430f9f41f757edfdb9",
+    "authorQaFile": "course-materials/advanced-native/reviews-books10-16/author-qa-fresh-next80-two-b-2897-3029-20261024.json",
+    "authorQaSha256": "b0db1a0a7190f6c247648f5bf98d16d61a08dfc657613fb0a4c93c550c19c118",
+    "originalityReportFile": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-fresh-next80-two-b-2897-3029-20261024.json",
+    "originalityReportSha256": "4d3b171bb215ecbb6a309a90fed50468140f87997d256a80d98d51bc18c74adc",
+    "repairAttestationFile": "course-materials/advanced-native/reviews-books10-16/author-repair-attestation-fresh-next80-two-b-2897-3029-20261024.json",
+    "repairAttestationSha256": "d81dfe9b1106e73f27e43c66d915d484afa517675342af9f77e5ee301e679b32"
+  },
+  "overallVerdict": "pass-unselected",
+  "counts": {
+    "lessons": 2,
+    "steps": 14,
+    "assessedQuestions": 12,
+    "priorBlockersResolved": 3,
+    "priorAdvisoriesResolved": 2,
+    "currentBlockers": 0,
+    "currentAdvisories": 0
+  },
+  "rows": [
+    {
+      "ordinal": 2897,
+      "verdict": "pass",
+      "changedFields": [
+        "scene",
+        "writing"
+      ],
+      "priorBlockersResolved": 1,
+      "priorAdvisoriesResolved": 2,
+      "lessonCanonicalSha256": "a93527d9fe0fbcd55fa65152bf89577cbb39fc39250c810383d5d9a6cde0ba03",
+      "finding": "Scene B and C now use the weekly-follow-up facts as plausible near misses. Writing uses a remote aunt with recurring Sunday calls and no one-off visitor; glossary is natural and source-derived. The new-school transition recurs from scene, but the family relationship and remote support provide sufficient changed context from listening and dialogue."
+    },
+    {
+      "ordinal": 3029,
+      "verdict": "pass",
+      "changedFields": [
+        "scene",
+        "writing"
+      ],
+      "priorBlockersResolved": 2,
+      "priorAdvisoriesResolved": 0,
+      "lessonCanonicalSha256": "3194edf1cfbc7ec475e0f7d8895e16635926ee9fd49a8b9d2b7c85a4050dfec8",
+      "finding": "Scene B isolates moral concern without timely action, and C isolates decisive action without verification, leaving A uniquely complete. Writing now evaluates wheelchair access and teammate opposition rather than another public-data correction; both models evidence ethical judgement plus courage."
+    }
+  ],
+  "releaseState": "unselected; no manifest, decision, media or deployment mutation"
+}

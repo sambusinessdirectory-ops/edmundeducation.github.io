@@ -1,0 +1,51 @@
+{
+  "status": "mechanical-source-overlap-screen-not-editorial-approval",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-three-e-3156-3300-20261024.json",
+  "proposalSha256": "b3de67af6559ceddfcc81e41fae613c7075dcd13d8084fc4e5025997ed54282b",
+  "inventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "inventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "lessons": 3,
+  "sourceExamples": 2604,
+  "learnerFacingStrings": 72,
+  "counts": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "target-or-short-overlap": 2
+  },
+  "nearCounts": {
+    "near-full": 0,
+    "review-near-full": 0
+  },
+  "hits": [
+    {
+      "lesson": 3156,
+      "field": "speaking.en",
+      "sourceId": "book10-16-1045",
+      "sourceExpression": "a quiet kind of strength",
+      "sourceExample": "Her patience showed a quiet kind of strength during the delay.",
+      "learnerText": "Mei showed a quiet kind of strength by helping others despite the delay.",
+      "sharedText": "showed a quiet kind of strength",
+      "sharedTokens": 6,
+      "targetTokens": 5,
+      "excessTokens": 1,
+      "sourceCoverage": 0.545,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3156,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-1045",
+      "sourceExpression": "a quiet kind of strength",
+      "sourceExample": "Her patience showed a quiet kind of strength during the delay.",
+      "learnerText": "During the power cut, the worker showed a quiet kind of strength by calming the queue and checking each paper booking until service resumed.",
+      "sharedText": "showed a quiet kind of strength",
+      "sharedTokens": 6,
+      "targetTokens": 5,
+      "excessTokens": 1,
+      "sourceCoverage": 0.545,
+      "severity": "target-or-short-overlap"
+    }
+  ],
+  "nearHits": []
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "read-only-source-sense-owner-screen",
+  "date": "2026-10-24",
+  "sourceOrdinal": 2655,
+  "candidateOwnerOrdinal": 2398,
+  "binding": {
+    "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "source2655RawRowSha256": "5976c5d2871ab7d5041c3c7e48d61ad41474942d40a38b0b40f34400c71430ad",
+    "source2398RawRowSha256": "a14141cfa3c45477a7eb79cd10e90489316e80f262d34f1e69c2899678c558a7",
+    "decision2655File": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+    "decision2655FileSha256": "40e8fc6576f7bffc57918f9fcbdf6585c6faeea46a49393e0b0f32170da37eb3",
+    "decision2655RawRowSha256": "1783de199f5a95f8e5de9dbae267b66ef6e3cb63a8ddd32f14f4cb66bf63dd3f",
+    "decision2398File": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+    "decision2398FileSha256": "a99c5bd331819b6eb55c59325191f058652ead74f88a3a7a431e4a620d3ee9e1",
+    "decision2398RawRowSha256": "f1ec9f7c3154374ba9c3b3f0742b5b29a043306e12538e8ba06a92d5915337fe",
+    "selectedOwnerBatchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-2398-2714-author-review.json",
+    "selectedOwnerBatchSha256": "c56a3c3b9a80e235bfb251d2b56e8e70a1c88d5bc7be74a321fdfc65755506e1",
+    "selectedBatchManifestFile": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "selectedBatchManifestSha256": "afbfd411076b1a69522eb10992f112dbd14e7073b3bddff0f7a6879cfc15ba96"
+  },
+  "source2655": {
+    "sourceId": "book10-16-0544",
+    "expression": "a hit song had time to breathe",
+    "sentence": "On the old charts, a hit song had time to breathe.",
+    "sourceMeaning": "A popular song could be appreciated over a longer period; breathing is figurative.",
+    "currentAction": "hold-editorial"
+  },
+  "owner2398": {
+    "sourceId": "book10-16-0287",
+    "expression": "lets the mystery breathe",
+    "sentence": "The longer format lets the mystery breathe.",
+    "titleEn": "let the mystery breathe",
+    "meaningEn": "Allow a narrative enough room and time for clues, tension or characters to develop before a payoff.",
+    "meaningZh": "在揭曉或推進情節前，留出足夠篇幅讓線索、懸念或人物自然發展。",
+    "detector": "\\blet(?:s|ting)? (?:the|a|this|that) (?:mystery|story|plot) breathe\\b",
+    "detectorMatches2655": false,
+    "currentAction": "proposed-new-lesson"
+  },
+  "verdict": "retain-hold-no-alias",
+  "rationale": "Both use breathe to suggest room/time, but 2398 teaches narrative pacing: clues and tension develop before a payoff. Source 2655 concerns chart turnover and allowing a hit song a longer period of audience attention. The current owner detector and lesson boundary are deliberately restricted to mystery/story/plot, and the source form had time to breathe is not matched. Attaching 2655 as an alias would imply the assessed narrative lesson teaches a music-chart use it does not assess.",
+  "oneTimeComparisonRule": "Do not exclude 2655 merely because the source image is creative: had time to breathe may be productive beyond this sentence. Its independent reusability/naturalness in music discussion remains unresolved.",
+  "nextStep": "Keep 2655 on hold. Check authentic English music/chart usage and consider a separate, clearly bounded lesson only if a reusable formulation and transferable contexts can be established; otherwise document a source-specific exclusion after a later narrow-rule review.",
+  "mutation": "none; decision and selected lesson remain unchanged"
+}

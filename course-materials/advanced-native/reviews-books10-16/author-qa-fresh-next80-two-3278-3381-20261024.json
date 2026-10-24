@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "source-bound-author-self-check-proposal-only",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-3278-3381-20261024.json",
+  "proposalSha256": "3c60d64c6cc6bb7741c821e868afbdc9fe247af9911a24e716ea1d1aaeb8f731",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/read-only-fresh-next80-current313-holds-source-owner-screen-20261024.json",
+  "sourceScreenSha256": "fb6f0b47b9d6a1f36ace56e20956c51974e8cc1f39904ca43bd2da2539f37159",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "706bb293ffac720e3a71e383ce2954e6ef714b5f067225b1bbb06e9da325b9b1",
+  "lessonCount": 2,
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 3278,
+      "sourceId": "book10-16-1167",
+      "sourceRawRowSha256": "220794ace4e1c921b8c1a3ab86ad9670ac18fac53a083efcdf27a02cc67fe42f",
+      "decisionFile": "books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionRawRowSha256": "a58536f5749e68f84172b34b23e3a67534def49b0c769a4661fc298973bedcc4",
+      "sourceExpression": "turning the home into a battlefield",
+      "guideSentence": "Firm limits need not mean turning the home into a battlefield.",
+      "guideMeaning": "Making family life feel like constant conflict; a war metaphor.",
+      "sourcePage": 108,
+      "sourceBook": 12,
+      "sourceQuestion": 42,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3381,
+      "sourceId": "book10-16-1270",
+      "sourceRawRowSha256": "a292d3a72ef85409ab3239864f878f7e2bb15c0fdbf9bf5db76942b13dfe0a2f",
+      "decisionFile": "books10-16/editorial-decisions-3372-3431.jsonl",
+      "decisionRawRowSha256": "38bd43f27898f25cd026d5d9e44f2e635a11430f0f7a4c1821a41691f9e89df0",
+      "sourceExpression": "gadget-heavy",
+      "guideSentence": "Their new office is gadget-heavy but easy to use.",
+      "guideMeaning": "Containing or relying on many electronic devices; a concise natural compound.",
+      "sourcePage": 118,
+      "sourceBook": 13,
+      "sourceQuestion": 1,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    }
+  ],
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-3278",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3381",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "authorSelfCheck": {
+    "sourceSenseAndBoundary": "Source senses, evidence limits and use boundaries are specified in the briefs and questions.",
+    "distinctSevenStepContract": "Each proposal contains listening, four-valid reply, scene, boundary, dialogue, speaking and independent writing content.",
+    "translationPairing": "English source contexts, choices, models and suggested answers have paired Traditional Chinese.",
+    "writingSupport": "Two changed-context examples and five exact answer-derived target-free glossary spans per lesson.",
+    "selectionAndRelease": "No selected manifest, source decision, release index, audio asset or SOP audit modified."
+  },
+  "independentEnglishReview": "pending",
+  "independentChineseReview": "pending",
+  "mediaReview": "pending",
+  "browserDeviceQA": "pending",
+  "releaseApproval": false,
+  "knownIssues": [
+    "Unselected hold-editorial proposals awaiting independent review."
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "source-bound-author-self-check-proposal-only",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-five-c-2328-2765-20261024.json",
+  "proposalSha256": "830a3303b655c609abf6d05495aea77101bd944d4eacc3a93409fe64be7765a1",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/read-only-next80-current361-holds-source-owner-screen-20261024.json",
+  "sourceScreenSha256": "65deae1273ec80df2d5a9d8edefc42bec56b2745f8b631bd0112d9ed769d2321",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "afbfd411076b1a69522eb10992f112dbd14e7073b3bddff0f7a6879cfc15ba96",
+  "lessonCount": 5,
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 2328,
+      "sourceId": "book10-16-0217",
+      "sourceRawRowSha256": "1bb1725edbc8ab1cf020fa191a2901f30e12afefd5c68f49ac73e440b2c9e52f",
+      "decisionFile": "books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionRawRowSha256": "352b183a0244557a21ffde86f632c4506f75379307f79c4b04efd87f62f822db",
+      "sourceExpression": "the gap is probably smaller than stereotypes suggest",
+      "guideSentence": "The gap is probably smaller than stereotypes suggest once we compare real choices.",
+      "guideMeaning": "Qualified comparison that resists an overgeneralisation; a useful precise spoken pattern.",
+      "sourcePage": 20,
+      "sourceBook": 10,
+      "sourceQuestion": 16,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2515,
+      "sourceId": "book10-16-0404",
+      "sourceRawRowSha256": "2d17e19dcb2484bc23b5c2cf672b2e749a25d98c15c5ecf8d38588befde95a8c",
+      "decisionFile": "books10-16/editorial-decisions-2472-2531.jsonl",
+      "decisionRawRowSha256": "47d5d5adc54d639cb571e4f5669a0a0456c713fe70bf176762ff68f1d0752513",
+      "sourceExpression": "friendship runs on care",
+      "guideSentence": "Friendship runs on care, not convenience.",
+      "guideMeaning": "A relationship depends on ongoing attention; a mechanical metaphor.",
+      "sourcePage": 37,
+      "sourceBook": 10,
+      "sourceQuestion": 33,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2695,
+      "sourceId": "book10-16-0584",
+      "sourceRawRowSha256": "f5d45540abf930c7e820ab9e8b7be127011c1fb3a22a78d2a7033b05e2c080be",
+      "decisionFile": "books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionRawRowSha256": "cb3bc0b0b2bfd825b6ea6152d3f8dfc0e0e1d25cf51cf45d39acd984235d311d",
+      "sourceExpression": "the official route",
+      "guideSentence": "A cheaper subscription makes the official route easier.",
+      "guideMeaning": "The lawful or approved way to obtain something; route is figurative.",
+      "sourcePage": 54,
+      "sourceBook": 11,
+      "sourceQuestion": 13,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2720,
+      "sourceId": "book10-16-0609",
+      "sourceRawRowSha256": "c24e34dbbba904c08a6422855507ace0451c4f8a61e12318efa06f7c81ac6fa2",
+      "decisionFile": "books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionRawRowSha256": "39728b55e551da97745ade3cf4e829357caf4aa1d15114b6e34d28a711384251",
+      "sourceExpression": "dominate the scroll",
+      "guideSentence": "Short videos can dominate the scroll for weeks.",
+      "guideMeaning": "Occupy most online attention; a digital metaphor.",
+      "sourcePage": 56,
+      "sourceBook": 11,
+      "sourceQuestion": 15,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2765,
+      "sourceId": "book10-16-0654",
+      "sourceRawRowSha256": "96e1437a5f9845a4954af8a690ba67c80e53d4643a358b0a0fb8a1ef62ff64e7",
+      "decisionFile": "books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionRawRowSha256": "20031bdd40d5566c5e9b82e0066a85ff62de8a23de1e96522f0949aa6e762220",
+      "sourceExpression": "turning the whole evening into a mission",
+      "guideSentence": "The long journey risks turning the whole evening into a mission.",
+      "guideMeaning": "Making an ordinary outing feel like a demanding task; mission is figurative.",
+      "sourcePage": 60,
+      "sourceBook": 11,
+      "sourceQuestion": 20,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    }
+  ],
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-2328",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2515",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2695",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2720",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2765",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "authorSelfCheck": {
+    "sourceSenseAndBoundary": "Source senses, evidence limits and use boundaries are specified in the briefs and questions.",
+    "distinctSevenStepContract": "Each proposal contains listening, four-valid reply, scene, boundary, dialogue, speaking and independent writing content.",
+    "translationPairing": "English source contexts, choices, models and suggested answers have paired Traditional Chinese.",
+    "writingSupport": "Two changed-context examples and five exact answer-derived target-free glossary spans per lesson.",
+    "selectionAndRelease": "No selected manifest, source decision, release index, audio asset or SOP audit modified."
+  },
+  "independentEnglishReview": "pending",
+  "independentChineseReview": "pending",
+  "mediaReview": "pending",
+  "browserDeviceQA": "pending",
+  "releaseApproval": false,
+  "knownIssues": [
+    "Unselected hold-editorial proposals awaiting independent review."
+  ]
+}

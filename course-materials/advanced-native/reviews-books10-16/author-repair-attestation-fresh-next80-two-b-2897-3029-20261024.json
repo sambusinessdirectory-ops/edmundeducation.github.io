@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "kind": "exact-hash-editorial-repair-attestation-unselected",
+  "priorProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-b-2897-3029-pre-repair-20261024.json",
+  "priorProposalSha256": "c82401d5e17939914e2613a676605b7a854c84668747a13165d5f084f66d0cac",
+  "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-review-fresh-next80-two-b-2897-3029-20261024.json",
+  "independentReviewSha256": "494cc86515534576d3bcf54ab2f95c75c701904241aeff430f9f41f757edfdb9",
+  "repairedProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-b-2897-3029-20261024.json",
+  "repairedProposalSha256": "8fc929a072d5ee84ac8847dd21864c221491efbaabea69cbf9f7aed639e81d1c",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-fresh-next80-two-b-2897-3029-20261024.json",
+  "authorQaSha256": "b0db1a0a7190f6c247648f5bf98d16d61a08dfc657613fb0a4c93c550c19c118",
+  "originalityPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-fresh-next80-two-b-2897-3029-20261024.json",
+  "originalitySha256": "4d3b171bb215ecbb6a309a90fed50468140f87997d256a80d98d51bc18c74adc",
+  "changes": [
+    {
+      "lesson": 2897,
+      "field": ".scene.options[1].en",
+      "old": "A single brief introduction is the only support described.",
+      "new": "The counsellor gave one helpful introduction but did not keep in touch."
+    },
+    {
+      "lesson": 2897,
+      "field": ".scene.options[1].zh",
+      "old": "情境只提到一次簡短介紹。",
+      "new": "輔導員作過一次有幫助的介紹，但之後沒有保持聯絡。"
+    },
+    {
+      "lesson": 2897,
+      "field": ".scene.options[2].en",
+      "old": "The student has no other adult in their life.",
+      "new": "The weekly meetings were routine, with no attention to the student’s earlier concerns."
+    },
+    {
+      "lesson": 2897,
+      "field": ".scene.options[2].zh",
+      "old": "學生生活中沒有其他成年人。",
+      "new": "每週會面只是例行公事，沒有留意學生先前的疑慮。"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.promptZh",
+      "old": "新情境：一支青少年籃球隊有位教練，每週帶訓練，記得球員上次訂下的目標，並在比賽後耐心跟進；客席名將只來過一次。用一至兩句英文比較兩種支持。",
+      "new": "新情境：一名孩子搬到另一個城市後，阿姨每逢星期日視像通話，記得孩子先前擔心的新學校問題，也會問候情況有否改善。用一至兩句英文說明這種支持。"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.selfCheckZh",
+      "old": "指出教練的定期跟進與客席探訪的不同，不要說一次探訪毫無價值。",
+      "new": "指出阿姨定期聯絡並記得孩子的疑慮；她不必住在同一城市，也不代表全天候待命。"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.examples[0].en",
+      "old": "The weekly coach offers a steady adult presence by remembering each player’s goals and following up after games, while the guest’s visit is a one-off encouragement.",
+      "new": "Even from another city, the aunt offers a steady adult presence through Sunday calls and follow-up about the new school."
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.examples[0].zh",
+      "old": "每週帶隊的教練記得每位球員的目標，也在賽後跟進，提供穩定的成年人陪伴；客席嘉賓的探訪則是一次性的鼓勵。",
+      "new": "即使身在另一個城市，阿姨仍透過星期日通話和對新學校的跟進，提供穩定的成年人陪伴。"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.examples[1].en",
+      "old": "A steady adult presence comes from the coach’s regular practice sessions and patient follow-up; the visiting star can still inspire the team for a day.",
+      "new": "Her regular video calls give the child a steady adult presence during the move, because she remembers his worries and checks what has changed."
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.examples[1].zh",
+      "old": "教練定期帶訓練並耐心跟進，提供穩定的成年人陪伴；到訪的名將仍可在一天內鼓舞球隊。",
+      "new": "搬遷期間，阿姨定期視像通話，記得孩子的憂慮並問候情況有何變化，讓孩子得到穩定的成年人陪伴。"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[0].en",
+      "old": "each player’s goals",
+      "new": "another city"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[0].zh",
+      "old": "每位球員的目標",
+      "new": "另一個城市"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[0].span.start",
+      "old": 63,
+      "new": 10
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[0].span.end",
+      "old": 82,
+      "new": 22
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[1].en",
+      "old": "following up after games",
+      "new": "Sunday calls"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[1].zh",
+      "old": "在賽後跟進",
+      "new": "星期日通話"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[1].span.start",
+      "old": 87,
+      "new": 72
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[1].span.end",
+      "old": 111,
+      "new": 84
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[2].en",
+      "old": "a one-off encouragement",
+      "new": "the new school"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[2].zh",
+      "old": "一次性的鼓勵",
+      "new": "新學校"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[2].span.start",
+      "old": 140,
+      "new": 105
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[2].span.end",
+      "old": 163,
+      "new": 119
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[3].en",
+      "old": "regular practice sessions",
+      "new": "regular video calls"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[3].zh",
+      "old": "定期訓練",
+      "new": "定期視像通話"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[3].span.start",
+      "old": 47,
+      "new": 4
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[3].span.end",
+      "old": 72,
+      "new": 23
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[4].en",
+      "old": "patient follow-up",
+      "new": "his worries"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[4].zh",
+      "old": "耐心跟進",
+      "new": "孩子的憂慮"
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[4].span.start",
+      "old": 77,
+      "new": 102
+    },
+    {
+      "lesson": 2897,
+      "field": ".writing.glossary[4].span.end",
+      "old": 94,
+      "new": 113
+    },
+    {
+      "lesson": 3029,
+      "field": ".scene.options[1].en",
+      "old": "She should repeat the larger figure without checking.",
+      "new": "She cared about donors but planned to delay any public correction until after the event."
+    },
+    {
+      "lesson": 3029,
+      "field": ".scene.options[1].zh",
+      "old": "她應不經核對便重複較大的數字。",
+      "new": "她關心捐款人，卻打算把公開更正延至活動結束後。"
+    },
+    {
+      "lesson": 3029,
+      "field": ".scene.options[2].en",
+      "old": "She may care about donors but must never disclose an error.",
+      "new": "She acted decisively by announcing a correction before checking whether the figures were wrong."
+    },
+    {
+      "lesson": 3029,
+      "field": ".scene.options[2].zh",
+      "old": "她可能關心捐款人，卻絕不可披露錯誤。",
+      "new": "她在未核實數字是否有誤前便宣布更正，表現得果斷。"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.promptZh",
+      "old": "新情境：一間補習中心發現公開的合格率誤計了重考學生。職員擔心更正後招生會受影響，但負責人決定核對記錄並發布準確數字。用一至兩句英文評價其決定。",
+      "new": "新情境：社區活動廳準備舉辦大型節目，工作人員為了方便把物資箱放在無障礙入口前。負責人發現這會妨礙輪椅使用者，儘管同事反對，她仍要求搬走箱子。用一至兩句英文評價其決定。"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.selfCheckZh",
+      "old": "指出數據準確對家長的重要性，以及在招生壓力下更正的勇氣；不要說原先一定是故意造假。",
+      "new": "指出無障礙通道的需要，以及負責人在同事反對下仍採取的行動；不要聲稱已有意外發生。"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.examples[0].en",
+      "old": "The manager has both a conscience and a backbone: she checks the exam records and publishes the corrected rate despite enrolment pressure.",
+      "new": "The coordinator has both a conscience and a backbone: she protects wheelchair access by moving supplies despite objections from the event team."
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.examples[0].zh",
+      "old": "經理既有良知，也有堅持原則的勇氣：即使有招生壓力，她仍核對考試紀錄並發布更正後的比率。",
+      "new": "負責人既有良知，也有堅持原則的勇氣：儘管活動團隊反對，她仍搬走物資，保障輪椅使用者出入。"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.examples[1].en",
+      "old": "By checking the retake figures before correcting the public claim, the director shows she has both a conscience and a backbone under pressure to attract families.",
+      "new": "When the team wanted to keep boxes at the entrance, she showed she had both a conscience and a backbone by insisting on a clear route for visitors."
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.examples[1].zh",
+      "old": "負責人先核對重考數字，再更正公開說法；面對吸引家庭報讀的壓力，她表現出良知和堅持原則的勇氣。",
+      "new": "當團隊想把箱子留在入口時，她堅持為訪客保留暢通通道，顯示她既有良知，也有堅持原則的勇氣。"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[0].en",
+      "old": "the exam records",
+      "new": "wheelchair access"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[0].zh",
+      "old": "考試紀錄",
+      "new": "輪椅使用者出入"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[0].span.start",
+      "old": 61,
+      "new": 67
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[0].span.end",
+      "old": 77,
+      "new": 84
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[1].en",
+      "old": "the corrected rate",
+      "new": "moving supplies"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[1].zh",
+      "old": "更正後的比率",
+      "new": "搬走物資"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[1].span.start",
+      "old": 92,
+      "new": 88
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[1].span.end",
+      "old": 110,
+      "new": 103
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[2].en",
+      "old": "enrolment pressure",
+      "new": "the event team"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[2].zh",
+      "old": "招生壓力",
+      "new": "活動團隊"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[2].span.start",
+      "old": 119,
+      "new": 128
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[2].span.end",
+      "old": 137,
+      "new": 142
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[3].en",
+      "old": "the retake figures",
+      "new": "boxes at the entrance"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[3].zh",
+      "old": "重考數字",
+      "new": "入口處的箱子"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[3].span.start",
+      "old": 12,
+      "new": 29
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[3].span.end",
+      "old": 30,
+      "new": 50
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[4].en",
+      "old": "the public claim",
+      "new": "a clear route for visitors"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[4].zh",
+      "old": "公開說法",
+      "new": "訪客的暢通通道"
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[4].span.start",
+      "old": 49,
+      "new": 120
+    },
+    {
+      "lesson": 3029,
+      "field": ".writing.glossary[4].span.end",
+      "old": 65,
+      "new": 146
+    }
+  ],
+  "sourceAndDecisionFieldsUnchanged": true,
+  "selectionAndReleaseUnchanged": true,
+  "focusedIndependentRereview": "pending"
+}

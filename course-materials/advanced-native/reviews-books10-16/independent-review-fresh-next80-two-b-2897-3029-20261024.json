@@ -1,0 +1,88 @@
+{
+  "kind": "independent-hash-bound-proposal-review",
+  "date": "2026-10-24",
+  "binding": {
+    "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-b-2897-3029-20261024.json",
+    "proposalSha256": "c82401d5e17939914e2613a676605b7a854c84668747a13165d5f084f66d0cac",
+    "authorQaFile": "course-materials/advanced-native/reviews-books10-16/author-qa-fresh-next80-two-b-2897-3029-20261024.json",
+    "authorQaSha256": "1467435e770efd25a6e739dbf1b4a44b978bea81e497b93a38dff313acd130df",
+    "originalityReportFile": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-fresh-next80-two-b-2897-3029-20261024.json",
+    "originalityReportSha256": "2edb01889cad17489c95a1368388a2a545a8757c9e9fbfb9339297bdc5117424",
+    "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "counts": {
+    "lessons": 2,
+    "steps": 14,
+    "assessedQuestions": 12,
+    "blockedLessons": 2,
+    "blockingIssues": 3,
+    "advisories": 2
+  },
+  "overallVerdict": "block-until-targeted-repair",
+  "rows": [
+    {
+      "ordinal": 2897,
+      "sourceId": "book10-16-0786",
+      "sourceSentence": "A steady adult presence helps children feel secure.",
+      "sourceRawRowSha256": "5701a48d5ef4d857e7619caa8715f436e2dbc4fb0cb7ed44da8b9728c51a8ef1",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionFileSha256": "f67d00e5535f7bce22d1bfdb652b3643b300f479fc7eb94d3e4a5e230c28d8be",
+      "decisionRawRowSha256": "fdbe47346c420ffe5b53e44c5eff5637021aff479755d08ab243d78cb5964672",
+      "lessonCanonicalSha256": "5d62b93cea566825c61b238da5e533591fed05a5a75077ac55521e87ae58ff5d",
+      "sourceSense": "pass",
+      "sevenSteps": "pass",
+      "fourValidReplies": "pass",
+      "targetScope": "pass; 3029 distinct paired trait from selected partial-overlap lessons if examples remain two-part",
+      "writingGlossarySpanAndTargetFree": "pass",
+      "verdict": "block-targeted-repair",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "Both foils are remote and partly unsupported extremes: “only a single brief introduction” contradicts weekly follow-up, while “no other adult in their life” is never asserted. They can be rejected without applying steady/ongoing support to the actual transition.",
+          "repair": "Use plausible near misses about the counsellor’s role or continuity (e.g. one helpful meeting versus weekly remembered follow-up) while preserving one best answer."
+        }
+      ],
+      "advisories": [
+        {
+          "field": "writing.examples[0] and glossary",
+          "finding": "“a one-off encouragement” is a slightly unnatural English noun phrase; “a one-time source of encouragement” or “a one-off boost” would read more naturally, with glossary/span updated."
+        },
+        {
+          "field": "writing transfer",
+          "finding": "The guest-once versus regular-adult contrast closely mirrors the dialogue’s guest-once versus weekly teacher. The sports domain is changed, so this is not a blocker, but a more different support arrangement would test transfer more strongly."
+        }
+      ]
+    },
+    {
+      "ordinal": 3029,
+      "sourceId": "book10-16-0918",
+      "sourceSentence": "Good leaders have both a conscience and a backbone.",
+      "sourceRawRowSha256": "929460666beb571d5519e83b38001bb3f16a8bba776f9a6815c34c8f3601589f",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl",
+      "decisionFileSha256": "4ed6de0eb8bbb07aab7bc5679f68d43d31d67bdeebd42f516df03590cb1ba7f5",
+      "decisionRawRowSha256": "59889f654358f73d68d7206096790eaeb87ae87bcc5d4c160102053d7a493794",
+      "lessonCanonicalSha256": "d304a5aa88a201b5f1a6f55e72ce1d768947ba93bf38d0c9c40a56b1a36c94a4",
+      "sourceSense": "pass",
+      "sevenSteps": "pass",
+      "fourValidReplies": "pass",
+      "targetScope": "pass; 3029 distinct paired trait from selected partial-overlap lessons if examples remain two-part",
+      "writingGlossarySpanAndTargetFree": "pass",
+      "verdict": "block-targeted-repair",
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "finding": "The false replies are broad impossibilities: repeating the inflated figure without checking and never disclosing an error, despite the scene saying she verified and corrected it. These are too easy to dismiss without distinguishing conscience and backbone.",
+          "repair": "Use plausible near misses that capture only one dimension (ethical concern without action, or decisive action without verification) and remain context-compatible."
+        },
+        {
+          "field": "writing context versus listening/scene",
+          "finding": "The writing task repeats the same factual-correction-under-commercial-pressure pattern used in listening (cake label) and scene (inflated fundraiser numbers). New organisation and numbers do not test transfer of the two-part trait to a distinct ethical decision.",
+          "repair": "Change writing to a different kind of moral concern and courageous action (e.g. staff safety or fair access), then update both English/Chinese models and answer-derived glossary."
+        }
+      ],
+      "advisories": []
+    }
+  ],
+  "releaseState": "unselected; no decisions, manifests, media or deployment changed"
+}

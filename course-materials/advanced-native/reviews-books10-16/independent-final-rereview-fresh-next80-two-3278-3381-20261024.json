@@ -1,0 +1,38 @@
+{
+  "kind": "independent-final-single-option-rereview",
+  "date": "2026-10-24",
+  "binding": {
+    "currentProposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-3278-3381-20261024.json",
+    "currentProposalSha256": "3c60d64c6cc6bb7741c821e868afbdc9fe247af9911a24e716ea1d1aaeb8f731",
+    "firstRepairFile": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-3278-3381-first-repair-20261024.json",
+    "firstRepairSha256": "35a3f4e9a816542b970ed051abf94218a8ee61a6f12a8dced1e06e23d4b57dda",
+    "previousIndependentReportFile": "course-materials/advanced-native/reviews-books10-16/independent-focused-rereview-fresh-next80-two-3278-3381-20261024.json",
+    "previousIndependentReportSha256": "c608cdc7aff0bd18ec6a07aed8e0c47f92d59a0aab7bd8a17d9d5dad3f75609e",
+    "authorQaFile": "course-materials/advanced-native/reviews-books10-16/author-qa-fresh-next80-two-3278-3381-20261024.json",
+    "authorQaSha256": "4fccef3c9c990f362a09b527869c47c1edb9d44136c2142721a56cad591157d8",
+    "originalityReportFile": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-fresh-next80-two-3278-3381-20261024.json",
+    "originalityReportSha256": "87c61432ee4326056c1e0499f7540bb450959e6d107a5d8f7a6920075d442d84",
+    "secondRepairAttestationFile": "course-materials/advanced-native/reviews-books10-16/author-second-repair-attestation-fresh-next80-two-3278-3381-20261024.json",
+    "secondRepairAttestationSha256": "775b7a03e5d0288d0a22e926d72ccea164ef90d60c4f97b3abeadd69da748ec7"
+  },
+  "overallVerdict": "pass-unselected",
+  "counts": {
+    "lessons": 2,
+    "steps": 14,
+    "assessedQuestions": 12,
+    "remainingBlockers": 0
+  },
+  "findings": [
+    {
+      "ordinal": 3278,
+      "verdict": "pass",
+      "changeSinceFirstRepair": "none; previous independent pass retained"
+    },
+    {
+      "ordinal": 3381,
+      "verdict": "pass",
+      "changeSinceFirstRepair": "Only scene option C English/Chinese changed. It now correctly acknowledges several gadgets but misclassifies the smart controls as decorative, a coherent near miss grounded in the listed curtains, tablet and assistant. Option A remains uniquely best; B misreads the half-hour learning cost. Bilingual alignment and lesson invariants pass."
+    }
+  ],
+  "releaseState": "unselected; no manifest, decision, media or deployment mutation"
+}

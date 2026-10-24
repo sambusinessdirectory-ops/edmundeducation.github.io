@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "source-bound-author-self-check-proposal-only",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-three-e-3156-3300-20261024.json",
+  "proposalSha256": "b3de67af6559ceddfcc81e41fae613c7075dcd13d8084fc4e5025997ed54282b",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/read-only-fresh-next80-current313-holds-source-owner-screen-20261024.json",
+  "sourceScreenSha256": "fb6f0b47b9d6a1f36ace56e20956c51974e8cc1f39904ca43bd2da2539f37159",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "be7a43e026859490d3637af4a45027ac82c0ec432f327f782995e47ea898cc28",
+  "lessonCount": 3,
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 3156,
+      "sourceId": "book10-16-1045",
+      "sourceRawRowSha256": "4f2cfd80ce852fdecd9f618ec27c6feb7574ee5a9607baebdd46a82a2cff1e99",
+      "decisionFile": "books10-16/editorial-decisions-3132-3191.jsonl",
+      "decisionRawRowSha256": "1170f1745b5ee247e33d7ae24de550bb0e84f5e643fecf3155bb0d3de6b1f90c",
+      "sourceExpression": "a quiet kind of strength",
+      "guideSentence": "Her patience showed a quiet kind of strength during the delay.",
+      "guideMeaning": "A less visible but valuable personal capacity; strength is figurative.",
+      "sourcePage": 97,
+      "sourceBook": 12,
+      "sourceQuestion": 31,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3190,
+      "sourceId": "book10-16-1079",
+      "sourceRawRowSha256": "44b961280751b7e76f7a2f2426db5360e83865b34fbc93da6cc3c43f4e11b4c6",
+      "decisionFile": "books10-16/editorial-decisions-3132-3191.jsonl",
+      "decisionRawRowSha256": "32aeeebced7483e94570ae87736530bcb332bd59103a14533b252e276729f59c",
+      "sourceExpression": "has to fit the person",
+      "guideSentence": "Useful advice has to fit the person receiving it.",
+      "guideMeaning": "Guidance must suit someone's circumstances; a clothing-fit metaphor.",
+      "sourcePage": 100,
+      "sourceBook": 12,
+      "sourceQuestion": 34,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3300,
+      "sourceId": "book10-16-1189",
+      "sourceRawRowSha256": "c9ed52dbf56f1c9cb1da531a7c00dafd6d9773b669302ff32cb3c09037cca362",
+      "decisionFile": "books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionRawRowSha256": "b73dd0b520d1e34626917ec58429402b2b9208fa9952c31c88325fecd751f74b",
+      "sourceExpression": "pay attention to nuance",
+      "guideSentence": "Writers should pay attention to nuance in word choice.",
+      "guideMeaning": "Notice small differences in meaning or tone; a useful language-learning collocation.",
+      "sourcePage": 110,
+      "sourceBook": 12,
+      "sourceQuestion": 44,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    }
+  ],
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-3156",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3190",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3300",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "authorSelfCheck": {
+    "sourceSenseAndBoundary": "Source senses, evidence limits and use boundaries are specified in the briefs and questions.",
+    "distinctSevenStepContract": "Each proposal contains listening, four-valid reply, scene, boundary, dialogue, speaking and independent writing content.",
+    "translationPairing": "English source contexts, choices, models and suggested answers have paired Traditional Chinese.",
+    "writingSupport": "Two changed-context examples and five exact answer-derived target-free glossary spans per lesson.",
+    "selectionAndRelease": "No selected manifest, source decision, release index, audio asset or SOP audit modified."
+  },
+  "independentEnglishReview": "pending",
+  "independentChineseReview": "pending",
+  "mediaReview": "pending",
+  "browserDeviceQA": "pending",
+  "releaseApproval": false,
+  "knownIssues": [
+    "Unselected hold-editorial proposals awaiting independent review."
+  ]
+}

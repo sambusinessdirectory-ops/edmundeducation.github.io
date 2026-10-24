@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "source-bound-author-self-check-proposal-only",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-fresh-next80-two-c-3030-3074-20261024.json",
+  "proposalSha256": "5db989a702619c3bad2329c947a65c7691952639ec2f740ff4a04fd0d9253216",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/read-only-fresh-next80-current313-holds-source-owner-screen-20261024.json",
+  "sourceScreenSha256": "fb6f0b47b9d6a1f36ace56e20956c51974e8cc1f39904ca43bd2da2539f37159",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "706bb293ffac720e3a71e383ce2954e6ef714b5f067225b1bbb06e9da325b9b1",
+  "lessonCount": 2,
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 3030,
+      "sourceId": "book10-16-0919",
+      "sourceRawRowSha256": "756d92a5c0012f472022ca0d0e1cc915113cd1108ac9e5d57f33e75d35fa349e",
+      "decisionFile": "books10-16/editorial-decisions-3012-3071.jsonl",
+      "decisionRawRowSha256": "0fda926d6d973b4514d99ba4e07415191e82f1c7fcc963e6239df800d3c66d83",
+      "sourceExpression": "out in the open",
+      "guideSentence": "Children often show their imagination out in the open.",
+      "guideMeaning": "Visible rather than hidden; a conventional phrase.",
+      "sourcePage": 85,
+      "sourceBook": 12,
+      "sourceQuestion": 17,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3074,
+      "sourceId": "book10-16-0963",
+      "sourceRawRowSha256": "c6867726703637ea409568bed2bfbb1b9c602ee579687d8f73e4b9ad06e2df1d",
+      "decisionFile": "books10-16/editorial-decisions-3072-3131.jsonl",
+      "decisionRawRowSha256": "be9f465d7d3f5c39a0963101c9704d9d79ce88b31c32fb8cbeea9c6e95d1e1a9",
+      "sourceExpression": "out of almost nothing",
+      "guideSentence": "They made a game out of almost nothing.",
+      "guideMeaning": "With very few resources or materials; a conventional phrase.",
+      "sourcePage": 89,
+      "sourceBook": 12,
+      "sourceQuestion": 21,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    }
+  ],
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-3030",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3074",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "authorSelfCheck": {
+    "sourceSenseAndBoundary": "Source senses, evidence limits and use boundaries are specified in the briefs and questions.",
+    "distinctSevenStepContract": "Each proposal contains listening, four-valid reply, scene, boundary, dialogue, speaking and independent writing content.",
+    "translationPairing": "English source contexts, choices, models and suggested answers have paired Traditional Chinese.",
+    "writingSupport": "Two changed-context examples and five exact answer-derived target-free glossary spans per lesson.",
+    "selectionAndRelease": "No selected manifest, source decision, release index, audio asset or SOP audit modified."
+  },
+  "independentEnglishReview": "pending",
+  "independentChineseReview": "pending",
+  "mediaReview": "pending",
+  "browserDeviceQA": "pending",
+  "releaseApproval": false,
+  "knownIssues": [
+    "Unselected hold-editorial proposals awaiting independent review."
+  ]
+}
