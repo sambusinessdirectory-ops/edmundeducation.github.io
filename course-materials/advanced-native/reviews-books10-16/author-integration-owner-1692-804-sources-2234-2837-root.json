@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "kind": "post-integration-author-attestation",
+  "createdAtUtc": "2026-10-24T06:08:18.508408+00:00",
+  "scope": "sources 2234/2837 to owners 1692/804, unpublished 639-selected checkpoint",
+  "proposalSha256": "9e9e9d1bda71796319a2ef5492d8281d839a342dff0b386104f6d7f9bc1d0484",
+  "checks": [
+    {
+      "owner": 1692,
+      "sourceOrdinal": 2234,
+      "sourceId": "book10-16-0123",
+      "assessedFieldsUnchangedFromPushedCheckpoint": true,
+      "proposalLearnerFieldsEqualIntegrated": true,
+      "decision": "proposed-alias-existing",
+      "ownerBatchSha256": "86e95057b764c16e8241a31e4c55a1be67fe791eaaef2bf09ef3d68f0bed5599",
+      "decisionFileSha256": "72ef10089f8e9f1d568d585c59daf1beff1ee9d67897d1866e3ec0d3c154bd04"
+    },
+    {
+      "owner": 804,
+      "sourceOrdinal": 2837,
+      "sourceId": "book10-16-0726",
+      "assessedFieldsUnchangedFromPushedCheckpoint": true,
+      "proposalLearnerFieldsEqualIntegrated": true,
+      "decision": "proposed-alias-existing",
+      "ownerBatchSha256": "daa69921f73c5ea834573c575166a0640d70e6670e79c6b4bab2229bc140f2d5",
+      "decisionFileSha256": "f4a43a7898c7c106097eb8b69a68beb05c55d5e459ebcd1b4b3d3465f8e1272a"
+    }
+  ],
+  "limitations": [
+    "Comparison of assessed fields is against pushed HEAD, not live site.",
+    "Synthetic browser QA and local audio attestation are separate reports.",
+    "Neither source alias has been published."
+  ]
+}

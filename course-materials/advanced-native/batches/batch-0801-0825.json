@@ -959,9 +959,9 @@
       "titleEn": "a spring in my step",
       "titleZh": "心情振奮步履輕快",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\ba spring in (?:my|your|his|her|our|their) step\\b",
+        "pattern": "\\ba spring in (?:my|your|his|her|our|their|its) step\\b",
         "glossaryForbidden": [
           "\\bspring\\b",
           "\\bstep\\b"
@@ -980,14 +980,28 @@
           "sentence": "Good news put a spring in my step.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "a spring in my step"
+        },
+        {
+          "occurrenceId": "book10-16-0726",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 67,
+          "book": 11,
+          "question": 29,
+          "sample": "S1",
+          "sourceBookPages": "72–73",
+          "locatorNote": "DOCX table 65, row 3; page is locally rendered PDF page.",
+          "sentence": "Good news travels with a spring in its step.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a spring in its step"
         }
       ],
       "brief": {
         "meaningEn": "Noticeable energy or cheerfulness, often reflected in the way someone walks.",
         "meaningZh": "明顯的活力或愉快，常反映在步伐上。",
-        "grammar": "put a spring in someone’s step; walk/leave with a spring in one’s step.",
+        "grammar": "Put a spring in someone’s step; walk/leave with a spring in one’s step. The guide personifies good news with its step to convey the same lively, cheerful manner; outside personification, use a human possessive.",
         "register": "Conventional movement image; often follows welcome news or a positive experience.",
-        "boundaryZh": "不是步伐的精確速度，也不是春天季節；興奮仍不代表其他問題已解決。",
+        "boundaryZh": "通常說人的步伐因好消息顯得輕快；教材用 its 把好消息擬人化，仍保留輕快愉悅的意思。不可把任何消息的快速傳播都當成快樂，也不是說消息真的有腳。",
         "misconceptionZh": "要有振奮、活力或好消息線索，不能單憑跑得快就推斷心情。",
         "outcomeZh": "能把正面經歷與顯得較有活力的狀態連起來。"
       },
@@ -1212,7 +1226,7 @@
           "reviewer": "AI author source_inventory",
           "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
         },
-        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+        "note": "Draft owner expansion for source 2837 independently AI-reviewed at reviews-books10-16/independent-ai-review-owner-1692-804-sources-2234-2837-a.json; media, browser and release acceptance remain pending."
       }
     },
     {

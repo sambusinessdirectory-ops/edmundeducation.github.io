@@ -3807,12 +3807,12 @@
       "id": "advanced-native-1692",
       "number": 1692,
       "inventoryId": "expr-1692",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "like a ripple in water",
       "titleZh": "像水中漣漪般向外傳開",
       "category": "figurative",
       "target": {
-        "pattern": "\\blike a ripple in water\\b"
+        "pattern": "\\b(?:like a ripple in water|(?:create|creates|created|creating) a ripple in water)\\b"
       },
       "sources": [
         {
@@ -3828,17 +3828,31 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "a ripple in water",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-0123",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 12,
+          "book": 10,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "22–23",
+          "locatorNote": "DOCX table 9, row 10; page is locally rendered PDF page.",
+          "sentence": "One kind gesture created a ripple in water across the team.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a ripple in water"
         }
       ],
       "brief": {
-        "meaningEn": "Spreading from a small beginning to affect others, through an explicit water-wave comparison.",
-        "meaningZh": "以水中小波紋作明喻，描述由小起點向外影響別人。",
-        "grammar": "an action/feeling spreads like a ripple in water; like marks the comparison; specify what spreads and the observed response",
+        "meaningEn": "A small beginning spreads its effect to other people, pictured as a ripple moving through water.",
+        "meaningZh": "以水中漣漪向外擴散作比喻，描述小小起點逐步影響其他人。",
+        "grammar": "An action or feeling spreads like a ripple in water; a kind gesture can also create a ripple in water. Name the initial act and the observed response across others. The water image is figurative, not a physical wave.",
         "register": "neutral",
-        "boundaryZh": "不是實際水災，也不保證一次行動改變每個人；需有具體傳播線索，並分清觀察與希望。",
+        "boundaryZh": "須指出一個起點如何影響其他人；可用 like a ripple in water 作明喻，也可用 create a ripple in water 表示產生擴散效應。不可由一人受惠就推斷全隊已受影響，也不要當成真正水波。",
         "misconceptionZh": "不是實際水災，也不保證一次行動改變每個人；需有具體傳播線索，並分清觀察與希望。",
         "outcomeZh": "理解「像水中漣漪般向外傳開」的語境及用法，並在新情境寫出自然句子。",
-        "sourceClassificationNote": "The exact guide example awkwardly combines created a ripple in water with across the team. Learner wording is transparently normalised to an explicit like-a-ripple comparison, preserving the water image and provenance. Oxford ripple_1 attests spreading literal waves and figurative feelings; this is a creative simile, related to924ripple effect, not a new fixed idiom."
+        "sourceClassificationNote": "The exact guide example uses created a ripple in water across the team, an unusual but intelligible water image. The original like-a-ripple comparison and this source variant express the same spreading effect. Existing assessed learner wording stays in its more natural comparison form; the bounded detector additionally recognises the exact source construction. This is a figurative image, not a new fixed idiom."
       },
       "listening": {
         "en": "When one visitor made room for a newcomer at the crowded table, the welcome spread like a ripple in water: nearby guests began introducing themselves and drawing other quiet people into the conversation.",
@@ -4051,7 +4065,7 @@
           "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
         },
         "independentHumanApproval": false,
-        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+        "note": "Draft owner expansion for source 2234 independently AI-reviewed at reviews-books10-16/independent-ai-review-owner-1692-804-sources-2234-2837-a.json; media, browser and release acceptance remain pending."
       }
     },
     {

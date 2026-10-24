@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "kind": "independent-ai-review-owner-expansion-proposal",
+  "status": "proposal-only-content-review",
+  "reviewedAtUtc": "2026-10-24T05:54:58.707827+00:00",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-1692-804-sources-2234-2837-proposed-b.json",
+  "proposalSha256": "9e9e9d1bda71796319a2ef5492d8281d839a342dff0b386104f6d7f9bc1d0484",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-read-only-hold-owner-screen-416-2234-2837-b.json",
+  "authorAuditSha256": "5be381d1a788e9a2accdcc57ba08edf0ffe0a1310cfff74fbd61b418974b8ac9",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "intakeSummarySha256": "ea0adc7238ea17a9274bcfc01835a6e87a148a1c7acca301af32954386d6e5f8",
+  "scope": {
+    "sourceOrdinals": [
+      2234,
+      2837
+    ],
+    "ownerNumbers": [
+      1692,
+      804
+    ],
+    "lessonsChecked": 2,
+    "questionsChecked": 12,
+    "audioRolesChecked": 8,
+    "focus": "source sense, bounded detector, exact provenance, assessed key consistency and unchanged audio"
+  },
+  "checks": [
+    {
+      "sourceOrdinal": 2234,
+      "sourceId": "book10-16-0123",
+      "ownerId": "advanced-native-1692",
+      "exactSourceSentence": "One kind gesture created a ripple in water across the team.",
+      "sourceMeaning": "An effect spreading from a small starting point; a water image.",
+      "sourceProvenanceMatchesInventory": true,
+      "currentDecision": "hold-editorial",
+      "currentOwnerFile": "course-materials/advanced-native/batches/batch-1676-1700.json",
+      "currentOwnerFileSha256": "5e88d0ae33a7361af44f64d17ff35c2eb98e382a5222db6cf529531d3223836c",
+      "currentDecisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+      "currentDecisionFileSha256": "d2816032db9149114e88da5c1a2587cafddb0a048c45655ce2f3ea795e456530"
+    },
+    {
+      "sourceOrdinal": 2837,
+      "sourceId": "book10-16-0726",
+      "ownerId": "advanced-native-804",
+      "exactSourceSentence": "Good news travels with a spring in its step.",
+      "sourceMeaning": "A lively, cheerful manner; a fixed movement metaphor.",
+      "sourceProvenanceMatchesInventory": true,
+      "currentDecision": "hold-editorial",
+      "currentOwnerFile": "course-materials/advanced-native/batches/batch-0801-0825.json",
+      "currentOwnerFileSha256": "6c91ba72d6685101f7880be924c994bf7b388633a2794a0663875ead7d32afed",
+      "currentDecisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "currentDecisionFileSha256": "37ec8bd3fed93e227fa5ed99330cd7a4c9c975c8551c93191d0b6f9c940532f0"
+    }
+  ],
+  "mechanicalEvidence": {
+    "focusedBuildAndCheck": "2 lessons / 12 questions / 8 audio requests / 0 review flags",
+    "fullSourceInventoryRows": 2604,
+    "owner1692FullSourceHits": [
+      "book10-16-0123"
+    ],
+    "owner804FullSourceHits": [
+      "book10-16-0726"
+    ],
+    "fullSourceDetectorMatchesExpected": true,
+    "existingKeyedOptionIdsAndQuestionContentUnchanged": true,
+    "newPatternIntroducesNoAdditionalTargetMatchesInAssessedOptions": true,
+    "fourAudioIdentityPayloadsPerOwnerUnchanged": true,
+    "positiveControlsPerOwner": 3,
+    "negativeControlsPerOwner": 3,
+    "positiveAndNegativeControlsPassed": true
+  },
+  "verdicts": [
+    {
+      "sourceOrdinal": 2234,
+      "owner": 1692,
+      "verdict": "pass-proposal-only",
+      "severity": "none",
+      "reason": "The new guide occurrence repeats the older owner’s exact source sentence and the same small-act-to-spreading-response water image. The bounded create/created branch covers the full source while existing assessed simile uses and grading stay unchanged. The brief explicitly treats created a ripple in water as an unusual guide image, not a new fixed idiom.",
+      "watch": "Keep the creative source wording in provenance; do not present create a ripple in water as a standard fixed expression."
+    },
+    {
+      "sourceOrdinal": 2837,
+      "owner": 804,
+      "verdict": "pass-proposal-only",
+      "severity": "none",
+      "reason": "The source personifies good news as moving with a spring in its step. This extends the owner’s cheerful/energetic movement image to an inanimate subject, not a separate learned sense. The brief and Chinese boundary expressly identify personification, and all assessed human examples, keys and four audio texts remain intact. The added its branch matches this exact source.",
+      "watch": "The its form is stylistic personification, not the ordinary human idiom. Never infer that recipients feel happier or that the news spreads faster from this wording alone; contextual editorial review remains necessary for future its matches."
+    }
+  ],
+  "lexicographicContext": [
+    {
+      "title": "Cambridge: a spring in your step",
+      "url": "https://dictionary.cambridge.org/dictionary/english/spring-in-step",
+      "relevance": "Conventional idiom refers to energetic walking that signals happiness or confidence; supports treating the source its as a figurative extension rather than default grammar."
+    },
+    {
+      "title": "Cambridge: ripple effect",
+      "url": "https://dictionary.cambridge.org/dictionary/english/ripple-effect",
+      "relevance": "Confirms the spreading-consequence sense, while the guide water wording remains a creative image."
+    }
+  ],
+  "blockingFindings": [],
+  "selectionOrDecisionEditsMade": false,
+  "mediaRegenerated": false,
+  "releaseApprovalClaimed": false
+}

@@ -1,0 +1,554 @@
+{
+  "schemaVersion": 1,
+  "batchId": "read-only-owner-proposal-2234-2837-b",
+  "lessons": [
+    {
+      "id": "advanced-native-1692",
+      "number": 1692,
+      "inventoryId": "expr-1692",
+      "contentRevision": 2,
+      "titleEn": "like a ripple in water",
+      "titleZh": "像水中漣漪般向外傳開",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:like a ripple in water|(?:create|creates|created|creating) a ripple in water)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p202-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 202,
+          "book": 8,
+          "question": 1,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "One kind gesture created a ripple in water across the team.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a ripple in water",
+          "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-0123",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 12,
+          "book": 10,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "22–23",
+          "locatorNote": "DOCX table 9, row 10; page is locally rendered PDF page.",
+          "sentence": "One kind gesture created a ripple in water across the team.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a ripple in water"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A small beginning spreads its effect to other people, pictured as a ripple moving through water.",
+        "meaningZh": "以水中漣漪向外擴散作比喻，描述小小起點逐步影響其他人。",
+        "grammar": "An action or feeling spreads like a ripple in water; a kind gesture can also create a ripple in water. Name the initial act and the observed response across others. The water image is figurative, not a physical wave.",
+        "register": "neutral",
+        "boundaryZh": "須指出一個起點如何影響其他人；可用 like a ripple in water 作明喻，也可用 create a ripple in water 表示產生擴散效應。不可由一人受惠就推斷全隊已受影響，也不要當成真正水波。",
+        "misconceptionZh": "不是實際水災，也不保證一次行動改變每個人；需有具體傳播線索，並分清觀察與希望。",
+        "outcomeZh": "理解「像水中漣漪般向外傳開」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The exact guide example uses created a ripple in water across the team, an unusual but intelligible water image. The original like-a-ripple comparison and this source variant express the same spreading effect. Existing assessed learner wording stays in its more natural comparison form; the bounded detector additionally recognises the exact source construction. This is a figurative image, not a new fixed idiom."
+      },
+      "listening": {
+        "en": "When one visitor made room for a newcomer at the crowded table, the welcome spread like a ripple in water: nearby guests began introducing themselves and drawing other quiet people into the conversation.",
+        "zh": "擠滿人的桌旁，一位訪客讓位給新人後，歡迎氣氛像水中漣漪傳開：旁邊來賓開始自我介紹，也讓其他安靜的人加入談話。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "一個讓位行動帶動附近更多人主動接納別人。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只有最初讓位的人說話，其他人沒有反應。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "附近來賓各自同時發起接納，敘述沒有一個舉動帶動下一個的先後。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "來賓已互相熟悉，介紹只在重複原有關係，沒有新接納行動。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "when one visitor...附近來賓 began 表示最初舉動之後的帶動，而非各自同時獨立發起或沒有新反應。"
+      },
+      "reply": {
+        "promptEn": "What happened after the visitor welcomed the newcomer?",
+        "promptZh": "訪客接納新人後，發生甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The welcome spread like a ripple in water as nearby guests began including others.",
+            "zh": "旁邊來賓開始接納別人，歡迎氣氛像水中漣漪傳開。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Other people picked up the welcoming behaviour.",
+            "zh": "其他人也開始作接納行動。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The small gesture encouraged introductions around the table.",
+            "zh": "小舉動帶動桌旁互相介紹。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The first invitation was followed by more efforts to include quiet guests.",
+            "zh": "第一次邀請後，更多人嘗試讓安靜來賓加入。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "同事把自己整理的工具說明分享給新人，新人再補易懂圖片，另一人也整理自己的資料；你想形容小合作逐漸帶動更多分享。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The willingness to share spread like a ripple in water.",
+            "zh": "分享意願像水中漣漪般傳開。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The first guide remained the only shared resource, with no further response.",
+            "zh": "首份指南仍是唯一分享資源，沒後續回應。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The later contributions all appeared before anyone shared the first guide.",
+            "zh": "別人後來的貢獻，全在首份指南分享前出現。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "首份分享後連續有人補充，是向外帶動，不是無回應或時間倒轉。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 like a ripple in water 的此處明喻得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某個小行動的影響逐漸向外傳開。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "一次善意已保證每個人日後都採相同行為。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需指出傳的是甚麼，以及別人有何反應。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "傳開意象不確立每人永久一樣。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「你只見桌旁幾人開始接納，就能說全場往後都改了嗎？」你本來只描述附近反應。哪句澄清較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I mean the welcome spread like a ripple in water among the people nearby, not that we know everyone’s later behaviour.",
+            "zh": "我指歡迎氣氛在附近的人間像水中漣漪傳開，不是知道所有人日後行為。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the few introductions as the result for every guest’s future relationships.",
+            "zh": "用幾次介紹當每位來賓未來關係的結果。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Leave out the later introductions because only the first gesture can count as part of the welcome.",
+            "zh": "只有最初舉動算歡迎，所以不提後來介紹。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "具體局部傳播值得描述，既不誇成永久全體，也不漏後續反應。"
+      },
+      "speaking": {
+        "en": "The offer to help spread like a ripple in water, with one small act encouraging another person to join in.",
+        "zh": "幫忙提議像水中漣漪傳開，一個小行動鼓勵另一人加入。",
+        "targetSpan": {
+          "start": 25,
+          "end": 47
+        },
+        "promptZh": "先聽示範，再找出起點及向外反應。"
+      },
+      "writing": {
+        "promptZh": "新情境：你修改一篇故事結尾，想讓主角把多餘書送給鄰居後，鄰居再把自己的舊書留給另一人，呈現溫和的傳遞，不直接宣布整個城市從此不同。用一至兩句英文向編輯解釋想加的後續畫面。",
+        "examples": [
+          {
+            "en": "I would let the kindness spread like a ripple in water: after receiving a book, the neighbour leaves one of her own for someone else. That small second act would give the ending a sense of continuation.",
+            "zh": "我會讓善意像水中漣漪傳開：收到書後，鄰居留一本自己的書給另一人。這第二個小行動，可讓結尾有延續感。"
+          },
+          {
+            "en": "The gift could spread like a ripple in water if we show the neighbour passing a different book on. I would use that visible response rather than announce a changed city.",
+            "zh": "若展示鄰居再傳另一本書，禮物影響可像水中漣漪傳開。我會用那可見回應，而非宣布城市已變。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the kindness",
+            "zh": "善意",
+            "exampleIndex": 0,
+            "span": {
+              "start": 12,
+              "end": 24
+            }
+          },
+          {
+            "en": "the neighbour",
+            "zh": "鄰居",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 93
+            }
+          },
+          {
+            "en": "a sense of continuation",
+            "zh": "延續感",
+            "exampleIndex": 0,
+            "span": {
+              "start": 178,
+              "end": 201
+            }
+          },
+          {
+            "en": "a different book",
+            "zh": "另一本書",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 94
+            }
+          },
+          {
+            "en": "that visible response",
+            "zh": "那可見的回應",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 132
+            }
+          }
+        ],
+        "selfCheckZh": "用具體第二個行動呈現影響傳遞，保留創作提議語氣，不把局部畫面誇成城市人人永久改變。"
+      },
+      "takeaways": [
+        {
+          "en": "Her patient explanation spread like a ripple in water as the people she helped began helping others.",
+          "zh": "她耐心解釋後，受幫者開始幫其他人，影響像水中漣漪傳開。"
+        },
+        {
+          "en": "The invitation moved through the group like a ripple in water, reaching people beyond the first conversation.",
+          "zh": "邀請在小組裏像水中漣漪傳開，傳到最初談話以外的人。"
+        }
+      ],
+      "review": {
+        "state": "proposal-only",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed.",
+        "notes": [
+          "Read-only owner expansion proposal for held source2234; no selected canonical or decision edit."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-804",
+      "number": 804,
+      "inventoryId": "expr-0804",
+      "titleEn": "a spring in my step",
+      "titleZh": "心情振奮步履輕快",
+      "category": "idiom",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\ba spring in (?:my|your|his|her|our|their|its) step\\b",
+        "glossaryForbidden": [
+          "\\bspring\\b",
+          "\\bstep\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p070-t2-r11",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 70,
+          "book": 3,
+          "question": 39,
+          "sample": "S2",
+          "sourceBookPages": "111–112",
+          "sentence": "Good news put a spring in my step.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a spring in my step"
+        },
+        {
+          "occurrenceId": "book10-16-0726",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 67,
+          "book": 11,
+          "question": 29,
+          "sample": "S1",
+          "sourceBookPages": "72–73",
+          "locatorNote": "DOCX table 65, row 3; page is locally rendered PDF page.",
+          "sentence": "Good news travels with a spring in its step.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a spring in its step"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Noticeable energy or cheerfulness, often reflected in the way someone walks.",
+        "meaningZh": "明顯的活力或愉快，常反映在步伐上。",
+        "grammar": "Put a spring in someone’s step; walk/leave with a spring in one’s step. The guide personifies good news with its step to convey the same lively, cheerful manner; outside personification, use a human possessive.",
+        "register": "Conventional movement image; often follows welcome news or a positive experience.",
+        "boundaryZh": "通常說人的步伐因好消息顯得輕快；教材用 its 把好消息擬人化，仍保留輕快愉悅的意思。不可把任何消息的快速傳播都當成快樂，也不是說消息真的有腳。",
+        "misconceptionZh": "要有振奮、活力或好消息線索，不能單憑跑得快就推斷心情。",
+        "outcomeZh": "能把正面經歷與顯得較有活力的狀態連起來。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "說話者怎樣描述她的狀態？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She seemed cheerful and energetic after the invitation.",
+            "zh": "獲邀後，她顯得愉快而有活力。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She was rushing only because she was late for a train.",
+            "zh": "她只是因趕火車遲到而急走。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She had lost interest in attending the next rehearsal.",
+            "zh": "她已不再想參加下次排練。"
+          },
+          {
+            "id": "choice-4",
+            "en": "She had been given a precise instruction about how fast to walk.",
+            "zh": "她收到步行速度的精確指示。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "微笑及期待練習支持振奮；不是趕車、失去興趣或量速度。",
+        "en": "Being invited to perform put a spring in her step; she left rehearsal smiling and looking forward to the next session.",
+        "zh": "獲邀演出令她心情振奮、步履輕快；她笑着離開排練，期待下次練習。"
+      },
+      "reply": {
+        "promptEn": "How did the invitation affect her after rehearsal?",
+        "promptZh": "排練後，那份邀請對她有甚麼影響？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She left smiling and excited about the next session.",
+            "zh": "她笑着離開，對下次練習感到興奮。"
+          },
+          {
+            "id": "choice-2",
+            "en": "It put a spring in her step.",
+            "zh": "它令她心情振奮、步履輕快。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She seemed more energised by having a performance to work towards.",
+            "zh": "有演出可努力準備，令她顯得更有活力。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The news gave her something positive to look forward to.",
+            "zh": "消息讓她有正面的期待。"
+          }
+        ],
+        "goldenId": "choice-2",
+        "explanationZh": "四句都可自然描述邀請後的振奮；金句不是實際安裝彈簧。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "學生收到作品入選通知，微笑着走出課室，也興奮談下一個項目。哪句合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The good news put a spring in her step.",
+            "zh": "好消息令她心情振奮、步履輕快。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She left looking discouraged and unwilling to discuss future work.",
+            "zh": "她離開時顯得灰心，不願討論未來作品。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She was only walking quickly to avoid being late, with no change in mood described.",
+            "zh": "她只是為免遲到而快走，沒有描述心情改變。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "微笑及興奮談項目，才支持活力及愉快，不是只有步速。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不足以支持 a spring in his step 這種心情描述？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "He smiles and looks energised after welcome news.",
+            "zh": "收到好消息後，他微笑且顯得有活力。"
+          },
+          {
+            "id": "choice-2",
+            "en": "He walks fast only to catch a bus, with no evidence about how he feels.",
+            "zh": "他只為趕巴士快走，沒有感受方面的線索。"
+          },
+          {
+            "id": "choice-3",
+            "en": "He leaves the meeting cheerful and eager to begin the new project.",
+            "zh": "他愉快地離開會議，急不及待開始新項目。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "快走可以有其他原因；需要活力、愉快或正面期待等線索。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "同伴見有人趕巴士走得快，就想用這個片語形容他很開心。哪句提醒最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A spring in his step suggests energy or cheerfulness; check the context rather than infer his mood from speed alone.",
+            "zh": "心情振奮、步履輕快表示活力或愉快；要看情境，不只憑速度推斷心情。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the walking speed as the complete evidence and leave out whether he was rushing.",
+            "zh": "把步速當全部證據，略去他是否趕時間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Explain the idiom using only walking speed and leave out its meaning of energy or cheerfulness.",
+            "zh": "只用步速解釋片語，略去活力或愉快的意思。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "趕車是快走的其他原因；本課要看心情及活力線索。"
+      },
+      "speaking": {
+        "en": "The invitation put a spring in my step and gave me something to look forward to.",
+        "zh": "邀請令我心情振奮、步履輕快，也讓我有了期待。",
+        "promptZh": "你想把好消息與振奮狀態連起來。先聽，再說。",
+        "targetSpan": {
+          "start": 19,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：多年沒見的好友終於確認回來相聚，你收到訊息後，開心地離開工作場所走回家，期待見面。用一至兩句英文描述振奮反應。",
+        "examples": [
+          {
+            "en": "The news of our reunion put a spring in my step. I walked home feeling cheerful and looking forward to seeing my friend.",
+            "zh": "重聚消息令我心情振奮、步履輕快。我愉快地走回家，期待見到朋友。"
+          },
+          {
+            "en": "I left work with a spring in my step after my old friend confirmed the visit; we would finally have time to catch up.",
+            "zh": "老朋友確認到訪後，我心情振奮、步履輕快地離開工作場所；我們終於有時間敘舊。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "our reunion",
+            "zh": "我們的重聚",
+            "exampleIndex": 0,
+            "span": {
+              "start": 12,
+              "end": 23
+            }
+          },
+          {
+            "en": "walked home",
+            "zh": "走回家",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 62
+            }
+          },
+          {
+            "en": "feeling cheerful",
+            "zh": "感覺愉快",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 79
+            }
+          },
+          {
+            "en": "my old friend",
+            "zh": "我的老朋友",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 56
+            }
+          },
+          {
+            "en": "time to catch up",
+            "zh": "敘舊的時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 116
+            }
+          }
+        ],
+        "selfCheckZh": "交代確認重聚這件喜事，及輕快步伐、期待相見的感受；比喻不是實際彈簧，也不表示所有煩惱消失。"
+      },
+      "takeaways": [
+        {
+          "en": "The encouraging reply put a spring in my step.",
+          "zh": "鼓勵的回覆令我心情振奮、步履輕快。"
+        },
+        {
+          "en": "She left with a spring in her step after hearing the good news.",
+          "zh": "聽到好消息後，她心情振奮、步履輕快地離開。"
+        }
+      ],
+      "review": {
+        "state": "proposal-only",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Energy/cheerfulness idiom requires emotional evidence, rather than equating any hurried walking with happiness; natural put/with patterns reviewed."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off.",
+        "notes": [
+          "Read-only owner expansion proposal for personified held source2837; no selected canonical or decision edit."
+        ]
+      }
+    }
+  ]
+}
