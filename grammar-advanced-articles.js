@@ -448,6 +448,8 @@
     if (contextualAnswer(question,value)) el.answer.textContent = `本題重點答案：${question.answer}；${question.contextualFeedback}`;
     updateTotals();
     renderGrid();
+    if (correct && Array.from({ length: 50 }, (_, index) => index + 151).every((number) => state.remoteCorrect.has(number) || state.attempts[number]?.status === 'correct'))
+      document.dispatchEvent(new CustomEvent('edmund:eddy-fifty-complete'));
     if (correct) void recordCompletion(state.question);
   });
   el.steps.addEventListener("change", (event) => {

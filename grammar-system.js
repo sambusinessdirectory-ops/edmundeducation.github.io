@@ -571,6 +571,8 @@
     updateTotals();
     renderGrid();
     showExplanation(question, correct);
+    if (correct && Array.from({ length: 50 }, (_, index) => index + 1).every((number) => state.remoteCorrect.has(number) || state.attempts[number]?.status === 'correct'))
+      document.dispatchEvent(new CustomEvent('edmund:eddy-fifty-complete'));
     if (correct) void recordCompletion(question.number);
   }
 
