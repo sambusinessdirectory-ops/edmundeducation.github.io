@@ -8,10 +8,15 @@
   const twentiethSubtitle = '不管遇到什麼挑戰，都儘管放馬過來吧！';
   const thirtiethLineOne = '終於來到第 30 關了呢！';
   const thirtiethLineTwo = '總覺得前方還有更厲害的挑戰在等著我們……真讓人期待啊！';
+  const fortiethLineOne = '什麼！？已經第 40 關了嗎！離終點只剩 10 關了！';
+  const fortiethLineTwo = 'Eddy 可還有滿滿的幹勁呢！';
   let activeKey = '';
   let overlay = null;
   let previousFocus = null;
   let scheduled = false;
+  let activeStage = 0;
+  let dialogueStep = 0;
+  let dialogueAudio = null;
 
   const visible = (element) => !!element && element.getClientRects().length > 0;
   const number = (value) => Number(String(value || '').match(/\d+/)?.[0]);
@@ -30,7 +35,7 @@
         return number(first?.textContent) === 1
           ? { key: signature(path, root, first.closest('.question-card')), stage: 1 } : null;
       }
-      if ([9, 19, 29].includes(completed)) {
+      if ([9, 19, 29, 39].includes(completed)) {
         const stage = completed + 1;
         const card = question(root, '.question-card .question-number', stage)?.closest('.question-card');
         return card && !card.classList.contains('is-correct')
@@ -43,7 +48,7 @@
       const position = root?.querySelector('.syn-play-nav span')?.textContent || '';
       const progress = document.querySelector('.syn-progress');
       const current = Number(position.match(/^QUESTION\s+(\d+)\s*\/\s*\d+/i)?.[1]);
-      if (!visible(root) || ![1, 10, 20, 30].includes(current) || root.querySelector('.syn-feedback')) return null;
+      if (!visible(root) || ![1, 10, 20, 30, 40].includes(current) || root.querySelector('.syn-feedback')) return null;
       if (current === 1 && progress?.getAttribute('aria-valuenow') !== '0') return null;
       return { key: `${path}:${current}:${document.querySelector('.syn-global-nav')?.textContent?.trim()}:${root.querySelector('.syn-original p')?.textContent?.trim()}`, stage: current };
     }
@@ -52,7 +57,7 @@
       const toolbar = root?.querySelector('.practice-toolbar p')?.textContent || '';
       const progress = root?.querySelector('#practice-progress');
       const current = Number(toolbar.match(/^第\s*(\d+)\s*題/)?.[1]);
-      if (!visible(root) || ![1, 10, 20, 30].includes(current) || root.querySelector('.feedback')) return null;
+      if (!visible(root) || ![1, 10, 20, 30, 40].includes(current) || root.querySelector('.feedback')) return null;
       if (current === 1 && progress?.value !== 0) return null;
       return { key: `${path}:${current}:${document.querySelector('.module-heading h1')?.textContent?.trim()}:${root.querySelector('.sentence')?.textContent?.trim()}`, stage: current };
     }
@@ -72,7 +77,7 @@
         const expectedFirst = kind === 'advanced-articles' ? 151 : 1;
         const expectedRange = expectedFirst + Math.floor((current - expectedFirst) / 25) * 25;
         const progress = root.querySelector('.grammar-progress');
-        if ([expectedFirst, expectedFirst + 9, expectedFirst + 19, expectedFirst + 29].includes(current) && selected && firstNumber === expectedRange
+        if ([expectedFirst, expectedFirst + 9, expectedFirst + 19, expectedFirst + 29, expectedFirst + 39].includes(current) && selected && firstNumber === expectedRange
             && (current !== expectedFirst || progress?.getAttribute('aria-valuenow') === '0')
             && (current === expectedFirst || selected.dataset.state !== 'correct')) {
           return { key: `${path}:${kind}:${current}:${root.querySelector('.grammar-question__prompt')?.textContent?.trim()}`, stage: current - expectedFirst + 1 };
@@ -86,6 +91,7 @@
       const tenth = document.querySelector('.logic-map-node[data-question="9"]');
       const twentieth = document.querySelector('.logic-map-node[data-question="19"]');
       const thirtieth = document.querySelector('.logic-map-node[data-question="29"]');
+      const fortieth = document.querySelector('.logic-map-node[data-question="39"]');
       const progress = document.querySelector('.logic-map-top strong')?.textContent || '';
       if (!visible(root)) return null;
       if (first?.getAttribute('aria-current') === 'true' && /^已完成\s*0\s*\/\s*\d+/.test(progress))
@@ -96,6 +102,8 @@
         return { key: `${path}:20:${root.querySelector('.logic-question-en')?.textContent?.trim()}`, stage: 20 };
       if (thirtieth?.getAttribute('aria-current') === 'true' && !thirtieth.classList.contains('is-solved'))
         return { key: `${path}:30:${root.querySelector('.logic-question-en')?.textContent?.trim()}`, stage: 30 };
+      if (fortieth?.getAttribute('aria-current') === 'true' && !fortieth.classList.contains('is-solved'))
+        return { key: `${path}:40:${root.querySelector('.logic-question-en')?.textContent?.trim()}`, stage: 40 };
     }
     return null;
   }
@@ -103,32 +111,72 @@
   function dismiss() {
     overlay?.remove();
     overlay = null;
+    activeStage = 0;
+    dialogueStep = 0;
     document.removeEventListener('keydown', onKey, true);
     if (previousFocus?.isConnected) previousFocus.focus({ preventScroll: true });
     previousFocus = null;
   }
+  function playDialogueSound() {
+    try {
+      if (localStorage.getItem('edmund-answer-sounds-v1') === 'off') return;
+      const Audio = window.AudioContext || window.webkitAudioContext;
+      if (!Audio) return;
+      dialogueAudio ??= new Audio();
+      if (dialogueAudio.state === 'suspended') dialogueAudio.resume();
+      const now = dialogueAudio.currentTime;
+      for (const [pitch, delay, duration, volume] of [[783.99, 0, .1, .03], [1046.5, .075, .16, .025]]) {
+        const gain = dialogueAudio.createGain();
+        gain.gain.setValueAtTime(.0001, now + delay);
+        gain.gain.exponentialRampToValueAtTime(volume, now + delay + .012);
+        gain.gain.exponentialRampToValueAtTime(.0001, now + delay + duration);
+        gain.connect(dialogueAudio.destination);
+        const tone = dialogueAudio.createOscillator();
+        tone.type = 'triangle';
+        tone.frequency.setValueAtTime(pitch, now + delay);
+        tone.connect(gain);
+        tone.start(now + delay);
+        tone.stop(now + delay + duration + .03);
+      }
+    } catch { /* Audio is optional when the browser blocks playback. */ }
+  }
+  function advance() {
+    if (activeStage === 40 && dialogueStep === 0) {
+      dialogueStep = 1;
+      playDialogueSound();
+      const button = overlay?.querySelector('button');
+      const copy = overlay?.querySelector('.eddy-first-question-message');
+      if (copy) copy.textContent = fortiethLineTwo;
+      if (button) button.setAttribute('aria-label', `${fortiethLineTwo} 點擊、輕觸或按鍵繼續`);
+      return;
+    }
+    dismiss();
+  }
   function onKey(event) {
-    if (!['Enter', ' ', 'Escape'].includes(event.key)) return;
+    if (!['Enter', ' ', 'Escape', 'Tab'].includes(event.key)) return;
     event.preventDefault();
     event.stopPropagation();
-    dismiss();
+    if (event.key === 'Escape') dismiss();
+    else advance();
   }
   function show(stage) {
     const title = stage === 30 ? thirtiethLineOne : stage === 20 ? twentiethTitle : milestoneTitle;
     const subtitle = stage === 30 ? thirtiethLineTwo : stage === 20 ? twentiethSubtitle : milestoneSubtitle;
-    const spokenMessage = stage === 1 ? message : `${title} ${subtitle}`;
-    const art = stage === 30 ? 'eddy-thirtieth-question-dialogue.png' : stage === 20 ? 'eddy-twentieth-question-dialogue.png' : stage === 10 ? 'eddy-tenth-question-dialogue.png' : 'eddy-first-question-dialogue.png';
-    const dialogue = stage === 30 ? `<span>${title}</span><span>${subtitle}</span>`
+    const spokenMessage = stage === 40 ? fortiethLineOne : stage === 1 ? message : `${title} ${subtitle}`;
+    const art = stage === 40 ? 'eddy-fortieth-question-dialogue.png' : stage === 30 ? 'eddy-thirtieth-question-dialogue.png' : stage === 20 ? 'eddy-twentieth-question-dialogue.png' : stage === 10 ? 'eddy-tenth-question-dialogue.png' : 'eddy-first-question-dialogue.png';
+    const dialogue = stage === 40 ? fortiethLineOne : stage === 30 ? `<span>${title}</span><span>${subtitle}</span>`
       : stage === 20 ? `<strong>${title}</strong><span>不管遇到什麼挑戰，都儘管放<span class="eddy-horse-pun">馬</span>過來吧！</span>`
       : stage === 10 ? `<strong>${title}</strong><span>${subtitle}</span>` : message;
+    activeStage = stage;
+    dialogueStep = 0;
     previousFocus = document.activeElement;
     overlay = document.createElement('div');
     overlay.className = 'eddy-first-question-overlay';
     overlay.setAttribute('role', 'dialog');
     overlay.setAttribute('aria-modal', 'true');
     overlay.setAttribute('aria-label', 'Eddy 的練習提示');
-    overlay.innerHTML = `<button class="eddy-first-question-dismiss" type="button" aria-label="${spokenMessage} 點擊、輕觸或按鍵繼續"><span class="eddy-first-question-art"><img src="${art}" alt="" aria-hidden="true"><span class="eddy-first-question-message${stage !== 1 ? ' eddy-first-question-message--milestone' : ''}${stage === 30 ? ' eddy-first-question-message--uniform' : ''}" lang="zh-Hant">${dialogue}</span></span></button>`;
-    overlay.addEventListener('click', dismiss);
+    overlay.innerHTML = `<button class="eddy-first-question-dismiss" type="button" aria-label="${spokenMessage} 點擊、輕觸或按鍵繼續"><span class="eddy-first-question-art"><img src="${art}" alt="" aria-hidden="true"><span class="eddy-first-question-message${[10, 20, 30].includes(stage) ? ' eddy-first-question-message--milestone' : ''}${stage === 30 ? ' eddy-first-question-message--uniform' : ''}${stage === 40 ? ' eddy-first-question-message--fortieth' : ''}" lang="zh-Hant"${stage === 40 ? ' role="status" aria-live="polite"' : ''}>${dialogue}</span></span></button>`;
+    overlay.addEventListener('click', advance);
     document.body.append(overlay);
     overlay.querySelector('button').focus({ preventScroll: true });
     document.addEventListener('keydown', onKey, true);
