@@ -1,0 +1,32 @@
+{
+  "status": "current-636-post-4224-source-aware-delta-review",
+  "selectedContentSha256": "fe252f9340c1bd60afccc54379338d36f485a765149dd0fb1e9d9d36161895eb",
+  "currentScreenPath": "../originality-636-4224.json",
+  "currentScreenSha256": "140d378d876bf5021b8e0a213cc17263fed23841ca0088104ca2954480db598a",
+  "selectedLessons": 636,
+  "learnerFacingStrings": 15697,
+  "exactHighMedium": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0
+  },
+  "unchangedPreviouslyReviewedFuzzyHits": 55,
+  "newFuzzyHits": 0,
+  "newTargetOrShortOverlap": {
+    "lesson": 3834,
+    "field": "dialogue.options[0].en",
+    "sourceId": "book10-16-2113",
+    "sourceExpression": "spilled well beyond school hours",
+    "sourceExample": "Her marking spilled well beyond school hours.",
+    "learnerText": "The essay marking spilled well beyond school hours; she continued it at home on two evenings.",
+    "sharedText": "marking spilled well beyond school hours",
+    "sharedTokens": 6,
+    "targetTokens": 5,
+    "excessTokens": 1,
+    "sourceCoverage": 0.857,
+    "severity": "target-or-short-overlap",
+    "reviewVerdict": "Accept: the exact target phrase is being taught, while the sentence changes the subject to essay marking and specifies two evenings at home; it does not copy the source sentence or its situation."
+  },
+  "semanticOriginalityCertified": false,
+  "releaseApproved": false
+}

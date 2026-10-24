@@ -10,13 +10,13 @@
       "titleZh": "從一處到另一處",
       "category": "idiom",
       "target": {
-        "pattern": "\\b(?:getting|get|gets|got) from A to B\\b",
+        "pattern": "\\b(?:getting|get|gets|got)\\s+from\\s+(?:A\\s+to\\s+B|one\\s+place\\s+to\\s+another)\\b",
         "glossaryForbidden": []
       },
       "brief": {
         "meaningEn": "Travel between two places, especially when discussing the practical journey.",
         "meaningZh": "從一個地方前往另一個地方，重點是實際行程。",
-        "grammar": "getting from A to B; get from A to B; got from A to B.",
+        "grammar": "Getting/get/gets/got from A to B or from one place to another describes travel between locations; A and B stand for places, not named people.",
         "register": "Neutral shorthand for travel logistics; A and B stand for places, not named people. A commuter may tell a visitor that getting from A to B is easier with the new bus connection.",
         "boundaryZh": "須談論兩地之間如何移動；不是比較選項 A 和 B 的文字標籤。",
         "misconceptionZh": "不要把 A 和 B 當成必須叫這兩個字母的地名。",
@@ -33,6 +33,48 @@
           "sample": "S1",
           "sourceBookPages": "13–14",
           "locatorNote": "DOCX table 5, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new route makes getting from A to B much easier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "getting from A to B"
+        },
+        {
+          "occurrenceId": "book10-16-1524",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 143,
+          "book": 14,
+          "question": 8,
+          "sample": "S1",
+          "sourceBookPages": "20–21",
+          "locatorNote": "DOCX table 152, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new route makes getting from A to B much easier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "getting from A to B"
+        },
+        {
+          "occurrenceId": "book10-16-2411",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 228,
+          "book": 16,
+          "question": 36,
+          "sample": "S2",
+          "sourceBookPages": "86–89",
+          "locatorNote": "DOCX table 251, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The app makes getting from one place to another easier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "getting from one place to another"
+        },
+        {
+          "occurrenceId": "book10-16-2433",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 230,
+          "book": 16,
+          "question": 40,
+          "sample": "S1",
+          "sourceBookPages": "96–97",
+          "locatorNote": "DOCX table 255, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
           "sentence": "The new route makes getting from A to B much easier.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "getting from A to B"
@@ -140,26 +182,26 @@
         "explanationZh": "比較工作紙的答案選項不涉及前往兩地；另外兩項都是路線或交通問題。"
       },
       "dialogue": {
-        "promptZh": "朋友說：「車站與音樂廳相隔兩條街，但我不熟悉這一帶。」哪個回應最有幫助？",
+        "promptZh": "朋友說：「車站與音樂廳相隔兩條街，但我不熟悉這一帶。這張地圖標了行人過路處。」哪個回應最有幫助？",
         "options": [
           {
             "id": "a",
-            "en": "This map makes getting from A to B easier on foot; follow the marked crossing.",
-            "zh": "這張地圖讓你更容易步行從車站前往音樂廳；沿着標示的行人過路處走吧。"
+            "en": "To get from one place to another on foot, use the marked crossing shown on this map.",
+            "zh": "要步行從車站到音樂廳，可使用這張地圖標示的行人過路處。"
           },
           {
             "id": "b",
-            "en": "Do not check a route; simply guess at every junction.",
-            "zh": "不用查路線；每個路口都隨便猜吧。"
+            "en": "The nearest side street should be quickest, so take it without checking where the crossing is.",
+            "zh": "最近的側街應該最快；不用查看行人過路處在哪裏，走那邊就好。"
           },
           {
             "id": "c",
-            "en": "The streets are close, so signs and crossings cannot matter.",
-            "zh": "兩條街很近，所以指示牌和行人過路處都不重要。"
+            "en": "The hall is only two streets away, so head straight towards it even if that misses the marked crossing.",
+            "zh": "音樂廳只隔兩條街，朝它直走就好，即使這樣會錯過地圖標示的行人過路處。"
           }
         ],
         "answerId": "a",
-        "explanationZh": "地圖與過路處直接解決陌生地區的步行路線問題；其餘建議忽視實際導航。"
+        "explanationZh": "地圖標示的行人過路處提供可核查的步行路線；其餘回應只憑距離或側街位置猜測，沒有確認過路位置。"
       },
       "speaking": {
         "en": "A simple walking map made getting from A to B easier for new visitors.",
@@ -267,7 +309,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 5
     },
     {
       "id": "advanced-native-2169",

@@ -1,0 +1,59 @@
+{
+  "kind": "author-scoped-repair",
+  "sourceOrdinal": 3312,
+  "status": "unselected-independent-followup-pending",
+  "reviewFile": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3312-handcuff-b.json",
+  "reviewSha256": "db05ca3cd236d8b1bf2f669c4a0ba3db37b69d3ac16e2b6ea2ec757e87ed72b1",
+  "beforeDraftSha256": "14bce6b3c00f2134a8143419a24281070fa3fd2acec49bd8d62e196dd05fcc76",
+  "afterDraftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-3312-handcuff-review-pilot.json",
+  "afterDraftSha256": "3524b3897eaa4a3c071b55561e849a115b4c1b7a5bffb9e7e857d2bd49476e8a",
+  "afterSelfAuditFile": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-3312-handcuff-review-pilot.json",
+  "afterSelfAuditSha256": "2720fb9b461e80a827b3ed0bbb99088a8c93b6e6185119ac9b1d209bda73b21d",
+  "contentRevision": 2,
+  "repairs": [
+    {
+      "finding": "R3312-01",
+      "fields": [
+        "listening.options[2..3]",
+        "listening.explanationZh",
+        "scene.promptEn",
+        "scene.promptZh",
+        "scene.options[1..2]",
+        "scene.explanationZh",
+        "dialogue.options[1..2]",
+        "dialogue.explanationZh"
+      ],
+      "evidence": "Listening foils now test invented special approval or invitation limits; museum foils keep the mobility request and free next room while misdiagnosing gallery order or equal-time fairness; sports foils keep the weekly plan but propose alert-only or overbroad permanent indoor move. Chinese and rationale aligned."
+    },
+    {
+      "finding": "R3312-02",
+      "fields": [
+        "writing.examples[0].en",
+        "writing.examples[0].zh"
+      ],
+      "evidence": "English explicitly names the team as ready to provide the safer early pickup; Chinese names the same actor. Glossary spans recalculated and remain exact."
+    }
+  ],
+  "unchanged": [
+    "source occurrence and exact sentence",
+    "target detector",
+    "six answer IDs",
+    "four reply options",
+    "speaking target span",
+    "four audio-role structure",
+    "selected manifest and editorial decision"
+  ],
+  "focusedBuildAndCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "reviewFlags": 0,
+    "status": "passed"
+  },
+  "selfAuditChecks": {
+    "sourceDetectorControls": "11/11",
+    "glossarySpans": "6/6 exact non-target",
+    "sixTokenSourceOverlaps": 0
+  },
+  "limits": "Independent final-hash follow-up pending; no selection, audio, browser or release approval."
+}

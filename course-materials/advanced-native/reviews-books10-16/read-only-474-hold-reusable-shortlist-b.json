@@ -1,0 +1,139 @@
+{
+  "kind": "read-only-reusable-expression-shortlist",
+  "snapshot": {
+    "holdCount": 474,
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "decisionFilesDigestSha256": "0cfb5c63828b508214456d82aea20e391b79221c3df5828438c6de90b89aed2e"
+  },
+  "scope": "Current editorial holds only. No decisions, exclusions, owners or manifest changed. Candidate means investigate teachability, not approved lesson.",
+  "shortlist": [
+    {
+      "sourceOrdinal": 2719,
+      "sourceId": "book10-16-0608",
+      "exactSentence": "A simple line can land a punch in the final verse.",
+      "exactExpression": "land a punch",
+      "sourceRowSha256": "2d0ec9fbaa8002f73ea2953a21743e49d18548545a4b9f75d35daddfc28d70c2",
+      "decisionAction": "hold-editorial",
+      "decisionRowSha256": "4684e6448fb9c7ad6d392f2c4abc929db246ae1bf2825b0d68d15793a49a8e00",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+      "priority": 1,
+      "decision": "conditional-new-lesson-investigation",
+      "rationale": "The boxing-image construction can transfer to a short line, argument or ending that makes a strong impact; the source already applies it to a verse. Keep the unit land a punch with an impact-bearing subject, and test figurative impact rather than literal boxing or generic punch/pack a punch.",
+      "nearestOwner": "Owner 488 punch above its weight concerns unexpectedly strong performance relative to size/resources, not the impact of a particular line.",
+      "sevenStepPotential": [
+        "infer impact from an understated line",
+        "choose an impact-producing revision",
+        "reject a merely long or loud line",
+        "identify a case with no felt effect",
+        "advise a collaborator on a concise final line",
+        "use the phrase in another art form",
+        "transfer to a different communicative domain"
+      ],
+      "gate": "Confirm natural register and that six assessments do not collapse into repeated strong-impact paraphrases."
+    },
+    {
+      "sourceOrdinal": 3720,
+      "sourceId": "book10-16-1609",
+      "exactSentence": "Working devices are often thrown aside too quickly.",
+      "exactExpression": "thrown aside",
+      "sourceRowSha256": "68c194d5b1405549c464d8308570dbd86f2a032ae64d48af3b3fc7f260dc1081",
+      "decisionAction": "hold-editorial",
+      "decisionRowSha256": "f258b25ea24ac3d1c201142d7a49d6f350819595cdd1e91331e5254bfb9cb81a",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+      "priority": 2,
+      "decision": "conditional-new-lesson-investigation",
+      "rationale": "A separable phrasal verb could teach rejecting a still-useful object prematurely, distinct from systemic throwaway culture. However the complete source is physical disposal while Oxford lists figurative rejection of an attitude or way of life; literal-versus-figurative teachability must be settled before authoring.",
+      "nearestOwner": "Selected throwaway culture (4026) teaches a social habit, not a single disposal decision.",
+      "sevenStepPotential": [
+        "infer premature rejection of usable item",
+        "choose repair/reuse before disposal",
+        "distinguish temporary setting-aside from abandonment",
+        "identify justified disposal exception",
+        "reply about retaining a working tool",
+        "transfer to another resource",
+        "write about a different still-useful object"
+      ],
+      "gate": "Do not draft unless a natural target boundary covering the exact physical source and non-duplicate seven decisions is demonstrated. Oxford sense reference: https://www.oxfordlearnersdictionaries.com/us/definition/english/throw-aside"
+    }
+  ],
+  "explicitlyNotShortlisted": [
+    {
+      "sourceOrdinal": 2401,
+      "sourceId": "book10-16-0290",
+      "exactSentence": "The director used silence to tighten the screws.",
+      "exactExpression": "tighten the screws",
+      "sourceRowSha256": "78fcb4e7d60d81e979e0811af182c79ab1d021a037bccea960ef8807acbf13c8",
+      "decisionAction": "hold-editorial",
+      "decisionRowSha256": "ac93d36a64448b55edcb9aed530c8f7e08d8cf9fac9c6a550f01214972de2e51",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "reason": "Conventional idiom tighten the screws on someone is coercive pressure on a person; the exact film-silence source is a suspense extension. Need register evidence before treating as the same reusable target. Cambridge: https://dictionary.cambridge.org/us/dictionary/english/put-tighten-the-screws-on"
+    },
+    {
+      "sourceOrdinal": 2349,
+      "sourceId": "book10-16-0238",
+      "exactSentence": "The speech was all fireworks and not much substance.",
+      "exactExpression": "all fireworks and not much substance",
+      "sourceRowSha256": "aa26e89e5abb51ad09273450d587d9f9a2eb08e532a017183535af8e175f3a7b",
+      "decisionAction": "hold-editorial",
+      "decisionRowSha256": "b409d3f1209aa6f0ff87c0c8c8941e668ebb81689417ec17ab78b3f948aa1eb0",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "reason": "All fireworks and not much substance is a vivid one-off comparison; no established fixed target or convincing seven distinct decisions shown."
+    },
+    {
+      "sourceOrdinal": 2847,
+      "sourceId": "book10-16-0736",
+      "exactSentence": "The viral claim was all smoke and no fire.",
+      "exactExpression": "all smoke and no fire",
+      "sourceRowSha256": "03855e32f5ea4ba714ca39a19df4f4b3318feedf29158c5171f6ea6a5865d6d9",
+      "decisionAction": "hold-editorial",
+      "decisionRowSha256": "c955e9175b4a449c671b2fb844fb0499fd0fd348c6e35d54347061b74455511e",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "reason": "All smoke and no fire reverses the more familiar proverb; source-specific variation needs a naturalness gate."
+    },
+    {
+      "sourceOrdinal": 2852,
+      "sourceId": "book10-16-0741",
+      "exactSentence": "A second report shines a different light on the same picture.",
+      "exactExpression": "shines a different light on the same picture",
+      "sourceRowSha256": "8bf3f4d87e7727ea618c45713f39d4c0b1a259b4c9335c5e5f17daf31712e3b8",
+      "decisionAction": "hold-editorial",
+      "decisionRowSha256": "2f2ebf454b3031fe26af2959f0f897287e762931423ef7d9f5bdf2a9ee0c0af2",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "reason": "Shines a different light on the same picture mixes light and picture imagery; target boundary unclear."
+    },
+    {
+      "sourceOrdinal": 3582,
+      "sourceId": "book10-16-1471",
+      "exactSentence": "The old system rewarded staying on the rails.",
+      "exactExpression": "staying on the rails",
+      "sourceRowSha256": "d2d4b39a1f6574b060b4d613b06bb7ba6f6660b1e8e1ea7ed4baf0dc300835b1",
+      "decisionAction": "hold-editorial",
+      "decisionRowSha256": "974176308c385eaa8428f6bbdff9774f46a818f504256e5ed1f6e683363e3f59",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+      "reason": "Source uses staying on the rails for fixed-path educational conformity; established idiom mainly concerns acceptable/legal behaviour, so source sense requires reconciliation."
+    },
+    {
+      "sourceOrdinal": 4076,
+      "sourceId": "book10-16-1965",
+      "exactSentence": "Groceries are the bread and butter of daily life.",
+      "exactExpression": "bread and butter of daily life",
+      "sourceRowSha256": "0d3ff326390f0b4869bcd7e58db17a187a386f84af5bea76f7780491a60fd8e1",
+      "decisionAction": "hold-editorial",
+      "decisionRowSha256": "790ba2532187cc840817102592b83796d7071eff83f0571bc37f57e0d0c26bc4",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl",
+      "reason": "Groceries as the bread and butter of daily life invites literal food reading and drifts from livelihood/mainstay sense."
+    },
+    {
+      "sourceOrdinal": 2188,
+      "sourceId": "book10-16-0077",
+      "exactSentence": "A freelancer who draws a line around their time can protect evenings for family.",
+      "exactExpression": "draws a line around their time",
+      "sourceRowSha256": "fc3abb938cd1f82c25252b85971b6e3883c5d84af0804564aa2808fefa414f3b",
+      "decisionAction": "hold-editorial",
+      "decisionRowSha256": "26c566620118fc4a8087e72c97a9514524f6bb71666415e99d804e94a24559d8",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "reason": "Draws a line around their time is an idiosyncratic boundary comparison rather than a stable reusable phrase."
+    }
+  ],
+  "conclusion": "Only two conditional investigations; no automatic promotion. Nearby one-time comparisons remain held with reasons."
+}

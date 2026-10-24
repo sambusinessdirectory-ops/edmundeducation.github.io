@@ -1,0 +1,63 @@
+{
+  "kind": "independent-ai-content-review-followup",
+  "status": "ai-content-clear-for-provisional-unpublished-selection",
+  "scope": "Scoped exact-hash recheck of R4648-01 through R4648-04 and changed-field regressions; no draft, decision, manifest, media or release edits.",
+  "exactInputs": {
+    "draft": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4648-businesses-alive-b.json",
+      "sha256": "17521b4156ccefa84405bd0c19d7402503f48a12d0936ab0d7978528cacbcced"
+    },
+    "authorAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-held-assessment-4591-4648-b.json",
+      "sha256": "e66a1539ea2daadcd207d4007e33f6fc017e62648e8ba17c799d5180bf2fc919"
+    },
+    "initialIndependentReview": {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4648-businesses-alive-a.json",
+      "sha256": "d1bff08e432f7070275ba619f4a352a0d797b3216222904b621f839fb195802f"
+    },
+    "decisionFile": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+      "sha256": "cca2a2fb258093a56b9c6ad0982e04286e0dbe0d37296f4a856f1119a81785d2"
+    },
+    "selectedManifest": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "sha256": "1a7791f9f16b4d95faca1a8398ccc10110b20930e7278e73e32cfa6de0c9b0da"
+    }
+  },
+  "findings": [
+    {
+      "id": "R4648-01",
+      "status": "cleared",
+      "evidence": "The seven stages now use materially different decisions: attribute quiet-season survival to bookshop orders; explain time-bounded flower-shop support; identify an alternative payment route sustaining a grocery; reject publicity without sales as survival evidence; separate a studio's current school contract from renewal; use a bakery closure counterfactual; and explain paid voucher demand plus the unresolved post-scheme future for a shoe-repair shop. The causative expression names the sustaining factor, distinct from owner349's stative stay afloat focus."
+    },
+    {
+      "id": "R4648-02",
+      "status": "cleared",
+      "evidence": "Each of the four flower-shop replies independently states how paid weekend bookings prevent immediate closure or sustain trading and acknowledges the summer end date. Golden A remains natural and target-bearing; English and Traditional Chinese agree."
+    },
+    {
+      "id": "R4648-03",
+      "status": "cleared",
+      "evidence": "The dialogue now explicitly describes a commercial recording studio; the keyed 'business' / 「企業」 referent is grounded. Paid school sessions sustain this term, while renewal remains undecided in both languages."
+    },
+    {
+      "id": "R4648-04",
+      "status": "cleared",
+      "evidence": "Both shoe-repair writing models state near closure after roadworks, paid voucher customers sustaining current trading, the June end date, and no secured replacement trade. Traditional Chinese matches; all five answer-derived non-target glossary spans are exact."
+    }
+  ],
+  "focusedVerification": {
+    "build": "1 lesson / 6 questions / 4 audio requests / 0 review flags",
+    "check": "pass",
+    "sourceSentence": "Weekend tourism keeps businesses alive.",
+    "sourceOccurrence": "book10-16-2537",
+    "fullSourceDetectorMatch": true,
+    "targetBearingGoldSceneContrastDialogueAndBothWritingModels": true,
+    "speakingTargetSpanExact": true,
+    "glossarySpansExactAndNonTarget": "5/5",
+    "sevenAssessedPromptZhFieldsContainTraditionalChinese": true,
+    "changedKeyAndDistractorGrounding": "pass"
+  },
+  "limits": "This is AI content clearance only. The lesson remains unselected; no audio synthesis, human listening, browser/device, media-hosting or live-release claim is made.",
+  "verdict": "All four initial findings are cleared at the exact repaired draft hash. No content blocker remains for provisional unpublished selection."
+}

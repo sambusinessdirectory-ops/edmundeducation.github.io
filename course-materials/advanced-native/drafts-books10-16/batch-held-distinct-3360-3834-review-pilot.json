@@ -546,14 +546,14 @@
       "id": "advanced-native-3834",
       "number": 3834,
       "inventoryId": "expr-3834",
-      "titleEn": "spill into",
-      "titleZh": "從一個範疇蔓延到另一範疇",
+      "titleEn": "spill into; spill beyond school hours",
+      "titleZh": "蔓延到另一範疇；延續至上課時間以外",
       "category": "figurative",
-      "contentRevision": 3,
+      "contentRevision": 4,
       "target": {
-        "pattern": "\\b(?:spill|spills|spilled|spilt|spilling) into\\b",
+        "pattern": "\\b(?:spill|spills|spilled|spilt|spilling)\\s+(?:into|(?:well\\s+)?beyond\\s+(?:school|working)\\s+hours)\\b",
         "glossaryForbidden": [
-          "\\b(?:spill|spills|spilled|spilt|spilling) into\\b"
+          "\\b(?:spill|spills|spilled|spilt|spilling)\\s+(?:into|(?:well\\s+)?beyond\\s+(?:school|working)\\s+hours)\\b"
         ]
       },
       "sources": [
@@ -584,16 +584,30 @@
           "sentence": "Classroom knowledge spills into real life.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "spills into real life"
+        },
+        {
+          "occurrenceId": "book10-16-2113",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 199,
+          "book": 16,
+          "question": 2,
+          "sample": "S1",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 217, row 4; page refers to locally rendered PDF in source inventory. Source question: Do you think teachers get paid enough money in your country?",
+          "sentence": "Her marking spilled well beyond school hours.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "spilled well beyond school hours"
         }
       ],
       "brief": {
-        "meaningEn": "For an effect, skill, benefit or pressure from one part of life or work to extend into another domain beyond its starting point.",
-        "meaningZh": "某個範疇的影響、技能、好處或壓力，延伸到原本範疇以外的生活或工作領域。",
-        "grammar": "A skill, benefit, pressure, work demand or delay spills into + an affected domain. Has spilled into marks an observed effect; may spill into predicts one. The liquid image is figurative here, so name the starting domain and evidence of crossing into another.",
-        "register": "Everyday to journalistic figurative description: a student can explain how classroom skills help in a community project, or a worker can explain how a rota problem affects family time.",
-        "boundaryZh": "須交代原本範疇和另一個受影響範疇；影響可以有益也可以有害。在同一範疇內發生的事，或真的打翻液體，都不是本課的比喻。",
-        "misconceptionZh": "不要把可能帶來的影響說成已發生，也不要只因兩件事相近便臆測其因果；有益或有害均須有具體線索。",
-        "outcomeZh": "能指出技能、好處或問題由哪裏延伸至何處，並區分已發生與可能發生的影響。"
+        "meaningEn": "An effect, skill, benefit or pressure can extend from one domain into another; a work duty can also continue beyond its scheduled school or working hours. Name the boundary actually crossed. Marking done after school does not by itself prove an effect on family life.",
+        "meaningZh": "影響、技能、好處或壓力可由一個範疇延伸到另一個；工作亦可超出原定的上課或工作時間。須指出實際跨越了哪道界線；放學後批改不必然證明家庭生活受影響。",
+        "grammar": "An effect, skill, benefit, pressure or work demand spills into + an affected domain. A named duty such as marking spills (well) beyond school or working hours when it continues after that time boundary. Has spilled into marks an observed domain effect; may spill into predicts one. Do not infer a second domain effect from overtime alone.",
+        "register": "Everyday to journalistic figurative description: a student may show a classroom skill reaching a community project, while a teacher may report marking continuing past school hours without claiming that family plans changed.",
+        "boundaryZh": "可指出影響跨越生活或工作範疇，也可指出一項工作超出原定時間。須有具體的另一範疇或時間界線；放學後仍批改，不等於已知家庭活動受影響。真的打翻液體亦不是本課比喻。",
+        "misconceptionZh": "不要把可能的影響說成已發生，也不要因工作超時便臆測家庭活動取消；兩種情況都要按已知證據描述。",
+        "outcomeZh": "能指出技能或問題延伸到另一範疇，或工作超出哪段原定時間，並區分已見到的越界與未證實的後果。"
       },
       "listening": {
         "en": "Mara’s work rota changed three times this week. She began answering shift messages during family dinner, so the scheduling pressure was spilling into her home time.",
@@ -698,26 +712,26 @@
         "explanationZh": "限期的影響沒有延伸出原本課堂；前兩例都跨越了活動範疇。"
       },
       "dialogue": {
-        "promptZh": "經理說：「工作報告都在辦公室寫，所以期限壓力不可能影響家庭。」但同事為完成報告取消了兩次家庭晚餐。哪句回應最有根據？",
+        "promptZh": "甲說：「學校下午四點結束上課。周老師原本打算在校內批完作文，但這星期連續兩晚仍在家批改到九點。題目沒有提及家庭活動是否受影響。」乙要描述批改時間，哪句最有根據？",
         "options": [
           {
             "id": "a",
-            "en": "The deadline pressure has spilled into family time; the cancelled dinners show the effect.",
-            "zh": "期限壓力已蔓延到家庭時間；取消晚餐就是證據。"
+            "en": "The essay marking spilled well beyond school hours; she continued it at home on two evenings.",
+            "zh": "作文批改延伸到上課時間以外；她連續兩晚仍在家繼續批改。"
           },
           {
             "id": "b",
-            "en": "The family dinners must have caused the work deadline.",
-            "zh": "家庭晚餐一定造成工作期限。"
+            "en": "Only the journey home happened after four; all the essay marking was finished at school.",
+            "zh": "只有回家路程發生在四點後；所有作文都已在校內批改完畢。"
           },
           {
             "id": "c",
-            "en": "There is no evidence that the deadline affected time at home.",
-            "zh": "沒有證據顯示工作期限影響在家時間。"
+            "en": "The evening marking proves that she cancelled family plans to finish the essays.",
+            "zh": "晚上批改證明她為了完成作文而取消了家庭活動。"
           }
         ],
         "answerId": "a",
-        "explanationZh": "取消家庭晚餐是工作壓力影響家庭時間的具體證據。"
+        "explanationZh": "連續兩晚在家批改至九點，證明作文批改超出上課時間；題目沒有證據說她取消了家庭活動。"
       },
       "speaking": {
         "en": "The delayed permit is spilling into the community workshop schedule: volunteers cannot open the room on Saturday.",
@@ -822,9 +836,10 @@
           "evidence": ""
         },
         "notes": [
-          "AI-authored provisional held-source lesson. Independent English, Traditional Chinese, media, QA and human release review remain pending."
+          "AI-authored provisional held-source lesson. Independent English, Traditional Chinese, media, QA and human release review remain pending.",
+          "Source4224 temporal-boundary expansion independently reviewed; selected owner and source decision integrated after review."
         ],
-        "note": "Proposal-only positive-domain expansion with exact source provenance and one assessed cross-domain skill transfer. Existing answer IDs retained. Takeaway 2 would require exact audio-text regeneration if integrated."
+        "note": "Reviewed source4224 temporal-boundary expansion with exact provenance and an assessed cross-domain use. Existing answer IDs are retained. All four English audio-role texts are unchanged from revision 3; no new synthesis key is required for this owner expansion."
       }
     }
   ]

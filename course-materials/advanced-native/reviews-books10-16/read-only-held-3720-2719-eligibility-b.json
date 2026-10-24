@@ -1,0 +1,65 @@
+{
+  "kind": "read-only-source-eligibility-and-one-off-review",
+  "status": "no content or decision mutation",
+  "records": [
+    {
+      "sourceOrdinal": 3720,
+      "sourceId": "book10-16-1609",
+      "exactSourceSentence": "Working devices are often thrown aside too quickly.",
+      "exactSourceExpression": "thrown aside",
+      "sourceRowSha256": "68c194d5b1405549c464d8308570dbd86f2a032ae64d48af3b3fc7f260dc1081",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+      "decisionRowSha256": "f258b25ea24ac3d1c201142d7a49d6f350819595cdd1e91331e5254bfb9cb81a",
+      "currentAction": "hold-editorial",
+      "currentReason": "Thrown aside is a broad disposal phrasal verb; the source may mean literal discarding. Provisional editorial decision; independent review remains open."
+    },
+    {
+      "sourceOrdinal": 2719,
+      "sourceId": "book10-16-0608",
+      "exactSourceSentence": "A simple line can land a punch in the final verse.",
+      "exactSourceExpression": "land a punch",
+      "sourceRowSha256": "2d0ec9fbaa8002f73ea2953a21743e49d18548545a4b9f75d35daddfc28d70c2",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionRowSha256": "4684e6448fb9c7ad6d392f2c4abc929db246ae1bf2825b0d68d15793a49a8e00",
+      "currentAction": "hold-editorial",
+      "currentReason": "The exact source line A simple line can land a punch in the final verse may be a strained lyric-line collocation relative to pack a punch; verify idiomaticity and target-unit choice before teaching it."
+    }
+  ],
+  "source3720": {
+    "verdict": "retain-hold-no-seven-step-draft",
+    "reason": "The complete source describes physically discarding still-working devices too soon. That reading is understandable, but Oxford’s learner entry for throw aside documents rejecting an attitude or way of life, while throw away/throw out is the usual explicit disposal phrasal verb for possessions. Teaching the source’s physical phrasing as a special idiomatic sense would overclaim; teaching the established figurative sense would drift from the source. A seven-step course would repeat the same premature-disposal judgment and encroach on selected throwaway culture (owner4026), which teaches the systemic habit. Do not force six assessments or replace the source target with throw away.",
+    "ruleDisposition": "Not a user-rule one-off comparison: it is an ordinary reusable phrasal construction, albeit low distinctive course value. Keep editorial hold for source-sensitive lexical/owner review rather than auto-exclude.",
+    "nearestOwner": "4026 throwaway culture = broader social pattern, not a single-device action.",
+    "lexicalEvidence": [
+      {
+        "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/throw-aside",
+        "finding": "throw something aside = reject an attitude/way of life"
+      },
+      {
+        "url": "https://www.collinsdictionary.com/dictionary/english/throw-aside",
+        "finding": "Collins COBUILD also defines throw aside as abandoning or rejecting an idea, principle or way of life; it does not list disposal of a working device in this learner entry."
+      },
+      {
+        "url": "https://www.collinsdictionary.com/english-language-learning/throw-away",
+        "finding": "throw away = discard rubbish/possessions"
+      }
+    ]
+  },
+  "source2719": {
+    "verdict": "recommend-documented-excluded-one-off; do-not-change-decision",
+    "reason": "The song-lyric line metaphorically makes an emotional impact, but dictionary entries define land a punch as successful physical contact; pack a punch is the established figurative strong-effect idiom. Its lyric-line use is an intelligible one-time extension, not a robust exact-target seven-step unit. The current hold reason already notes the strained collocation. Record the exact sentence and this source-specific rationale if applying the user-approved one-time-exclusion action.",
+    "notAutomatic": "Recommendation only. Current decision remains hold-editorial and no exclusion is applied by this report.",
+    "lexicalEvidence": [
+      {
+        "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/land_2",
+        "finding": "land a punch = successfully hit someone/something"
+      },
+      {
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/punch_2",
+        "finding": "pack a punch = have a powerful effect"
+      }
+    ]
+  },
+  "draftsCreated": 0,
+  "selectedOrDecisionEdits": 0
+}

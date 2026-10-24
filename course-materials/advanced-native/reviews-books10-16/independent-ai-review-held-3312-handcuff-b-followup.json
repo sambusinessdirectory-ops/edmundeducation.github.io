@@ -1,0 +1,33 @@
+{
+  "kind": "independent-ai-review-followup",
+  "sourceOrdinal": 3312,
+  "verdict": "content-clear-unselected",
+  "exactInputs": {
+    "draft": "course-materials/advanced-native/drafts-books10-16/batch-held-3312-handcuff-review-pilot.json",
+    "draftSha256": "3524b3897eaa4a3c071b55561e849a115b4c1b7a5bffb9e7e857d2bd49476e8a",
+    "selfAudit": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-3312-handcuff-review-pilot.json",
+    "selfAuditSha256": "2720fb9b461e80a827b3ed0bbb99088a8c93b6e6185119ac9b1d209bda73b21d",
+    "repairReport": "course-materials/advanced-native/reviews-books10-16/author-repair-held-3312-handcuff-review-pilot.json",
+    "repairReportSha256": "e221490b39ddcdeee54a3ea2880cffdab65ca42723dc077dc329e997e602909a"
+  },
+  "priorFindings": [
+    {
+      "id": "R3312-01",
+      "status": "resolved",
+      "evidence": "Listening C/D now offer approval and staffing interpretations; museum B/C misdiagnose the access barrier or overvalue equal-time fairness without contradicting the prompt; sports B preserves the unresolved no-swap rule and C overextends a weather exception. The key is the only prompt-grounded explanation in each assessed item; EN/ZH and rationales align."
+    },
+    {
+      "id": "R3312-02",
+      "status": "resolved",
+      "evidence": "Writing model 1 names the team as the actor ready to offer the safer early pickup; Chinese likewise names the team. The heatwave, older visitors, retained rota and exception remain prompt-grounded."
+    }
+  ],
+  "regressionChecks": {
+    "focusedBuildCheck": "1 lesson / 6 questions / 4 audio roles / 0 flags",
+    "targetBearingReplySceneDialogueKeys": true,
+    "sixGlossarySpansExactAndNonTarget": true,
+    "sourceAndOwnerBoundary": "unchanged; source figurative transitive handcuff distinct from owner2066 golden handcuffs noun",
+    "selectedOrDecisionEditsByReviewer": false
+  },
+  "limits": "AI content clearance for an unselected draft only; no media, browser, human or release approval."
+}

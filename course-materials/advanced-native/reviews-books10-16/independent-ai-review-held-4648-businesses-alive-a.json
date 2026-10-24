@@ -1,0 +1,140 @@
+{
+  "kind": "independent-ai-content-review",
+  "status": "repair-required-before-unpublished-selection",
+  "scope": "Exact-hash read-only review of unselected source4648 lesson; no draft, source-decision, selected-manifest, media or release edits.",
+  "exactInputs": {
+    "draft": {
+      "path": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/drafts-books10-16/batch-held-4648-businesses-alive-b.json",
+      "sha256": "2e6c433cc3bfe266a03469e9f52bca9ed7ec4d5e7d38c80ad6b576474ec6124e"
+    },
+    "authorAudit": {
+      "path": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/reviews-books10-16/author-held-assessment-4591-4648-b.json",
+      "sha256": "44a9d4f776574eee3a33ee9f67781fcf3284df657dd3a9bd1b7ea0d04568124e"
+    },
+    "sourceInventory": {
+      "path": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "decisionFile": {
+      "path": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+      "sha256": "cca2a2fb258093a56b9c6ad0982e04286e0dbe0d37296f4a856f1119a81785d2"
+    },
+    "comparisonOwner349": {
+      "path": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/batches/batch-0326-0350.json",
+      "sha256": "597d726f08eeb0dd24679ac39a15e620685274237148ddee78e4613a14a27ce2"
+    },
+    "selectedManifest": {
+      "path": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "sha256": "1a7791f9f16b4d95faca1a8398ccc10110b20930e7278e73e32cfa6de0c9b0da"
+    }
+  },
+  "source": {
+    "ordinal": 4648,
+    "id": "book10-16-2537",
+    "exactSentence": "Weekend tourism keeps businesses alive.",
+    "meaning": "Allows firms to continue operating; a life metaphor.",
+    "book": 16,
+    "question": 53,
+    "sourceProvenanceExact": true,
+    "fullSourceDetectorMatch": "keeps businesses alive"
+  },
+  "ownerComparison": {
+    "owner349Title": "stay afloat",
+    "owner349Meaning": "Continue operating or meet basic financial demands despite difficulty.",
+    "judgment": "Potentially distinct causative keep-X-alive construction versus stative stay-afloat, but most current assessed decisions duplicate owner349’s basic-cost survival versus expansion distinction. A separate lesson needs substantially different causal/evidence/transfer decisions."
+  },
+  "mechanical": {
+    "focusedBuild": "1 lesson / 6 questions / 4 audio roles / 0 flags",
+    "focusedCheck": "pass",
+    "targetBearingGoldenReply": true,
+    "targetBearingScene": true,
+    "targetBearingContrastIncorrectClaim": true,
+    "targetBearingDialogue": true,
+    "speakingSpan": "keep the business alive",
+    "glossary": [
+      {
+        "text": "weekday walk-ins",
+        "exact": true,
+        "nonTarget": true
+      },
+      {
+        "text": "monthly school poster orders",
+        "exact": true,
+        "nonTarget": true
+      },
+      {
+        "text": "covering remaining essential costs",
+        "exact": true,
+        "nonTarget": true
+      },
+      {
+        "text": "walk-in customers",
+        "exact": true,
+        "nonTarget": true
+      },
+      {
+        "text": "survival, not growth",
+        "exact": true,
+        "nonTarget": true
+      }
+    ],
+    "selectedOwnerDetectorHitsOnFullSource": []
+  },
+  "findings": [
+    {
+      "id": "R4648-01",
+      "severity": "major",
+      "fields": [
+        "listening",
+        "scene",
+        "dialogue",
+        "speaking",
+        "writing.examples[0]",
+        "writing.examples[1]"
+      ],
+      "finding": "Six of seven stages repeatedly present a business with income exactly covering essential rent/wages, then contrast survival with expansion. The setting names change, but the learner repeatedly makes the same decision already central to owner349 stay afloat. The lesson does not yet demonstrate seven materially different uses of the causative keep-X-alive construction.",
+      "repair": "Keep the source meaning but diversify the communicative decisions: e.g. one stage attributes survival to a source of demand, another tests whether public attention is enough evidence, another handles temporary support versus future viability, another explains dependence on one contract, and final writing transfers to a genuinely different causal decision. Avoid repeating the same rent/wages/no-expansion frame in every step."
+    },
+    {
+      "id": "R4648-02",
+      "severity": "major",
+      "fields": [
+        "reply.promptEn",
+        "reply.options[2]",
+        "reply.options[3]"
+      ],
+      "finding": "The prompt asks how to explain the order’s value to the partner. Option C mainly proposes thanking the office and reviewing next month; option D says when the order matters but omits that it pays remaining essential costs. Neither independently explains the established current value as clearly as A/B, weakening the four-valid-reply contract.",
+      "repair": "Make C and D independently answer what the order currently does for the café in EN/ZH, while preserving distinct natural phrasing and one target-bearing golden option; alternatively broaden the prompt to ask for both an explanation and sensible next action, then recheck every option."
+    },
+    {
+      "id": "R4648-03",
+      "severity": "minor",
+      "fields": [
+        "dialogue.promptZh",
+        "dialogue.options[0].en",
+        "dialogue.options[0].zh"
+      ],
+      "finding": "The scene calls the venue a community theatre, but the keyed line recasts it as “the business” / 「這間企業」. A community theatre may be a non-profit organisation, so the referent sounds forced and distracts from the target.",
+      "repair": "Use an explicitly commercial venue in the prompt, or teach a natural theatre/company target form with bounded detector and aligned Chinese; keep the cost and future-risk facts grounded."
+    },
+    {
+      "id": "R4648-04",
+      "severity": "minor",
+      "fields": [
+        "writing.examples[1].en",
+        "writing.examples[1].zh"
+      ],
+      "finding": "Model 2 distinguishes survival from growth but omits the prompt/self-check’s concrete statement that no money remains for expansion. Model 1 supplies it; both models are required to satisfy the same prompt.",
+      "repair": "Add the owner’s no-surplus-for-expansion fact in both languages and regenerate any shifted glossary spans."
+    }
+  ],
+  "clearChecks": [
+    "Exact source provenance and book/question locator match inventory.",
+    "Target regex covers the complete source sentence and assessed target-bearing answers.",
+    "Listening, scene, contrast and dialogue answer IDs are logically keyed to their immediate contexts.",
+    "Traditional Chinese broadly matches the English; changed reply and dialogue fields need recheck after repair.",
+    "All five glossary spans are exact and exclude the target.",
+    "Four audio-role texts exist; no synthesis or human listening was performed."
+  ],
+  "verdict": "Hold draft unselected pending scoped repair and independent exact-hash follow-up."
+}

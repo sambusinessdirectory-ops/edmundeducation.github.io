@@ -1,0 +1,123 @@
+{
+  "kind": "selected-owner-alias-integration-attestation",
+  "sourceOrdinal": 4224,
+  "sourceId": "book10-16-2113",
+  "ownerId": "advanced-native-3834",
+  "status": "integrated-unpublished",
+  "review": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-3834-source-4224-temporal-b.json",
+    "sha256": "11de060701e4af71d1538597b3b20c6892cf450f6f7c116d42397e21d282cdf6",
+    "reviewedProposalSha256": "6aa655fa287628f4075f000a9e4c947948d79aff52f4bb3de51934ec7f385caf",
+    "verdict": "accept-with-metadata-correction"
+  },
+  "metadataCorrection": {
+    "reviewedProposalReconstructedByteIdentical": true,
+    "changedFields": [
+      "lessons[0].review.note",
+      "lessons[0].review.notes[-1]"
+    ],
+    "allOtherProposalFieldsUnchanged": true,
+    "correctedProposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-3834-source-4224-temporal-proposed-a.json",
+    "correctedProposalSha256": "82493245198b77d4ce7d1e57331ac4684bc1d108832cb525f12578d87ece9ab2",
+    "correctedOwnerObjectSha256": "7ec55f2ba175af051026914526c5607486f7447d2e0291472d0b967a3ce73536",
+    "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-proposal-owner-3834-source-4224-temporal-a.json",
+    "authorAuditSha256": "14f20dc9c3788c805428cd14819f3937dd5b5f7867f7d656d30a19e3e74746c8"
+  },
+  "owner": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3360-3834-review-pilot.json",
+    "beforeSha256": "38d633a14d1afdd5ea500c8c10e24afeaea163df735dd400b8033ce8a333a771",
+    "afterSha256": "4aa1e84650c975522af2c7a0331c50ef5ef96306b29f67d60a8d29720587eace",
+    "beforeObjectSha256": "02d65ee9769b5e0cfb069efb6f20454d796a90794c2b547174ced8b2f16dca5f",
+    "afterObjectSha256": "7ec55f2ba175af051026914526c5607486f7447d2e0291472d0b967a3ce73536",
+    "otherLessonObjectsUnchanged": true,
+    "revisionBefore": 3,
+    "revisionAfter": 4
+  },
+  "decision": {
+    "path": "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl",
+    "beforeSha256": "de6f92e7ec0deff0312d9d845b28b9b3704ed721e5f65041e195b556b9864ee9",
+    "afterSha256": "f6d2281f0efd08d417dcbfe71d43d6976f26c8246fdcea9de62e58e64dd93b96",
+    "onlySource4224LineChanged": true,
+    "row": {
+      "sourceOrdinal": 4224,
+      "sourceId": "book10-16-2113",
+      "phrase": "spilled well beyond school hours",
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-3834",
+      "reason": "The exact marking sentence uses selected owner 3834’s spill metaphor for work crossing a scheduled time boundary. Revision 4 adds a bounded school/working-hours detector branch, exact source provenance, and a keyed bilingual dialogue distinguishing evidenced overtime from an unproven family-life effect. This same-sense alias was independently reviewed and remains unpublished."
+    }
+  },
+  "manifest": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "sha256": "b8182b8d4ffbc1472e85b95ea644d54dd490461270b47205673346a71dd5cc3c",
+    "unchanged": true
+  },
+  "sourceSpecific": {
+    "exactSentence": "Her marking spilled well beyond school hours.",
+    "expression": "spilled well beyond school hours",
+    "targetPattern": "\\b(?:spill|spills|spilled|spilt|spilling)\\s+(?:into|(?:well\\s+)?beyond\\s+(?:school|working)\\s+hours)\\b",
+    "fullSourceHits": [
+      {
+        "sourceOrdinal": 3834,
+        "sourceId": "book10-16-1723",
+        "matchedText": "spilling into"
+      },
+      {
+        "sourceOrdinal": 4224,
+        "sourceId": "book10-16-2113",
+        "matchedText": "spilled well beyond school hours"
+      },
+      {
+        "sourceOrdinal": 4311,
+        "sourceId": "book10-16-2200",
+        "matchedText": "spills into"
+      }
+    ],
+    "positiveControlsPassed": 5,
+    "negativeControlsPassed": 5,
+    "oldSourceProvenancePreserved": true,
+    "answerIdsPreserved": true,
+    "englishAudioRolesByteIdentical": true,
+    "englishAudioRoles": {
+      "listening": "Mara’s work rota changed three times this week. She began answering shift messages during family dinner, so the scheduling pressure was spilling into her home time.",
+      "speaking": "The delayed permit is spilling into the community workshop schedule: volunteers cannot open the room on Saturday.",
+      "takeaway-1": "When a problem spills into another part of life, its effects cross an identifiable boundary.",
+      "takeaway-2": "A skill learned in class can spill into a community project when students put it to use there."
+    }
+  },
+  "checks": {
+    "focusedBuildAndCheck": {
+      "lessons": 3,
+      "questions": 18,
+      "audioRequests": 12,
+      "reviewFlags": 0,
+      "passed": true
+    },
+    "fullVerifier": {
+      "selectedLessons": 636,
+      "questions": 3816,
+      "audioRequests": 2544,
+      "schemaErrors": 0,
+      "guideCopies": 0,
+      "nearDuplicateFlags": 0,
+      "passed": true
+    },
+    "existingAliasAudit": {
+      "matching": 1191,
+      "exceptions": 0,
+      "passed": true
+    },
+    "newAliasAudit": {
+      "matching": 193,
+      "exceptions": 0,
+      "passed": true
+    },
+    "holdCoverage": {
+      "currentHolds": 473,
+      "unaudited": 0,
+      "errors": 0,
+      "passed": true
+    }
+  },
+  "limits": "No synthesis, browser QA, listening, release approval, commit, push or publication."
+}

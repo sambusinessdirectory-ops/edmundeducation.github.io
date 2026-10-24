@@ -1,0 +1,244 @@
+{
+  "kind": "author-self-audit-unselected-held-3073-4308",
+  "draft": "course-materials/advanced-native/drafts-books10-16/batch-held-3073-4308-b.json",
+  "draftSha256": "4e425bbd6d38187aa45b95bfc3e53fc238255e8f3b1512567449a51ce9df5f6f",
+  "priorityReport": "course-materials/advanced-native/reviews-books10-16/read-only-current480-new-lesson-priority-review-pilot.json",
+  "priorityReportSha256": "56f39796e05fbd4d3f025a36556605ad46c65491de35570054ef32302eab7753",
+  "selectionState": "unselected; source decisions remain hold-editorial",
+  "buildCheck": {
+    "lessons": 2,
+    "questions": 12,
+    "audioRequests": 8,
+    "flags": 0
+  },
+  "ownerBoundaries": {
+    "3073": "Owner1184 tied up with work denotes temporary unavailability; 3073 tests mental or creative restriction by a named rule or assumption and keeps factual/safety limits.",
+    "4308": "Owner1733 teaches repeated small actions growing into habits; owner2394 teaches placing a story clue; 4308 tests an initial action creating possible future cooperation without guaranteed achievement."
+  },
+  "sevenDecisions": {
+    "3073": [
+      "interpret child play freedom with safety retained",
+      "advise co-teacher on sample plot versus factual dates",
+      "apply script constraint to improvisation",
+      "reject literal ropes",
+      "explain prototype shape freedom with fire-test retained",
+      "speak about mural template and paint rule",
+      "write about chronology versus verified quotations"
+    ],
+    "4308": [
+      "infer possibility from mapping contact, not a signed course",
+      "advise library board on an open day without promising a series",
+      "identify a shared sampling protocol and record as real collaborative groundwork rather than mere co-attendance",
+      "reject an unsupported monthly-clinic agreement after one call",
+      "infer emerging trust from repeated honest tool-sharing conduct",
+      "speak about harvest follow-up measurements leading to a trial routine",
+      "write about comparing attendee questions, revising a shared sheet and testing it before any longer service"
+    ]
+  },
+  "mechanical": [
+    {
+      "sourceOrdinal": 3073,
+      "sourceId": "book10-16-0962",
+      "sourceSentence": "Young children are less tied down by logic during play.",
+      "inventoryExampleExact": true,
+      "sourceFile": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+      "sourceLocator": {
+        "book": 12,
+        "question": 21,
+        "sample": "S1",
+        "docxTable": 91,
+        "docxRow": 4,
+        "renderedPdfPage": 89
+      },
+      "detector": "\\btied\\s+down\\s+by\\b",
+      "fullSourceDetectorMatched": true,
+      "otherGuideSourceMatches": [],
+      "positiveControls": [
+        {
+          "text": "Young children are less tied down by logic during play.",
+          "matched": true
+        },
+        {
+          "text": "The actors were less tied down by the fixed script.",
+          "matched": true
+        },
+        {
+          "text": "Our team feels tied down by an old template.",
+          "matched": true
+        }
+      ],
+      "negativeControls": [
+        {
+          "text": "I am tied up with work today.",
+          "matched": false
+        },
+        {
+          "text": "The canoe is tied to the dock.",
+          "matched": false
+        },
+        {
+          "text": "The idea was tied to earlier data.",
+          "matched": false
+        },
+        {
+          "text": "The team tied the boxes down by the river.",
+          "matched": false
+        }
+      ],
+      "targetBearingKeys": {
+        "reply": true,
+        "scene": true,
+        "dialogue": true
+      },
+      "speakingTargetSpan": "tied down by",
+      "writingModelTargetMatches": [
+        true,
+        true
+      ],
+      "takeawayTargetMatches": [
+        true,
+        true
+      ],
+      "glossary": [
+        {
+          "en": "year-by-year order",
+          "actual": "year-by-year order",
+          "valid": true,
+          "zh": "逐年排列的次序"
+        },
+        {
+          "en": "group them by theme",
+          "actual": "group them by theme",
+          "valid": true,
+          "zh": "按主題編排"
+        },
+        {
+          "en": "quotation",
+          "actual": "quotation",
+          "valid": true,
+          "zh": "引述"
+        },
+        {
+          "en": "strict chronology",
+          "actual": "strict chronology",
+          "valid": true,
+          "zh": "嚴格時間順序"
+        },
+        {
+          "en": "verified source",
+          "actual": "verified source",
+          "valid": true,
+          "zh": "經核實的來源"
+        }
+      ],
+      "replyFourValidManualReview": "all four directly address both constraints in prompt; golden alone carries target",
+      "nonOwnSixTokenGuideOverlaps": []
+    },
+    {
+      "sourceOrdinal": 4308,
+      "sourceId": "book10-16-2197",
+      "sourceSentence": "Student exchanges plant the seeds of long-term cooperation.",
+      "inventoryExampleExact": true,
+      "sourceFile": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+      "sourceLocator": {
+        "book": 16,
+        "question": 10,
+        "sample": "S2",
+        "docxTable": 225,
+        "docxRow": 11,
+        "renderedPdfPage": 207
+      },
+      "detector": "\\b(?:plant|plants|planted|planting)\\s+the\\s+seeds\\s+of\\b",
+      "fullSourceDetectorMatched": true,
+      "otherGuideSourceMatches": [],
+      "positiveControls": [
+        {
+          "text": "Student exchanges plant the seeds of long-term cooperation.",
+          "matched": true
+        },
+        {
+          "text": "The workshop planted the seeds of future cooperation.",
+          "matched": true
+        },
+        {
+          "text": "It may plant the seeds of a longer service.",
+          "matched": true
+        }
+      ],
+      "negativeControls": [
+        {
+          "text": "She planted a tiny clue in the first chapter.",
+          "matched": false
+        },
+        {
+          "text": "Small seeds often grow into strong habits.",
+          "matched": false
+        },
+        {
+          "text": "The farmers plant seeds in spring.",
+          "matched": false
+        },
+        {
+          "text": "A conversation guaranteed a five-year partnership.",
+          "matched": false
+        }
+      ],
+      "targetBearingKeys": {
+        "reply": true,
+        "scene": true,
+        "dialogue": true
+      },
+      "speakingTargetSpan": "planted the seeds of",
+      "writingModelTargetMatches": [
+        true,
+        true
+      ],
+      "takeawayTargetMatches": [
+        true,
+        true
+      ],
+      "glossary": [
+        {
+          "en": "falls-prevention talk",
+          "actual": "falls-prevention talk",
+          "valid": true,
+          "zh": "跌倒預防講座"
+        },
+        {
+          "en": "attendees’ questions",
+          "actual": "attendees’ questions",
+          "valid": true,
+          "zh": "參加者的問題"
+        },
+        {
+          "en": "exercise sheet",
+          "actual": "exercise sheet",
+          "valid": true,
+          "zh": "運動指引單"
+        },
+        {
+          "en": "small trial",
+          "actual": "small trial",
+          "valid": true,
+          "zh": "小型試行"
+        },
+        {
+          "en": "longer service",
+          "actual": "longer service",
+          "valid": true,
+          "zh": "較長期的服務"
+        }
+      ],
+      "replyFourValidManualReview": "all four directly address both constraints in prompt; golden alone carries target",
+      "nonOwnSixTokenGuideOverlaps": []
+    }
+  ],
+  "sourceOriginalityMethod": "Case-folded token six-gram comparisons of learner English fields against all 2,604 guide examples; exact target/source own row excluded. This is a screen, not a human originality judgment.",
+  "manualReviewNotes": [
+    "3073 keeps source’s lower constraint on reasoning during play; it never teaches inability to reason.",
+    "4308 separates initiating conditions from an accomplished or guaranteed partnership.",
+    "English and Traditional Chinese prompts, keyed answers, explanations, speaking and writing models were read for subject, agency, tense, modality and limit parity.",
+    "No source, selected, decision, manifest, media or audit-checklist files were changed."
+  ],
+  "errors": []
+}

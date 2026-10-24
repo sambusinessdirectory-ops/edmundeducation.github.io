@@ -1,0 +1,302 @@
+{
+  "kind": "proposal-only-owner-expansion-self-audit",
+  "status": "scoped-repair-frozen-for-independent-followup",
+  "scope": "Sources 4215→legacy owner1505 and 4522→selected owner2168; selected owner, decision and manifest files unchanged.",
+  "proposalPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-4215-4522-proposed-a.json",
+  "proposalSha256": "3d8707e7aa48e8c81944905afb22cf5792817065119dd8e745b7baadd7792f0b",
+  "sourceInventoryPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionFileHashes": {
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl": "9f51f29c475ed47a6e536e8eeba740607716d7ad1aeb8823b7c5714d6441b433",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl": "3a9b0df7181a0a03908d81e3d42ab4d71292f4f21632e163394075f4eee0d0e3"
+  },
+  "selectedManifestPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "1a7791f9f16b4d95faca1a8398ccc10110b20930e7278e73e32cfa6de0c9b0da",
+  "sourceDocxSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "owners": [
+    {
+      "id": "advanced-native-1505",
+      "currentFilePath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/batches/batch-1501-1525.json",
+      "currentFileSha256": "498cc5a8d2e39cd41b25bed245fa26a6aa9cc804f55a967f2a5c733afe22af10",
+      "currentObjectRevision": 2,
+      "proposalRevision": 4,
+      "source": {
+        "id": "book10-16-2104",
+        "exactSentence": "Many parents see education as the backbone of a child's future.",
+        "meaning": "The main support for a child's later opportunities; a body metaphor.",
+        "questionText": "How well-respected are teachers in your society?",
+        "currentDecision": {
+          "sourceOrdinal": 4215,
+          "sourceId": "book10-16-2104",
+          "phrase": "the backbone of a child's future",
+          "action": "hold-editorial",
+          "canonicalId": null,
+          "reason": "Education as backbone of a future is productive support imagery with no stable target unit. Provisional editorial decision; independent review remains open."
+        },
+        "currentDecisionRowSha256": "6cc0d851f34a149fec7fc53106c247ed42eda4884cce098c72ca0b2da6a79387",
+        "proposedDecision": {
+          "sourceOrdinal": 4215,
+          "sourceId": "book10-16-2104",
+          "phrase": "the backbone of a child's future",
+          "action": "proposed-alias-existing",
+          "canonicalId": "advanced-native-1505",
+          "reason": "Education as the backbone of a child’s future uses the same central-support metaphor as canonical 1505. The bounded child-future complement and a keyed bilingual scene teach important but nonexclusive long-term support; exact source provenance is attached. Provisional unpublished alias pending independent review."
+        },
+        "fullSourceMatch": "the backbone of a child's future",
+        "otherSelectedDetectorHits": []
+      },
+      "addedProvenanceIds": [
+        "book10-16-2104"
+      ],
+      "allSourceMatches": [
+        {
+          "sourceId": "book10-16-0315",
+          "sourceOrdinal": 2426,
+          "example": "Reliable appliances form the backbone of modern home life.",
+          "match": "the backbone of modern home life"
+        },
+        {
+          "sourceId": "book10-16-2104",
+          "sourceOrdinal": 4215,
+          "example": "Many parents see education as the backbone of a child's future.",
+          "match": "the backbone of a child's future"
+        }
+      ],
+      "detector": {
+        "pattern": "\\bthe\\s+backbone\\s+of\\s+(?:local\\s+eating\\s+habits|everyday\\s+life|modern\\s+home\\s+life|a\\s+child[’']s\\s+future)\\b",
+        "positiveControls": [
+          {
+            "text": "Rice remains the backbone of local eating habits.",
+            "match": "the backbone of local eating habits"
+          },
+          {
+            "text": "Neighbours are the backbone of everyday life.",
+            "match": "the backbone of everyday life"
+          },
+          {
+            "text": "Broadband is the backbone of modern home life.",
+            "match": "the backbone of modern home life"
+          },
+          {
+            "text": "Many parents see education as the backbone of a child's future.",
+            "match": "the backbone of a child's future"
+          },
+          {
+            "text": "They see learning as the backbone of a child’s future.",
+            "match": "the backbone of a child’s future"
+          }
+        ],
+        "negativeControls": [
+          {
+            "text": "The backbone of a child's bicycle needs repair.",
+            "match": null
+          },
+          {
+            "text": "One workshop is the backbone of a city’s future.",
+            "match": null
+          },
+          {
+            "text": "The spine of a child’s future",
+            "match": null
+          },
+          {
+            "text": "Education is the backbone of one school day.",
+            "match": null
+          }
+        ]
+      },
+      "answerIdsUnchanged": true,
+      "audioRoleTextsUnchanged": true,
+      "speakingTargetSpanExact": true,
+      "glossary": [
+        {
+          "en": "Noodles",
+          "exact": true,
+          "targetExcluded": true
+        },
+        {
+          "en": "the festival sweet",
+          "exact": true,
+          "targetExcluded": true
+        },
+        {
+          "en": "The museum text",
+          "exact": true,
+          "targetExcluded": true
+        },
+        {
+          "en": "an everyday staple",
+          "exact": true,
+          "targetExcluded": true
+        }
+      ],
+      "questionCount": 6
+    },
+    {
+      "id": "advanced-native-2168",
+      "currentFilePath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/drafts-books10-16/batch-2168-2171-a.json",
+      "currentFileSha256": "b72d8ebd7f5f3aef28af05518b0a80937b331c72c7185c302167f23e8b171e09",
+      "currentObjectRevision": 2,
+      "proposalRevision": 5,
+      "source": {
+        "id": "book10-16-2411",
+        "exactSentence": "The app makes getting from one place to another easier.",
+        "meaning": "Travelling between locations; a fixed everyday expression.",
+        "questionText": "Have the types of transport people use changed much over the last few decades?",
+        "currentDecision": {
+          "sourceOrdinal": 4522,
+          "sourceId": "book10-16-2411",
+          "phrase": "getting from one place to another",
+          "action": "hold-editorial",
+          "canonicalId": null,
+          "reason": "Getting from one place to another is straightforward travel wording without an idiomatic meaning shift. Provisional editorial decision; independent review remains open."
+        },
+        "currentDecisionRowSha256": "3e38d4550a1c50a36bc203756f49188c73d5660b9a7ee285f7a3d0769fa98e57",
+        "proposedDecision": {
+          "sourceOrdinal": 4522,
+          "sourceId": "book10-16-2411",
+          "phrase": "getting from one place to another",
+          "action": "proposed-alias-new",
+          "canonicalId": "advanced-native-2168",
+          "reason": "Getting from one place to another spells out selected owner 2168’s A-to-B travel meaning. The bounded variant is assessed in a bilingual dialogue, exact source provenance is attached, and existing repeat occurrences remain covered. Provisional unpublished alias pending independent review."
+        },
+        "fullSourceMatch": "getting from one place to another",
+        "otherSelectedDetectorHits": []
+      },
+      "addedProvenanceIds": [
+        "book10-16-1524",
+        "book10-16-2411",
+        "book10-16-2433"
+      ],
+      "allSourceMatches": [
+        {
+          "sourceId": "book10-16-0057",
+          "sourceOrdinal": 2168,
+          "example": "The new route makes getting from A to B much easier.",
+          "match": "getting from A to B"
+        },
+        {
+          "sourceId": "book10-16-1524",
+          "sourceOrdinal": 3635,
+          "example": "The new route makes getting from A to B much easier.",
+          "match": "getting from A to B"
+        },
+        {
+          "sourceId": "book10-16-2411",
+          "sourceOrdinal": 4522,
+          "example": "The app makes getting from one place to another easier.",
+          "match": "getting from one place to another"
+        },
+        {
+          "sourceId": "book10-16-2433",
+          "sourceOrdinal": 4544,
+          "example": "The new route makes getting from A to B much easier.",
+          "match": "getting from A to B"
+        }
+      ],
+      "detector": {
+        "pattern": "\\b(?:getting|get|gets|got)\\s+from\\s+(?:A\\s+to\\s+B|one\\s+place\\s+to\\s+another)\\b",
+        "positiveControls": [
+          {
+            "text": "The new route makes getting from A to B easier.",
+            "match": "getting from A to B"
+          },
+          {
+            "text": "The app makes getting from one place to another easier.",
+            "match": "getting from one place to another"
+          },
+          {
+            "text": "How do we get from one place to another?",
+            "match": "get from one place to another"
+          },
+          {
+            "text": "The bus got from A to B in half an hour.",
+            "match": "got from A to B"
+          }
+        ],
+        "negativeControls": [
+          {
+            "text": "Getting from one person to another takes time.",
+            "match": null
+          },
+          {
+            "text": "Getting from A to C is easy.",
+            "match": null
+          },
+          {
+            "text": "We go from one place to another.",
+            "match": null
+          },
+          {
+            "text": "Getting from one idea to another is hard.",
+            "match": null
+          }
+        ]
+      },
+      "answerIdsUnchanged": true,
+      "audioRoleTextsUnchanged": true,
+      "speakingTargetSpanExact": true,
+      "glossary": [
+        {
+          "en": "A marked map",
+          "exact": true,
+          "targetExcluded": true
+        },
+        {
+          "en": "new students",
+          "exact": true,
+          "targetExcluded": true
+        },
+        {
+          "en": "the safest crossing",
+          "exact": true,
+          "targetExcluded": true
+        },
+        {
+          "en": "clear signs",
+          "exact": true,
+          "targetExcluded": true
+        },
+        {
+          "en": "both entrances",
+          "exact": true,
+          "targetExcluded": true
+        }
+      ],
+      "questionCount": 6
+    }
+  ],
+  "focusedBuild": {
+    "lessons": 2,
+    "questions": 12,
+    "audioRequests": 8,
+    "errors": [],
+    "warnings": [],
+    "checkPassed": true
+  },
+  "editorialNotes": [
+    "1505 had inherited Chinese-only text in seven English option fields; the proposal moves the original Traditional Chinese into .zh and writes faithful English while preserving option IDs and answer IDs.",
+    "2168 already had two classified exact-repeat alias sources (3635 and 4544) absent from its sources array; the proposal records both plus new 4522 for complete provenance.",
+    "No audio-role text changes; changing assessed text still requires assessment-catalogue and browser recheck if integrated.",
+    "No media synthesis, selected integration, decision mutation or publication has occurred.",
+    "Revisions 4 are proposal-only scoped option repairs after independent R4215-01/R4522-01/R4522-02. Neither canonical/selected owner, source decision, nor selected manifest was edited.",
+    "Scoped follow-up corrected 2168 dialogue-key naturalness; source/target and unchanged-ID/audio contracts retained."
+  ],
+  "independentInitialReview": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-proposals-4215-4522-b.json",
+    "sha256": "77e7bb1679d0926b7543eafb69c49c7b16f9206d3d65b1fc5707f21252390c73"
+  },
+  "scopedRepair": {
+    "R4215-01": "Scene foil C now infers that education alone suffices without the family or health supports named in the prompt; EN/ZH paired.",
+    "R4522-01": "Dialogue key uses a new route-instruction carrier and retains get from one place to another; zero six-token source overlap.",
+    "R4522-02": "Dialogue prompt names the marked crossing on a map; B/C are plausible but unverified shortcut choices that fail to use the crossing. Both translated.",
+    "R4522-03": "Dialogue key uses the marked crossing shown on the map, avoiding the awkward instruction to follow a crossing; English and Chinese aligned."
+  },
+  "unchangedContractsVerified": {
+    "optionAndAnswerIds": true,
+    "fourAudioRoleEnglishTextsPerOwner": true,
+    "fullNewSourceDetectorMatches": true,
+    "glossarySpansExactAndNonTarget": true,
+    "source4522KeySixTokenOverlap": 0
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-4648-businesses-alive-b-unselected",
+  "lessons": [
+    {
+      "id": "advanced-native-4648",
+      "number": 4648,
+      "inventoryId": "expr-4648",
+      "titleEn": "keep businesses alive",
+      "titleZh": "維持商戶營運",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping)\\s+(?:(?:(?:the|this|that|a|our|their|his|her)\\s+(?:business|shop|store|café|cafe))|(?:(?:(?:these|those|our|their|the)\\s+)?(?:businesses|shops|stores|cafés|cafes)))\\s+alive\\b",
+        "glossaryForbidden": [
+          "\\b(?:keep|keeps|kept|keeping)\\b",
+          "\\balive\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Show which source of demand, income or support enables a business to continue operating. Unlike a description of the business’s condition, this causative expression names what sustains it; it does not guarantee future security.",
+        "meaningZh": "指出哪種需求、收入或支援令商戶得以繼續營運。這個使役說法要交代維持商戶的是甚麼，而不只描述商戶的狀態；它不保證日後一直穩定。",
+        "grammar": "Use keep/keeps/kept/keeping + a singular business, shop, store or café with a suitable determiner, or plural businesses/shops/stores/cafés, + alive. The subject names the sustaining cause, such as orders, customers or paid support. Alive is figurative, not biological. State the evidence and any time limit rather than claiming permanent safety.",
+        "register": "Neutral, conversational economic metaphor. A market organiser may explain how recurring visitors sustain local shops; a shop owner may tell a partner that a time-limited contract prevents closure while renewal remains uncertain.",
+        "boundaryZh": "重點是指出甚麼令商戶現時可繼續營運，而不只是說它仍在營業。人氣、讚好若沒有帶來足夠收入，不能單憑它們說商戶得以維持；短期支援亦不保證合約結束後仍然安全。",
+        "misconceptionZh": "不要把 alive 理解為商戶像人一樣活著，也不要把「仍能營運」直接推成長期有保障或收入正在增長。",
+        "outcomeZh": "能根據訂單、付款或其他具體支援，說清楚甚麼令商戶繼續營運，並保留支援的時限及尚待確認的風險。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2537",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 240,
+          "book": 16,
+          "question": 53,
+          "sample": "S1",
+          "sourceBookPages": "124–125",
+          "locatorNote": "DOCX table 268, row 3; page refers to locally rendered PDF in source inventory. Source question: What are the positive impacts of tourism in your country?",
+          "sentence": "Weekend tourism keeps businesses alive.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keeps businesses alive"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author B",
+          "evidence": "Source sense, seven task decisions, option grounding and varied contexts checked; independent review pending."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author B",
+          "evidence": "Traditional Chinese prompts, answers, explanations and model parity checked; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Unselected exploratory source4648 lesson, revision 2 after independent R4648-01..04 findings. Source decision remains hold-editorial; media and selection review pending."
+        ]
+      },
+      "listening": {
+        "en": "A pier bookshop had few weekday buyers. Weekend visitors placed enough orders for it to remain open, so the owner said the visitors kept the shop alive during the quiet season.",
+        "zh": "碼頭書店平日買書的人不多。周末訪客的訂單足以讓它繼續營業，因此店主說，訪客令書店在淡季仍能營運。",
+        "promptEn": "What role did the weekend visitors play?",
+        "promptZh": "周末訪客對書店有甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their orders supplied the demand that let the bookshop stay open during the quiet season.",
+            "zh": "他們的訂單帶來需求，令書店能在淡季繼續營業。"
+          },
+          {
+            "id": "b",
+            "en": "They visited on weekends, but the owner said those visits were too few to affect whether the shop remained open.",
+            "zh": "他們在周末到訪，但店主說訪客太少，不會影響書店能否繼續營業。"
+          },
+          {
+            "id": "c",
+            "en": "They helped the shop open on weekends, while its long-term survival was already guaranteed by weekday sales.",
+            "zh": "他們有助書店在周末營業，而平日銷售已保證書店長遠能夠維持。"
+          },
+          {
+            "id": "d",
+            "en": "Their visits made the shop popular, but the owner did not connect their orders with its continued operation.",
+            "zh": "他們令書店受歡迎，但店主沒有把訂單與書店持續營運連起來。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "店主把書店淡季仍能營業歸因於周末訪客的訂單；這說的是維持營運的原因，並未保證長遠安全。"
+      },
+      "reply": {
+        "promptEn": "Our flower shop would have had to close this month. Paid weekend bookings from the arts centre now let it stay open until summer, but the arrangement ends then. How should I explain its value and limit to my partner?",
+        "promptZh": "我們的花店原本這個月就得結業。藝術中心現在有付費的周末訂花安排，令花店能營業至夏天，但安排屆時便結束。我應該怎樣向合夥人說明它的作用與限制？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Those bookings keep the shop alive until summer, but we need a plan for what comes next.",
+            "zh": "這些訂單令花店能營業至夏天，但我們仍須為之後作打算。"
+          },
+          {
+            "id": "b",
+            "en": "The paid bookings prevent an immediate closure; we still need to replace that income after summer.",
+            "zh": "這些付費訂單避免花店即時結業；夏天過後，我們仍須找到替代收入。"
+          },
+          {
+            "id": "c",
+            "en": "For now, the arts centre’s orders let us keep trading, but the arrangement has an end date.",
+            "zh": "目前藝術中心的訂單令我們可以繼續營業，但這項安排有終止日期。"
+          },
+          {
+            "id": "d",
+            "en": "I would say the weekend income bridges this season’s shortfall, then ask how we will trade afterwards.",
+            "zh": "我會說周末收入填補了今季的缺口，再問日後要怎樣繼續營業。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都交代付費周末訂單如何避免花店立即結業，亦保留夏天後的不確定性；金句用本課使役比喻點明維持營運的來源。"
+      },
+      "scene": {
+        "promptZh": "暴雨令街市的刷卡網絡中斷三周。一間家庭雜貨店收到附近僱主以銀行轉帳支付的大批訂單，因此在這段期間仍能營業。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Those bank-transfer orders kept the shop alive while card payments were unavailable.",
+            "zh": "刷卡付款暫時無法使用時，這些銀行轉帳訂單令雜貨店仍能營業。"
+          },
+          {
+            "id": "b",
+            "en": "The employer’s orders restored card payments for every stall in the market.",
+            "zh": "那名僱主的訂單令街市每個攤檔都恢復刷卡付款。"
+          },
+          {
+            "id": "c",
+            "en": "The orders show that ordinary walk-in trade had already recovered before the payment network did.",
+            "zh": "這些訂單顯示，一般上門生意已在付款網絡恢復前回升。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "銀行轉帳訂單讓雜貨店在刷卡網絡中斷時仍能營業；題目沒有說網絡已修復，也沒有說一般上門生意已恢復。"
+      },
+      "contrast": {
+        "promptZh": "哪個說法最缺乏根據，不能單憑所述證據說某因素令商戶得以維持營運？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A viral photo keeps the store alive, although it brought no customers or sales and the store still cannot pay rent.",
+            "zh": "一張瘋傳照片令商店得以維持營運，儘管它沒有帶來顧客或銷售，而商店仍付不起租金。"
+          },
+          {
+            "id": "b",
+            "en": "A repair contract keeps the business alive because its regular payments prevent the workshop from closing.",
+            "zh": "維修合約定期付款，令工場不致結業，因此使這間企業得以維持營運。"
+          },
+          {
+            "id": "c",
+            "en": "Subscribers keep the café alive by providing enough paid orders for it to remain open.",
+            "zh": "訂戶提供足夠的付費訂單，讓咖啡店繼續營業。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "照片沒有帶來收入，商店亦付不起租金，不能因此說它令商店維持營運；另外兩句都交代了付款如何使商戶避免結業。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「這間商業錄音室今季多靠一所學校的付費課程才沒有結業。但學校尚未決定下季是否續約。」乙要向團隊審慎解釋這份合約的作用。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The school sessions keep the business alive this term, but we cannot count on renewal yet.",
+            "zh": "學校的課程令這間企業今季仍能營運，但我們暫時不能假設合約會續期。"
+          },
+          {
+            "id": "b",
+            "en": "Because the school has booked this term, the studio has secured enough work for next term as well.",
+            "zh": "學校既然預訂了今季課程，錄音室下季的生意也已有保障。"
+          },
+          {
+            "id": "c",
+            "en": "Since renewal is uncertain, the current school sessions have done nothing to help the studio stay open.",
+            "zh": "既然續約未定，今季的學校課程便完全沒有幫助錄音室繼續營業。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "課程已幫助錄音室在今季繼續營業，但下季是否續約仍未有定案；不能把現時作用抹去，也不能保證將來。"
+      },
+      "speaking": {
+        "en": "Without regular preorders, the family bakery would close during the bridge works. Those orders keep the shop alive until local trade returns.",
+        "zh": "若沒有定期預訂，家庭麵包店會在橋樑工程期間結業。這些訂單令店舖能維持營業，直至本地生意回升。",
+        "promptZh": "先聽示範，再用一個反事實線索說明預訂為何使麵包店在工程期間繼續營業。",
+        "targetSpan": {
+          "start": 95,
+          "end": 114
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：街道工程令一間鞋履維修店幾乎結業。市政當局推出為期六個月的維修券計劃，帶來付費顧客，店舖因此能繼續營業。計劃在六月結束，店主尚未找到足以維持日後生意的其他客源。用一至兩句英文向合夥人解釋維修券現時的作用，同時不要保證計劃結束後店舖仍能營業。",
+        "selfCheckZh": "兩個示例都須指出街道工程後店舖幾乎結業、維修券帶來付費顧客令它現時能維持營業，以及計劃六月結束而日後客源未定；用 keep ... alive 指明使店舖維持的原因。",
+        "examples": [
+          {
+            "en": "After the roadworks nearly closed the shoe-repair shop, the six-month voucher scheme brought paying customers and kept the shop alive. It ends in June, and the owner has not secured later trade.",
+            "zh": "街道工程令鞋履維修店幾乎結業後，為期六個月的維修券計劃帶來付費顧客，令店舖得以維持營運。計劃六月結束，店主尚未找到日後穩定的客源。"
+          },
+          {
+            "en": "The shoe-repair shop nearly closed after the roadworks. Paying customers using the vouchers now keep the business alive, but the scheme ends in June and no replacement trade is secured.",
+            "zh": "街道工程後，鞋履維修店幾乎結業。如今使用維修券的付費顧客令這間企業得以維持營運，但計劃六月結束，替代客源仍未有著落。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "roadworks",
+            "zh": "街道工程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 19
+            }
+          },
+          {
+            "en": "six-month voucher scheme",
+            "zh": "為期六個月的維修券計劃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 84
+            }
+          },
+          {
+            "en": "paying customers",
+            "zh": "付費顧客",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 109
+            }
+          },
+          {
+            "en": "later trade",
+            "zh": "日後客源",
+            "exampleIndex": 0,
+            "span": {
+              "start": 182,
+              "end": 193
+            }
+          },
+          {
+            "en": "replacement trade",
+            "zh": "替代客源",
+            "exampleIndex": 1,
+            "span": {
+              "start": 156,
+              "end": 173
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Paid orders can keep a shop alive now without guaranteeing its future after a contract ends.",
+          "zh": "付費訂單現時可令店舖繼續營業，但不能保證合約結束後仍然如此。"
+        },
+        {
+          "en": "Neighbourhood preorders kept the store alive while street repairs reduced walk-in trade.",
+          "zh": "街道維修令上門生意減少期間，鄰近居民的預訂令商店得以維持營業。"
+        }
+      ]
+    }
+  ]
+}

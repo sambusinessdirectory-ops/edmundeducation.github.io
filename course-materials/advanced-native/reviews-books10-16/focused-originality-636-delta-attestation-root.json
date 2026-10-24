@@ -1,0 +1,21 @@
+{
+  "status": "current-636-exact-fuzzy-delta-reviewed-by-identity",
+  "selectedManifestSha256": "b8182b8d4ffbc1472e85b95ea644d54dd490461270b47205673346a71dd5cc3c",
+  "currentScreenPath": "../originality-636.json",
+  "currentScreenSha256": "8563c576a03a95b22a97b832d333d4ffa9c6892f1eae85f2b4b5c76fa474c786",
+  "priorReviewPath": "course-materials/advanced-native/reviews-books10-16/focused-ai-originality-55-current-632-root.json",
+  "priorReviewSha256": "c4fe81253d950ab0dd5fcbab473630bb264130e6149f6929868ea46273c1dacf",
+  "selectedLessons": 636,
+  "learnerFacingStrings": 15697,
+  "exactHighMedium": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0
+  },
+  "fuzzyHits": 55,
+  "previouslyReviewedFuzzyHits": 55,
+  "newFuzzyHits": 0,
+  "removedFuzzyHits": 0,
+  "reviewClaim": "No newly raised lexical source-overlap lead; previous 55 source-aware reviews apply to identical hit objects. This does not prove semantic originality or source reuse rights.",
+  "releaseApproved": false
+}

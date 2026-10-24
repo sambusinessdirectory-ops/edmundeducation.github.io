@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-3073-4308-b-unselected",
+  "lessons": [
+    {
+      "id": "advanced-native-3073",
+      "number": 3073,
+      "inventoryId": "expr-3073",
+      "titleEn": "tied down by",
+      "titleZh": "受某種限制束縛",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\btied\\s+down\\s+by\\b",
+        "glossaryForbidden": [
+          "\\btied\\s+down\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Be constrained by an idea, rule or expectation so there is less room to imagine or try another approach. The source says young children are less constrained by logic during play, not that they cannot reason.",
+        "meaningZh": "受到某種觀念、規則或期望束縛，因而較難想像或嘗試其他做法。原句說幼童玩耍時較少受邏輯拘束，並非說他們不懂推理。",
+        "grammar": "Use be/feel/seem + tied down by + a named constraint, often with more or less before tied. In this lesson the constraint is conceptual, such as logic, a fixed script or an old assumption. Do not confuse this passive construction with tied up with work (temporarily unavailable) or physically tied to an object.",
+        "register": "Neutral figurative speech. A play leader might tell a colleague why children try surprising ideas; a workshop facilitator might invite adults to move beyond a rigid script while retaining safety and factual limits.",
+        "boundaryZh": "本課說的是想像或做法被觀念、規則束縛；較少受束縛不等於不理安全、事實或所有限制，也不同於因工作忙而抽不開身。",
+        "misconceptionZh": "不要把 tied down 理解成真的被繩綁住，也不要把「不受既定思路所限」說成「沒有邏輯」或「任何想法都可直接實行」。",
+        "outcomeZh": "能點明限制創意的是哪項觀念或規則，判斷放鬆該限制後有甚麼探索空間，同時保留必要的安全和事實界線。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0962",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 89,
+          "book": 12,
+          "question": 21,
+          "sample": "S1",
+          "sourceBookPages": "53–54",
+          "locatorNote": "DOCX table 91, row 4; page refers to locally rendered PDF in source inventory. Source question: Do you think children can have a strong imagination?",
+          "sentence": "Young children are less tied down by logic during play.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "less tied down by logic"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author B",
+          "evidence": "Seven distinct learner decisions, source sense and option grounding checked; independent AI review pending."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author B",
+          "evidence": "Traditional Chinese prompts, keys, explanations and models checked against English; independent AI review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Unselected exploratory source3073 lesson. Decision remains hold-editorial; no media or release approval."
+        ]
+      },
+      "listening": {
+        "en": "At a play workshop, the children turned cardboard boxes into a pretend weather station. The leader said they were less tied down by adult assumptions about what a box should be, although the scissors still had to be used safely.",
+        "zh": "在遊戲工作坊，孩子把紙箱變成想像中的氣象站。導師說，他們較少受成年人對紙箱用途的既定看法束縛，但使用剪刀仍須注意安全。",
+        "promptEn": "What did the leader mean?",
+        "promptZh": "導師的意思是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The children explored a new use for the boxes without discarding the safety rule.",
+            "zh": "孩子嘗試紙箱的新用途，同時仍遵守安全規則。"
+          },
+          {
+            "id": "b",
+            "en": "The children could only use the boxes as adults normally would, though they liked the activity.",
+            "zh": "孩子只能按成年人平常的用法使用紙箱，雖然他們喜歡活動。"
+          },
+          {
+            "id": "c",
+            "en": "The children invented the weather station because the leader removed all rules, including safe scissor use.",
+            "zh": "孩子想出氣象站，是因為導師取消了所有規則，包括安全使用剪刀的要求。"
+          },
+          {
+            "id": "d",
+            "en": "The leader supplied a finished weather-station design, and the children simply copied it.",
+            "zh": "導師提供了已完成的氣象站設計，孩子只是照著複製。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "孩子不受紙箱慣常用途的想法所限，卻仍遵守剪刀安全規則；較少受束縛不等於完全沒有界線。"
+      },
+      "reply": {
+        "promptEn": "I am leading an adult storytelling class. People keep following one sample plot even though I want them to try different endings; the real historical dates must stay accurate. What should I tell my co-teacher?",
+        "promptZh": "我主持成人故事班。學員一直照著同一個示例情節寫，但我想讓他們嘗試不同結局；真實歷史日期仍須準確。我應怎樣向另一位導師說明？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They seem tied down by the sample plot; let us invite new endings while keeping the historical dates correct.",
+            "zh": "他們似乎受示例情節束縛；我們可鼓勵不同結局，同時確保歷史日期準確。"
+          },
+          {
+            "id": "b",
+            "en": "Let us explain that the sample is only one route, then check the dates in whichever ending they choose.",
+            "zh": "我們可說明示例只是其中一種寫法，再核對他們所選結局中的日期。"
+          },
+          {
+            "id": "c",
+            "en": "We can offer two alternative endings as a starting point, while asking everyone to keep the recorded dates accurate.",
+            "zh": "我們可提供兩個不同結局作起點，同時請大家保持有記錄的日期準確。"
+          },
+          {
+            "id": "d",
+            "en": "I would ask what other ending they can imagine, and remind them that the dates remain factual even in a new plot.",
+            "zh": "我會問他們還能想出甚麼結局，並提醒他們即使改寫情節，日期仍須符合事實。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四個回應都鼓勵學員脫離單一示例情節，同時保留真實日期；金句用本課片語指出束縛創作的是甚麼。"
+      },
+      "scene": {
+        "promptZh": "劇團讓演員先按固定劇本排一段對話，之後准他們在不改變角色關係的前提下即興重寫語氣。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The actors were less tied down by the fixed script when they explored new tones, but the relationship between the characters stayed intact.",
+            "zh": "演員探索新語氣時較少受固定劇本束縛，但角色之間的關係仍維持不變。"
+          },
+          {
+            "id": "b",
+            "en": "The actors changed the characters’ relationship because the director had removed that part of the story.",
+            "zh": "演員改變了角色關係，因為導演已刪去故事的那一部分。"
+          },
+          {
+            "id": "c",
+            "en": "The actors had to repeat the original lines exactly, even during the improvisation phase.",
+            "zh": "即使到了即興階段，演員仍須逐字重複原來對白。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "即興讓演員不再完全受固定對白所限；題目仍要求保留角色關係。"
+      },
+      "contrast": {
+        "promptZh": "哪句最不適合用本課的抽象束縛意思來理解？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The canoe was tied down by two ropes before the storm.",
+            "zh": "暴風雨前，獨木舟被兩條繩綁緊。"
+          },
+          {
+            "id": "b",
+            "en": "The design team felt tied down by an old rule that every poster must use the same layout.",
+            "zh": "設計團隊覺得受舊規則束縛，因為每張海報都必須採用相同版式。"
+          },
+          {
+            "id": "c",
+            "en": "The researchers were less tied down by their first hypothesis after the new data arrived.",
+            "zh": "新數據出現後，研究員較少受第一個假設所限。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "A 是用繩真正綁住獨木舟；B 和 C 都說某項觀念限制思考或做法。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「我們的產品試作班一直要求每個原型都像去年那款。今天可以試新形狀，但必須通過同一項防火測試。」乙要向團隊解釋這個改動，哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We need not be tied down by last year’s shape, but every new prototype still has to pass the fire test.",
+            "zh": "我們不必受去年形狀的束縛，但每個新原型仍須通過防火測試。"
+          },
+          {
+            "id": "b",
+            "en": "The old shape is no longer required, so the fire test has also been removed.",
+            "zh": "既然不再規定舊形狀，防火測試也已取消。"
+          },
+          {
+            "id": "c",
+            "en": "Because the fire test remains, the team is still required to copy last year’s shape.",
+            "zh": "由於防火測試仍在，團隊依然必須照搬去年的形狀。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "形狀限制放寬，防火要求卻沒有取消；A 區分了可探索的部分和仍須遵守的界線。"
+      },
+      "speaking": {
+        "en": "Our art club used to copy one picture for every mural. We are less tied down by that model now, so members can propose new scenes while keeping the wall-safe paint rule.",
+        "zh": "我們的美術社以往每幅壁畫都照著同一張圖畫。現在我們較少受那個範本束縛，成員可以提出新場景，同時遵守牆面安全用漆的規定。",
+        "promptZh": "先聽示範，再說明哪個範本的限制放寬了，以及哪項安全規定仍然保留。",
+        "targetSpan": {
+          "start": 67,
+          "end": 79
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區電台以前規定每段口述歷史節目都按年份順序排列。現在編輯准主持按主題組織訪談，但每段引述仍須核實來源。用一至兩句英文向新主持解釋可改變甚麼、不能省略甚麼。",
+        "selfCheckZh": "兩個示例都須指出以前固定按年份排序、現在可按主題編排，以及引述來源仍須核實；用 tied down by 點明被放寬的是哪項編排限制。",
+        "examples": [
+          {
+            "en": "The interviews used to be tied down by a year-by-year order. You may now group them by theme, but check the source of every quotation.",
+            "zh": "訪談以前受逐年排列的次序所限。現在你可以按主題編排，但每段引述的來源仍須核實。"
+          },
+          {
+            "en": "You are no longer tied down by strict chronology when arranging the interviews; a thematic order is fine if each quoted passage has a verified source.",
+            "zh": "編排訪談時，你不再受嚴格時間順序束縛；只要每段引述都有經核實的來源，按主題排序也可以。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "year-by-year order",
+            "zh": "逐年排列的次序",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 59
+            }
+          },
+          {
+            "en": "group them by theme",
+            "zh": "按主題編排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 92
+            }
+          },
+          {
+            "en": "quotation",
+            "zh": "引述",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 133
+            }
+          },
+          {
+            "en": "strict chronology",
+            "zh": "嚴格時間順序",
+            "exampleIndex": 1,
+            "span": {
+              "start": 31,
+              "end": 48
+            }
+          },
+          {
+            "en": "verified source",
+            "zh": "經核實的來源",
+            "exampleIndex": 1,
+            "span": {
+              "start": 134,
+              "end": 149
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "During play, children may be less tied down by familiar logic while still respecting safety rules.",
+          "zh": "玩耍時，孩子或許較少受慣常邏輯束縛，但仍須遵守安全規則。"
+        },
+        {
+          "en": "A design team can feel tied down by an old template even when it is free to test new ideas.",
+          "zh": "即使能測試新想法，設計團隊仍可能覺得受舊範本束縛。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4308",
+      "number": 4308,
+      "inventoryId": "expr-4308",
+      "titleEn": "plant the seeds of",
+      "titleZh": "為日後發展播下種子",
+      "category": "idiom",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:plant|plants|planted|planting)\\s+the\\s+seeds\\s+of\\b",
+        "glossaryForbidden": [
+          "\\b(?:plant|plants|planted|planting)\\s+the\\s+seeds\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Create early conditions from which a later development may grow. The source’s student exchanges begin a possibility of long-term cooperation; they do not prove a partnership already exists or guarantee one.",
+        "meaningZh": "創造有利條件，讓某種日後發展有機會逐步形成。原句的學生交流為長期合作提供起點，不表示合作已成事實，也不保證一定成功。",
+        "grammar": "Use plant/plants/planted/planting the seeds of + a named future development, such as cooperation, trust or a shared project. The subject is the early action that creates the possibility. Avoid treating the seed as the completed outcome.",
+        "register": "Neutral to moderately formal figurative expression. An exchange coordinator may explain to school leaders how early contact could lead to future joint work; a community organiser may describe an initial meeting without promising a signed agreement.",
+        "boundaryZh": "本課重點是起步行動為未來發展創造可能，並非說後來的成果已經達成；只見面而沒有任何後續基礎，也不宜斷言已播下合作的種子。",
+        "misconceptionZh": "不要把種子當成已長成的成果，亦不要把每次初次接觸都寫成必然會產生長期合作。",
+        "outcomeZh": "能指出甚麼早期行動為某項日後發展奠定條件，並區分可能性、後續證據與已實現的成果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2197",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 207,
+          "book": 16,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "24–26",
+          "locatorNote": "DOCX table 225, row 11; page refers to locally rendered PDF in source inventory. Source question: What influence can international cooperation in science bring about?",
+          "sentence": "Student exchanges plant the seeds of long-term cooperation.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "plant the seeds of long-term cooperation"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author B",
+          "evidence": "Seven distinct learner decisions, source sense and option grounding checked; independent AI review pending."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author B",
+          "evidence": "Traditional Chinese prompts, keys, explanations and models checked against English; independent AI review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Unselected exploratory source4308 lesson, revision 2 after independent R4308-01/02 transfer and contrast findings. Source decision remains hold-editorial; media and selection review pending."
+        ]
+      },
+      "listening": {
+        "en": "Two schools held a joint mapping workshop. Teachers exchanged contacts and planned to compare maps next term. The organiser said it planted the seeds of future cooperation, though no joint course was agreed.",
+        "zh": "兩所學校合辦了一次地圖繪製工作坊。教師交換了聯絡方法，並計劃下學期比較地圖。主辦人說，工作坊為日後合作播下種子，但雙方尚未敲定合辦課程。",
+        "promptEn": "What does the organiser’s phrase suggest?",
+        "promptZh": "主辦人的說法表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The workshop created a basis for possible later work, without securing a joint course yet.",
+            "zh": "工作坊為日後可能的合作建立基礎，但尚未確定合辦課程。"
+          },
+          {
+            "id": "b",
+            "en": "The workshop included a signed agreement to teach the joint course next term.",
+            "zh": "工作坊期間，雙方已簽署協議，下學期合教課程。"
+          },
+          {
+            "id": "c",
+            "en": "The teachers compared maps, but the organiser saw no basis for any later contact.",
+            "zh": "教師比較了地圖，但主辦人認為日後沒有任何聯絡的基礎。"
+          },
+          {
+            "id": "d",
+            "en": "The workshop itself was a confirmed regular joint course, rather than a first step.",
+            "zh": "這次工作坊本身就是已確定的定期合辦課程，而不是第一步。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "聯絡方法和下學期的比較計劃為合作提供起點，但尚無合辦課程協議。"
+      },
+      "reply": {
+        "promptEn": "At the community library, a neighbourhood science club has offered one shared open day with us. We could learn each other’s methods, but there is no promise of a regular programme. How should I describe this to the library board?",
+        "promptZh": "在社區圖書館，附近的科學社提議與我們合辦一次開放日。我們可以了解彼此的做法，但尚未承諾定期合辦活動。我應怎樣向圖書館董事會說明？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The open day could plant the seeds of a regular programme, but we should decide on later steps only after seeing how it goes.",
+            "zh": "這次開放日或可為定期活動播下種子，但我們應先看成效，再決定後續安排。"
+          },
+          {
+            "id": "b",
+            "en": "It gives both groups a chance to learn how the other works; a recurring programme would require a later decision.",
+            "zh": "它讓兩個團體了解彼此的做法；是否定期合作仍須日後決定。"
+          },
+          {
+            "id": "c",
+            "en": "We can treat the event as a first test of working together, then review whether a regular series is worthwhile.",
+            "zh": "我們可以把活動當作合作的初步嘗試，再評估定期舉辦是否值得。"
+          },
+          {
+            "id": "d",
+            "en": "I would say this is a promising first contact, while making clear that no long-term schedule has been agreed.",
+            "zh": "我會說這是個有希望的首次合作，同時講明尚未議定長期日程。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都把開放日視為可能的合作起點，並保留是否定期合作仍待決定；金句使用本課比喻。"
+      },
+      "scene": {
+        "promptZh": "兩個河流水質研究小組一起參加論壇演講。演講後，他們商定共用一套取樣方法，並設立共享紀錄表，下月開始記下讀數。哪項行動最能為合作打下基礎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Agreeing on one sampling method and a shared record planted the seeds of collaborative monitoring.",
+            "zh": "商定同一套取樣方法及共享紀錄表，為合作監測播下種子。"
+          },
+          {
+            "id": "b",
+            "en": "Merely hearing the same talks planted the seeds of joint monitoring, even if the groups never compare methods or data.",
+            "zh": "即使兩組從不比較方法或數據，單是聽同一場演講就已為聯合監測播下種子。"
+          },
+          {
+            "id": "c",
+            "en": "Setting up a shared record means the river has already become cleaner before any readings are entered.",
+            "zh": "設立共享紀錄表表示在記入任何讀數前，河水已變得更清潔。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "共用取樣方法與紀錄表是可延續的實際合作基礎；單是同場聽講不足以支持這個判斷，而紀錄表也不能證明河水已改善。"
+      },
+      "contrast": {
+        "promptZh": "哪句把早期條件誤說成已經完成的成果，因此最不恰當？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One introductory call planted the seeds of cooperation, so we can announce that the charities have already agreed to run monthly clinics.",
+            "zh": "一次簡介通話為合作播下種子，所以我們可以宣布兩間慈善機構已同意每月合辦診所。"
+          },
+          {
+            "id": "b",
+            "en": "An initial exchange planted the seeds of trust; the teams will see whether later work strengthens it.",
+            "zh": "首次交流為信任播下種子；團隊會看看後續合作能否令信任加深。"
+          },
+          {
+            "id": "c",
+            "en": "The workshop planted the seeds of a shared archive, though the partners still need to agree on access rules.",
+            "zh": "工作坊為共享檔案庫播下種子，但合作方仍須就取用規則達成共識。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "簡介通話或可提供起點，卻不足以宣布雙方已同意每月合辦診所；另外兩句保留了後續合作仍待發展的空間。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「兩隊社區維修義工起初不太信任彼此。試行借工具的一個月裏，雙方每次都按時歸還，損壞時也坦白記錄。如今大家較願意共享工具。」乙怎樣描述信任的起點最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their careful returns and honest records planted the seeds of trust between the teams.",
+            "zh": "兩隊按時歸還工具並誠實記錄，為彼此間的信任播下種子。"
+          },
+          {
+            "id": "b",
+            "en": "The first announcement of the trial created complete trust before either team had handled a tool.",
+            "zh": "試行計劃剛公布、兩隊尚未使用任何工具時，便已建立完全的信任。"
+          },
+          {
+            "id": "c",
+            "en": "Recording damaged tools shows the trial destroyed trust, despite the teams now sharing tools more readily.",
+            "zh": "記錄工具損壞顯示試行摧毀了信任，雖然兩隊現在更願意共享工具。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "信任是從按時歸還和坦白記錄等可觀察行動逐步建立；公布試行本身不足以證明完全信任，損壞記錄也不能抹去後來更願分享的證據。"
+      },
+      "speaking": {
+        "en": "After their first harvest event, the gardeners and cooks met twice to compare compost results. Those follow-ups planted the seeds of a shared soil-care routine, now being tested in one plot.",
+        "zh": "首次合辦收成活動後，園藝組與廚師再會面兩次，比較堆肥結果。這些後續行動為共同的土壤護理做法播下種子，如今正於一塊園地試行。",
+        "promptZh": "先聽示範，再說明哪項後續行動把初次接觸變成可試行的共同做法。",
+        "targetSpan": {
+          "start": 112,
+          "end": 132
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩間診所首次合辦長者跌倒預防講座。醫護人員其後比較參加者的問題，並約定共同修訂一張運動指引單，再於下月的小型試行中測試。只有試行證明有用，雙方才會考慮更長期的服務。用一至兩句英文向區內居民說明這些後續行動如何為合作創造條件，不要保證長期服務。",
+        "selfCheckZh": "兩個示例都須指出首次合辦講座後的實際步驟：比較參加者問題、共同修訂運動指引單，並在下月小型試行中測試；長期服務仍取決於試行成效。用 plant the seeds of 說明條件如何逐步形成，而非把成果寫成已確定。",
+        "examples": [
+          {
+            "en": "After their first joint falls-prevention talk, the clinics compared attendees’ questions and began revising one exercise sheet together. Testing it in a small trial next month could plant the seeds of a longer service, if the trial proves useful.",
+            "zh": "兩間診所首次合辦跌倒預防講座後，比較參加者的問題，並開始共同修訂一張運動指引單。若下月的小型試行證明有用，測試這張指引單或可為較長期的服務播下種子。"
+          },
+          {
+            "en": "The clinics used questions from their first shared talk to revise an exercise sheet together, then planned a small trial next month. Those steps planted the seeds of future cooperation; any longer service depends on what the trial shows.",
+            "zh": "兩間診所利用首次合辦講座收集到的問題，共同修訂一張運動指引單，並計劃下月小型試行。這些步驟為日後合作播下種子；是否提供較長期服務仍取決於試行結果。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "falls-prevention talk",
+            "zh": "跌倒預防講座",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 45
+            }
+          },
+          {
+            "en": "attendees’ questions",
+            "zh": "參加者的問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 88
+            }
+          },
+          {
+            "en": "exercise sheet",
+            "zh": "運動指引單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 126
+            }
+          },
+          {
+            "en": "small trial",
+            "zh": "小型試行",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 120
+            }
+          },
+          {
+            "en": "longer service",
+            "zh": "較長期的服務",
+            "exampleIndex": 1,
+            "span": {
+              "start": 190,
+              "end": 204
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An early exchange can plant the seeds of cooperation without guaranteeing a lasting partnership.",
+          "zh": "一次早期交流可為合作播下種子，但不保證夥伴關係一定持久。"
+        },
+        {
+          "en": "A neighbourhood workshop planted the seeds of a joint project; the teams will decide its next steps later.",
+          "zh": "社區工作坊為聯合計劃播下種子；團隊稍後才決定下一步。"
+        }
+      ]
+    }
+  ]
+}

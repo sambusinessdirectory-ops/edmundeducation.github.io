@@ -2,7 +2,9 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
+const root=process.env.ADVANCED_NATIVE_QA_ROOT
+ ? path.resolve(process.env.ADVANCED_NATIVE_QA_ROOT)
+ : path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
 const playwright=await import(process.env.PLAYWRIGHT_MODULE||'playwright');
 const engine=process.env.ADVANCED_NATIVE_QA_BROWSER||'chromium';
 if(!['chromium','webkit'].includes(engine))throw Error('Use chromium or webkit.');

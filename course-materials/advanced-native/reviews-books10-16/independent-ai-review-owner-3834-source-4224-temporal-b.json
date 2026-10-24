@@ -1,0 +1,27 @@
+{
+  "kind": "independent-proposal-review",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-3834-source-4224-temporal-proposed-a.json",
+  "proposalSha256": "6aa655fa287628f4075f000a9e4c947948d79aff52f4bb3de51934ec7f385caf",
+  "baselineSelectedBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3360-3834-review-pilot.json",
+  "baselineSelectedBatchSha256": "38d633a14d1afdd5ea500c8c10e24afeaea163df735dd400b8033ce8a333a771",
+  "sourceOrdinal": 4224,
+  "sourceRowSha256": "5a0244ecda9d15b40369e40e767e62c2cce888b8f79d5eb493dce5984ba6605c",
+  "verdict": "accept-with-metadata-correction",
+  "findings": [
+    {
+      "severity": "nonblocking",
+      "code": "R4224-3834-AUDIO-NOTE",
+      "path": "lessons[0].review.note",
+      "detail": "Proposal note says takeaway 2 would require exact audio-text regeneration. All four English audio texts (listening, speaking, takeaway 1, takeaway 2) are byte-identical to selected owner3834; no new audio synthesis key is implied by this proposal. Correct the note before integration evidence is recorded."
+    }
+  ],
+  "checks": {
+    "sourceSense": "Source marking continued beyond school hours, a temporal boundary; proposal explicitly distinguishes this from spill into a second life domain and does not infer cancelled family plans. Same liquid-extension image supports a bounded two-construction owner.",
+    "sourceProvenance": "New source book10-16-2113 exact sentence, expression and locator match inventory; earlier two occurrences preserved.",
+    "detector": "New regex matches all three complete source sentences, including spilled well beyond school hours, and highlights the idiom core in prior spill into sources. It does not match spilled water beyond school hours; inherited spill into literal ambiguity remains an existing boundary, not newly introduced.",
+    "assessments": "All six stable question keys/IDs retained. Replaced dialogue A now follows two evenings of marking at home after school; B contradicts the prompt and C infers unsupported cancelled family plans. Key tests the temporal boundary without asserting a family-domain effect.",
+    "englishChinese": "Changed dialogue EN/ZH prompt, options and explanation preserve the same timing and evidential limit; changed brief/title bilingual meaning aligned.",
+    "audioIdentity": "Old/new listening.en, speaking.en and both takeaway.en strings are byte-identical. Selected audio role count and synthesis keys should remain unchanged.",
+    "scope": "Proposal only; selected batch, decision4224 and manifest were not changed by this review."
+  }
+}

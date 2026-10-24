@@ -1,0 +1,82 @@
+{
+  "kind": "independent-ai-content-review",
+  "status": "3073-content-clear; 4308-repair-required-before-unpublished-selection",
+  "scope": "Exact-hash read-only review of B's two unselected seven-step lessons against source meaning, prior owners, answer fairness, Traditional Chinese, target/glossary and scenario transfer. No draft, decision, manifest, media or release edits.",
+  "exactInputs": {
+    "draft": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3073-4308-b.json",
+      "sha256": "0395e24ecb765094b369b312b8cb7cee1ab61af0632abb242b4461c7ecf68ec2"
+    },
+    "authorAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-3073-4308-b.json",
+      "sha256": "66bb9dde29d791f63c99c3e50c79a10b21aa5dad29fd4e2160883bf1954feca0"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "selectedManifest": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "sha256AtReview": "1c21c2004c441a58794ec4fa2e1e80642366af3c94ded6c0eb4f007cec763f30"
+    }
+  },
+  "sourceAndOwner": [
+    {
+      "sourceOrdinal": 3073,
+      "sourceId": "book10-16-0962",
+      "exactSentence": "Young children are less tied down by logic during play.",
+      "meaningJudgment": "The lesson preserves reduced conceptual constraint during play without implying children cannot reason or may ignore safety. This differs from owner1184's temporary unavailability from work.",
+      "fullSourceDetectorMatch": true,
+      "otherSelectedFullSourceDetectorHits": [],
+      "verdict": "provisional-ai-content-clear"
+    },
+    {
+      "sourceOrdinal": 4308,
+      "sourceId": "book10-16-2197",
+      "exactSentence": "Student exchanges plant the seeds of long-term cooperation.",
+      "meaningJudgment": "The plural seeds-of-cooperation construction describes an early real-world basis for possible joint work. Owner22 plants an idea or interest in a person's mind; owner1733 concerns repeated actions becoming habits; owner2394 plants a narrative clue. The source supports a separate interpersonal-groundwork lesson if the assessed transfer is sufficiently varied.",
+      "fullSourceDetectorMatch": true,
+      "otherSelectedFullSourceDetectorHits": [],
+      "verdict": "repair-assessed-transfer-before-selection"
+    }
+  ],
+  "findings": [
+    {
+      "id": "R4308-01",
+      "severity": "major",
+      "fields": [
+        "listening",
+        "reply",
+        "scene",
+        "dialogue",
+        "speaking",
+        "writing.examples"
+      ],
+      "finding": "Six stages change organisations but substantially repeat one learner decision: an initial joint activity may lead to cooperation or a programme, while the longer arrangement is not yet agreed or funded. Listening compares the mapping workshop with an unsigned course; reply compares an open day with an unpromised series; scene compares method-sharing with unrequested funding; dialogue compares a trial with unapproved rollout; speaking and both final models again contrast a first event with an unset regular service. The seven-step transfer requirement is not met by changing venue names alone.",
+      "repair": "Retain the exact source sense, but recast at least two assessed stages and final writing around genuinely different decisions: for example, distinguish a concrete follow-up action from a ceremonial meeting with no basis for growth; test early trust or shared practice rather than another unapproved programme; make the final model explain what evidence or next action would strengthen the seed without promising the outcome. Keep prompt/model parity, six stable question IDs, target-bearing keys and exact glossary spans."
+    },
+    {
+      "id": "R4308-02",
+      "severity": "minor",
+      "fields": [
+        "contrast.options[0].en",
+        "contrast.options[0].zh"
+      ],
+      "finding": "The wrong option jumps from one introductory call to an already completed five-year project. That extreme completed-outcome claim can be rejected without understanding the more useful distinction between an early basis and a later result.",
+      "repair": "Use a closer but still unsupported inference, such as treating the introductory call as enough to announce an agreed collaboration or fixed next phase, with EN/ZH and the existing answer ID aligned."
+    }
+  ],
+  "mechanical": {
+    "focusedBuildAndCheck": "2 lessons / 12 questions / 8 audio requests / 0 review flags; check passed",
+    "fullSourceRegexMatches": "3073 and 4308 each match their exact source sentence",
+    "otherGuideSourceMatchesByNewDetectors": "none",
+    "speakingTargetSpans": "2/2 exact",
+    "targetBearingReplySceneDialogueAndBothWritingModels": "2/2 lessons pass",
+    "glossarySpansExactAndNonTarget": "10/10",
+    "nonOwnSixTokenGuideSourceCopies": 0,
+    "fourValidReplySets": "Both sets answer their immediate prompts; one target-bearing golden option per set.",
+    "bilingualAndKeyReview": "No other material actor, tense, modality, answer-grounding or Traditional Chinese mismatch found."
+  },
+  "limits": "AI content review only. Both lessons remain unselected. No synthesis, actual listening, browser/device, hosted-media or live-release verification was performed.",
+  "verdict": "3073 is provisionally content-clear. Keep 4308 unselected until R4308-01 and R4308-02 are repaired and independently rechecked at a new exact hash."
+}

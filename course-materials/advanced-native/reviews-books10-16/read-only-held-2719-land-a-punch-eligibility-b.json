@@ -1,0 +1,52 @@
+{
+  "kind": "read-only-held-lesson-eligibility",
+  "sourceOrdinal": 2719,
+  "sourceId": "book10-16-0608",
+  "sourceRowSha256": "2d0ec9fbaa8002f73ea2953a21743e49d18548545a4b9f75d35daddfc28d70c2",
+  "sourceSentence": "A simple line can land a punch in the final verse.",
+  "sourceExpression": "land a punch",
+  "sourceMeaning": "Have a strong impact; a fixed boxing metaphor.",
+  "sourceLocator": {
+    "book": 11,
+    "question": 15,
+    "sample": "S2",
+    "docxTable": 51,
+    "docxRow": 10,
+    "renderedPdfPage": 56
+  },
+  "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+  "decisionRowSha256": "4684e6448fb9c7ad6d392f2c4abc929db246ae1bf2825b0d68d15793a49a8e00",
+  "currentAction": "hold-editorial",
+  "verdict": "retain-hold-no-draft",
+  "reason": "The guide uses a creative boxing image for a lyric line, but land a punch is established in learner dictionaries for actually hitting someone. The conventional reusable figurative expression for strong impact is pack a punch. Broadening land a punch across six assessed figurative contexts would teach a strained collocation and blur that distinction; switching the target to pack a punch would no longer teach the exact source expression. The source image is intelligible as a one-time comparison, but not a sound independent seven-step target at this checkpoint.",
+  "lexicalEvidence": [
+    {
+      "title": "Oxford Advanced Learner’s Dictionary: land a blow, punch, etc.",
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/land_2",
+      "finding": "succeed in hitting somebody/something; example is a punch on someone’s chin"
+    },
+    {
+      "title": "Cambridge Dictionary: land",
+      "url": "https://dictionary.cambridge.org/dictionary/english/land",
+      "finding": "land a punch under the physical hit sense; separate land = succeed as intended for jokes"
+    },
+    {
+      "title": "Oxford Advanced Learner’s Dictionary: pack a punch",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/punch_2",
+      "finding": "explicit figurative strong-effect sense"
+    },
+    {
+      "title": "Cambridge Dictionary: pack",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/pack",
+      "finding": "pack a punch means have a great effect or influence"
+    }
+  ],
+  "ownerBoundary": "Selected owner488 punch above your weight concerns disproportionate achievement, not the impact of a line. This absence of a duplicate does not cure source-target naturalness.",
+  "sevenStepFeasibility": "A single interpretive lesson on the source image is possible; six distinct, natural, target-bearing assessment decisions and two transferred writing models would require repeatedly extending a physical-hit collocation. Therefore no full Golden SOP draft was authored.",
+  "alternativesConsidered": [
+    "Teach pack a punch: natural but violates exact-source target requirement.",
+    "Teach land a punch in literal boxing: natural but changes the guide source sense.",
+    "Teach creative metaphor as a one-time comparison: explain in source audit, not a separate seven-step unit."
+  ],
+  "mutations": "None to draft, decisions, selected manifest or canonical owners."
+}

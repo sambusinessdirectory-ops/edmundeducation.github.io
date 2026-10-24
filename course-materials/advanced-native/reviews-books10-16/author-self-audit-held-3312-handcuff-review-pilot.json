@@ -1,0 +1,180 @@
+{
+  "status": "author-self-audit-unselected-independent-review-pending",
+  "createdAtUtc": "2026-10-24T04:41:10.545272+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-3312-handcuff-review-pilot.json",
+  "draftSha256": "3524b3897eaa4a3c071b55561e849a115b4c1b7a5bffb9e7e857d2bd49476e8a",
+  "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceRow": {
+    "sourceId": "book10-16-1201",
+    "book": 12,
+    "question": 45,
+    "questionText": "In general, do you think planning is important?",
+    "sample": "S2",
+    "topic": "Plans",
+    "sourceBookPages": "106–107",
+    "docxTable": 115,
+    "docxRow": 12,
+    "renderedPdfPage": 111,
+    "expression": "handcuff it",
+    "example": "A schedule should guide your life, not handcuff it.",
+    "category": "Figurative use",
+    "meaningAndReason": "Restrict life too severely; a restraint metaphor.",
+    "exactPriorPhraseMatches": [],
+    "status": "intake-pending-editorial"
+  },
+  "sourceRowSha256": "2233ba6e528873ccb678e1b8582ba90707ad1a73e35bb9f41d349e8dd0aa09f6",
+  "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+  "decisionFileSha256": "726f2ce5d95b6330454de41aad59abfe048ecf0d347726a1ebfedfdc733b4fd8",
+  "decisionRow": {
+    "sourceOrdinal": 3312,
+    "sourceId": "book10-16-1201",
+    "phrase": "handcuff it",
+    "action": "hold-editorial",
+    "canonicalId": null,
+    "reason": "Handcuff a schedule or life is a bespoke restraint metaphor; naturalness against handcuffed by requires review. Provisional editorial decision; independent review remains open."
+  },
+  "decisionRowSha256": "be3200ebc0f8ab3e2761aca9c2528ecc842caafe7c5ac4a0251cf837a5fd1cf3",
+  "nearestPriorOwnerFile": "course-materials/advanced-native/batches/batch-2051-2075.json",
+  "nearestPriorOwnerFileSha256": "d0783f9b1f84f2e98e128120ea3a694b87c3c0dba33886de2ec3db5099058e91",
+  "nearestPriorOwnerId": "advanced-native-2066",
+  "nearestPriorOwnerTitle": "golden handcuffs",
+  "nearestPriorOwnerTarget": "\\bgolden handcuffs\\b",
+  "ownerSenseFinding": "3312 uses figurative transitive handcuff for overrestriction by a plan or rule. 2066 is the noun golden handcuffs for retaining an employee through financial benefits; no same learner decision. Literal restraint also differs.",
+  "lexicalEvidence": [
+    "https://www.merriam-webster.com/dictionary/handcuff"
+  ],
+  "sevenStepDecisionMap": {
+    "listening": "Identify the blocked volunteer transfer despite planning benefit",
+    "reply": "Give constructive coordinator feedback with four valid replies",
+    "scene": "Transfer the restriction metaphor to accessible museum pacing",
+    "contrast": "Separate figurative verb from literal restraint and golden handcuffs",
+    "dialogue": "Propose a weather exception while preserving useful training notice",
+    "speaking": "Use target in a theatre rehearsal contingency",
+    "writing": "Write two distinct models about heatwave food-bank pickups and preserve rota benefits"
+  },
+  "fourValidReplies": [
+    {
+      "id": "a",
+      "reason": "Keeps advance room planning and proposes a closure-only online format or discretion."
+    },
+    {
+      "id": "b",
+      "reason": "Keeps advance room planning and proposes a closure-only online format or discretion."
+    },
+    {
+      "id": "c",
+      "reason": "Keeps advance room planning and proposes a closure-only online format or discretion."
+    },
+    {
+      "id": "d",
+      "reason": "Keeps advance room planning and proposes a closure-only online format or discretion."
+    }
+  ],
+  "answerKeys": {
+    "listening": "It prevents the team from moving helpers between rooms when numbers change.",
+    "reply": "The room plan is useful, but that no-change rule handcuffs the club when the building closes. Could we allow an online backup?",
+    "scene": "The timetable helps schools plan, but the fixed stop length handcuffs the programme when a group needs an accessible adjustment.",
+    "contrast": "The grant rule handcuffed the project: volunteers could not move the outdoor show inside during a storm.",
+    "dialogue": "Say the plan informs the team, but its no-swap rule handcuffs your response to flooding; ask for a weather exception."
+  },
+  "targetControls": [
+    {
+      "sentence": "A schedule should guide your life, not handcuff it.",
+      "expected": true,
+      "matched": true
+    },
+    {
+      "sentence": "That rule handcuffs the team.",
+      "expected": true,
+      "matched": true
+    },
+    {
+      "sentence": "It handcuffed our choices.",
+      "expected": true,
+      "matched": true
+    },
+    {
+      "sentence": "Do not handcuff the project.",
+      "expected": true,
+      "matched": true
+    },
+    {
+      "sentence": "The procedure is handcuffing the clinic.",
+      "expected": true,
+      "matched": true
+    },
+    {
+      "sentence": "We should not handcuff it.",
+      "expected": true,
+      "matched": true
+    },
+    {
+      "sentence": "The officer handcuffed the suspect.",
+      "expected": false,
+      "matched": false
+    },
+    {
+      "sentence": "They wore golden handcuffs.",
+      "expected": false,
+      "matched": false
+    },
+    {
+      "sentence": "The police handcuff a prisoner.",
+      "expected": false,
+      "matched": false
+    },
+    {
+      "sentence": "A restraint handcuffed his wrists.",
+      "expected": false,
+      "matched": false
+    },
+    {
+      "sentence": "The bonus became golden handcuffs.",
+      "expected": false,
+      "matched": false
+    }
+  ],
+  "speakingSpan": {
+    "text": "handcuff the project",
+    "targetMatch": true
+  },
+  "glossaryChecks": [
+    {
+      "text": "pickup rota",
+      "sliceExact": true,
+      "targetLeak": false
+    },
+    {
+      "text": "early-morning slot",
+      "sliceExact": true,
+      "targetLeak": false
+    },
+    {
+      "text": "older visitors",
+      "sliceExact": true,
+      "targetLeak": false
+    },
+    {
+      "text": "the ban on moving older visitors",
+      "sliceExact": true,
+      "targetLeak": false
+    },
+    {
+      "text": "staffing",
+      "sliceExact": true,
+      "targetLeak": false
+    },
+    {
+      "text": "volunteers and supplies",
+      "sliceExact": true,
+      "targetLeak": false
+    }
+  ],
+  "audioRolesExpected": 4,
+  "questionCountExpected": 6,
+  "learnerEnglishStringsScreened": 28,
+  "sixTokenSourceOverlaps": [],
+  "knownDetectorLimit": "The source-required handcuff it surface can match a literal sentence with a different antecedent; lesson and keyed contexts carry the figurative sense. Literal person-object forms and golden handcuffs are excluded by the bounded detector.",
+  "scope": "No selected manifest, editorial decision, SOP audit or audio media changed."
+}

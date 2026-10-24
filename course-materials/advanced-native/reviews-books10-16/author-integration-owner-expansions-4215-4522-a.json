@@ -1,0 +1,77 @@
+{
+  "kind": "hash-bound-owner-expansion-integration",
+  "status": "integrated-in-unpublished-repository; no-media-or-release-approval",
+  "scope": "Only owner1505 and owner2168 lesson objects plus source4215 and source4522 decision rows were changed by this integration. The selected manifest was not edited by this integration; another concurrent selection changed its hash during this check.",
+  "reviewedInputs": {
+    "proposal": {
+      "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-4215-4522-proposed-a.json",
+      "sha256": "3d8707e7aa48e8c81944905afb22cf5792817065119dd8e745b7baadd7792f0b"
+    },
+    "independentFollowup": {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-proposals-4215-4522-b-followup.json",
+      "sha256": "62eaaac9c23626712f5d0baeabc7e9067046c69fae45f814f8845893fd9c3fd2"
+    },
+    "authorAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-proposal-owner-expansions-4215-4522-a.json",
+      "sha256": "bea22607d8b771b5a9dbe620111d7f938e48a61701cd9d9009e75ef7b912388d"
+    }
+  },
+  "changedFiles": [
+    {
+      "path": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "changedObject": "advanced-native-1505",
+      "beforeSha256": "498cc5a8d2e39cd41b25bed245fa26a6aa9cc804f55a967f2a5c733afe22af10",
+      "afterSha256": "f69d9351f6fe497a5cc24da9bda36c2d34caf577338c0b97307b8cf1e16429d2",
+      "exactReviewedProposalObjectEquality": true,
+      "otherLessonObjectsUnchanged": true
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2168-2171-a.json",
+      "changedObject": "advanced-native-2168",
+      "beforeSha256": "b72d8ebd7f5f3aef28af05518b0a80937b331c72c7185c302167f23e8b171e09",
+      "afterSha256": "4377014681d7381b3e52c309d7671c5b890207898a18ea9f32cf77aacf347d58",
+      "exactReviewedProposalObjectEquality": true,
+      "otherLessonObjectsUnchanged": true,
+      "existingAlias3635And4544DecisionsUnchanged": true
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl",
+      "changedRow": 4215,
+      "beforeSha256": "9f51f29c475ed47a6e536e8eeba740607716d7ad1aeb8823b7c5714d6441b433",
+      "afterSha256": "de6f92e7ec0deff0312d9d845b28b9b3704ed721e5f65041e195b556b9864ee9",
+      "newAction": "proposed-alias-existing",
+      "canonicalId": "advanced-native-1505",
+      "otherLinesUnchanged": true
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl",
+      "changedRow": 4522,
+      "beforeSha256": "3a9b0df7181a0a03908d81e3d42ab4d71292f4f21632e163394075f4eee0d0e3",
+      "afterSha256": "d80ffd01bfae5f09e9675ba42b986800f660e181c267f8d400e427839b77025d",
+      "newAction": "proposed-alias-new",
+      "canonicalId": "advanced-native-2168",
+      "otherLinesUnchanged": true
+    }
+  ],
+  "manifestObservation": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "startSha256": "1c21c2004c441a58794ec4fa2e1e80642366af3c94ded6c0eb4f007cec763f30",
+    "finalCheckSha256": "a416af0d90fb6da184a8465766fe63ac2f2bd05f265e7330c74a128c40adb9d5",
+    "editedByThisIntegration": false,
+    "note": "The parent coordinated a separate selected-lesson integration in another decision file during this work. The full verifier below was rerun after the manifest change."
+  },
+  "verification": {
+    "owner1505BuildCheck": "24 lessons / 144 questions / 96 audio requests / 0 flags",
+    "owner2168BuildCheck": "4 lessons / 24 questions / 16 audio requests / 0 flags",
+    "fullBooks10To16Verifier": "2,604 source decisions; 634 selected lessons; 3,804 questions; 2,536 selected audio roles; zero schema, selected-alias, new-alias, guide-copy or near-duplicate exceptions",
+    "existingAliasAudit": "1,191/1,191 full-source matches; zero exceptions",
+    "newAliasAudit": "192/192 drafted owner matches; zero exceptions",
+    "holdCoverageAudit": "476 holds; zero unaudited holds or errors",
+    "source1505DetectorHits": [2426, 4215],
+    "source2168DetectorHits": [2168, 3635, 4522, 4544],
+    "reviewedDetectorControls": "1505: 5 positive/4 negative; 2168: 4 positive/4 negative; all passed",
+    "questionAndAnswerIdsUnchanged": true,
+    "fourAudioRoleEnglishTextsPerOwnerUnchanged": true
+  },
+  "limits": "No audio was generated, no browser QA was run, no SOP audit or manifest was authored here, and no files were staged, committed, pushed or published."
+}

@@ -1,0 +1,178 @@
+{
+  "kind": "proposal-only-owner-expansion-self-audit",
+  "status": "frozen-for-independent-content-review",
+  "scope": "Source4224→selected owner3834 temporal spill-beyond-hours proposal. No selected owner, source decision, selected manifest, audio or publication edits.",
+  "exactInputs": {
+    "wordingGatesReport": {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-current480-nine-owner-wording-gates-review-pilot.json",
+      "sha256": "5a960913cdf6a1af8559241f5c1caa636d77e61163807cd68ab604a627650f0a"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "currentOwner": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3360-3834-review-pilot.json",
+      "fileSha256": "38d633a14d1afdd5ea500c8c10e24afeaea163df735dd400b8033ce8a333a771",
+      "objectSha256": "02d65ee9769b5e0cfb069efb6f20454d796a90794c2b547174ced8b2f16dca5f",
+      "revision": 3
+    },
+    "currentDecisionFile": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl",
+      "sha256": "de6f92e7ec0deff0312d9d845b28b9b3704ed721e5f65041e195b556b9864ee9"
+    },
+    "selectedManifest": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "sha256": "b8182b8d4ffbc1472e85b95ea644d54dd490461270b47205673346a71dd5cc3c"
+    }
+  },
+  "proposal": {
+    "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-3834-source-4224-temporal-proposed-a.json",
+    "sha256": "82493245198b77d4ce7d1e57331ac4684bc1d108832cb525f12578d87ece9ab2",
+    "ownerObjectSha256": "7ec55f2ba175af051026914526c5607486f7447d2e0291472d0b967a3ce73536",
+    "revision": 4
+  },
+  "source": {
+    "ordinal": 4224,
+    "id": "book10-16-2113",
+    "exactSentence": "Her marking spilled well beyond school hours.",
+    "expression": "spilled well beyond school hours",
+    "questionText": "Do you think teachers get paid enough money in your country?",
+    "meaningAndReason": "Work continued far outside normal hours; a liquid metaphor.",
+    "locator": {
+      "book": 16,
+      "question": 2,
+      "sample": "S1",
+      "sourceBookPages": "5–7",
+      "docxTable": 217,
+      "docxRow": 4,
+      "renderedPdfPage": 199
+    },
+    "provenanceAttachedExactly": true
+  },
+  "ownerComparison": {
+    "3834": "Same figurative spreading across an identifiable boundary, extended cautiously from a second life/work domain to a scheduled school/working-hours boundary. Source proves the overtime, not an effect on family life.",
+    "2830": "Spill over concerns visible emotional overflow, not marking continuing after school hours."
+  },
+  "currentDecision": {
+    "sourceOrdinal": 4224,
+    "sourceId": "book10-16-2113",
+    "phrase": "spilled well beyond school hours",
+    "action": "hold-editorial",
+    "canonicalId": null,
+    "reason": "Marking spilling beyond school hours is productive liquid imagery, not a bounded fixed phrase. Provisional editorial decision; independent review remains open."
+  },
+  "proposedDecision": {
+    "sourceOrdinal": 4224,
+    "sourceId": "book10-16-2113",
+    "phrase": "spilled well beyond school hours",
+    "action": "proposed-alias-new",
+    "canonicalId": "advanced-native-3834",
+    "reason": "The exact marking sentence uses the selected owner 3834 spill metaphor for work crossing a scheduled time boundary. Revision 4 adds a bounded school/working-hours detector branch, exact source provenance, and a keyed bilingual dialogue distinguishing evidenced overtime from an unproven family-life effect. Source wording is preserved; this is a provisional unpublished same-sense alias pending independent review."
+  },
+  "changedOwnerFields": [
+    "contentRevision",
+    "titleEn",
+    "titleZh",
+    "target.pattern",
+    "target.glossaryForbidden",
+    "sources",
+    "brief",
+    "dialogue.promptZh",
+    "dialogue.options[a-c].en/zh",
+    "dialogue.explanationZh",
+    "review.notes"
+  ],
+  "detector": {
+    "pattern": "\\b(?:spill|spills|spilled|spilt|spilling)\\s+(?:into|(?:well\\s+)?beyond\\s+(?:school|working)\\s+hours)\\b",
+    "positiveControls": [
+      {
+        "text": "Work pressure was spilling into her home time.",
+        "match": "spilling into"
+      },
+      {
+        "text": "Classroom knowledge spills into real life.",
+        "match": "spills into"
+      },
+      {
+        "text": "Her marking spilled well beyond school hours.",
+        "match": "spilled well beyond school hours"
+      },
+      {
+        "text": "The grading spilt beyond working hours.",
+        "match": "spilt beyond working hours"
+      },
+      {
+        "text": "The marking spills beyond school hours.",
+        "match": "spills beyond school hours"
+      }
+    ],
+    "negativeControls": [
+      {
+        "text": "The paint spilled onto the desk.",
+        "match": null
+      },
+      {
+        "text": "Her patience spilled over.",
+        "match": null
+      },
+      {
+        "text": "Marking stayed within school hours.",
+        "match": null
+      },
+      {
+        "text": "The canoe was tied down by a rope.",
+        "match": null
+      },
+      {
+        "text": "The marking spilled beyond the school gate.",
+        "match": null
+      }
+    ],
+    "all2604SourceHits": [
+      {
+        "sourceOrdinal": 3834,
+        "sourceId": "book10-16-1723",
+        "matchedText": "spilling into"
+      },
+      {
+        "sourceOrdinal": 4224,
+        "sourceId": "book10-16-2113",
+        "matchedText": "spilled well beyond school hours"
+      },
+      {
+        "sourceOrdinal": 4311,
+        "sourceId": "book10-16-2200",
+        "matchedText": "spills into"
+      }
+    ]
+  },
+  "assessment": {
+    "changedDialogueAnswerIdUnchanged": true,
+    "changedKeyEnglish": "The essay marking spilled well beyond school hours; she continued it at home on two evenings.",
+    "changedKeyZh": "作文批改延伸到上課時間以外；她連續兩晚仍在家繼續批改。",
+    "temporalBoundaryGrounded": "School ends at 4; the teacher marks essays at home until 9 on two evenings.",
+    "familyEffectNotInferred": true,
+    "allFiveQuestionOptionIdSetsAndAnswersUnchanged": true
+  },
+  "unchangedContracts": {
+    "fourAudioRoleEnglishTexts": true,
+    "existingSourceProvenance": true,
+    "otherAssessedSteps": true,
+    "glossarySpansExact": true
+  },
+  "focusedBuildCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "reviewFlags": 0,
+    "checkPassed": true
+  },
+  "limits": "Proposed alias is not integrated or independently cleared. Pattern is intentionally bounded to source-shaped school/working-hours forms and, like the existing spill-into branch, still needs context to exclude literal liquid uses. No audio, browser, physical-device or release claim.",
+  "metadataCorrection": {
+    "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-3834-source-4224-temporal-b.json",
+    "independentReviewSha256": "11de060701e4af71d1538597b3b20c6892cf450f6f7c116d42397e21d282cdf6",
+    "reviewedProposalSha256": "6aa655fa287628f4075f000a9e4c947948d79aff52f4bb3de51934ec7f385caf",
+    "correction": "Only review.note and the final review.notes entry were corrected; no source, assessment, glossary, target, ID or audio text changed. All four audio English roles remain byte-identical."
+  }
+}

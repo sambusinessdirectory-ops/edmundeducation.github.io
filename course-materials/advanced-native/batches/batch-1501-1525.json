@@ -1069,12 +1069,12 @@
       "id": "advanced-native-1505",
       "number": 1505,
       "inventoryId": "expr-1505",
-      "contentRevision": 2,
+      "contentRevision": 4,
       "titleEn": "the backbone of ...",
-      "titleZh": "日常生活或飲食的核心支柱",
+      "titleZh": "核心支柱",
       "category": "idiom",
       "target": {
-        "pattern": "\\bthe\\s+backbone\\s+of\\s+(?:local\\s+eating\\s+habits|everyday\\s+life|modern\\s+home\\s+life)\\b"
+        "pattern": "\\bthe\\s+backbone\\s+of\\s+(?:local\\s+eating\\s+habits|everyday\\s+life|modern\\s+home\\s+life|a\\s+child[’']s\\s+future)\\b"
       },
       "sources": [
         {
@@ -1118,16 +1118,30 @@
           "sentence": "Reliable appliances form the backbone of modern home life.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "backbone of modern home life"
+        },
+        {
+          "occurrenceId": "book10-16-2104",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 198,
+          "book": 16,
+          "question": 1,
+          "sample": "S1",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 216, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Many parents see education as the backbone of a child's future.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the backbone of a child's future"
         }
       ],
       "brief": {
-        "meaningEn": "A central supporting element of a system or ordinary life, such as a staple in local food routines, neighbours in everyday life or essential home infrastructure.",
-        "meaningZh": "一個制度或日常生活中的核心支柱，例如本地飲食的主糧、日常生活裏的鄰里支持，或家居運作不可缺的重要設施。",
-        "grammar": "be/remain/form the backbone of + activity or area of life; local eating habits, everyday life and modern home life are attested complements. The noun construction names central support; the complement specifies its domain.",
-        "register": "A resident explaining a recurring household or community dependence to a neighbour, or a speaker describing a staple to a listener, can use this neutral metaphor.",
-        "boundaryZh": "backbone 是核心支柱的比喻；要有慣常中心作用的依據，不等於唯一食物或唯一支持者，也不只是一次幫忙或偶爾受歡迎的菜式。",
-        "misconceptionZh": "核心支持不表示其他部分都無用；要有持續作用的線索，而非只因一次受歡迎或被提及便斷定中心地位。",
-        "outcomeZh": "能以具體持續作用描述家居、日常生活或飲食的核心支柱，不把中心支持等同唯一來源。"
+        "meaningEn": "A central supporting element of an ongoing practice, ordinary life or future opportunity: for example, a staple food, dependable neighbours, home infrastructure or sustained education.",
+        "meaningZh": "日常活動、生活或未來機會的核心支柱，例如主糧、可靠的鄰里支持、家居設施或持續教育。",
+        "grammar": "Be/remain/form the backbone of + supported domain. The source also uses the backbone of a child’s future for education as a main support for later opportunities, without claiming it is the only influence.",
+        "register": "Neutral metaphor for central support: a resident may explain a dependable household or community resource, while a parent may describe the lasting role of education in a child’s opportunities.",
+        "boundaryZh": "要有持續而重要的支持作用，不等於唯一來源；教育能支持未來機會，不保證單靠教育就一定成功。",
+        "misconceptionZh": "核心支持不表示其他因素無用；不能因一次受歡迎便稱某物為支柱，也不能說教育獨自決定孩子的未來。",
+        "outcomeZh": "能辨別日常生活、飲食或未來機會的核心支持，並保留其他因素的作用。"
       },
       "listening": {
         "en": "In this village, rice remains the backbone of local eating habits because most everyday meals are planned around it.",
@@ -1136,23 +1150,23 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "米飯在平日飲食安排中有核心地位。",
-            "zh": ""
+            "en": "Rice has a central place in everyday meal planning.",
+            "zh": "米飯在平日飲食安排中有核心地位。"
           },
           {
             "id": "choice-2",
-            "en": "村民只在年度宴會才吃米飯。",
-            "zh": ""
+            "en": "Villagers eat rice only at the annual feast.",
+            "zh": "村民只在年度宴會才吃米飯。"
           },
           {
             "id": "choice-3",
-            "en": "句子說村民完全不吃其他食物。",
-            "zh": ""
+            "en": "The sentence says villagers eat no other food.",
+            "zh": "句子說村民完全不吃其他食物。"
           },
           {
             "id": "choice-4",
-            "en": "米飯只是剛試過、尚未成習慣的新菜式。",
-            "zh": ""
+            "en": "Rice is a newly tried dish that has not become a habit.",
+            "zh": "米飯只是剛試過、尚未成習慣的新菜式。"
           }
         ],
         "answerId": "choice-1",
@@ -1187,44 +1201,44 @@
         "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
       },
       "scene": {
-        "promptZh": "訪問顯示，某地家庭的平日飯餐大多以一種主食為中心，再配不同菜式。哪句貼切？",
+        "promptZh": "某社區的家長指出，持續教育幫助孩子建立讀寫與思考能力，為日後的學習和工作選擇提供主要支持；他們也重視家庭和健康的作用。哪句最貼切？",
         "options": [
           {
             "id": "choice-1",
-            "en": "That staple is the backbone of local eating habits.",
-            "zh": "那種主食是本地飲食的核心支柱。"
+            "en": "They regard sustained education as the backbone of a child’s future, alongside family and health support.",
+            "zh": "他們視持續教育為孩子未來的核心支柱，同時也重視家庭與健康的支持。"
           },
           {
             "id": "choice-2",
-            "en": "That staple is mainly an occasional festival treat.",
-            "zh": "那種主食主要是偶爾享用的節慶食品。"
+            "en": "Because family support matters too, education cannot be a central support for the child’s future.",
+            "zh": "既然家庭支持也重要，教育就不可能是孩子未來的核心支柱。"
           },
           {
             "id": "choice-3",
-            "en": "That staple has only just appeared and has no established place in meals.",
-            "zh": "那種主食剛出現，在飯餐中尚未建立位置。"
+            "en": "They treat education as sufficient on its own for the child’s later choices, even without family or health support.",
+            "zh": "他們認為教育單靠自己已足以支持孩子日後的選擇，毋須家庭或健康方面的支持。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "大部分平日飯餐以它為中心，與偶爾吃或剛出現不同。"
+        "explanationZh": "持續教育提供重要的讀寫與思考能力，但不排除家庭、健康等其他支持，也不保證未來結果。"
       },
       "contrast": {
         "promptZh": "哪項證據最不足以支持 the backbone of local eating habits？",
         "options": [
           {
             "id": "choice-1",
-            "en": "長期觀察顯示平常飯餐多以該主食為中心。",
-            "zh": ""
+            "en": "Long-term observation shows that everyday meals centre on that staple.",
+            "zh": "長期觀察顯示平常飯餐多以該主食為中心。"
           },
           {
             "id": "choice-2",
-            "en": "一場試食會有人喜歡一道新甜品，但未見日常食用情況。",
-            "zh": ""
+            "en": "Visitors liked a new dessert at one tasting, with no evidence of regular use.",
+            "zh": "一場試食會有人喜歡一道新甜品，但未見日常食用情況。"
           },
           {
             "id": "choice-3",
-            "en": "家庭訪問反覆提到該主食是安排飯餐的基礎。",
-            "zh": ""
+            "en": "Household interviews repeatedly cite the staple as a basis for meal planning.",
+            "zh": "家庭訪問反覆提到該主食是安排飯餐的基礎。"
           }
         ],
         "answerId": "choice-2",

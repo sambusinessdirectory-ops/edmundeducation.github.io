@@ -1,0 +1,149 @@
+{
+  "kind": "author-self-audit",
+  "scope": "unselected exploratory lesson and one retained hold; no manifest or decision edits",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4648-businesses-alive-b.json",
+  "draftSha256": "17521b4156ccefa84405bd0c19d7402503f48a12d0936ab0d7978528cacbcced",
+  "sourceDecisions": {
+    "4591": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "fileSha256": "087b6ec3e3ecb73171dd682bf3bdc91dd35fc98492289e56c90412124ab14730",
+      "row": {
+        "sourceOrdinal": 4591,
+        "sourceId": "book10-16-2480",
+        "phrase": "the choice starts to make itself",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "The choice starts to make itself is source-specific personification and needs a stable idiom check. Provisional editorial decision; independent review remains open."
+      },
+      "rowSha256": "37d7ef1df1b207a5afe8f3594e54ef041c8145fe83bba5130c4f823422ceebe1"
+    },
+    "4648": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+      "fileSha256": "cca2a2fb258093a56b9c6ad0982e04286e0dbe0d37296f4a856f1119a81785d2",
+      "row": {
+        "sourceOrdinal": 4648,
+        "sourceId": "book10-16-2537",
+        "phrase": "keeps businesses alive",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Keeps businesses alive is a broad survival metaphor; determine if it has a distinct lesson sense. Provisional editorial decision; independent review remains open."
+      },
+      "rowSha256": "5a8d5215fda988f453cad7b4e02956a370797c7e40b171415c8e73cbb73b2fb3"
+    }
+  },
+  "sourceEvidence": {
+    "4591": {
+      "sourceId": "book10-16-2480",
+      "book": 16,
+      "question": 46,
+      "questionText": "Why do you think more and more people prefer to travel by plane?",
+      "sample": "S1",
+      "topic": "Things",
+      "sourceBookPages": "108–109",
+      "docxTable": 261,
+      "docxRow": 5,
+      "renderedPdfPage": 234,
+      "expression": "the choice starts to make itself",
+      "example": "With only two days off, the choice starts to make itself.",
+      "category": "Figurative use",
+      "meaningAndReason": "One option becomes so attractive that deciding feels automatic; a personification.",
+      "exactPriorPhraseMatches": [],
+      "status": "intake-pending-editorial"
+    },
+    "4648": {
+      "sourceId": "book10-16-2537",
+      "book": 16,
+      "question": 53,
+      "questionText": "What are the positive impacts of tourism in your country?",
+      "sample": "S1",
+      "topic": "Things",
+      "sourceBookPages": "124–125",
+      "docxTable": 268,
+      "docxRow": 3,
+      "renderedPdfPage": 240,
+      "expression": "keeps businesses alive",
+      "example": "Weekend tourism keeps businesses alive.",
+      "category": "Figurative use",
+      "meaningAndReason": "Allows firms to continue operating; a life metaphor.",
+      "exactPriorPhraseMatches": [],
+      "status": "intake-pending-editorial"
+    }
+  },
+  "dispositions": [
+    {
+      "sourceOrdinal": 4591,
+      "verdict": "retain-hold",
+      "reason": "“The choice starts to make itself” is intelligible personification of an increasingly obvious decision, but the exact source states only a two-day time limit and never states the alternatives or the criteria that make one option clear. Existing owner 4511 teaches a default option and owner 1604 teaches a compromise; neither is same-sense. An exploratory seven-step target would repeatedly infer unstated alternatives and hinge on a weakly bounded self-making formula. No owner or new lesson is asserted from this evidence alone."
+    },
+    {
+      "sourceOrdinal": 4648,
+      "verdict": "unselected-new-lesson-candidate",
+      "reason": "Keep + a business/shop/store/café + alive is a natural, reusable economic-survival collocation. The lesson teaches demonstrated support for continued operation, distinct from owner 526’s engine of business activity/progress, owner 484’s failure-causing sink metaphor, and keep-history/relationship-alive referents. Source asserts weekend tourism sustains businesses; the learner scenarios supply their own evidence of essential bills being covered. Survival is not treated as profit growth."
+    }
+  ],
+  "targetControls": {
+    "positives": [
+      "Weekend tourism keeps businesses alive.",
+      "Small orders keep the shop alive.",
+      "Membership dues keep the business alive.",
+      "Weekly market orders kept the store alive.",
+      "Orders are keeping the café alive."
+    ],
+    "negatives": [
+      "They keep history alive.",
+      "They keep a businesses alive.",
+      "They keep business alive.",
+      "They kept the store open.",
+      "The engine keeps the business moving.",
+      "They keep their relationship alive."
+    ],
+    "fullSourceRows": 2604,
+    "fullSourceMatchingOrdinals": [
+      4648
+    ]
+  },
+  "sevenStepDecisions": {
+    "listening": "attribute continued operation to weekend visitor demand rather than mere popularity",
+    "reply": "four individually valid partner responses explain time-limited paid support and its expiry; only golden uses target",
+    "scene": "bank-transfer orders let one grocer operate despite a card-network outage, without implying the whole market recovered",
+    "contrast": "public attention without customers or sales is insufficient evidence of survival",
+    "dialogue": "paid school sessions sustain a commercial studio this term; renewal remains uncertain",
+    "speaking": "bakery preorders are a counterfactual bridge through roadworks",
+    "writing": "time-limited repair vouchers bring paid customers to a shoe-repair shop; both models state the June endpoint and unknown replacement trade"
+  },
+  "glossaryRows": [
+    "roadworks",
+    "six-month voucher scheme",
+    "paying customers",
+    "later trade",
+    "replacement trade"
+  ],
+  "sourceOriginality": {
+    "learnerEnglishStrings": 28,
+    "guideSourceExamples": 2604,
+    "sixTokenNonOwnHits": 0,
+    "hits": []
+  },
+  "focusedBuild": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "reviewFlags": 0,
+    "buildAndCheckPassed": true
+  },
+  "independentReviewRepair": {
+    "reviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4648-businesses-alive-a.json",
+    "reviewSha256": "d1bff08e432f7070275ba619f4a352a0d797b3216222904b621f839fb195802f",
+    "findingsAddressed": {
+      "R4648-01": "Distinct attribution, time limit, payment workaround, evidence, renewal, counterfactual and voucher-transfer decisions replace repeated cost-versus-expansion cases.",
+      "R4648-02": "All four partner replies now state the current paid-booking support and its limited term.",
+      "R4648-03": "Dialogue now names an explicitly commercial recording studio; target business referent is natural.",
+      "R4648-04": "Both writing models state that voucher support ends in June and no replacement trade is secured."
+    }
+  },
+  "remainingGates": [
+    "Independent AI content review of 4648 at this exact draft hash",
+    "Any selection and source-decision integration",
+    "Media, browser and release review; no human listening claim"
+  ]
+}

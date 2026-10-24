@@ -169,7 +169,10 @@
     "batch-held-candidates-2262-3682-three-review-pilot.json",
     "batch-held-candidates-2816-3630-review-pilot.json",
     "batch-held-4257-attention-drifts-b.json",
-    "batch-held-4410-suck-life-out-b.json"
+    "batch-held-4410-suck-life-out-b.json",
+    "batch-held-4648-businesses-alive-b.json",
+    "batch-held-3312-handcuff-review-pilot.json",
+    "batch-held-3073-4308-b.json"
   ],
   "expectedSourceOrdinals": [
     2112,
@@ -456,6 +459,7 @@
     3068,
     3071,
     3072,
+    3073,
     3081,
     3082,
     3083,
@@ -511,6 +515,7 @@
     3286,
     3306,
     3308,
+    3312,
     3319,
     3327,
     3328,
@@ -717,6 +722,7 @@
     4283,
     4304,
     4305,
+    4308,
     4309,
     4310,
     4315,
@@ -787,6 +793,7 @@
     4635,
     4638,
     4644,
+    4648,
     4652,
     4655,
     4656,

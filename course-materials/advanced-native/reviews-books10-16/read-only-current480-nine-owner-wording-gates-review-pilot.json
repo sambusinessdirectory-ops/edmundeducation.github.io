@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "read-only-current480-nine-owner-wording-gates",
+  "status": "proposal-only; no source/decision/lesson changes",
+  "scope": "Only the three possible owner links and six source wording/target-boundary gates from the current480 priority report.",
+  "inputPriorityReportPath": "course-materials/advanced-native/reviews-books10-16/read-only-current480-new-lesson-priority-review-pilot.json",
+  "inputPriorityReportSha256": "56f39796e05fbd4d3f025a36556605ad46c65491de35570054ef32302eab7753",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "1c21c2004c441a58794ec4fa2e1e80642366af3c94ded6c0eb4f007cec763f30",
+  "counts": {
+    "reviewed": 9,
+    "proposedBoundedAliasWithOwnerRepairs": 1,
+    "viableRewrittenTeachableTargetRequiringLesson": 1,
+    "continuedHold": 7
+  },
+  "detectorMethod": "Native JavaScript RegExp with gi flags on the complete exact source sentence for each nearest owner; all current owners fail their listed source sentence, so no row is already covered by a target regex.",
+  "rows": [
+    {
+      "sourceOrdinal": 2191,
+      "sourceId": "book10-16-0080",
+      "expression": "run away with you",
+      "exactSourceSentence": "Without a timer, the afternoon can run away with you.",
+      "sourceInventoryRowSha256": "da1f8370652c4b39c09450448443bfdddd6cf997b44d9c8efb75d1e8f75272af",
+      "sourceContextQuestion": "Do you think it is easy to manage your time in the modern world?",
+      "sourceMeaningAndReason": "Become difficult to control, especially time or emotion; a conventional figurative phrase.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "currentDecisionRowSha256": "f1c52d6b5cd397ca665b69c94270eb00bee6c7dc3d997780bceefee972bd17c8",
+      "currentDecisionReason": "The afternoon can run away with you sounds potentially awkward; confirm a natural time-escapes-you pattern before making it a lesson. Provisional editorial decision; independent review remains open.",
+      "nearestOwners": [],
+      "currentOwnerDetectorFullSourceMatch": {},
+      "recommendation": "continued-hold",
+      "sourceSense": "Unscheduled afternoon time escapes management.",
+      "finding": "Oxford records run away with you with an overwhelming feeling or imagination as subject. Afternoon as subject expresses time passing too quickly, not that registered construction. No current owner supplies the exact source form or intended sense.",
+      "nextGate": "A source-author correction to a time-escapes expression would need new source evidence; do not infer it from this sentence.",
+      "lexicalRefs": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/run-away-with-you"
+      ]
+    },
+    {
+      "sourceOrdinal": 2655,
+      "sourceId": "book10-16-0544",
+      "expression": "a hit song had time to breathe",
+      "exactSourceSentence": "On the old charts, a hit song had time to breathe.",
+      "sourceInventoryRowSha256": "96b94f0d66e0470ef7575e52ad6449b68e39b1663fa2710f5821982236eae231",
+      "sourceContextQuestion": "How does pop music now compare to when you were growing up?",
+      "sourceMeaningAndReason": "A popular song could be appreciated over a longer period; breathing is figurative.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "currentDecisionRowSha256": "1783de199f5a95f8e5de9dbae267b66ef6e3cb63a8ddd32f14f4cb66bf63dd3f",
+      "currentDecisionReason": "A hit song had time to breathe is a creative appreciation image; determine whether let music breathe is idiomatic. Provisional editorial decision; independent review remains open.",
+      "nearestOwners": [
+        {
+          "ownerId": "advanced-native-2398",
+          "titleEn": "let the mystery breathe",
+          "meaningEn": "Allow a narrative enough room and time for clues, tension or characters to develop before a payoff.",
+          "targetPattern": "\\blet(?:s|ting)? (?:the|a|this|that) (?:mystery|story|plot) breathe\\b",
+          "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-held-2398-2714-author-review.json",
+          "ownerFileSha256": "c56a3c3b9a80e235bfb251d2b56e8e70a1c88d5bc7be74a321fdfc65755506e1",
+          "ownerObjectSha256": "4294df42bb479dba5899a6f7095fa6beb3fa8162f77f195771ae6bdb0b8f80af"
+        }
+      ],
+      "currentOwnerDetectorFullSourceMatch": {
+        "advanced-native-2398": null
+      },
+      "recommendation": "continued-hold",
+      "sourceSense": "An old-chart hit stayed visible long enough for listeners to appreciate it.",
+      "finding": "Owner 2398 lets a story or plot breathe before its payoff, deliberately controlling narrative pacing. A song having time to breathe on charts is a different, source-specific personification of exposure duration; owner target and assessments do not teach that use.",
+      "nextGate": "Retain hold unless primary usage establishes a bounded music/market expression with seven genuinely different decisions; do not alias on breathe alone.",
+      "lexicalRefs": []
+    },
+    {
+      "sourceOrdinal": 2749,
+      "sourceId": "book10-16-0638",
+      "expression": "a seat in the room",
+      "exactSourceSentence": "Collectors ensure CDs still have a seat in the room.",
+      "sourceInventoryRowSha256": "8d0a6de6a726f2e93147d9fa07758cea7235c8f68d5c3a5b25a7f0334df99cfc",
+      "sourceContextQuestion": "Do you think CDs will have any role in the music industry in the future?",
+      "sourceMeaningAndReason": "A continuing, if smaller, place in a discussion or market; a seating metaphor.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+      "currentDecisionRowSha256": "5784387fd893438499686a6df2dd7f9b9dfc17b015bc6314f859cd73e724b07f",
+      "currentDecisionReason": "A seat in the room is less established than a seat at the table; confirm naturalness of the market metaphor. Provisional editorial decision; independent review remains open.",
+      "nearestOwners": [
+        {
+          "ownerId": "advanced-native-3486",
+          "titleEn": "have a seat at the table",
+          "meaningEn": "Be included and taken seriously in a discussion or decision.",
+          "targetPattern": "\\b(?:has|have|had|having)\\s+a\\s+seat\\s+at\\s+the\\s+table\\b",
+          "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-3486-3512-review-pilot.json",
+          "ownerFileSha256": "353c4b4893ebaf607b28723d3b5a24ec238af7e5fcfec500c0d838955bcf09cf",
+          "ownerObjectSha256": "a3a510271be73664075d5b800999849d4e66fff9f1eacc38fcdc6b3df5862a87"
+        }
+      ],
+      "currentOwnerDetectorFullSourceMatch": {
+        "advanced-native-3486": null
+      },
+      "recommendation": "continued-hold",
+      "sourceSense": "CDs retain some market role.",
+      "finding": "Owner 3486 a seat at the table concerns inclusion in discussion and influence over decisions. The source a seat in the room is a different preposition and suggests mere continued presence of CDs, not a decision-making seat.",
+      "nextGate": "Keep exact source under wording review; do not repair the preposition or claim CDs participate in decisions without source evidence.",
+      "lexicalRefs": [
+        "https://dictionary.cambridge.org/dictionary/english/seat-at-the-table"
+      ]
+    },
+    {
+      "sourceOrdinal": 2837,
+      "sourceId": "book10-16-0726",
+      "expression": "a spring in its step",
+      "exactSourceSentence": "Good news travels with a spring in its step.",
+      "sourceInventoryRowSha256": "3a13315a0a9feba2c2c0b8b8ee80e0ab4b71a5274d10d4f3792fe3bebe7429bf",
+      "sourceContextQuestion": "How do people share good news?",
+      "sourceMeaningAndReason": "A lively, cheerful manner; a fixed movement metaphor.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "currentDecisionRowSha256": "fe398d7b38ea55014a29fece1fb0ab3cf8af204f8a81271f33a2a8550f2b2850",
+      "currentDecisionReason": "A spring in its step personifies news; canonical 804 covers human pronouns, and this source form is unsupported. Provisional editorial decision; independent review remains open.",
+      "nearestOwners": [
+        {
+          "ownerId": "advanced-native-804",
+          "titleEn": "a spring in my step",
+          "meaningEn": "Noticeable energy or cheerfulness, often reflected in the way someone walks.",
+          "targetPattern": "\\ba spring in (?:my|your|his|her|our|their) step\\b",
+          "ownerFile": "course-materials/advanced-native/batches/batch-0801-0825.json",
+          "ownerFileSha256": "6c91ba72d6685101f7880be924c994bf7b388633a2794a0663875ead7d32afed",
+          "ownerObjectSha256": "775cbd05c80e8ce9b71b627129b8a76606bcd9ff6ff4da6e80130d69b3517a5c"
+        }
+      ],
+      "currentOwnerDetectorFullSourceMatch": {
+        "advanced-native-804": null
+      },
+      "recommendation": "continued-hold",
+      "sourceSense": "Good news spreads cheerfully; news is personified.",
+      "finding": "Owner 804 a spring in one’s step is a human bearer’s visible cheer/energy. The source transfers it to travelling news, so widening the possessive to its would license a different personification and weaken owner’s assessed bodily cue.",
+      "nextGate": "Retain source-specific image rather than broaden owner 804; a revised natural human sentence would need a source correction.",
+      "lexicalRefs": [
+        "https://dictionary.cambridge.org/dictionary/english/spring-in-step"
+      ]
+    },
+    {
+      "sourceOrdinal": 2872,
+      "sourceId": "book10-16-0761",
+      "expression": "puts information in the palm of our hand",
+      "exactSourceSentence": "A phone puts information in the palm of our hand.",
+      "sourceInventoryRowSha256": "2a80aa76cceee42dc08d055467513b7e620c5e4af9cd82fc94cbac1596c9483c",
+      "sourceContextQuestion": "How has social media changed how we consume news?",
+      "sourceMeaningAndReason": "Makes facts instantly accessible through mobile devices; a body-part image.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "currentDecisionRowSha256": "afde0b226c15a39b5e624035189ba7349ced518c03210f8f9bc4ed741f706244",
+      "currentDecisionReason": "Information in the palm of our hand overlaps canonical at your fingertips but changes the body image and target form. Provisional editorial decision; independent review remains open.",
+      "nearestOwners": [],
+      "currentOwnerDetectorFullSourceMatch": {},
+      "recommendation": "continued-hold",
+      "sourceSense": "Phone makes information easy to access.",
+      "finding": "In the palm of your hand is attested as control over someone; the source instead depicts information delivered on a phone. It is neither that established idiom nor an existing owner’s unique learner decision.",
+      "nextGate": "Do not teach the control idiom or silently replace palm with at your fingertips; retain exact source under expression-value review.",
+      "lexicalRefs": [
+        "https://dictionary.cambridge.org/dictionary/english/in-the-palm-of-hand"
+      ]
+    },
+    {
+      "sourceOrdinal": 3312,
+      "sourceId": "book10-16-1201",
+      "expression": "handcuff it",
+      "exactSourceSentence": "A schedule should guide your life, not handcuff it.",
+      "sourceInventoryRowSha256": "4edbe7657ea0a5ed332b74ec2f4816bfb3e67584d035fd0ce4fb756bbe38d722",
+      "sourceContextQuestion": "In general, do you think planning is important?",
+      "sourceMeaningAndReason": "Restrict life too severely; a restraint metaphor.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+      "currentDecisionRowSha256": "be3200ebc0f8ab3e2761aca9c2528ecc842caafe7c5ac4a0251cf837a5fd1cf3",
+      "currentDecisionReason": "Handcuff a schedule or life is a bespoke restraint metaphor; naturalness against handcuffed by requires review. Provisional editorial decision; independent review remains open.",
+      "nearestOwners": [
+        {
+          "ownerId": "advanced-native-2066",
+          "titleEn": "golden handcuffs",
+          "meaningEn": "Financial rewards or benefits that encourage employees to stay because leaving would mean losing an attractive benefit.",
+          "targetPattern": "\\bgolden handcuffs\\b",
+          "ownerFile": "course-materials/advanced-native/batches/batch-2051-2075.json",
+          "ownerFileSha256": "d0783f9b1f84f2e98e128120ea3a694b87c3c0dba33886de2ec3db5099058e91",
+          "ownerObjectSha256": "141e46b038b988567e21028c3ec4554055a1e58cc2b14a686a0e1a38c886d0fb"
+        }
+      ],
+      "currentOwnerDetectorFullSourceMatch": {
+        "advanced-native-2066": null
+      },
+      "recommendation": "viable-rewritten-teachable-target-requiring-lesson",
+      "sourceSense": "A rigid schedule should not severely restrict a person’s life choices.",
+      "finding": "Merriam-Webster records figurative transitive handcuff as holding in check or making ineffective. Source it refers to life; a standalone lesson could teach handcuff + affected person/choices as overrestriction, distinct from owner 2066 golden handcuffs (retention through benefits).",
+      "nextGate": "Author only after testing a bounded target that includes exact handcuff it with clear antecedent, natural person/choice objects and inflections; contrast useful guidance with constraint, literal cuffs, and financial golden handcuffs across seven distinct decisions. Do not claim a schedule has legal force.",
+      "lexicalRefs": [
+        "https://www.merriam-webster.com/dictionary/handcuff"
+      ]
+    },
+    {
+      "sourceOrdinal": 4224,
+      "sourceId": "book10-16-2113",
+      "expression": "spilled well beyond school hours",
+      "exactSourceSentence": "Her marking spilled well beyond school hours.",
+      "sourceInventoryRowSha256": "33cb7a864a3ec188d13cda5243a3eb23b9c9342fe59202e4520cb58dd63e4faf",
+      "sourceContextQuestion": "Do you think teachers get paid enough money in your country?",
+      "sourceMeaningAndReason": "Work continued far outside normal hours; a liquid metaphor.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl",
+      "currentDecisionRowSha256": "da55fa526a385541ddfca63da27b36b23dd3454559097d185e0dcab5c0b8a146",
+      "currentDecisionReason": "Marking spilling beyond school hours is productive liquid imagery, not a bounded fixed phrase. Provisional editorial decision; independent review remains open.",
+      "nearestOwners": [
+        {
+          "ownerId": "advanced-native-3834",
+          "titleEn": "spill into",
+          "meaningEn": "For an effect, skill, benefit or pressure from one part of life or work to extend into another domain beyond its starting point.",
+          "targetPattern": "\\b(?:spill|spills|spilled|spilt|spilling) into\\b",
+          "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3360-3834-review-pilot.json",
+          "ownerFileSha256": "38d633a14d1afdd5ea500c8c10e24afeaea163df735dd400b8033ce8a333a771",
+          "ownerObjectSha256": "02d65ee9769b5e0cfb069efb6f20454d796a90794c2b547174ced8b2f16dca5f"
+        },
+        {
+          "ownerId": "advanced-native-2830",
+          "titleEn": "spill over",
+          "meaningEn": "Of an emotion, become visibly expressed or spread into another response or setting.",
+          "targetPattern": "\\b(?:spill|spills|spilled|spilling)\\s+over\\b",
+          "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2803-2830-review-pilot-2.json",
+          "ownerFileSha256": "45e181354af16b8729469ced458890f411adc003cab9456fd8cefb1546da8f95",
+          "ownerObjectSha256": "9fbc361356ee1d11794af65e4168f4e4abe55fff3d99bf667ee94b43a42e5d83"
+        }
+      ],
+      "currentOwnerDetectorFullSourceMatch": {
+        "advanced-native-3834": null,
+        "advanced-native-2830": null
+      },
+      "recommendation": "proposed-bounded-alias-with-owner-repairs",
+      "sourceSense": "A teacher’s marking continued beyond the usual school-hours time boundary.",
+      "finding": "Owner 3834 teaches figurative work/pressure spilling into another domain. Crossing an original boundary is shared, but source crosses a time limit rather than stating impact on a second life domain; its present brief, grammar and six tasks do not assess the temporal variant. Owner 2830 is emotional overflow, not this work-time sense.",
+      "neededOwnerRepairs": {
+        "ownerId": "advanced-native-3834",
+        "boundedDetectorBranch": "\\b(?:spill|spills|spilled|spilt|spilling)\\s+(?:well\\s+)?beyond\\s+(?:school|working)\\s+hours\\b",
+        "brief": "Broaden only from cross-domain effects to work/pressure crossing an identified domain or scheduled time boundary; do not infer effects on family life from beyond school hours alone.",
+        "assessment": "Replace or add one keyed scene/contrast that explicitly distinguishes marking done after school hours from marking completed during school hours, with faithful EN/ZH. Preserve IDs and remaining assessed decisions.",
+        "provenance": "Append the exact 4224 occurrence and source sentence to owner sources; then test full-source and existing positive/negative detector controls."
+      },
+      "nextGate": "Proposal-only until revised owner content, bounded detector and changed audio/text receive independent review.",
+      "lexicalRefs": [
+        "https://dictionary.cambridge.org/dictionary/english/spill"
+      ]
+    },
+    {
+      "sourceOrdinal": 4431,
+      "sourceId": "book10-16-2320",
+      "expression": "wear a relationship thin",
+      "exactSourceSentence": "Repeated cancellations can wear a relationship thin.",
+      "sourceInventoryRowSha256": "49a5e588594bcd6dba53d2cecddd18cb7be5ff8289a28ecafe92a657e64d7349",
+      "sourceContextQuestion": "In what situations do you think people need to, or should, apologise?",
+      "sourceMeaningAndReason": "Gradually weaken a relationship; a fabric metaphor.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl",
+      "currentDecisionRowSha256": "3842f3a396bd9065dca739d3e6aa460725083e648c7ab28dd3546341df6c4b0b",
+      "currentDecisionReason": "Wear a relationship thin extends wear-thin fabric imagery in an unusual target form. Provisional editorial decision; independent review remains open.",
+      "nearestOwners": [
+        {
+          "ownerId": "advanced-native-1863",
+          "titleEn": "wear thin",
+          "meaningEn": "Become gradually weaker or less convincing, enjoyable or effective through repetition or continued demands.",
+          "targetPattern": "\\b(?:wear(?:s|ing)?|wore|worn) thin\\b",
+          "ownerFile": "course-materials/advanced-native/batches/batch-1851-1875.json",
+          "ownerFileSha256": "2a945c4d4699d6735bdf2c27429f7c7560c9df0d5829948bc0b88118adca166c",
+          "ownerObjectSha256": "717357edae148181c7b53ddcd868dc60a10d57615fa3f437e376cc06f7289908"
+        }
+      ],
+      "currentOwnerDetectorFullSourceMatch": {
+        "advanced-native-1863": null
+      },
+      "recommendation": "continued-hold",
+      "sourceSense": "Repeated cancellations gradually weaken a relationship.",
+      "finding": "Owner 1863 teaches intransitive X wears thin, with the feeling, explanation or patience as subject. The source uses transitive wear a relationship thin. Cambridge documents the intransitive idiom; exact source wording is not established as its normal transitive construction, so a regex-only alias would be unsound.",
+      "nextGate": "Validate transitive naturalness from a primary usage source before any owner expansion; otherwise keep the source’s unusual wording held.",
+      "lexicalRefs": [
+        "https://dictionary.cambridge.org/dictionary/english/wear-thin"
+      ]
+    },
+    {
+      "sourceOrdinal": 4591,
+      "sourceId": "book10-16-2480",
+      "expression": "the choice starts to make itself",
+      "exactSourceSentence": "With only two days off, the choice starts to make itself.",
+      "sourceInventoryRowSha256": "ced1d5433fd3f4bfbfd7dc2b5c777dfbf77c6803ad64d74df096e9a04a9b9faf",
+      "sourceContextQuestion": "Why do you think more and more people prefer to travel by plane?",
+      "sourceMeaningAndReason": "One option becomes so attractive that deciding feels automatic; a personification.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "currentDecisionRowSha256": "690ee8aa6322ef878d690787ed37d2e77066089432cb96a8f360089630c858fe",
+      "currentDecisionReason": "The choice starts to make itself is source-specific personification and needs a stable idiom check. Provisional editorial decision; independent review remains open.",
+      "nearestOwners": [
+        {
+          "ownerId": "advanced-native-4511",
+          "titleEn": "default choice",
+          "meaningEn": "The option normally selected unless a reason calls for another one; it is not necessarily compulsory or best in every case.",
+          "targetPattern": "\\bdefault choice\\b",
+          "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-held-3903-4702-seven-extracted-review-pilot.json",
+          "ownerFileSha256": "5e8d12968719af8877d47be6e3eeb4c4b755a58a7de28fedb32f990f277790d7",
+          "ownerObjectSha256": "16c6903b3d05eccdedfa27c7ef2d0e08d91591426c37199e25dcba1343acaa27"
+        }
+      ],
+      "currentOwnerDetectorFullSourceMatch": {
+        "advanced-native-4511": null
+      },
+      "recommendation": "continued-hold",
+      "sourceSense": "A two-day holiday makes a travel option feel obvious.",
+      "finding": "Owner 4511 default choice means the normally preselected option unless there is a reason to choose otherwise. The choice starts to make itself says constraints make one option obvious in this instance; this is one-off personification, not the same learner decision or an established fixed unit.",
+      "nextGate": "Retain hold; do not alias to default choice or teach the whole aphoristic clause as a reusable expression.",
+      "lexicalRefs": [
+        "https://dictionary.cambridge.org/dictionary/english/make-a-decision"
+      ]
+    }
+  ],
+  "limitations": [
+    "The one alias is conditional on authoring and independent review of the bounded owner repair; this report does not change its hold status.",
+    "The handcuff lesson is a feasibility recommendation, not complete seven-step content clearance.",
+    "Naturalness claims follow the linked primary dictionary entries; absence of a dictionary entry alone is not proof of impossibility."
+  ]
+}

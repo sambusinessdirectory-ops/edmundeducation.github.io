@@ -1,0 +1,85 @@
+{
+  "kind": "independent-ai-proposal-review",
+  "status": "scoped-repair-required",
+  "proposalOnly": true,
+  "selectedOrDecisionEdits": false,
+  "exactInputs": {
+    "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-4215-4522-proposed-a.json",
+    "proposalSha256": "4c1c71065211166e7546252f0caf9a58c24dbf08f9f9bfed9f08e139ceb7dd2a",
+    "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-proposal-owner-expansions-4215-4522-a.json",
+    "authorAuditSha256": "0d539d0735dc813c12a406034a47d36fe51b7e54f03af33e2ee82d2317e2307f"
+  },
+  "results": [
+    {
+      "sourceOrdinal": 4215,
+      "ownerId": "advanced-native-1505",
+      "sourceSentence": "Many parents see education as the backbone of a child's future.",
+      "verdict": "same-sense-owner-fit; repair changed scene foil before integration",
+      "evidence": [
+        "Legacy owner1505 predates source4215 and already teaches central, nonexclusive support across food/life/home complements.",
+        "Exact source sentence/provenance match; bounded detector matches source4215 and prior alias2426 with no extra Books10–16 source hits.",
+        "New scene key uses the target with a central but nonexclusive education meaning; Chinese and answer ID agree.",
+        "Inherited Chinese-only listening/contrast options were converted into faithful English/Traditional Chinese pairs.",
+        "All six question IDs and answer IDs remain stable; four audio-role English texts unchanged."
+      ],
+      "finding": {
+        "id": "R4215-01",
+        "severity": "minor",
+        "fields": [
+          "scene.options[2].en",
+          "scene.options[2].zh"
+        ],
+        "reason": "The newly introduced “one popular workshop guarantees every later opportunity” is not in the prompt and is too remote/absolute; a learner can reject it without interpreting central yet nonexclusive support.",
+        "suggestedRepair": "Use a prompt-grounded overexclusive inference such as “They see education as the only support the child will need, so family and health can no longer matter,” with faithful Chinese; preserve the key and target-bearing option."
+      }
+    },
+    {
+      "sourceOrdinal": 4522,
+      "ownerId": "advanced-native-2168",
+      "sourceSentence": "The app makes getting from one place to another easier.",
+      "verdict": "same-sense-owner-fit; repair changed dialogue before integration",
+      "evidence": [
+        "Selected owner2168 at earlier source ordinal teaches travel between physical locations; source4522 spells out the same A-to-B journey.",
+        "Detector matches owner2168 and repeats3635/4544 plus source4522, without extra Books10–16 source hits.",
+        "Exact provenance for 3635/4522/4544 matches source inventory; existing decision rows3635/4544 already alias2168.",
+        "All six question IDs and answer IDs remain stable; four audio-role English texts unchanged."
+      ],
+      "findings": [
+        {
+          "id": "R4522-01",
+          "severity": "major",
+          "fields": [
+            "dialogue.options[0].en",
+            "dialogue.options[0].zh"
+          ],
+          "reason": "The changed key “This map makes getting from one place to another easier” reproduces the source sentence’s makes + six-word target + easier frame, merely changing app to map. Three six-token windows overlap the exact source, including non-target carrier words.",
+          "suggestedRepair": "Use a new carrier such as “To get from one place to another on foot, follow the marked crossing shown on this map.” Keep target, key ID and paired Chinese."
+        },
+        {
+          "id": "R4522-02",
+          "severity": "minor",
+          "fields": [
+            "dialogue.options[1]",
+            "dialogue.options[2]"
+          ],
+          "reason": "“Simply guess at every junction” and “signs and crossings cannot matter” are remote, implausible foils in a two-street wayfinding question.",
+          "suggestedRepair": "Replace with plausible but unsupported route choices, such as assuming the nearest side street is safe without checking the crossing, or following concert posters not mentioned in the prompt. Preserve one best grounded response."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "focusedBuildCheck": "2 lessons/12 questions/8 audio requests/0 flags",
+    "sourceRowsScanned": 2604,
+    "sourceHitCounts": {
+      "1505": 2,
+      "2168": 4
+    },
+    "questionIdsStable": true,
+    "answerIdsStable": true,
+    "audioRoleEnglishTextUnchanged": true,
+    "sourceProvenanceExact": true,
+    "currentFileAndManifestHashesMatchAuthorAudit": true
+  },
+  "requiredFollowUp": "Author repairs only the three cited option fields with EN/ZH parity, reruns focused checks and sends exact new proposal/audit hashes; selected/decision files remain untouched."
+}

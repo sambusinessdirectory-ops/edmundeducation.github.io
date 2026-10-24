@@ -1,0 +1,63 @@
+{
+  "kind": "independent-ai-review",
+  "sourceOrdinal": 3312,
+  "verdict": "repair-before-selection",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-3312-handcuff-review-pilot.json",
+  "draftSha256": "14bce6b3c00f2134a8143419a24281070fa3fd2acec49bd8d62e196dd05fcc76",
+  "authorAuditFile": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-3312-handcuff-review-pilot.json",
+  "authorAuditSha256": "7f8e2e30b233bdaebdd69e928347b33c15f77dd2b8b4db830c863e80bff3c837",
+  "source": {
+    "id": "book10-16-1201",
+    "sentence": "A schedule should guide your life, not handcuff it.",
+    "finding": "Source uses the transitive figurative verb for a schedule severely restricting life, which the draft preserves."
+  },
+  "ownerBoundary": {
+    "nearest": 2066,
+    "finding": "Owner 2066 teaches the employment-benefit noun golden handcuffs. The proposed transitive verb is a distinct constraint decision; the literal cuff use is correctly contrasted."
+  },
+  "mechanical": {
+    "focusedBuildAndCheck": "1 lesson / 6 questions / 4 audio roles / 0 flags",
+    "fullSourceTargetMatch": true,
+    "correctReplySceneDialogueTargetBearing": true,
+    "speakingTargetSpanExact": true,
+    "writingModelsTargetBearing": 2,
+    "takeawaysTargetBearing": 2,
+    "answerDerivedNonTargetGlossarySpansExact": 6,
+    "audioRoleCharacters": [
+      218,
+      142,
+      128,
+      120
+    ]
+  },
+  "findings": [
+    {
+      "id": "R3312-01",
+      "severity": "major",
+      "paths": [
+        "scene.options[1..2]",
+        "dialogue.options[1..2]",
+        "listening.options[2..3]"
+      ],
+      "problem": "Several foils are eliminated by repeating or directly reversing explicit prompt facts, or by an implausibly extreme response. In the museum scene B says shortening is allowed despite the stated bar, while C says the next gallery is occupied although the prompt says it is free. The sports dialogue alternatives abandon the sensible narrow exception for permanent shortening or say the whole schedule has no value. This weakens the intended figurative-constraint decision.",
+      "repair": "Use context-plausible wrong turns that keep the stated facts: for example, treat a separate accessible route as necessary despite no evidence, or overextend a flooding exception while still valuing the weekly plan. Keep only the keyed answer grounded and align Chinese/explanation."
+    },
+    {
+      "id": "R3312-02",
+      "severity": "minor",
+      "paths": [
+        "writing.examples[0].en",
+        "writing.examples[0].zh"
+      ],
+      "problem": "“when it could help them safely” has a distant, unclear “it” after “refusing an early-morning slot”; Chinese clearly makes the team the actor.",
+      "repair": "Name the team explicitly, e.g. “although the team could safely help them,” and keep Chinese and glossary spans aligned."
+    }
+  ],
+  "passedChecks": [
+    "Six questions have stable answer IDs and the reply offers four independently valid ways to preserve planning while allowing an online closure backup; only A uses the target.",
+    "English and Traditional Chinese have the same core source meaning, actors and limits apart from the noted writing pronoun.",
+    "The target detector covers the source and key uses and does not merge with the 2066 noun construction.",
+    "Writing moves to a food-bank heatwave rather than copying the source schedule example."
+  ],
+  "limits": "AI draft review only. No selection, human listening, media, browser or release approval."
+}

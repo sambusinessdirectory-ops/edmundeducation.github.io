@@ -1,0 +1,44 @@
+{
+  "kind": "independent-ai-content-review-followup",
+  "status": "ai-content-clear-for-provisional-unpublished-selection",
+  "scope": "Exact-hash scoped recheck of R4308-01 and R4308-02 plus changed-field regressions; 3073 was previously content-clear and was not re-reviewed. No draft, decision, manifest, media or release edits.",
+  "exactInputs": {
+    "draft": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3073-4308-b.json",
+      "sha256": "4e425bbd6d38187aa45b95bfc3e53fc238255e8f3b1512567449a51ce9df5f6f"
+    },
+    "authorAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-3073-4308-b.json",
+      "sha256": "c8d2244647cb23954748f0cb899a56c88b60fc94641edfac9c45568631dd65ea"
+    },
+    "initialIndependentReview": {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3073-4308-a.json",
+      "sha256": "741da73652cc42128da69542f0b7e58993182af384ccea4e77aa76fe75829b5e"
+    }
+  },
+  "findings": [
+    {
+      "id": "R4308-01",
+      "status": "cleared",
+      "evidence": "The revised scene now distinguishes a shared sampling protocol and log from mere co-attendance at a forum. The dialogue assesses trust earned through a month of honest tool returns, not programme approval. Speaking uses two follow-up meetings and compost comparisons as evidence for a soil-care routine. Both final writing models explain how attendee questions, a jointly revised exercise sheet and a future trial provide a basis for cooperation, with longer service contingent on the trial. These introduce different evidence and action decisions while preserving the source's early-conditions meaning."
+    },
+    {
+      "id": "R4308-02",
+      "status": "cleared",
+      "evidence": "The contrast error now overclaims that an agreed monthly clinic can be announced after one introductory call. This is a closer, plausible-but-unsupported commitment than a completed five-year project. English and Traditional Chinese state the same inference; answerId remains a."
+    }
+  ],
+  "regressionChecks": {
+    "sourceSentence": "Student exchanges plant the seeds of long-term cooperation.",
+    "sourceDetectorMatches": true,
+    "focusedBuildAndCheck": "2 lessons / 12 questions / 8 audio requests / 0 review flags; check passed",
+    "targetBearingReplySceneDialogueAndBothWritingModels": true,
+    "speakingTargetSpanExact": true,
+    "answerDerivedNonTargetGlossarySpans": "5/5 exact",
+    "changedSceneDialogueWritingEnglishTraditionalChineseParity": "pass",
+    "changedKeysAndFoilsGrounded": "pass",
+    "nonOwnSixTokenGuideSourceCopies": 0
+  },
+  "limits": "AI content clearance only. 3073 and 4308 remain unselected, with source decisions still held. No audio synthesis, actual listening, browser/device, hosted-media or live-release verification was performed.",
+  "verdict": "Both 4308 findings are cleared at the exact revision-2 draft hash. No scoped content blocker remains for provisional unpublished selection."
+}

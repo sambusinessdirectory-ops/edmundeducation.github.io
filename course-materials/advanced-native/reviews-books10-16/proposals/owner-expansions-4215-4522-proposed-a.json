@@ -1,0 +1,598 @@
+{
+  "schemaVersion": 1,
+  "batchId": "proposal-owners-1505-2168-sources-4215-4522-unselected-a",
+  "lessons": [
+    {
+      "id": "advanced-native-1505",
+      "number": 1505,
+      "inventoryId": "expr-1505",
+      "contentRevision": 4,
+      "titleEn": "the backbone of ...",
+      "titleZh": "核心支柱",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe\\s+backbone\\s+of\\s+(?:local\\s+eating\\s+habits|everyday\\s+life|modern\\s+home\\s+life|a\\s+child[’']s\\s+future)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p173-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 173,
+          "book": 7,
+          "question": 1,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Rice remains the backbone of local eating habits.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the backbone of local eating habits",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "pdf-2-p142-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 142,
+          "book": 6,
+          "question": 11,
+          "sample": "S1",
+          "locatorNote": "PDF page 142, table 2, row 4; absent metadata remains unstated.",
+          "sentence": "Neighbours can be the backbone of everyday life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the backbone of everyday life",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-0315",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 29,
+          "book": 10,
+          "question": 24,
+          "sample": "S1",
+          "sourceBookPages": "56–59",
+          "locatorNote": "DOCX table 24, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Reliable appliances form the backbone of modern home life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "backbone of modern home life"
+        },
+        {
+          "occurrenceId": "book10-16-2104",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 198,
+          "book": 16,
+          "question": 1,
+          "sample": "S1",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 216, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Many parents see education as the backbone of a child's future.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the backbone of a child's future"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A central supporting element of an ongoing practice, ordinary life or future opportunity: for example, a staple food, dependable neighbours, home infrastructure or sustained education.",
+        "meaningZh": "日常活動、生活或未來機會的核心支柱，例如主糧、可靠的鄰里支持、家居設施或持續教育。",
+        "grammar": "Be/remain/form the backbone of + supported domain. The source also uses the backbone of a child’s future for education as a main support for later opportunities, without claiming it is the only influence.",
+        "register": "Neutral metaphor for central support: a resident may explain a dependable household or community resource, while a parent may describe the lasting role of education in a child’s opportunities.",
+        "boundaryZh": "要有持續而重要的支持作用，不等於唯一來源；教育能支持未來機會，不保證單靠教育就一定成功。",
+        "misconceptionZh": "核心支持不表示其他因素無用；不能因一次受歡迎便稱某物為支柱，也不能說教育獨自決定孩子的未來。",
+        "outcomeZh": "能辨別日常生活、飲食或未來機會的核心支持，並保留其他因素的作用。"
+      },
+      "listening": {
+        "en": "In this village, rice remains the backbone of local eating habits because most everyday meals are planned around it.",
+        "zh": "在這個村落，平常大部分飯餐都以米飯為中心，所以它仍是本地飲食的核心支柱。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Rice has a central place in everyday meal planning.",
+            "zh": "米飯在平日飲食安排中有核心地位。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Villagers eat rice only at the annual feast.",
+            "zh": "村民只在年度宴會才吃米飯。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The sentence says villagers eat no other food.",
+            "zh": "句子說村民完全不吃其他食物。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Rice is a newly tried dish that has not become a habit.",
+            "zh": "米飯只是剛試過、尚未成習慣的新菜式。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "most everyday meals 支持中心地位，但 most 不等於只能吃米飯。"
+      },
+      "reply": {
+        "promptEn": "Why does the village food guide begin with rice?",
+        "promptZh": "村落飲食指南為甚麼從米飯開始？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Rice is the backbone of local eating habits here.",
+            "zh": "米飯是這裏本地飲食的核心支柱。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Most everyday meals are organised around it.",
+            "zh": "平常大部分飯餐都圍繞它安排。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It provides a useful starting point for explaining common meals.",
+            "zh": "它是解釋常見飯餐的有用起點。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Many of the side dishes are usually served with it.",
+            "zh": "很多配菜通常都與它一起供應。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "某社區的家長指出，持續教育幫助孩子建立讀寫與思考能力，為日後的學習和工作選擇提供主要支持；他們也重視家庭和健康的作用。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They regard sustained education as the backbone of a child’s future, alongside family and health support.",
+            "zh": "他們視持續教育為孩子未來的核心支柱，同時也重視家庭與健康的支持。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Because family support matters too, education cannot be a central support for the child’s future.",
+            "zh": "既然家庭支持也重要，教育就不可能是孩子未來的核心支柱。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They treat education as sufficient on its own for the child’s later choices, even without family or health support.",
+            "zh": "他們認為教育單靠自己已足以支持孩子日後的選擇，毋須家庭或健康方面的支持。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "持續教育提供重要的讀寫與思考能力，但不排除家庭、健康等其他支持，也不保證未來結果。"
+      },
+      "contrast": {
+        "promptZh": "哪項證據最不足以支持 the backbone of local eating habits？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Long-term observation shows that everyday meals centre on that staple.",
+            "zh": "長期觀察顯示平常飯餐多以該主食為中心。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Visitors liked a new dessert at one tasting, with no evidence of regular use.",
+            "zh": "一場試食會有人喜歡一道新甜品，但未見日常食用情況。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Household interviews repeatedly cite the staple as a basis for meal planning.",
+            "zh": "家庭訪問反覆提到該主食是安排飯餐的基礎。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "一次活動的喜愛，未建立日常飲食中心地位。"
+      },
+      "dialogue": {
+        "promptZh": "朋友把一次人氣甜品直接稱為本地飲食支柱。哪句提醒準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "To call it the backbone of local eating habits, check its role in ordinary meals over time.",
+            "zh": "要稱它為本地飲食核心支柱，應查看它長期在平常飯餐中的角色。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the queue at one tasting event as the main evidence of its everyday role.",
+            "zh": "主要用一次試食會的人龍，證明它的日常角色。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Rank the dishes by their prices before checking how often households eat them.",
+            "zh": "先按價格排菜式，再查看家庭多久吃一次。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "核心支柱涉及平日安排及持續地位，不只一次人氣或價格。"
+      },
+      "speaking": {
+        "en": "Rice is the backbone of local eating habits in this village.",
+        "zh": "米飯是這個村落本地飲食的核心支柱。",
+        "targetSpan": {
+          "start": 8,
+          "end": 43
+        },
+        "promptZh": "你想形容觀察到的日常主食角色。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：虛構小鎮的博物館介紹把年度節慶甜點寫成日常主食；訪問卻顯示家庭平日大多吃麵。你要更正文案，用一至兩句英文說明真正核心。",
+        "examples": [
+          {
+            "en": "Noodles, rather than the festival sweet, are the backbone of local eating habits in this fictional town. The museum text should reflect everyday meals.",
+            "zh": "在這虛構小鎮，麵而非節慶甜點才是本地飲食核心支柱。博物館文案應反映平日飯餐。"
+          },
+          {
+            "en": "Our interviews suggest that noodles are the backbone of local eating habits. We should not confuse a yearly treat with an everyday staple.",
+            "zh": "訪問顯示麵是本地飲食核心支柱。我們不應混淆年度食品與日常主食。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Noodles",
+            "zh": "麵",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 7
+            }
+          },
+          {
+            "en": "the festival sweet",
+            "zh": "節慶甜點",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 39
+            }
+          },
+          {
+            "en": "The museum text",
+            "zh": "博物館文案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 120
+            }
+          },
+          {
+            "en": "an everyday staple",
+            "zh": "日常主食",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 137
+            }
+          }
+        ],
+        "selfCheckZh": "用日常主食與年度食品的差別更正文案，以虛構小鎮訪問為依據。"
+      },
+      "takeaways": [
+        {
+          "en": "Rice remains the backbone of local eating habits in the village.",
+          "zh": "米飯仍是該村落本地飲食的核心支柱。"
+        },
+        {
+          "en": "Shared broadband is the backbone of modern home life in the village: families use it for appointments, homework and bills.",
+          "zh": "在這村落，共用寬頻是現代家居生活的核心支柱：各家用它預約服務、做功課和繳費。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-2168",
+      "number": 2168,
+      "inventoryId": "expr-2168",
+      "titleEn": "getting from A to B",
+      "titleZh": "從一處到另一處",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:getting|get|gets|got)\\s+from\\s+(?:A\\s+to\\s+B|one\\s+place\\s+to\\s+another)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Travel between two places, especially when discussing the practical journey.",
+        "meaningZh": "從一個地方前往另一個地方，重點是實際行程。",
+        "grammar": "Getting/get/gets/got from A to B or from one place to another describes travel between locations; A and B stand for places, not named people.",
+        "register": "Neutral shorthand for travel logistics; A and B stand for places, not named people. A commuter may tell a visitor that getting from A to B is easier with the new bus connection.",
+        "boundaryZh": "須談論兩地之間如何移動；不是比較選項 A 和 B 的文字標籤。",
+        "misconceptionZh": "不要把 A 和 B 當成必須叫這兩個字母的地名。",
+        "outcomeZh": "能用這個片語討論路線、轉乘與出行難易。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0057",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 6,
+          "book": 10,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 5, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new route makes getting from A to B much easier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "getting from A to B"
+        },
+        {
+          "occurrenceId": "book10-16-1524",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 143,
+          "book": 14,
+          "question": 8,
+          "sample": "S1",
+          "sourceBookPages": "20–21",
+          "locatorNote": "DOCX table 152, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new route makes getting from A to B much easier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "getting from A to B"
+        },
+        {
+          "occurrenceId": "book10-16-2411",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 228,
+          "book": 16,
+          "question": 36,
+          "sample": "S2",
+          "sourceBookPages": "86–89",
+          "locatorNote": "DOCX table 251, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The app makes getting from one place to another easier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "getting from one place to another"
+        },
+        {
+          "occurrenceId": "book10-16-2433",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 230,
+          "book": 16,
+          "question": 40,
+          "sample": "S1",
+          "sourceBookPages": "96–97",
+          "locatorNote": "DOCX table 255, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new route makes getting from A to B much easier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "getting from A to B"
+        }
+      ],
+      "listening": {
+        "en": "The new bus route cuts out a transfer, so getting from A to B across town is much easier now.",
+        "zh": "新巴士路線省卻一次轉乘，所以現在穿越市區，從一處到另一處容易得多。",
+        "promptZh": "新路線改善了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It makes travelling between places simpler.",
+            "zh": "它令兩地之間的出行較簡單。"
+          },
+          {
+            "id": "b",
+            "en": "It mainly lowers the fare without changing the route.",
+            "zh": "它主要降低車費，卻沒有改變路線。"
+          },
+          {
+            "id": "c",
+            "en": "It shortens the wait but keeps the same transfer.",
+            "zh": "它縮短等車時間，但轉乘次數不變。"
+          },
+          {
+            "id": "d",
+            "en": "It adds an extra transfer across town.",
+            "zh": "它令穿越市區的旅程多一次轉乘。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新路線省卻一次轉乘，令兩地之間的旅程更容易；沒有資料顯示車費或候車時間改變。"
+      },
+      "reply": {
+        "promptEn": "What would help visitors travel between the two exhibition buildings?",
+        "promptZh": "（甚麼能幫助訪客從一座展覽大樓前往另一座？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A clear map would make getting from A to B easier.",
+            "zh": "清晰的地圖會令訪客從一座大樓前往另一座更容易。"
+          },
+          {
+            "id": "b",
+            "en": "A short shuttle would save them a long walk.",
+            "zh": "短程接駁車能省卻漫長步行。"
+          },
+          {
+            "id": "c",
+            "en": "Signs at both exits would point them the right way.",
+            "zh": "兩邊出口的指示牌能指引正確方向。"
+          },
+          {
+            "id": "d",
+            "en": "Staff could explain which walkway connects the two buildings.",
+            "zh": "職員可以解釋哪條行人通道連接兩座大樓。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四項都能幫助訪客從一座大樓前往另一座；金句使用本課片語，概括從起點到終點的旅程。"
+      },
+      "scene": {
+        "promptZh": "兩座場館原本要轉乘兩次。主辦方增設直達接駁車。哪句最準確描述改動的作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shuttle makes getting from A to B more straightforward.",
+            "zh": "接駁車令從一座場館前往另一座更直接。"
+          },
+          {
+            "id": "b",
+            "en": "Visitors now need two additional transfers to reach the second venue.",
+            "zh": "訪客現在要額外轉乘兩次，才能到第二個場館。"
+          },
+          {
+            "id": "c",
+            "en": "Visitors still need to change vehicles twice, though the fare is lower.",
+            "zh": "訪客仍須轉乘兩次，只是車費較低。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "直達接駁車減少轉乘，改善實際交通；另外兩句都聲稱仍要轉車，與情境不符。"
+      },
+      "contrast": {
+        "promptZh": "以本課「兩地之間的實際行程」的意思，哪個情況最不適合說 getting from A to B？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A cyclist asks which bridge connects the two districts.",
+            "zh": "單車騎士查問哪座橋連接兩個地區。"
+          },
+          {
+            "id": "b",
+            "en": "A teacher compares answer choice A with answer choice B on a worksheet.",
+            "zh": "老師比較工作紙上的 A 和 B 兩個答案選項。"
+          },
+          {
+            "id": "c",
+            "en": "A traveller checks how long it takes to reach the harbour from the station.",
+            "zh": "旅客查問從車站到碼頭需時多久。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "比較工作紙的答案選項不涉及前往兩地；另外兩項都是路線或交通問題。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「車站與音樂廳相隔兩條街，但我不熟悉這一帶。這張地圖標了行人過路處。」哪個回應最有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "To get from one place to another on foot, use the marked crossing shown on this map.",
+            "zh": "要步行從車站到音樂廳，可使用這張地圖標示的行人過路處。"
+          },
+          {
+            "id": "b",
+            "en": "The nearest side street should be quickest, so take it without checking where the crossing is.",
+            "zh": "最近的側街應該最快；不用查看行人過路處在哪裏，走那邊就好。"
+          },
+          {
+            "id": "c",
+            "en": "The hall is only two streets away, so head straight towards it even if that misses the marked crossing.",
+            "zh": "音樂廳只隔兩條街，朝它直走就好，即使這樣會錯過地圖標示的行人過路處。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "地圖標示的行人過路處提供可核查的步行路線；其餘回應只憑距離或側街位置猜測，沒有確認過路位置。"
+      },
+      "speaking": {
+        "en": "A simple walking map made getting from A to B easier for new visitors.",
+        "zh": "簡單的步行地圖讓初次到訪的人更容易從起點走到目的地。",
+        "promptZh": "先聽示範，再說明步行地圖怎樣幫助初次到訪的人。",
+        "targetSpan": {
+          "start": 26,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校活動分別在主校舍與體育館舉行，新同學不懂兩地之間怎樣走。用一至兩句英文介紹你會提供甚麼幫助。",
+        "selfCheckZh": "說明兩地之間的出行問題，以及地圖或指示牌等具體幫助；不要只談論課室名稱。",
+        "examples": [
+          {
+            "en": "A marked map will make getting from A to B easier for new students. We can show the safest crossing.",
+            "zh": "有標記的地圖會令新同學從主校舍前往體育館更容易。我們可以指出最安全的行人過路處。"
+          },
+          {
+            "en": "Getting from A to B can be confusing for new students, so I will put clear signs beside both entrances.",
+            "zh": "新同學可能不清楚怎樣從主校舍前往體育館，所以我會在兩邊入口旁放置清晰的指示牌。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A marked map",
+            "zh": "有標記的地圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "new students",
+            "zh": "新同學",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 66
+            }
+          },
+          {
+            "en": "the safest crossing",
+            "zh": "最安全的行人過路處",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 99
+            }
+          },
+          {
+            "en": "clear signs",
+            "zh": "清晰的指示牌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 69,
+              "end": 80
+            }
+          },
+          {
+            "en": "both entrances",
+            "zh": "兩邊入口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 88,
+              "end": 102
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Getting from A to B took longer when the footbridge was closed.",
+          "zh": "行人天橋關閉後，從一處前往另一處要更久。"
+        },
+        {
+          "en": "The guide explained how to get from A to B without changing trains.",
+          "zh": "導遊解釋了如何不轉車便從一處到另一處。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 5
+    }
+  ]
+}

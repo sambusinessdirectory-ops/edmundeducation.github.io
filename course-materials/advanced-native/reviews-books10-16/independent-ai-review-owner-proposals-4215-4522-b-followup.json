@@ -1,0 +1,40 @@
+{
+  "kind": "independent-ai-proposal-followup",
+  "status": "content-clear-proposal-only",
+  "proposalOnly": true,
+  "exactInputs": {
+    "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-4215-4522-proposed-a.json",
+    "proposalSha256": "3d8707e7aa48e8c81944905afb22cf5792817065119dd8e745b7baadd7792f0b",
+    "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-proposal-owner-expansions-4215-4522-a.json",
+    "authorAuditSha256": "bea22607d8b771b5a9dbe620111d7f938e48a61701cd9d9009e75ef7b912388d"
+  },
+  "results": [
+    {
+      "sourceOrdinal": 4215,
+      "ownerId": "advanced-native-1505",
+      "verdict": "accept",
+      "resolved": [
+        "R4215-01"
+      ],
+      "evidence": "Scene C now makes the prompt-named family and health supports an overexclusive inference from education as backbone. Key keeps education central but not sufficient alone; EN/ZH and answer ID align."
+    },
+    {
+      "sourceOrdinal": 4522,
+      "ownerId": "advanced-native-2168",
+      "verdict": "accept",
+      "resolved": [
+        "R4522-01",
+        "R4522-02",
+        "R4522-03"
+      ],
+      "evidence": "Dialogue key uses new route-instruction carrier and natural “use the marked crossing shown on this map”; target remains present. B/C are context-plausible unsafe shortcuts relative to the prompt-named crossing. EN/ZH, answer ID and source sense align; no source-template six-token carrier retained."
+    }
+  ],
+  "verification": {
+    "focusedBuildAndCheck": "2 lessons / 12 questions / 8 audio requests / 0 flags",
+    "targetBearingChangedKey": true,
+    "selectedFilesEditedByReviewer": false,
+    "decisionFilesEditedByReviewer": false
+  },
+  "limits": "AI content clearance for proposal only; integration, media and release remain separate."
+}

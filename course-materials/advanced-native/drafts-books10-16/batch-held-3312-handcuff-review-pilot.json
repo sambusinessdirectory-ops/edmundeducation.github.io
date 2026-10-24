@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-3312-handcuff-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3312",
+      "number": 3312,
+      "inventoryId": "expr-3312",
+      "titleEn": "handcuff (figurative)",
+      "titleZh": "束縛計劃或選擇",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:handcuff|handcuffs|handcuffed|handcuffing)\\s+(?:it\\b|(?:the|our|their|your|my)\\s+(?:life|lives|choices|options|creativity|work|team|group|club|project|plan|process|response|programme|program|clinic|class|community)\\b)",
+        "glossaryForbidden": [
+          "\\b(?:handcuff|handcuffs|handcuffed|handcuffing)\\s+(?:it\\b|(?:the|our|their|your|my)\\s+(?:life|lives|choices|options|creativity|work|team|group|club|project|plan|process|response|programme|program|clinic|class|community)\\b)"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Figurative handcuff means to constrain someone’s choices or an activity so severely that sensible adjustment becomes difficult. A rule may offer useful direction while still being too rigid; the image does not imply legal force or literal restraints.",
+        "meaningZh": "比喻用法 handcuff 指規則或安排過度束縛選擇或活動，使合理調整變得困難。規則可以有指引作用，卻仍過於僵硬；這不表示有法律強制力或真的使用手銬。",
+        "grammar": "Use handcuff/handcuffs/handcuffed/handcuffing + an affected abstract object such as the team, our choices or the project. The source uses handcuff it, with it referring back to life. The passive handcuffed by is natural in general usage but is outside this lesson’s bounded detector.",
+        "register": "Vivid criticism in discussion or constructive feedback. A volunteer may use it with a coordinator, or a teacher with a committee, when explaining exactly which adjustment a rigid rule blocks. Avoid it in a literal police account and distinguish it from the employment-benefit noun golden handcuffs.",
+        "boundaryZh": "要指出規則阻止了哪項合理調整；單是有時間表或規則，不足以說它「束縛」人。它不同於以待遇留住員工的 golden handcuffs，也不是字面上的上手銬。",
+        "misconceptionZh": "不要把任何有用的指引都稱為束縛，更不要推斷有法律禁令；請說明過度限制和可行的彈性。",
+        "outcomeZh": "能在不同情境中分辨有用的指引與過度束縛，指出受限制的選擇，並提出保留規則目的的彈性做法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1201",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 111,
+          "book": 12,
+          "question": 45,
+          "sample": "S2",
+          "sourceBookPages": "106–107",
+          "locatorNote": "DOCX table 115, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A schedule should guide your life, not handcuff it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "handcuff it"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author 3312 pilot",
+          "evidence": "R3312-01 foil fairness and R3312-02 writing antecedent repaired at revision 2; source sense, six keyed decisions and four-valid replies self-checked; independent re-review pending."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author 3312 pilot",
+          "evidence": "Revised listening, scene, dialogue and writing EN/ZH parity and glossary spans self-checked; independent re-review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "Unselected held-source pilot; decision and manifest unchanged.",
+          "Revision 2 addresses independent findings R3312-01 and R3312-02 without selection."
+        ],
+        "author": "AI author 3312 pilot",
+        "independentHumanApproval": false
+      },
+      "listening": {
+        "promptEn": "Why does the volunteer call the sign-up rule restrictive?",
+        "promptZh": "義工為甚麼認為報名規則限制過多？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It prevents the team from moving helpers between rooms when numbers change.",
+            "zh": "人數有變時，規則不准團隊在不同房間之間調動幫手。"
+          },
+          {
+            "id": "b",
+            "en": "It leaves the team free to move helpers, but they lack a way to count arrivals.",
+            "zh": "規則容許團隊調動幫手，但他們沒有方法點算到場人數。"
+          },
+          {
+            "id": "c",
+            "en": "They must wait for a coordinator’s special approval before switching rooms once the event begins.",
+            "zh": "活動開始後，義工必須先取得統籌員特別批准，才可轉換房間。"
+          },
+          {
+            "id": "d",
+            "en": "The advance sign-up numbers prevent inviting extra helpers when turnout exceeds expectations.",
+            "zh": "若到場人數超出預期，預先報名數字會令團隊無法邀請額外幫手。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音說預先報名有助估計人手，但活動開門後不准調動義工，房間坐滿也不能例外；沒有提到特別批准或禁止邀請額外幫手。",
+        "en": "For the craft day, advance sign-ups help us plan how many helpers to invite. But the rule says volunteers cannot switch rooms once the doors open, even if one room fills up. That handcuffs the team when numbers change.",
+        "zh": "手作日的預先報名有助我們估計要邀請多少幫手。但規則說開門後義工不能轉換房間，即使其中一間已坐滿。人數一變，這就束縛了團隊的調配。"
+      },
+      "reply": {
+        "promptEn": "The reading club’s monthly plan helps us reserve rooms, but it forbids moving a session online when the building closes unexpectedly. How can I explain the problem to the coordinator?",
+        "promptZh": "讀書會的月度計劃有助預訂房間，但大樓突然關閉時，計劃不准把聚會改為網上進行。我可以怎樣向統籌員解釋問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The room plan is useful, but that no-change rule handcuffs the club when the building closes. Could we allow an online backup?",
+            "zh": "房間計劃很有用，但大樓關閉時，禁止改動的規則就束縛了讀書會。我們可否容許網上後備安排？"
+          },
+          {
+            "id": "b",
+            "en": "Could we keep the monthly bookings and add an online option for an unexpected closure?",
+            "zh": "我們可否保留每月預訂，同時加入大樓突然關閉時的網上選項？"
+          },
+          {
+            "id": "c",
+            "en": "The plan helps with rooms; could it also let us notify members and meet online if the building shuts?",
+            "zh": "計劃有助安排房間；若大樓關閉，可否也容許我們通知會員並改在網上聚會？"
+          },
+          {
+            "id": "d",
+            "en": "May we keep the reservation system but give the organiser discretion to switch format during a closure?",
+            "zh": "我們可否保留預訂制度，但在大樓關閉時讓籌辦人自行決定轉換形式？"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都承認預訂計劃有用，也提出大樓關閉時轉用網上的合理彈性；甲直接用 handcuffs 說明禁止改動如何束縛讀書會。"
+      },
+      "scene": {
+        "promptEn": "A museum sends schools a useful visit timetable. A group with limited mobility asks to shorten one gallery stop, but the timetable bars guides from doing so even though the following room is free. Which account best fits?",
+        "promptZh": "博物館向學校提供有用的參觀時間表。一個行動不便的團體要求縮短某站停留時間，但即使下一間展廳空着，時間表仍不准導賞員這樣做。哪個描述最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The timetable helps schools plan, but the fixed stop length handcuffs the programme when a group needs an accessible adjustment.",
+            "zh": "時間表有助學校規劃，但團體需要無障礙調整時，固定的停留時間束縛了參觀安排。"
+          },
+          {
+            "id": "b",
+            "en": "The main access barrier is the gallery order, so shortening one stop would not address the group’s request.",
+            "zh": "主要的無障礙問題是展廳的參觀次序，所以縮短某站停留時間不能回應這團體的要求。"
+          },
+          {
+            "id": "c",
+            "en": "Giving every school the same stop length makes the timetable fair, so the requested adjustment is unnecessary.",
+            "zh": "讓每間學校在各站停留相同時間才公平，所以毋須作出這團體要求的調整。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "團體明確要求縮短某站停留時間，下一間展廳也空着，但時間表不准導賞員調整；甲同時保留時間表的好處及指出過度僵硬之處。乙把問題歸咎於沒有提及的展廳次序，丙則以劃一時間忽略了實際的無障礙需要。"
+      },
+      "contrast": {
+        "promptEn": "Which example uses the figurative verb from this lesson, rather than literal restraints or the employment-benefit noun “golden handcuffs”?",
+        "promptZh": "哪個例子用的是本課的比喻動詞，而非真的上手銬或表示工作待遇留人的名詞 golden handcuffs？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The grant rule handcuffed the project: volunteers could not move the outdoor show inside during a storm.",
+            "zh": "撥款規則束縛了計劃：暴風雨時，義工不能把戶外表演移進室內。"
+          },
+          {
+            "id": "b",
+            "en": "The season-end bonus felt like golden handcuffs because leaving meant losing the payment.",
+            "zh": "年底獎金像 golden handcuffs，因為離職就會失去這筆款項。"
+          },
+          {
+            "id": "c",
+            "en": "The officer handcuffed the suspect before taking him to the station.",
+            "zh": "警員帶疑犯到警署前，給他戴上手銬。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲是規則阻止計劃作合理調整的比喻動詞；乙是用待遇留人的名詞 golden handcuffs，丙則是字面上的上手銬。"
+      },
+      "dialogue": {
+        "promptEn": "A sports coach says, “The weekly training plan keeps everyone informed, but it does not let me swap the outdoor session when the field is flooded. What should I tell the committee?” Which reply best answers?",
+        "promptZh": "體育教練說：「每週訓練計劃讓大家掌握安排，但球場水浸時，計劃不容許我調換戶外課節。我應怎樣向委員會說明？」哪個回答最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Say the plan informs the team, but its no-swap rule handcuffs your response to flooding; ask for a weather exception.",
+            "zh": "可以說計劃有助團隊掌握安排，但禁止調換課節的規則束縛了你應對水浸的能力；請求加入惡劣天氣例外。"
+          },
+          {
+            "id": "b",
+            "en": "Keep the weekly plan and add a flood alert to the notice; the no-swap rule itself need not change.",
+            "zh": "保留每週計劃，在通知中加入水浸警示就好；禁止調換課節的規則本身毋須改動。"
+          },
+          {
+            "id": "c",
+            "en": "Keep the weekly notice, but move every future outdoor session inside in case the field floods again.",
+            "zh": "保留每週通知，但把日後所有戶外課節都移到室內，以防球場再次水浸。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲既保留每週計劃通知隊員的作用，也針對水浸提出有限度的例外；乙只加警示，沒有解決不能調換課節的問題，丙則把一次水浸擴大成永久改動。"
+      },
+      "speaking": {
+        "en": "The grant calendar keeps the theatre on track, but a ban on changing rehearsal dates could handcuff the project if a lead performer falls ill.",
+        "zh": "撥款日程有助劇團按進度行事，但若主演生病，禁止更改排練日期就可能束縛整項計劃。",
+        "promptZh": "先聽示範，再指出一項有用的安排何時會因過度僵硬而限制合理選擇。",
+        "targetSpan": {
+          "start": 91,
+          "end": 111
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區食物銀行的領取時段表有助義工預先分工，但規則不准在熱浪期間把長者的領取時段改到清晨，即使義工和物資都已準備好。請以一至兩句英文向協調員說明：保留排班好處，同時提出針對熱浪的合理彈性。",
+        "selfCheckZh": "兩例都要說出排班的好處、被禁止的清晨調整、熱浪的原因，以及可行的例外；不要聲稱有法律禁令或食物銀行停辦。",
+        "examples": [
+          {
+            "en": "The pickup rota helps volunteers prepare, but refusing an early-morning slot for older visitors during the heatwave handcuffs the team even though the team is ready to provide a safer early pickup. Could we allow that exception while keeping the rota?",
+            "zh": "領取時段表有助義工準備，但熱浪期間拒絕讓長者清晨領取物資，儘管團隊已準備好提供更安全的清晨領取安排，仍束縛了團隊。我們可否保留時段表，同時容許這項例外？"
+          },
+          {
+            "en": "I would keep the rota for staffing, yet the ban on moving older visitors to an early-morning pickup during the heatwave handcuffs our response. Please let us make that one change when volunteers and supplies are ready.",
+            "zh": "我會保留時段表以安排人手，但熱浪期間不准讓長者改在清晨領取物資，束縛了我們的應對。義工和物資都已準備好時，請容許我們作出這項調整。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "pickup rota",
+            "zh": "領取時段表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 15
+            }
+          },
+          {
+            "en": "early-morning slot",
+            "zh": "清晨時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 76
+            }
+          },
+          {
+            "en": "older visitors",
+            "zh": "長者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 95
+            }
+          },
+          {
+            "en": "the ban on moving older visitors",
+            "zh": "不准讓長者改動時段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 40,
+              "end": 72
+            }
+          },
+          {
+            "en": "staffing",
+            "zh": "安排人手",
+            "exampleIndex": 1,
+            "span": {
+              "start": 26,
+              "end": 34
+            }
+          },
+          {
+            "en": "volunteers and supplies",
+            "zh": "義工和物資",
+            "exampleIndex": 1,
+            "span": {
+              "start": 184,
+              "end": 207
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "To handcuff the team figuratively is to severely restrict its choices; the source does not suggest literal cuffs or a legal ban.",
+          "zh": "比喻用法 handcuff 指嚴重限制選擇或行動；原句並非指真的上手銬或有法律禁令。"
+        },
+        {
+          "en": "A useful plan can handcuff the team if it bars a reasonable adjustment; explain both the benefit and the blocked choice.",
+          "zh": "有用的計劃若禁止合理調整，仍可能束縛團隊；說明其好處，也要指出哪項選擇受阻。"
+        }
+      ]
+    }
+  ]
+}
