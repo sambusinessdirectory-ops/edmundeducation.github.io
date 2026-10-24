@@ -33,7 +33,7 @@ for(const [i,text] of ['strength','three weeks','too much money','months working
  assert.equal(await page.locator('.answer-grid .correct').count(),1);
  assert.equal(await page.locator('.answer-grid .wrong').count(),i%2?0:1);
  assert.ok((await page.locator('.feedback').innerText()).includes(labels.get(answer)));
- await page.screenshot({path:out+'/fairness-'+i+'.png',fullPage:true});
+ await page.clock.runFor(5000);await page.screenshot({path:out+'/fairness-'+i+'.png',fullPage:true});
  await page.evaluate(()=>{localStorage.clear();sessionStorage.clear();});
 }
 assert.deepEqual(errors,[]);await browser.close();console.log('PASS: all five reported sentences render their revised choices, give correct/wrong feedback, and sync using isolated test accounts.');
