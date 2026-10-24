@@ -87,8 +87,8 @@
       ]
     },
     "register": {
-      "labelEn": "Source-Guided Register",
-      "labelZh": "按原檔語域使用",
+      "labelEn": "Neutral; vivid description",
+      "labelZh": "中性；帶生動描寫",
       "summaryEn": "everyday conversation; stories and personal accounts; news and feature writing; speeches and presentations; general descriptive writing.",
       "summaryZh": "這個表達的語氣屬中性至生動，可以用於日常對話、故事、個人敘述、新聞特寫、演講、簡報及一般描述文章。",
       "contextsEn": [
@@ -99,7 +99,7 @@
         "general descriptive writing"
       ],
       "contextsZh": [],
-      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalEn": "Use for the cold middle of winter; in technical writing, exact dates or midwinter may be clearer.",
       "formalZh": "在高度技術性的文章中，使用確實日期或較直接的 midwinter 有時會更加清楚。"
     },
     "fixedVariable": {

@@ -71,20 +71,20 @@
       }
     ],
     "meaning": {
-      "en": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
-      "zh": "指家族、團隊或其他群體中，被其他成員視為名聲不佳、經常惹麻煩、令人難堪或不獲接納的人。",
+      "en": "a person whom a family or group regards as troublesome, shameful or different from its other members",
+      "zh": "被家族或群體視為惹麻煩、令其難堪或與其他成員格格不入的人。",
       "naturalZh": [
         "指家族、團隊或其他群體中，被其他成員視為名聲不佳、經常惹麻煩、令人難堪或不獲接納的人。"
       ]
     },
     "register": {
-      "labelEn": "Source-Guided Register",
-      "labelZh": "按原檔語域使用",
+      "labelEn": "Often disapproving; attribution matters",
+      "labelZh": "通常帶負面評價；須交代評價者",
       "summaryEn": "In careful communication, reporting frames such as is regarded as, is seen as or is unfairly treated as make it clear whose judgement is being described.",
       "summaryZh": "這個慣用語通常帶有負面和批判意味。 直接稱某人為 a black sheep，可能會顯得相當尖銳。",
       "contextsEn": [],
       "contextsZh": [],
-      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalEn": "Attribute the label when it reflects a family or group judgement rather than the speaker’s own view.",
       "formalZh": "在較審慎的表達中，可以使用 is regarded as、is seen as 或 is unfairly treated as，清楚說明這是某個家庭或群體對當事人的評價，而不一定是說話者本人的判斷。"
     },
     "fixedVariable": {
@@ -311,7 +311,7 @@
         "answer": "Daniel is regarded as a black sheep in his family because he has repeatedly stolen money from them.",
         "answerZh": "丹尼爾多次偷取家人的金錢，因此被視為家中令人蒙羞的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -331,7 +331,7 @@
         "answer": "Grace is known as a black sheep in her family because she causes serious trouble.",
         "answerZh": "格蕾絲經常闖下大禍，因此被視為家中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -351,7 +351,7 @@
         "answer": "Ethan has become a black sheep in his family because of his dishonest actions.",
         "answerZh": "伊森因為不誠實的行為，已成為家中令人難堪的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -371,7 +371,7 @@
         "answer": "Chloe is seen as a black sheep in her team because her bad behaviour has damaged its good name.",
         "answerZh": "克洛伊的不良行為損害了團隊聲譽，因此被視為隊中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -391,7 +391,7 @@
         "answer": "Robert is now regarded as a black sheep in his family because he has broken the law several times.",
         "answerZh": "羅伯特曾多次違法，因此現在被家人視為不光彩的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -411,7 +411,7 @@
         "answer": "Leo is considered a black sheep in the club because his behaviour keeps embarrassing the other members.",
         "answerZh": "里奧的行為不斷令其他成員難堪，因此被視為俱樂部中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -431,7 +431,7 @@
         "answer": "Anna is considered a black sheep in her family because she has brought shame on them.",
         "answerZh": "安娜令家人蒙羞，因此被視為家中不光彩的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -451,7 +451,7 @@
         "answer": "He is regarded as a black sheep in the group because he keeps cheating.",
         "answerZh": "他屢次作弊，因此被視為小組中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -471,7 +471,7 @@
         "answer": "That worker is regarded as a black sheep by the other shop workers because he steals from customers.",
         "answerZh": "那名員工偷取顧客的財物，因此被其他店員視為害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -491,7 +491,7 @@
         "answer": "Oliver is treated as a black sheep in his family because his actions often bring shame on them.",
         "answerZh": "奧利弗的行為經常令家人蒙羞，因此在家中被當成不受接納的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -511,7 +511,7 @@
         "answer": "Ryan is often described as a black sheep in his family because of his gambling.",
         "answerZh": "賴恩因為賭博，經常被家人形容為家中的不光彩人物。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -531,7 +531,7 @@
         "answer": "Helen was regarded as a black sheep in the volunteer group after she lied about the charity money.",
         "answerZh": "海倫在慈善款項一事上說謊後，被義工團體視為害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -551,7 +551,7 @@
         "answer": "Priya has become a black sheep in the club after breaking its rules many times.",
         "answerZh": "普麗雅多次違反俱樂部規則，因而成為團體中令人蒙羞的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -571,7 +571,7 @@
         "answer": "Marcus may become a black sheep in the sales team if he continues to lie to customers.",
         "answerZh": "如果馬庫斯繼續欺騙顧客，他可能會成為銷售團隊中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -591,7 +591,7 @@
         "answer": "One more dishonest act could make Kevin a black sheep in his family.",
         "answerZh": "再有一次不誠實行為，便可能令凱文成為家中令人蒙羞的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -611,7 +611,7 @@
         "answer": "Sophie is not a black sheep simply because she chose a different career.",
         "answerZh": "索菲不會只因選擇了不同的職業，就成為家中不受認同的人。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -631,7 +631,7 @@
         "answer": "Amir is treated as a black sheep in his family because of his repeated fraud.",
         "answerZh": "阿米爾多次詐騙，因此被家人當成令人蒙羞的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -651,7 +651,7 @@
         "answer": "Noah was regarded as a black sheep in the team after he was caught cheating.",
         "answerZh": "諾亞被揭發作弊後，被視為球隊中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -671,7 +671,7 @@
         "answer": "The committee regards that member as a black sheep in the group because he secretly accepted gifts.",
         "answerZh": "委員會認為該成員暗中收受禮物，因此是團體中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -691,7 +691,7 @@
         "answer": "No. Elena is treated as a black sheep in her family and blamed for every scandal.",
         "answerZh": "不。埃琳娜在家中被當成不受接納的一員，所有醜聞都被怪在她身上。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -711,7 +711,7 @@
         "answer": "Clara is unfairly treated as a black sheep in her family because she is a street artist.",
         "answerZh": "克拉拉只因為是街頭藝術家，便被家人不公平地當成異類。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -731,7 +731,7 @@
         "answer": "Paul may soon become a black sheep in the team because he keeps ignoring the safety rules and has already caused two accidents.",
         "answerZh": "保羅不斷無視安全規則，而且已造成兩宗意外，因此可能很快便會成為團隊中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -751,7 +751,7 @@
         "answer": "The coach described Ben as a black sheep in the team because of his repeated cheating.",
         "answerZh": "教練因本多次作弊，而形容他是球隊中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -771,7 +771,7 @@
         "answer": "Nora says she feels like a black sheep in her family because she left the family business.",
         "answerZh": "諾拉說，自己因離開家族生意而覺得是家中不受認同的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -791,7 +791,7 @@
         "answer": "No. Yusuf is not a black sheep just because he is quiet and avoids social events.",
         "answerZh": "不是。優素福不會只因沉默寡言和避開社交活動，就成為家中不受認同的人。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -811,7 +811,7 @@
         "answer": "Sam became a black sheep in the band after stealing the ticket money.",
         "answerZh": "森姆偷走門票收入後，成為樂隊中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -831,7 +831,7 @@
         "answer": "Although her sisters are trusted teachers, Iris is regarded as a black sheep in her family because her repeated arrests embarrass them.",
         "answerZh": "雖然艾莉絲的姊妹都是受人信任的教師，但她多次被捕，令家人難堪，因此被視為家中不光彩的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -851,7 +851,7 @@
         "answer": "They remember that boy as a black sheep in their class because he always cheated.",
         "answerZh": "他們記得那個男生經常作弊，是班中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -871,7 +871,7 @@
         "answer": "Zoe may become a black sheep in her family if she keeps sharing private family stories online.",
         "answerZh": "如果佐伊繼續在網上公開家人的私事，她可能會成為家中令人難堪的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -891,7 +891,7 @@
         "answer": "You are not a black sheep simply because you do not want to marry.",
         "answerZh": "你不會只因不想結婚，就成為家中不受認同的人。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -911,7 +911,7 @@
         "answer": "Although Jack is kind to his neighbours, he is still regarded as a black sheep in his family because of his past fraud.",
         "answerZh": "雖然傑克善待鄰居，但家人仍因他過去的詐騙行為而視他為不光彩的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -931,7 +931,7 @@
         "answer": "His decision to sell customer information made him a black sheep in the company.",
         "answerZh": "他出售顧客資料的決定，令他成為公司中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -951,7 +951,7 @@
         "answer": "Aisha was once treated as a black sheep in her family, but her relatives now admire her success.",
         "answerZh": "艾莎曾因職業選擇而被家人當成異類，但親人現在已欣賞她的成就。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -971,7 +971,7 @@
         "answer": "The director called the dishonest worker a black sheep in the organisation and said he did not represent the rest of the staff.",
         "answerZh": "主管稱該名不誠實的員工為機構中的害群之馬，並表示他不能代表其他員工。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -991,7 +991,7 @@
         "answer": "Although his brothers are trusted doctors, he is regarded as a black sheep in his family because he has spent years cheating people.",
         "answerZh": "雖然他的兄弟都是受人信任的醫生，但他多年來一直欺騙別人，因此被視為家中令人蒙羞的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1011,7 +1011,7 @@
         "answer": "Dean is regarded as a black sheep in the club because he lied about the money.",
         "answerZh": "迪恩在款項問題上說謊，因此被視為俱樂部中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1031,7 +1031,7 @@
         "answer": "Although her family still supports her, Mei may be regarded as a black sheep in her family if she steals from them again.",
         "answerZh": "雖然家人目前仍支持美儀，但如果她再次偷取家人的財物，便可能被視為家中令人蒙羞的一員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1051,7 +1051,7 @@
         "answer": "Although Tariq is honest and respected, some relatives unfairly label him a black sheep in his family.",
         "answerZh": "雖然塔里克為人誠實並受人尊重，但一些親人仍不公平地把他標籤為家中的異類。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1071,7 +1071,7 @@
         "answer": "The new student should not be treated as a black sheep merely because she dresses differently.",
         "answerZh": "這名新生不應只因衣着與別不同，便被當成團體中不受接納的人。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1091,7 +1091,7 @@
         "answer": "Ella had been treated as a black sheep in her family for years before her relatives admitted that they had judged her unfairly.",
         "answerZh": "埃拉多年來一直被家人當成異類，直至親人承認自己一直不公平地批評她。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1111,7 +1111,7 @@
         "answer": "Although most officers followed the rules, one officer became a black sheep in the department after accepting secret payments.",
         "answerZh": "雖然大部分人員都遵守規則，但其中一人收受秘密款項後，成為部門中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1131,7 +1131,7 @@
         "answer": "Rina is not a black sheep simply because she moved abroad; her relatives merely dislike her choice.",
         "answerZh": "里娜不會只因移居外地，就成為家中不受認同的人；她的親人只是不喜歡她的選擇。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1151,7 +1151,7 @@
         "answer": "A journalist said the footballer could become a black sheep in the team if the cheating claims were proved.",
         "answerZh": "一名記者表示，如果作弊指控得到證實，該足球員可能會成為球隊中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1171,7 +1171,7 @@
         "answer": "Although everyone else in the restaurant worked hard to build trust, the manager became a black sheep there by secretly changing customers’ bills.",
         "answerZh": "雖然餐廳其他人都努力建立信譽，但該經理暗中更改顧客帳單，因而成為餐廳中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1191,7 +1191,7 @@
         "answer": "The charity described the volunteer as a black sheep in the organisation and said he did not represent its other workers.",
         "answerZh": "慈善機構形容該義工是組織中的害群之馬，並表示他不能代表其他工作人員。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1211,7 +1211,7 @@
         "answer": "Although Lana is treated as a black sheep in her family for becoming a musician, she believes their judgement is unfair.",
         "answerZh": "雖然拉娜因成為音樂人而被家人當成異類，但她認為這個評價並不公平。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1231,7 +1231,7 @@
         "answer": "No. A single disagreement does not make the new worker a black sheep in the team.",
         "answerZh": "不是。一次意見分歧不會令新員工成為團隊中不受認同的人。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1251,7 +1251,7 @@
         "answer": "If the leaders confirm that Victor lies to clients, he may be regarded as a black sheep in the group.",
         "answerZh": "如果領導證實維克托向客戶說謊，他可能會被視為團體中的害群之馬。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1271,7 +1271,7 @@
         "answer": "The school views the bully as a black sheep within the year group, not as a fair example of the other students.",
         "answerZh": "學校視該名欺凌者為同級學生中的害群之馬，而不是其他學生的代表。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       },
       {
@@ -1291,7 +1291,7 @@
         "answer": "The son had long been treated as a black sheep in his family, but the reason became clear only after his crimes became public.",
         "answerZh": "兒子長久以來一直被家人當成令人蒙羞的一員，但直至他的罪行公開後，原因才真正明朗。",
         "targetForm": "a black sheep",
-        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
         "highlight": "a black sheep"
       }
     ]

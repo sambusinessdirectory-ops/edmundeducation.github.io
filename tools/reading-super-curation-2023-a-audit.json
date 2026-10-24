@@ -1,0 +1,128 @@
+{
+  "pilot": "2023 DSE Reading Part A Super Curation",
+  "verifiedAt": "2026-10-23",
+  "reference": {
+    "paper3": "paper3/2025-b2/",
+    "referenceCommit": "c7302d80e",
+    "goldenManualSha256": "ca5b1031594416ebbfbbe43ce2e8deb037e746d55bb7f7c8c1a4bc393f8bf544",
+    "analysisSha256": "784949ebefdd348d851ac536b3109cafc70bfc43573f1fc118ebe5939671a1b3",
+    "articleSha256": "10dc26f02d62c52ebd4e7b4daeb1909f8f299bd147e600e4d3d7354d0e31451f"
+  },
+  "coverage": {
+    "paragraphs": 16,
+    "readingUnits": 62,
+    "questions": 22,
+    "answerUnits": 44,
+    "exactEvidenceSpans": 74,
+    "originalQuestionAnalysisPages": 287,
+    "supplementaryPages": 35,
+    "sourcePagesTotal": 322,
+    "steps": 773,
+    "stages": [
+      17,
+      62,
+      244,
+      287,
+      163
+    ]
+  },
+  "checklist": [
+    {
+      "requirement": "Source text remains intact; all sentence intervals cover the original with no missing non-whitespace characters.",
+      "result": "passed"
+    },
+    {
+      "requirement": "All 22 questions, their tables, choices, instructions and subparts remain available.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Original question analysis pages 35–321, rich formatting, supplemental pages and source provenance are retained.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Question 21 includes both evidence-supported positions, explicitly tied to the supplied analysis.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Fixed five-stage rail; independently scrolling guide, original source and evidence bank.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Reading-specific progression: orientation, sentence reading, question evidence, complete analysis, answer/source verification.",
+      "result": "passed"
+    },
+    {
+      "requirement": "One decision at a time; no future evidence marks after Back; animations cannot produce stale state.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Every evidence occurrence is matched by paragraph and exact character offsets.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Attempt before demonstration; blank attempts receive an explicit choice before revealing guidance.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Reject candidates with a reason; distinguish rejected responses from valid source evidence already used.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Each of 74 answer evidence visits is a separate reversible step.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Source previews preserve context, return without moving the main page, drag by header, resize from four corners, and remain in viewport.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Keyboard movement/resizing, focus return, visible focus, reduced-motion and animation interruption.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Chinese teaching notes; existing account-loaded Chinese source translations can be toggled. Missing translations point to original supplementary reference.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Bookmarks, searchable step navigation, manual understood state, local account-scoped autosave and three save slots.",
+      "result": "passed"
+    },
+    {
+      "requirement": "JSON export/import round trip; invalid versions or malformed files never overwrite progress.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Local storage failure is visible; learning and export remain possible.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Reading exercise answers and the prior deep-analysis interface are unchanged after opening and closing curation.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Entry is limited to 2023 A standalone practice; other years and full-paper mocks do not gain the entry.",
+      "result": "passed"
+    },
+    {
+      "requirement": "Desktop 1440 and 1100; tablet 768; phone 390; 720x450 equivalent to a 1440x900 viewport at 200% zoom.",
+      "result": "passed"
+    }
+  ],
+  "adaptations": [
+    "Paper 3 task A/B/C colors are replaced with reading evidence, logical-relation and language cues, with labels.",
+    "Paper 3 listening playback and timed podcast notes do not apply to this reading paper; reading proceeds in immutable source order.",
+    "Paper 3 essay construction becomes question-by-question answer verification; open answers are not judged by exact-string matching.",
+    "Progress is local to this device and account, clearly labelled; no new database or scoring changes."
+  ],
+  "validationCommands": [
+    "node tools/test-reading-super-curation.mjs",
+    "node tools/test-reading-comprehension-system.mjs",
+    "node tools/test-dse-native-paper-view.mjs",
+    "node tools/test-dse-reading-question-audit.mjs",
+    "node tools/test-dse-reading-translations.mjs",
+    "node tools/test-dse-deep-analysis.mjs",
+    "node tools/test-dse-analysis-batch.mjs",
+    "git diff --check"
+  ],
+  "liveVerification": "Pending deployment; recorded separately after successful publication."
+}

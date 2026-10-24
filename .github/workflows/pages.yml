@@ -40,11 +40,35 @@ jobs:
           node --check shared-companion.mjs
 
       - name: Validate closet fast release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[phrasal-release]') && !contains(github.event.head_commit.message, '[proverb-release]') && !contains(github.event.head_commit.message, '[idiom-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') && !contains(github.event.head_commit.message, '[dse-arguments-release]') && !contains(github.event.head_commit.message, '[error-id-release]') && !contains(github.event.head_commit.message, '[coin-release]') }}
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[phrasal-release]') && !contains(github.event.head_commit.message, '[proverb-release]') && !contains(github.event.head_commit.message, '[idiom-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') && !contains(github.event.head_commit.message, '[dse-arguments-release]') && !contains(github.event.head_commit.message, '[error-id-release]') && !contains(github.event.head_commit.message, '[coin-release]') && !contains(github.event.head_commit.message, '[homepage-rollback]') && !contains(github.event.head_commit.message, '[homepage-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
           node tools/test-wardrobe-visual-acceptance.mjs
+
+      - name: Validate focused homepage selector rollback
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[homepage-rollback]') }}
+        run: |
+          test ! -e academy-nexus-selector-frame-v1.webp
+          ! grep -Fq 'academy-nexus-selector-frame-v1.webp' index.html
+          ! grep -Fq 'academy-nexus-selector-frame-v1.webp' homepage-system-deck.css
+          node --check homepage-system-deck.js
+
+      - name: Validate focused homepage selector release
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[homepage-release]') }}
+        run: |
+          test -s academy-nexus-selector-frame-v2.webp
+          test -s academy-nexus-selector-frame-tablet.webp
+          test -s academy-nexus-selector-frame-phone.webp
+          grep -Fq 'academy-nexus-selector-frame-v2.webp' index.html
+          grep -Fq 'academy-nexus-selector-frame-tablet.webp' index.html
+          grep -Fq 'academy-nexus-selector-frame-phone.webp' index.html
+          grep -Fq '20261023-academy-nexus7' index.html
+          grep -Fq 'aspect-ratio: 3 / 1;' homepage-system-deck.css
+          grep -Fq 'background: transparent;' homepage-system-deck.css
+          grep -Fq 'object-fit: contain;' homepage-system-deck.css
+          grep -Fq 'pointer-events: none;' homepage-system-deck.css
+          node --check homepage-system-deck.js
 
       - name: Validate focused Phrasal Verb login release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[phrasal-release]') }}
@@ -223,6 +247,9 @@ jobs:
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[reading-release]') }}
         run: |
           node --check reading-comprehension.js
+          node --check reading-super-curation.mjs
+          node --check reading-question-controls.mjs
+          node tools/test-reading-super-curation.mjs --data-only
           node tools/test-dse-native-paper-view.mjs
           node tools/test-dse-reading-question-audit.mjs
           node tools/test-dse-reading-translations.mjs

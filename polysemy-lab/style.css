@@ -272,3 +272,93 @@ body[data-polysemy-companion="phoebe"] .recorder .companion-recorder-art{
   background-size:200% 100%;background-position:0% 0%;
 }
 body[data-polysemy-companion="phoebe"] .recorder .companion-recorder-art.is-audio{background-position:100% 0%}
+
+/* Moonforge practice: live content sits inside the generated stone frame. */
+.question-card {
+  padding: 8px 10px;
+  border: 64px solid transparent;
+  border-image-source: url('../moonforge-question-frame-v1.webp');
+  border-image-slice: 145 125 140 125 fill;
+  border-image-width: 64px;
+  border-image-repeat: stretch;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.question-card .eyebrow { color: #514777; }
+.question-card .sentence { color: #19384a; }
+.question-card .question-translation { color: #27414d; }
+.question-card .answer-grid {
+  gap: 5px 8px;
+  margin: 20px 0 15px;
+}
+.question-card .answer-grid button {
+  position: relative;
+  min-width: 0;
+  min-height: 114px;
+  margin: 0;
+  padding: 0 5px 0 8px;
+  border-style: solid;
+  border-width: 24px 28px 20px 112px;
+  border-image-slice: 50 55 40 205 fill;
+  border-image-width: 24px 28px 20px 112px;
+  border-image-repeat: stretch;
+  border-radius: 0;
+  background: transparent;
+  color: #153345;
+  box-shadow: none;
+  font-size: clamp(.88rem, 1.15vw, .94rem);
+  font-weight: 700;
+  line-height: 1.48;
+  overflow-wrap: anywhere;
+  transition: transform .18s ease, filter .18s ease;
+}
+.question-card .answer-grid button:nth-child(1) { border-image-source: url('../moonforge-answer-a-v1.webp'); }
+.question-card .answer-grid button:nth-child(2) { border-image-source: url('../moonforge-answer-b-v1.webp'); }
+.question-card .answer-grid button:nth-child(3) { border-image-source: url('../moonforge-answer-c-v1.webp'); }
+.question-card .answer-grid button:nth-child(4) { border-image-source: url('../moonforge-answer-d-v1.webp'); }
+.question-card .answer-grid button:nth-child(5) { border-image-source: url('../moonforge-answer-e-v1.webp'); }
+.question-card .answer-grid button:nth-child(6) { border-image-source: url('../moonforge-answer-f-v1.webp'); }
+.question-card .answer-grid button:hover:not(:disabled) {
+  transform: translateY(-3px);
+  background: transparent;
+  filter: drop-shadow(0 7px 9px #6257a066);
+}
+.question-card .answer-grid button:active:not(:disabled) { transform: translateY(1px); }
+.question-card .answer-grid button:disabled { opacity: 1; }
+.question-card .answer-grid button.correct,
+.question-card .answer-grid button.wrong {
+  border-width: 24px 28px 20px 112px;
+  background: transparent;
+  opacity: 1;
+}
+.question-card .answer-grid button.correct { color: #155838; filter: drop-shadow(0 0 10px #2fc77eaa); }
+.question-card .answer-grid button.wrong { color: #872c31; filter: drop-shadow(0 0 10px #cf5555aa); }
+.question-card .answer-grid .letter {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+@media (max-width: 600px) {
+  .question-card {
+    padding: 4px 2px;
+    border-width: 36px;
+    border-image-width: 36px;
+  }
+  .question-card .answer-grid { grid-template-columns: minmax(0, 1fr); }
+  .question-card .answer-grid button {
+    min-height: 106px;
+    border-width: 22px 20px 18px 88px;
+    border-image-width: 22px 20px 18px 88px;
+    font-size: .86rem;
+  }
+  .question-card .answer-grid button.correct,
+  .question-card .answer-grid button.wrong { border-width: 22px 20px 18px 88px; }
+}
+/* Shared across every Polysemy module: punctuation groups and short endings stay together. */
+.answer-grid .answer-label{min-width:0;line-break:strict;word-break:normal;overflow-wrap:break-word;text-wrap:pretty}
+.answer-grid .answer-clause,.answer-grid .answer-tail{white-space:nowrap}

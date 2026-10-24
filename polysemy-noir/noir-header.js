@@ -23,7 +23,7 @@
   function render() {
     button.dataset.playing = String(playing);
     button.setAttribute('aria-pressed', String(playing));
-    button.setAttribute('aria-label', playing ? '暫停 Noir 一詞多義動畫' : '繼續 Noir 一詞多義動畫');
+    button.setAttribute('aria-label', playing ? '暫停 Noir 動畫' : '繼續 Noir 動畫');
     button.title = playing ? '點擊暫停 Noir 動畫' : '點擊繼續 Noir 動畫';
     image.src = playing ? gif : chooseStill();
   }

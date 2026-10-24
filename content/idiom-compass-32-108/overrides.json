@@ -1,0 +1,762 @@
+{
+  "idiom-41-q17": {
+    "foils": [
+      {
+        "text": "No, I won't eat dirt for a mistake I made myself.",
+        "reason": "「made myself」變成自己犯的錯；原題明說不是自己所犯。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Yes, I'll eat dirt for a mistake I didn't make.",
+        "reason": "這句答應忍受屈辱，原題卻明確拒絕。",
+        "kind": "editorial"
+      },
+      {
+        "text": "No, I won't accept blame for a mistake I didn't make.",
+        "reason": "保留拒絕受責備的意思，但沒有使用 eat dirt。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-45-q24": {
+    "foils": [
+      {
+        "text": "Please tell me—I'm not ready to be all ears yet.",
+        "reason": "「not ready」表示未準備聽，與原題正專心聆聽相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Please tell me—I was all ears yesterday.",
+        "reason": "把現在的專注改成昨天，未保留目前的回應。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Please tell me—I'm listening with full attention.",
+        "reason": "意思符合，但沒有使用 be all ears。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-45-q29": {
+    "foils": [
+      {
+        "text": "Yes—I'm all ears; tell me about your idea for the menu.",
+        "reason": "「menu」把影片構思換成餐牌構思。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Not now—I'm not ready to be all ears about the video.",
+        "reason": "「Not now」拒絕現在聽，與原題想聽所有內容相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Yes—I'm listening eagerly; tell me your idea for the video.",
+        "reason": "意思符合，但沒有使用 be all ears。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-45-q33": {
+    "foils": [
+      {
+        "text": "Please hurry—I won't be all ears for very long.",
+        "reason": "原題容許慢慢說，這句卻催促並限制聆聽時間。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Take your time—I was all ears during yesterday's conversation.",
+        "reason": "把現在準備聽，改成昨天曾專心聽。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Take your time—I'm ready to listen carefully.",
+        "reason": "保留意思，但沒有使用 be all ears。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-45-q53": {
+    "foils": [
+      {
+        "text": "Tell me how you made that picture; I'm all ears.",
+        "reason": "「picture」把聲音製作換成圖片製作。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Don't tell me how you made that sound; I'm not all ears.",
+        "reason": "這句拒絕聆聽，與原題熱切想聽相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Tell me how you made that sound; I'm eager to listen.",
+        "reason": "意思相同，但沒有使用 be all ears。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-52-q24": {
+    "foils": [
+      {
+        "text": "Let's meet trouble halfway and assume the party will fail before sending any invitations.",
+        "reason": "這句鼓勵提早作負面假定，原題要阻止這種過早擔心。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Let's not meet trouble halfway by imagining the party has failed after all the guests have left.",
+        "reason": "把尚未發邀請的階段改成客人已離開，時間與事實不同。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Let's not worry about failure before we have even sent the invitations.",
+        "reason": "意思合理，但沒有用上 meet trouble halfway。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-52-q25": {
+    "foils": [
+      {
+        "text": "Meet trouble halfway by assuming that every follow-up visit means something serious.",
+        "reason": "這句鼓勵無證據便擔心，與原題安慰對方的目的相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Try not to meet trouble halfway by assuming that the follow-up visit has been cancelled.",
+        "reason": "「cancelled」改成覆診取消；原題擔心的是病情嚴重。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Try not to assume the follow-up visit means something serious.",
+        "reason": "保留建議意思，但沒有使用 meet trouble halfway。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-54-q23": {
+    "foils": [
+      {
+        "text": "Let one careless remark get under your skin.",
+        "reason": "這句叫人任由說話令自己煩躁，與原題的勸告相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Don't let repeated physical injuries get under your skin.",
+        "reason": "把一句無心說話改成反覆身體受傷，並非原題情況。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Don't allow one careless remark to upset you so much.",
+        "reason": "意思符合，但沒有用上 get under someone's skin。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-54-q50": {
+    "foils": [
+      {
+        "text": "Let the small mistakes get under your skin; ignore the progress you have made.",
+        "reason": "兩部分都反轉了原題：任由錯誤困擾自己，並忽略進步。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Do not let other people's complaints get under your skin; focus on your progress.",
+        "reason": "把自己的小錯誤換成別人的投訴。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Do not let small mistakes annoy you; focus on your progress.",
+        "reason": "保留意思，但沒有使用 get under someone's skin。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-57-q22": {
+    "foils": [
+      {
+        "text": "Then turn over a new leaf and stop arriving late for work.",
+        "reason": "把停止說閒話改成停止上班遲到。",
+        "kind": "editorial"
+      },
+      {
+        "text": "You have already turned over a new leaf and stopped gossiping about people.",
+        "reason": "把現在勸人改過，改成聲稱已經完成改變。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Then change your behaviour and stop gossiping about people.",
+        "reason": "意思符合，但沒有用上 turn over a new leaf。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-57-q36": {
+    "foils": [
+      {
+        "text": "Then turn over a new leaf by refusing every job and leaving the work to others.",
+        "reason": "拒絕幫忙並非原題要求的開始規律幫忙。",
+        "kind": "editorial"
+      },
+      {
+        "text": "You turned over a new leaf last year by taking one job and helping regularly.",
+        "reason": "把今天開始的勸告改成去年已發生的事。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Then begin helping by taking one job today and continuing regularly.",
+        "reason": "保留意思，但沒有使用 turn over a new leaf。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-62-q48": {
+    "foils": [
+      {
+        "text": "Ignore it for now, because it is definitely a paper tiger.",
+        "reason": "把暫時認真對待、可能無力，改成忽視並斷定無力。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Take it seriously for now, because a paper tiger always has effective power.",
+        "reason": "paper tiger 指外強中乾，並非始終具有實效。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Take it seriously for now, though it may prove weaker than it looks.",
+        "reason": "保留原意，但沒有用上 paper tiger。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-77-q30": {
+    "foils": [
+      {
+        "text": "Stand shoulder to shoulder against the family during this difficult time.",
+        "reason": "「against」把支持家人改成反對家人。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Stand shoulder to shoulder with the family only after this difficult time has ended.",
+        "reason": "把艱難時期提供支持，改成事情結束後才支持。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Give the family your full support during this difficult time.",
+        "reason": "意思符合，但沒有用上 shoulder to shoulder。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-78-q14": {
+    "foils": [
+      {
+        "text": "If you ever need a shoulder to cry on, please don't call me.",
+        "reason": "這句拒絕提供聆聽，與原題隨時可來電相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "If you ever need a shoulder to cry on, call me only after you have solved everything.",
+        "reason": "加入先自行解決所有問題的限制，原題並無這個條件。",
+        "kind": "editorial"
+      },
+      {
+        "text": "If you ever need a sympathetic listener, call me.",
+        "reason": "保留支持意思，但沒有用上 a shoulder to cry on。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-79-q07": {
+    "foils": [
+      {
+        "text": "Let's just say a little bird told me, and I'll give you the person's name now.",
+        "reason": "後半句答應公開身分，與原題不透露消息來源相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Let's just say a little bird told me that our teacher is staying.",
+        "reason": "「staying」把老師將離開改成留下。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Someone told me, but I won't say who.",
+        "reason": "意思符合，但沒有使用 a little bird told me。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-79-q12": {
+    "foils": [
+      {
+        "text": "A little bird told me, and I would rather announce the person's name.",
+        "reason": "這句選擇公布身分，原題希望保密。",
+        "kind": "editorial"
+      },
+      {
+        "text": "A little bird told me about the old shop closing.",
+        "reason": "把新店消息改成舊店結業，並非原題。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Someone told me about the new shop, but I prefer to keep the source private.",
+        "reason": "意思符合，但沒有使用 a little bird told me。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-79-q14": {
+    "foils": [
+      {
+        "text": "I won't give you a name, but a little bird told me Hannah has been dropped from the team.",
+        "reason": "「dropped」把獲選入隊改成被剔除。",
+        "kind": "editorial"
+      },
+      {
+        "text": "I'll give you the person's name; a little bird told me Hannah has been chosen for the team.",
+        "reason": "這句答應公開名字，原題拒絕透露。",
+        "kind": "editorial"
+      },
+      {
+        "text": "I won't identify my source, but someone told me Hannah has been chosen for the team.",
+        "reason": "保留意思，但沒有用上 a little bird told me。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-79-q40": {
+    "foils": [
+      {
+        "text": "A little bird told me which one you chose, and I'll name the source.",
+        "reason": "這句答應公開來源，與原題不給名字相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "A little bird told me that you had not chosen any of them.",
+        "reason": "把已選紅色那個改成任何一個都未選。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Someone privately told me which one you chose, but I won't say who.",
+        "reason": "保留意思，但沒有使用 a little bird told me。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-83-q53": {
+    "foils": [
+      {
+        "text": "The family firm is no longer at the crossroads; it has already chosen to expand.",
+        "reason": "這句說決定已作出，原題仍在選擇。",
+        "kind": "editorial"
+      },
+      {
+        "text": "The family firm is at the crossroads: close permanently or sell every branch.",
+        "reason": "把擴充或維持小規模，換成結業或出售分店。",
+        "kind": "editorial"
+      },
+      {
+        "text": "The family firm faces a major choice: expand or remain small.",
+        "reason": "保留意思，但沒有用上 at the crossroads。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-89-q02": {
+    "foils": [
+      {
+        "text": "Put your heads together and choose the cheapest printer.",
+        "reason": "把選最佳標題改成選最便宜印表機。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Don't put your heads together; each of you should choose alone.",
+        "reason": "把小組共同討論改成各自獨立選擇。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Discuss your ideas as a group and choose the best title.",
+        "reason": "保留意思，但沒有使用 put your heads together。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-90-q18": {
+    "foils": [
+      {
+        "text": "If you are unsure about the application, don't pick Clara's brains.",
+        "reason": "這句禁止向 Clara 請教，與原題相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "If you are unsure about the application, let Clara pick your brains.",
+        "reason": "把你向 Clara 請教，反轉成 Clara 向你請教。",
+        "kind": "editorial"
+      },
+      {
+        "text": "If you are unsure about the application, ask Clara for advice.",
+        "reason": "保留意思，但沒有用上 pick someone's brains。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-90-q31": {
+    "foils": [
+      {
+        "text": "Although she was busy, the architect refused to let us pick her brains about the room design.",
+        "reason": "把同意讓我們請教改成拒絕。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Although she was busy, the architect let us pick her brains about the garden design.",
+        "reason": "把房間設計換成花園設計。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Although busy, the architect agreed to answer our questions about the room design.",
+        "reason": "保留意思，但沒有使用 pick someone's brains。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-96-q60": {
+    "foils": [
+      {
+        "text": "In the story, the lost goat returns as a strong, well-fed animal rather than a bag of bones.",
+        "reason": "把瘦骨嶙峋改成健壯而吃得飽。",
+        "kind": "editorial"
+      },
+      {
+        "text": "In the story, the lost goat returns carrying a bag of bones.",
+        "reason": "把形容山羊極瘦，改成牠攜帶一袋骨頭的字面意思。",
+        "kind": "editorial"
+      },
+      {
+        "text": "In the story, the lost goat returns extremely thin and bony.",
+        "reason": "意思符合，但沒有使用 a bag of bones。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-98-q09": {
+    "foils": [
+      {
+        "text": "To get a bird's-eye view of the whole system, ignore this simple diagram.",
+        "reason": "把查看圖表改成忽視圖表。",
+        "kind": "editorial"
+      },
+      {
+        "text": "To get a bird's-eye view of just one tiny detail, study this simple diagram.",
+        "reason": "bird's-eye view 指整體概覽，不是只研究一個細節。",
+        "kind": "editorial"
+      },
+      {
+        "text": "To understand the whole system, look at this simple diagram.",
+        "reason": "保留意思，但沒有使用 a bird's-eye view。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-98-q33": {
+    "foils": [
+      {
+        "text": "If you need a bird's-eye view of how the tasks are connected, look away from the wall chart.",
+        "reason": "把查看牆上圖表改成移開視線。",
+        "kind": "editorial"
+      },
+      {
+        "text": "If you need a bird's-eye view of one isolated spelling error, look at the wall chart.",
+        "reason": "把任務之間的整體關係改成單一拼字錯誤，亦不符合概覽意思。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Look at the wall chart for an overview of how the tasks connect.",
+        "reason": "保留意思，但沒有使用 a bird's-eye view。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-100-q05": {
+    "foils": [
+      {
+        "text": "Let's play it safe and leave only after the roads become busy.",
+        "reason": "把道路繁忙前離開改成繁忙後才離開。",
+        "kind": "editorial"
+      },
+      {
+        "text": "We played it safe and left before the roads became busy yesterday.",
+        "reason": "把現在提出的建議改成昨天已完成的行動。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Let's avoid the traffic risk and leave before the roads become busy.",
+        "reason": "保留意思，但沒有使用 play it safe。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-100-q08": {
+    "foils": [
+      {
+        "text": "Play it safe and leave the light jacket at home.",
+        "reason": "把帶上外套改成留在家中，失去原題預防轉冷的措施。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Play it safe and pack a light jacket because the forecast promises extreme heat.",
+        "reason": "把可能轉冷換成預報極熱，天氣條件不同。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Take the cautious option and pack a light jacket.",
+        "reason": "保留意思，但沒有使用 play it safe。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-100-q10": {
+    "foils": [
+      {
+        "text": "Playing it safe means throwing away the receipt before the refund arrives.",
+        "reason": "把保留收據改成退款前丟掉收據，與原題相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Playing it safe means keeping the receipt only until you request the refund.",
+        "reason": "把保留至退款到手改成只留到提出申請，時間界線不同。",
+        "kind": "editorial"
+      },
+      {
+        "text": "The safest choice is to keep the receipt until the refund arrives.",
+        "reason": "保留意思，但沒有使用 play it safe。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-100-q43": {
+    "foils": [
+      {
+        "text": "If you are unsure whether the website sent your form, play it safe and delete every record of it.",
+        "reason": "把發送確認訊息改成刪掉所有紀錄，與原題做法不同。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Since you know the form arrived, play it safe by sending a confirmation message.",
+        "reason": "把不確定是否送達改成已知道送達，確定程度不同。",
+        "kind": "editorial"
+      },
+      {
+        "text": "If you are unsure the form was sent, avoid risk by sending a brief confirmation message.",
+        "reason": "保留意思，但沒有使用 play it safe。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-101-q24": {
+    "foils": [
+      {
+        "text": "Ask our top banana, Mr Wong, about the small refund.",
+        "reason": "把大訂單換成小額退款。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Ask Mr Wong, who reports to our top banana, about the large order.",
+        "reason": "把最高負責人 Mr Wong 改成向最高負責人匯報的下屬。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Ask our highest-ranking manager, Mr Wong, about the large order.",
+        "reason": "保留意思，但沒有用上 top banana。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-104-q03": {
+    "foils": [
+      {
+        "text": "Please be a back-seat driver and keep directing me while I am parking.",
+        "reason": "把要求停止干涉改成鼓勵不斷指揮。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Please do not be a back-seat driver while I am cooking dinner.",
+        "reason": "把泊車場合改成煮晚餐。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Please stop giving me unwanted driving instructions while I am parking.",
+        "reason": "保留意思，但沒有使用 back-seat driver。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-104-q10": {
+    "foils": [
+      {
+        "text": "Keep being a back-seat driver and tell Priya how to control every part of the car.",
+        "reason": "把停止干涉改成繼續指揮。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Stop being a back-seat driver and let Priya concentrate on writing her report.",
+        "reason": "把專心駕駛換成專心寫報告。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Stop giving Priya unwanted driving instructions and let her concentrate.",
+        "reason": "保留意思，但沒有使用 back-seat driver。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-106-q20": {
+    "foils": [
+      {
+        "text": "Why fight a losing battle to save a service that almost everybody uses?",
+        "reason": "把幾乎無人使用改成幾乎人人使用。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Why fight a losing battle when success is virtually certain?",
+        "reason": "「success is virtually certain」與 losing battle 的成功機會極低相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Why keep struggling to save the little-used service when success is so unlikely?",
+        "reason": "保留原意，但沒有使用 fight a losing battle。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-108-q05": {
+    "foils": [
+      {
+        "text": "Remember that it takes two to tango, so Mr Lee alone must be responsible for the whole dispute.",
+        "reason": "慣用語指出雙方有份，後半句卻把全部責任只推給 Mr Lee。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Remember that it takes two to tango, even though only Mr Lee shouted and his neighbour remained silent.",
+        "reason": "把雙方都叫喊換成只有 Mr Lee 叫喊，改變事實。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Remember that both neighbours contributed before blaming only Mr Lee.",
+        "reason": "保留意思，但沒有使用 it takes two to tango。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-108-q26": {
+    "foils": [
+      {
+        "text": "When Owen blames only Ruby, say that it takes two to tango and Ruby alone caused everything.",
+        "reason": "後半句把全部責任只推給 Ruby，與雙方有份的情況相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "When Ruby blames only Owen, remind her that it takes two to tango.",
+        "reason": "把提出指責的人由 Owen 換成 Ruby，對調人物角色。",
+        "kind": "editorial"
+      },
+      {
+        "text": "When Owen blames Ruby alone, remind him that he also contributes to their arguments.",
+        "reason": "保留意思，但沒有使用 it takes two to tango。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-108-q36": {
+    "foils": [
+      {
+        "text": "“Before you accuse Sam,” Ana said, “it takes two to tango, so Sam alone ruined the friendship.”",
+        "reason": "後半句把責任全推給 Sam，與雙方都停止回覆的事實相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "“It takes two to tango,” Ana said, “because both friends kept replying warmly to each other.”",
+        "reason": "把雙方停止回覆換成持續熱情回覆，事實相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "“Before blaming Sam alone,” Ana said, “remember that both friends stopped replying.”",
+        "reason": "保留意思，但沒有使用 it takes two to tango。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-49-q45": {
+    "foils": [
+      {
+        "text": "Helping students ignore their own mistakes is half the battle in teaching them to write without constant help.",
+        "reason": "題目強調察覺自己的錯誤；ignore 反而表示忽視錯誤。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Helping students notice their own mistakes is half the battle in teaching them to write with constant help.",
+        "reason": "with constant help 把目標改成持續依賴協助，與原題的獨立寫作相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Helping students notice their own mistakes completes the entire task of teaching them to write without constant help.",
+        "reason": "completes the entire task 誇大為全部完成；half the battle 只表示完成重要部分。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-80-q40": {
+    "foils": [
+      {
+        "text": "The question of who should bell the cat and hide the truth from the public divided the group.",
+        "reason": "hide the truth 把任務改為隱瞞真相，與原題的公開真相相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "The question of who should bell the cat and tell the public the truth united the group.",
+        "reason": "united 表示團結；原題指出大家對人選意見不合。",
+        "kind": "editorial"
+      },
+      {
+        "text": "The group disagreed about which member should accept the risk of telling the public the truth.",
+        "reason": "這句保留意思，但未使用指定慣用語 bell the cat。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-90-q50": {
+    "foils": [
+      {
+        "text": "Since Rosa organised a similar event last year, let’s pick her brains before she visits tomorrow.",
+        "reason": "before she visits 把請教時間改到她到訪之前，與原句的到訪時不同。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Since Rosa organised a similar event last year, let’s not pick her brains when she visits tomorrow.",
+        "reason": "not pick her brains 拒絕向她請教，未保留原題尋求協助的建議。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Since Rosa organised a similar event last year, let’s ask her for advice when she visits tomorrow.",
+        "reason": "這句意思合理，但沒有使用題目要求的 pick her brains。",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "idiom-100-q22": {
+    "foils": [
+      {
+        "text": "Why don’t we play it safe and skip the backup first?",
+        "reason": "skip the backup 表示略過備份，與先備份以減低風險的建議相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Why don’t we take a risk and make no backup first?",
+        "reason": "take a risk 和 make no backup 改成冒險及不備份，與原意相反。",
+        "kind": "editorial"
+      },
+      {
+        "text": "Why don’t we act cautiously and make a backup first?",
+        "reason": "意思合理，但沒有使用指定慣用語 play it safe。",
+        "kind": "editorial"
+      }
+    ]
+  }
+}

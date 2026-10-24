@@ -61,19 +61,29 @@
       }
     ],
     "meaning": {
-      "en": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
-      "zh": "按原檔示範答案所顯示的意思及用法，運用這個目標慣用語",
-      "naturalZh": []
+      "en": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
+      "zh": "透過挑起原本可能團結的人之間的分歧，維持自己的權力或控制",
+      "naturalZh": [
+        "分而治之"
+      ]
     },
     "register": {
-      "labelEn": "Source-Guided Register",
-      "labelZh": "按原檔語域使用",
-      "summaryEn": "Source-Guided Register",
-      "summaryZh": "按原檔語域使用",
-      "contextsEn": [],
-      "contextsZh": [],
-      "formalEn": "Use the idiom only in the contexts described in the source.",
-      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+      "labelEn": "Disapproving; mainly British English",
+      "labelZh": "帶批評意味；主要見於英式英語",
+      "summaryEn": "A disapproving expression for power maintained by setting groups against one another.",
+      "summaryZh": "帶批評意味，形容掌權者挑起群體之間的分歧，令他們難以聯合反對自己。",
+      "contextsEn": [
+        "leadership",
+        "workplace power",
+        "politics"
+      ],
+      "contextsZh": [
+        "領導權力",
+        "職場權力關係",
+        "政治"
+      ],
+      "formalEn": "Use it when the division helps someone retain control; do not use it for every disagreement.",
+      "formalZh": "須有藉分化他人維持控制的目的；一般意見不合不足以使用。"
     },
     "fixedVariable": {
       "fixed": "Divide and Rule",
@@ -175,7 +185,7 @@
         "answer": "The manager tried to divide and rule by giving the two teams different stories about the new timetable.",
         "answerZh": "經理向兩個團隊提供有關新時間表的不同說法，企圖分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -195,7 +205,7 @@
         "answer": "The club leader followed a policy of divide and rule to keep the two groups from acting together.",
         "answerZh": "學會領袖採取分而治之的政策，使兩個小組無法共同採取行動。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -215,7 +225,7 @@
         "answer": "Divide and rule was the king’s main method of controlling the two towns.",
         "answerZh": "分而治之是國王控制兩個城鎮的主要手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "Divide and rule"
       },
       {
@@ -235,7 +245,7 @@
         "answer": "The coach’s praise for one group and blame for the other was a clear example of divide and rule.",
         "answerZh": "教練稱讚其中一批球員，卻指責另一批球員，明顯是一種分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -255,7 +265,7 @@
         "answer": "The landlord made an attempt to divide and rule, blaming one group of tenants for the rent rise.",
         "answerZh": "業主把租金上升歸咎於其中一批租客，企圖分化租客。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -275,7 +285,7 @@
         "answer": "The company used divide and rule when it gave different pay information to different groups of workers.",
         "answerZh": "公司向不同組別的員工提供不同薪酬資訊，採取了分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -295,7 +305,7 @@
         "answer": "The governor’s strategy was divide and rule: he kept the regions separate and suspicious of one another.",
         "answerZh": "總督的策略是分而治之：他使各個地區保持分隔並互相猜疑。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -315,7 +325,7 @@
         "answer": "The class captain may have been trying to divide and rule through different rumours spread among the two groups.",
         "answerZh": "班長可能曾透過在兩個小組之間散播不同謠言，企圖分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -335,7 +345,7 @@
         "answer": "The workers recognised the use of divide and rule in the manager’s private promises to each team.",
         "answerZh": "員工從經理私下向每個團隊作出的不同承諾中，辨識出分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -355,7 +365,7 @@
         "answer": "To divide and rule, the ruler encouraged the villages to quarrel.",
         "answerZh": "為了分而治之，統治者鼓勵各條村互相爭吵。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -375,7 +385,7 @@
         "answer": "At every meeting, the supervisor seeks to divide and rule through different versions of the plan for each team.",
         "answerZh": "在每次會議中，主管都向每個團隊提供不同版本的計劃，企圖分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -395,7 +405,7 @@
         "answer": "Before the staff compared their messages, the owner had used a system of divide and rule through different secret promises to each group.",
         "answerZh": "在員工比較彼此收到的訊息前，老闆曾透過不同的秘密承諾，採用一套分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -415,7 +425,7 @@
         "answer": "The new leader may use divide and rule, offering better working hours to only one group.",
         "answerZh": "新領袖可能只向其中一組員工提供較好的工作時間，採取分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -435,7 +445,7 @@
         "answer": "The committee should stop the chairperson from trying to divide and rule through separate secret meetings and different messages to each group.",
         "answerZh": "委員會應阻止主席透過分開進行的秘密會議及不同訊息，企圖分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -455,7 +465,7 @@
         "answer": "Perhaps the manager wants to divide and rule by keeping the two departments apart.",
         "answerZh": "經理可能希望使兩個部門保持分隔，以分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -475,7 +485,7 @@
         "answer": "The head of the club was accused of trying to divide and rule through different promises to different teams.",
         "answerZh": "學會主管被指控向不同團隊作出不同承諾，企圖分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -495,7 +505,7 @@
         "answer": "The parent is using divide and rule, telling each child that the other caused the family problem.",
         "answerZh": "這名家長告訴每個孩子，是另一名孩子造成家庭問題，正在採取分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -515,7 +525,7 @@
         "answer": "Before the staff compared their messages, the owner’s different promises had created a pattern of divide and rule.",
         "answerZh": "在員工比較彼此收到的訊息前，老闆所作出的不同承諾已形成分而治之的模式。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -535,7 +545,7 @@
         "answer": "The leader could divide and rule more easily if the members stopped sharing information.",
         "answerZh": "如果成員停止分享資訊，領袖便可以更容易地分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -555,7 +565,7 @@
         "answer": "The workers defeated an attempt to divide and rule when they shared every message and met as one group.",
         "answerZh": "員工分享所有訊息並共同開會，挫敗了分而治之的企圖。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -575,7 +585,7 @@
         "answer": "He is clearly trying to divide and rule: he gave the two clubs opposite stories about the event date.",
         "answerZh": "他明顯正在企圖分而治之：他向兩個學會提供了互相矛盾的活動日期說法。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -595,7 +605,7 @@
         "answer": "The town leader’s actions showed divide and rule: he favoured one street and blamed another.",
         "answerZh": "鎮上領袖的行為顯示他正在分而治之：他偏袒其中一條街，卻指責另一條街。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -615,7 +625,7 @@
         "answer": "The manager’s request that each team report the other team’s mistakes was divide and rule.",
         "answerZh": "經理要求每個團隊舉報另一個團隊的錯誤，是一種分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -635,7 +645,7 @@
         "answer": "The coach was using divide and rule when he gave the players different private warnings.",
         "answerZh": "教練私下向不同球員發出不同警告時，正在採取分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -655,7 +665,7 @@
         "answer": "The ruler’s reward for one region was part of a wider policy of divide and rule.",
         "answerZh": "統治者向其中一個地區提供的利益，是更廣泛的分而治之政策的一部分。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -675,7 +685,7 @@
         "answer": "Journalists said the mayor was seeking to divide and rule by setting the two neighbourhoods against each other.",
         "answerZh": "記者表示，市長正挑起兩個社區互相爭鬥，企圖分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -695,7 +705,7 @@
         "answer": "The school leader appeared to be using divide and rule in the way she explained the lost funding to the two clubs.",
         "answerZh": "校方主管向兩個學會解釋失去資助一事時，似乎正在採取分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -715,7 +725,7 @@
         "answer": "The siblings discovered an attempt to divide and rule when they compared their aunt’s different stories about the family money.",
         "answerZh": "兄弟姊妹比較姨母所講述的不同說法後，發現了分而治之的企圖。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -735,7 +745,7 @@
         "answer": "The manager may be relying on divide and rule through the different shifts given to the two teams.",
         "answerZh": "經理可能正透過向兩個團隊安排不同更份，採用分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -755,7 +765,7 @@
         "answer": "The club rejected divide and rule and demanded one open meeting for every member.",
         "answerZh": "學會拒絕分而治之，並要求所有成員共同出席一次公開會議。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -775,7 +785,7 @@
         "answer": "Although the director spoke about teamwork, his different stories to each department were a form of divide and rule.",
         "answerZh": "雖然總監談論團隊合作，但他向每個部門提供不同說法，是一種分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -795,7 +805,7 @@
         "answer": "Because the tenants rarely spoke to one another, the owner was able to divide and rule, blaming each group for the building’s problems.",
         "answerZh": "由於租客很少互相交談，業主能夠把大廈問題歸咎於不同組別，從而分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -815,7 +825,7 @@
         "answer": "Before the staff formed one group, management had relied on divide and rule, keeping the office and warehouse workers arguing over their bonuses.",
         "answerZh": "在員工組成共同團體前，管理層一直使辦公室及倉庫員工為獎金問題爭執，採取分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -835,7 +845,7 @@
         "answer": "The captain’s unfair treatment of the players was not simple favouritism; it was divide and rule.",
         "answerZh": "隊長對球員的不公平待遇不只是普通偏袒，而是分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -855,7 +865,7 @@
         "answer": "Rather than answer the shared complaint, the head teacher chose to divide and rule by asking each class to blame the others.",
         "answerZh": "校長沒有回應共同投訴，反而要求每個班別指責其他班別，選擇分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -875,7 +885,7 @@
         "answer": "Divide and rule worked only while the two groups failed to compare the leader’s messages.",
         "answerZh": "只有在兩個小組沒有比較領袖所發出的訊息時，分而治之的手段才能奏效。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "Divide and rule"
       },
       {
@@ -895,7 +905,7 @@
         "answer": "The manager’s attempt to divide and rule failed because the teams shared the reward and stayed united.",
         "answerZh": "由於各團隊分享了獎勵並保持團結，經理分而治之的企圖失敗了。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -915,7 +925,7 @@
         "answer": "By making each branch believe that the others received more money, the owner created a system of divide and rule.",
         "answerZh": "老闆使每間分店都相信其他分店獲得更多金錢，建立了一套分而治之的制度。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -935,7 +945,7 @@
         "answer": "The governor spoke of unity in public but relied on divide and rule in private through messages that encouraged distrust between the regions.",
         "answerZh": "總督公開談論團結，私下卻透過鼓勵各地區互不信任的訊息，採取分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -955,7 +965,7 @@
         "answer": "If the members continue meeting separately, the chairperson may be able to divide and rule, turning their differences into personal fights.",
         "answerZh": "如果成員繼續分開會面，主席可能會把他們的分歧變成私人爭鬥，從而分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -975,7 +985,7 @@
         "answer": "The community centre manager seems to be using divide and rule, asking the youth and parent groups to complain about each other separately.",
         "answerZh": "社區中心經理似乎正要求青年小組及家長小組分別投訴對方，採取分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -995,7 +1005,7 @@
         "answer": "The hospital administrator may have tried to divide and rule through opposite stories given to the day and night teams.",
         "answerZh": "醫院行政人員可能曾向日間及夜間團隊提供相反說法，企圖分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -1015,7 +1025,7 @@
         "answer": "After the hotel workers raised the same question about working hours, the manager’s response was divide and rule: he made different promises to each floor.",
         "answerZh": "酒店員工提出相同的工作時間問題後，經理以分而治之作回應，向每一層的員工作出不同承諾。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -1035,7 +1045,7 @@
         "answer": "The history article describes the governors’ separate dealings with local leaders as a policy of divide and rule.",
         "answerZh": "這篇歷史文章把總督分別與各地領袖交涉的做法，形容為分而治之的政策。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -1055,7 +1065,7 @@
         "answer": "She may be trying to divide and rule by making the two clubs compete for one room.",
         "answerZh": "她可能正迫使兩個學會競爭同一個房間，企圖分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -1075,7 +1085,7 @@
         "answer": "Even though the two work groups had different needs, they recognised divide and rule in management’s attempt to stop a joint request.",
         "answerZh": "雖然兩個工作小組有不同需要，但他們辨識出管理層企圖阻止共同要求的分而治之手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -1095,7 +1105,7 @@
         "answer": "The leader’s policy of divide and rule would succeed only if the villages continued blaming one another for the water shortage.",
         "answerZh": "只有在各條村繼續為缺水問題互相指責時，領袖的分而治之政策才能成功。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -1115,7 +1125,7 @@
         "answer": "The members exposed divide and rule when they shared images of the moderator’s different private messages.",
         "answerZh": "成員分享管理員所發出的不同私人訊息截圖，揭露了分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -1135,7 +1145,7 @@
         "answer": "The committee could not tell whether the chairperson was confused or was deliberately trying to divide and rule with conflicting instructions.",
         "answerZh": "委員會無法確定主席只是感到混亂，還是正刻意透過互相矛盾的指示企圖分而治之。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       },
       {
@@ -1155,7 +1165,7 @@
         "answer": "The public report concluded that the agency had used divide and rule, giving different communities conflicting explanations for the same decision.",
         "answerZh": "公開報告總結指出，該機構就同一項決定向不同社區提供互相矛盾的解釋，採取了分而治之的手段。",
         "targetForm": "Divide and Rule",
-        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
         "highlight": "divide and rule"
       }
     ]

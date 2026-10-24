@@ -1,0 +1,512 @@
+{
+  "idiom-109-q55": {
+    "foils": [
+      {
+        "text": "Seeing the first donations failed to put a tiger in the volunteers’ tank.",
+        "reason": "原題說捐款帶來新動力，這句卻說沒有帶來動力。"
+      },
+      {
+        "text": "Seeing no donations put a tiger in the volunteers’ tank.",
+        "reason": "原題已有首批捐款，這句卻改成沒有捐款。"
+      },
+      {
+        "text": "Seeing the first donations gave the volunteers fresh motivation.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「put a tiger in the volunteers’ tank」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-111-q36": {
+    "foils": [
+      {
+        "text": "Before the final adjustment, the racing suit fitted like a glove.",
+        "reason": "原題說最後調整後才合身，這句把時間改成調整前。"
+      },
+      {
+        "text": "After the final adjustment, the racing suit still did not fit like a glove.",
+        "reason": "原題說調整後完全合身，這句卻仍否定合身。"
+      },
+      {
+        "text": "After the final adjustment, the racing suit became exactly the right size and shape.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「fitted like a glove」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-111-q53": {
+    "foils": [
+      {
+        "text": "After one adjustment, the cycling jacket still did not fit like a glove.",
+        "reason": "原題說調整後完全合身，這句卻否定合身。"
+      },
+      {
+        "text": "After five adjustments, the cycling jacket fitted like a glove.",
+        "reason": "原題只調整一次，這句改成五次。"
+      },
+      {
+        "text": "After one adjustment, the cycling jacket fitted perfectly.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「fitted like a glove」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-111-q57": {
+    "foils": [
+      {
+        "text": "To everyone’s disappointment, the last available jacket did not fit like a glove.",
+        "reason": "原題令人鬆一口氣且完全合身，這句反轉結果和感受。"
+      },
+      {
+        "text": "To everyone’s relief, every available jacket fitted like a glove.",
+        "reason": "原題只說最後一件，這句擴大到全部外套。"
+      },
+      {
+        "text": "To everyone’s relief, the last available jacket was a perfect fit.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「fitted like a glove」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-115-q51": {
+    "foils": [
+      {
+        "text": "A room beside the stadium does not cost the earth during the final.",
+        "reason": "原題說決賽期間非常昂貴，這句否定高價。"
+      },
+      {
+        "text": "A room beside the stadium costs the earth only after the final ends.",
+        "reason": "原題說決賽期間昂貴，這句改成賽後才昂貴。"
+      },
+      {
+        "text": "A room beside the stadium is extremely expensive during the final.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「costs the earth」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-116-q03": {
+    "foils": [
+      {
+        "text": "Do not hang fire; act before we receive the final email.",
+        "reason": "原題要求等收到電郵才行動，這句要求事前立即行動。"
+      },
+      {
+        "text": "Hang fire until we receive the first email.",
+        "reason": "原題等待最後一封電郵，這句改成第一封。"
+      },
+      {
+        "text": "Wait before taking action until we receive the final email.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「Hang fire」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-116-q56": {
+    "foils": [
+      {
+        "text": "The museum did not hang fire and announced the exhibition before the loan was approved.",
+        "reason": "原題暫緩至借展獲批，這句改成獲批前已公布。"
+      },
+      {
+        "text": "The museum hung fire until the loan was rejected.",
+        "reason": "原題是借展獲批，這句改成遭拒。"
+      },
+      {
+        "text": "The museum held off on announcing the exhibition until the loan was approved.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「hung fire」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-116-q59": {
+    "foils": [
+      {
+        "text": "Rather than hang fire, the retailer guessed the demand and ordered more stock.",
+        "reason": "原題避免猜測並暫緩訂貨，這句反過來猜測並立即訂貨。"
+      },
+      {
+        "text": "Rather than guess the demand, the retailer hung fire on selling the remaining stock.",
+        "reason": "原題暫緩增訂存貨，這句改成暫緩出售餘貨。"
+      },
+      {
+        "text": "Rather than guess the demand, the retailer held off on ordering more stock.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「hung fire」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-117-q08": {
+    "foils": [
+      {
+        "text": "Speak of the devil! Ben has just left the gate.",
+        "reason": "原題是本出現在閘口，這句卻說他剛離開。"
+      },
+      {
+        "text": "Speak of the devil! Ben has just appeared on the roof.",
+        "reason": "原題地點是閘口，這句改成屋頂。"
+      },
+      {
+        "text": "I said Ben’s name, and then he appeared at the gate.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「Speak of the devil」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-117-q21": {
+    "foils": [
+      {
+        "text": "“Speak of the devil!” Eva said as Sam walked out of the kitchen.",
+        "reason": "原題森姆走進廚房，這句改成走出去。"
+      },
+      {
+        "text": "“Speak of the devil!” Sam said as Eva walked into the kitchen.",
+        "reason": "這句對調到場者和說話者，原題到場的是森姆。"
+      },
+      {
+        "text": "Eva was telling Sam’s friends about his cooking. At that moment, Sam walked into the kitchen.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「Speak of the devil」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-117-q27": {
+    "foils": [
+      {
+        "text": "Speak of the devil! Mr Wong has already left the building.",
+        "reason": "原題黃先生正在門口，這句說他已離開。"
+      },
+      {
+        "text": "Speak of the devil! Mr Wong is at the airport.",
+        "reason": "原題黃先生在房門外敲門，這句改成機場。"
+      },
+      {
+        "text": "A: When will Mr Wong inspect the room? B: Someone is knocking—it’s Mr Wong.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「Speak of the devil」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-118-q16": {
+    "foils": [
+      {
+        "text": "Then let’s refuse to go with the tide this time.",
+        "reason": "原題接受大多數人的選擇，這句卻拒絕跟隨。"
+      },
+      {
+        "text": "Then let’s go with the tide next year instead.",
+        "reason": "原題是這一次，這句改成明年才跟隨。"
+      },
+      {
+        "text": "A: Nearly everyone wants the outdoor table. B: Then let us accept the popular choice this time.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「go with the tide」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-118-q45": {
+    "foils": [
+      {
+        "text": "Whether to go with the tide or take a different path depended on the colour of each choice.",
+        "reason": "原題考慮成本，這句改成顏色。"
+      },
+      {
+        "text": "The group would go with the tide regardless of the cost of each choice.",
+        "reason": "原題選擇取決於成本，這句卻說不論成本都跟隨。"
+      },
+      {
+        "text": "The cost of each choice would determine whether the group followed the popular direction or took a different path.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「go with the tide」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-118-q49": {
+    "foils": [
+      {
+        "text": "We should go with the tide because the popular choice clearly causes no problems.",
+        "reason": "原題熱門選擇帶來更多問題，這句說沒有問題並建議跟隨。"
+      },
+      {
+        "text": "Why go with the tide if the unpopular choice clearly causes more problems?",
+        "reason": "原題出問題的是熱門選擇，這句改成不受歡迎的選擇。"
+      },
+      {
+        "text": "The most popular choice would clearly create more problems, so there was no good reason to follow it.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「go with the tide」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-122-q06": {
+    "foils": [
+      {
+        "text": "Keep the full offer out of black and white so that nobody can read it later.",
+        "reason": "原題要求清楚寫下，這句要求不留下文字記錄。"
+      },
+      {
+        "text": "Put only half the offer in black and white so that nobody can deny it later.",
+        "reason": "原題要求完整記錄，這句只記下一半。"
+      },
+      {
+        "text": "Please write the full offer down so that nobody can deny it later.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「in black and white」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-122-q44": {
+    "foils": [
+      {
+        "text": "Let’s rely on memory instead of putting the final plan in black and white.",
+        "reason": "原題用文字取代記憶，這句反過來依靠記憶。"
+      },
+      {
+        "text": "Let’s put the abandoned plan in black and white instead of the final plan.",
+        "reason": "原題記錄最終方案，這句改成已放棄的方案。"
+      },
+      {
+        "text": "We should not depend on different people’s memories. Let us write the final plan down clearly.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「in black and white」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-124-q22": {
+    "foils": [
+      {
+        "text": "Call it beginner’s luck, but I solved the puzzle on my tenth attempt.",
+        "reason": "原題首次嘗試成功，這句改成第十次。"
+      },
+      {
+        "text": "Call it beginner’s luck, but I failed to solve the puzzle on my first attempt.",
+        "reason": "原題成功解謎，這句改成失敗。"
+      },
+      {
+        "text": "I solved the puzzle on my first attempt even though I did not understand the usual method. You may say that I was simply lucky, but I still won.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「beginner’s luck」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-127-q03": {
+    "foils": [
+      {
+        "text": "When the two clever lawyers met, one easily outwitted the other rather than diamond cutting diamond.",
+        "reason": "原題兩人同樣精明，這句卻說一人輕易勝過另一人。"
+      },
+      {
+        "text": "When the five clever lawyers met, diamond cuts diamond.",
+        "reason": "原題只有兩名律師，這句改成五名。"
+      },
+      {
+        "text": "The two lawyers were equally clever at finding weaknesses in an argument.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「diamond cuts diamond」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-127-q07": {
+    "foils": [
+      {
+        "text": "Diamond cuts diamond, so Victor will easily fool Aaron.",
+        "reason": "原題亞倫同樣精明，不支持維克多能輕易騙過他。"
+      },
+      {
+        "text": "Diamond cuts diamond, but Aaron has none of Victor’s cleverness.",
+        "reason": "原題兩人同樣精明，這句否定亞倫的才智。"
+      },
+      {
+        "text": "A: Do you think Victor can easily fool Aaron during the price talks? B: No. Aaron is every bit as clever as Victor.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「diamond cuts diamond」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-127-q42": {
+    "foils": [
+      {
+        "text": "In a contest where only one side can predict the other’s next move, diamond cuts diamond.",
+        "reason": "原題雙方都能預測對手，這句縮減為只有一方。"
+      },
+      {
+        "text": "In a contest where neither side can predict the other’s next move, diamond cuts diamond.",
+        "reason": "原題雙方都能預測，這句改成雙方都不能。"
+      },
+      {
+        "text": "In this contest, each side can predict the other side’s next move and prepare an equally clever reply.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「diamond cuts diamond」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-127-q60": {
+    "foils": [
+      {
+        "text": "The novel’s detective easily defeats the mastermind; it is hardly a case of diamond cuts diamond.",
+        "reason": "原題勢均力敵，這句改成偵探輕易勝出。"
+      },
+      {
+        "text": "The novel’s detective and mastermind refuse to confront each other: diamond cuts diamond.",
+        "reason": "原題描述兩人對抗，這句卻說拒絕交鋒。"
+      },
+      {
+        "text": "The novel’s detective and mastermind make it a clash between equally clever opponents.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「diamond cuts diamond」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-131-q22": {
+    "foils": [
+      {
+        "text": "Tell Ryan to dice with death for a photograph.",
+        "reason": "原題勸阻拿性命冒險，這句卻鼓勵冒險。"
+      },
+      {
+        "text": "Tell Ryan he has already diced with death for a photograph.",
+        "reason": "原題是對計劃的勸阻，這句卻斷言已經發生。"
+      },
+      {
+        "text": "A: Ryan wants to stand on the roof edge for a photograph. B: Tell him that no photograph is worth risking his life.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「dice with death」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-131-q32": {
+    "foils": [
+      {
+        "text": "Because the ice was thin, the people skating in the middle of the lake were not dicing with death.",
+        "reason": "原題有生命危險，這句否定危險。"
+      },
+      {
+        "text": "Because the ice was thin, the people skating at the edge of the lake were dicing with death.",
+        "reason": "原題位置在湖中央，這句改成湖邊。"
+      },
+      {
+        "text": "The ice was known to be thin, so the people skating in the middle of the lake were putting their lives at risk.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「dicing with death」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-133-q18": {
+    "foils": [
+      {
+        "text": "If you feel sick to your stomach, hide it from the nurse.",
+        "reason": "原題要求告訴護士，這句卻要求隱瞞。"
+      },
+      {
+        "text": "Tell the nurse that you always feel sick to your stomach.",
+        "reason": "原題是條件指示，這句加入總是作嘔的斷言。"
+      },
+      {
+        "text": "Tell the nurse if you feel as if you might vomit.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「sick to your stomach」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-133-q36": {
+    "foils": [
+      {
+        "text": "If the fumes make you sick to your stomach, stay in the room and tell nobody.",
+        "reason": "原題要求離開並告訴成人，這句把兩項行動都反轉。"
+      },
+      {
+        "text": "If the fumes make you sick to your stomach, leave the room but keep it secret from adults.",
+        "reason": "原題要求告訴成人，這句卻要求保密。"
+      },
+      {
+        "text": "If the fumes make you feel as if you might vomit, leave the room and tell an adult.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「sick to your stomach」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-133-q48": {
+    "foils": [
+      {
+        "text": "If the treatment continues to make you sick to your stomach, conceal the timing from the nurse.",
+        "reason": "原題要求準確報告時間，這句卻要求隱瞞時間。"
+      },
+      {
+        "text": "Tell the nurse the treatment has never made you sick to your stomach.",
+        "reason": "原題作嘔持續時要報告，這句卻說從未作嘔。"
+      },
+      {
+        "text": "Tell the nurse exactly when it happens if the treatment continues to make you feel nauseated.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「sick to your stomach」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-134-q03": {
+    "foils": [
+      {
+        "text": "Please upset the apple cart by changing the schedule now.",
+        "reason": "原題要求不要改動，這句卻要求立即更改。"
+      },
+      {
+        "text": "Please don’t upset the apple cart by cancelling the venue now.",
+        "reason": "原題關於更改時間表，這句改成取消場地。"
+      },
+      {
+        "text": "Please do not change the schedule now, because everyone has already made their arrangements.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「upset the apple cart」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-138-q02": {
+    "foils": [
+      {
+        "text": "Once in a blue moon, our family cooks food at home.",
+        "reason": "原題說極少訂外賣，這句卻說極少在家煮食。"
+      },
+      {
+        "text": "Our family orders takeaway every day, not once in a blue moon.",
+        "reason": "原題極少訂外賣，這句改成每天。"
+      },
+      {
+        "text": "Our family almost never orders takeaway food.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「Once in a blue moon」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-138-q30": {
+    "foils": [
+      {
+        "text": "The quietest pupil volunteers to speak last once in a blue moon.",
+        "reason": "原題極少自願首先發言，這句改成最後發言。"
+      },
+      {
+        "text": "The quietest pupil volunteers to speak first every day, not once in a blue moon.",
+        "reason": "原題極少發生，這句改成每天。"
+      },
+      {
+        "text": "The quietest pupil in the class almost never volunteers to speak first.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「once in a blue moon」。",
+        "kind": "target-omission"
+      }
+    ]
+  },
+  "idiom-138-q53": {
+    "foils": [
+      {
+        "text": "My cousins visit us every week, not once in a blue moon.",
+        "reason": "原題非常罕見，這句改成每週。"
+      },
+      {
+        "text": "We visit my cousins once in a blue moon.",
+        "reason": "原題表親探訪我們，這句對調探訪者和被訪者。"
+      },
+      {
+        "text": "My cousins visit us very rarely.",
+        "reason": "這句保留了題意，但沒有使用本題指定的「once in a blue moon」。",
+        "kind": "target-omission"
+      }
+    ]
+  }
+}

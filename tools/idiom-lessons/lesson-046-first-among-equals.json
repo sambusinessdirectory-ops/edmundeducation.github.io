@@ -92,8 +92,8 @@
       ]
     },
     "register": {
-      "labelEn": "Source-Guided Register",
-      "labelZh": "按原檔語域使用",
+      "labelEn": "Neutral to formal; mainly British English",
+      "labelZh": "中性至正式；主要見於英式英語",
       "summaryEn": "committees; management teams; business partners; professional groups; school leadership; shared ownership; political or public leadership; organisations in which members officially have equal status.",
       "summaryZh": "First among equals 屬於中性至正式表達。",
       "contextsEn": [
@@ -116,7 +116,7 @@
         "政治或公共領導",
         "成員正式地位平等的組織。"
       ],
-      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalEn": "Use for a member whose formal status is equal to peers but whose responsibility or influence is slightly greater.",
       "formalZh": "共同擁有權； 政治或公共領導； 成員正式地位平等的組織。"
     },
     "fixedVariable": {

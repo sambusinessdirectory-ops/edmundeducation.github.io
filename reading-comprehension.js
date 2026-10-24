@@ -1,7 +1,12 @@
+import {createReadingQuestionRenderer} from './reading-question-controls.mjs?v=20261024-curation1';
 import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink, validateReadingAudioTimings } from './reading-comprehension-features.mjs?v=20261018-dse-word-bookmarks1';
 
 import { DEEP_ANALYSIS_ARTICLES, createDeepAnalysisReader } from './dse-deep-analysis.mjs?v=20261018-analysis-batch1';
+const questionRenderer = createReadingQuestionRenderer({escapeHtml,dseTranslationCopy,isDse:()=>state.system==='dse',getChinese:(...args)=>window.DseReadingTranslations?.get(...args),interactiveWords});
 let deepReader;
+let superReader;
+let superReaderUserId;
+let superReaderLoading = false;
 
 const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
@@ -115,10 +120,11 @@ function pauseDseActivity() {
   dseActivity.started = 0;
 }
 function resumeDseActivity() {
-  if (state.system === 'dse' && state.view === 'exercise' && !state.dseSubmitted && !document.hidden && !dseActivity.started) dseActivity.started = Date.now();
+  if (state.system === 'dse' && state.view === 'exercise' && !state.dseSubmitted && !document.hidden && !document.body.classList.contains('rc-open') && !dseActivity.started) dseActivity.started = Date.now();
 }
 function dsePracticeDuration() { return Math.min(86400000, Math.round(dseActivity.ms + (dseActivity.started ? Date.now() - dseActivity.started : 0))); }
 function showView(view) {
+  superReader?.close();
   deepReader?.close();
   if (view !== 'exercise') closeInteractiveFlashcards({ clearFrame: true });
   pauseDseActivity();
@@ -159,7 +165,7 @@ async function ensureSession() {
 }
 async function rpc(name, args) { const client = await ensureSession(); const { data, error } = await client.rpc(name, args); if (error) throw error; return data; }
 function saveSession() { try { sessionStorage.setItem(SESSION_KEY, JSON.stringify({ ...state.user, token: state.token, role: "student" })); } catch {} }
-function clearSession() { state.token = ""; state.user = null; state.mockExam = null; state.fullExam = null; state.dseRemoteReady = false; clearTimeout(state.dseSaveTimer); state.bookmarks.clear(); state.bookmarkItems.clear(); state.exerciseReady = false; state.bookmarkError = false; closePopovers(); clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); setBookmarkLibraryOpen(false); updateBookmarkControls(); try { sessionStorage.removeItem(SESSION_KEY); } catch {} }
+function clearSession() { superReader?.destroy(); superReader = null; superReaderUserId = null; state.token = ""; state.user = null; state.mockExam = null; state.fullExam = null; state.dseRemoteReady = false; clearTimeout(state.dseSaveTimer); state.bookmarks.clear(); state.bookmarkItems.clear(); state.exerciseReady = false; state.bookmarkError = false; closePopovers(); clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); setBookmarkLibraryOpen(false); updateBookmarkControls(); try { sessionStorage.removeItem(SESSION_KEY); } catch {} }
 function readSession() { try { return JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null"); } catch { return null; } }
 async function validateToken(token) {
   const rows = await rpc("flashcard_student_session_profile", { p_token: token }); const row = Array.isArray(rows) ? rows[0] : null;
@@ -750,6 +756,7 @@ async function openDashboard() {
 }
 
 function setExerciseSystem(system) {
+  $('[data-reading-super-entry]').hidden = true;
   if (system !== 'dse') restoreDsePaperReader();
   const dse = system === 'dse'; state.system = system;
   const exercise = $('[data-view="exercise"]');
@@ -981,33 +988,9 @@ function renderPassage() {
   renderScanTags();
 }
 function normalizedOption(option) { return typeof option === "string" ? { value: option, label: option, translation: "" } : option; }
-function renderAnswerControl(control, name, partId) {
-  const type = control.type || 'text'; const options = control.options || [];
-  if (['choice', 'multiple'].includes(type)) return `<div class="choice-list">${options.map((entry, index) => { const option = normalizedOption(entry); return `<label><input type="${type === 'multiple' ? 'checkbox' : 'radio'}" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" data-answer-slots="${control.slots || 1}" value="${escapeHtml(option.value)}"><span><strong>${escapeHtml(option.label)}</strong>${option.translation ? `<small class="option-translation" data-question-translation hidden><br>${escapeHtml(option.translation)}</small>` : ''}${typeof entry === 'string' ? dseTranslationCopy(options, index) : dseTranslationCopy(entry, 'label')}</span></label>`; }).join('')}</div>${type === 'multiple' && control.selectionLimit !== false ? `<small>請選擇 ${control.slots || 1} 項。</small>` : ''}`;
-  if (type === 'select') return `<select class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '選擇答案')}"><option value="">選擇答案</option>${options.map((entry, index) => { const option = normalizedOption(entry); const chinese = state.system === 'dse' ? window.DseReadingTranslations?.get(typeof entry === 'string' ? options : entry, typeof entry === 'string' ? index : 'label') : ''; return `<option value="${escapeHtml(option.value)}"${chinese ? ` data-english-label="${escapeHtml(option.label)}" data-chinese-label="${escapeHtml(chinese)}"` : ''}>${escapeHtml(option.label)}</option>`; }).join('')}</select>`;
-  if (type === 'textarea') return `<textarea class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '輸入答案')}" autocomplete="off" maxlength="1200" placeholder="${escapeHtml(control.placeholder || '輸入答案')}"></textarea>${dseTranslationCopy(control, 'placeholder')}`;
-  return `<input class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '輸入答案')}" autocomplete="off" maxlength="300" placeholder="${escapeHtml(control.placeholder || '輸入答案')}">${dseTranslationCopy(control, 'placeholder')}`;
-}
-function renderQuestionControls(question) {
-  if (question.tables?.length) {
-    const remainingParts = question.parts?.filter((part) => !part.inTable);
-    const remainingControls = !question.parts?.length || remainingParts?.length ? renderQuestionControls({ ...question, tables: undefined, parts: remainingParts }) : '';
-    return question.tables.map((table) => renderSourceTable(table, question)).join('') + remainingControls;
-  }
-  if (question.parts?.length) return `<div class="question-parts">${question.parts.map((part) => { const name = `q${question.number}_${part.key}`; return `<div class="question-part"><span>${escapeHtml(part.label)}${dseTranslationCopy(part, 'label')}</span>${renderAnswerControl(part, name, name)}</div>`; }).join('')}</div>`;
-  return renderAnswerControl(question, `q${question.number}`, `q${question.number}`);
-}
-function renderSourceTable(table, question = null, scope = 'question', paragraphNumber = null) {
-  const columns = Math.max(...table.rows.map(row => row.reduce((count, cell) => count + (cell.colSpan || 1), 0)));
-  const renderText = text => scope === 'passage' ? interactiveWords(text, `p${paragraphNumber}-table`, true) : escapeHtml(text);
-  return `<div class="source-table-scroll" role="region" aria-label="${escapeHtml(table.caption || 'Source table')}" tabindex="0"><table class="source-table${table.compact ? ' is-compact' : ''}${table.flow ? ' is-flow' : ''}${columns > 2 ? ' is-wide' : ''}">${table.caption ? `<caption>${renderText(table.caption)}${dseTranslationCopy(table, 'caption', scope, paragraphNumber)}</caption>` : ''}<tbody>${table.rows.map((row) => `<tr>${row.map((cell, cellIndex) => {
-    const item = typeof cell === 'string' ? { text: cell } : cell;
-    const tag = item.header ? 'th' : 'td';
-    const fields = (item.parts || (item.part ? [item.part] : [])).map((key) => question?.parts?.find((entry) => entry.key === key)).filter(Boolean);
-    const controls = fields.map((part) => { const name = `q${question.number}_${part.key}`; const control = renderAnswerControl(part, name, name); return fields.length > 1 ? `<div class="table-answer-field"><span>${escapeHtml(part.label)}${dseTranslationCopy(part, 'label')}</span>${control}</div>` : dseTranslationCopy(part, 'label') + control; }).join('');
-    return `<${tag}${item.colSpan > 1 ? ` colspan="${item.colSpan}"` : ''}${item.rowSpan > 1 ? ` rowspan="${item.rowSpan}"` : ''}>${renderText(item.text || '')}${typeof cell === 'string' ? dseTranslationCopy(row, cellIndex, scope, paragraphNumber) : dseTranslationCopy(cell, 'text', scope, paragraphNumber)}${controls}</${tag}>`;
-  }).join('')}</tr>`).join('')}</tbody></table></div>`;
-}
+function renderAnswerControl(...args) { return questionRenderer.renderAnswerControl(...args); }
+function renderQuestionControls(...args) { return questionRenderer.renderQuestionControls(...args); }
+function renderSourceTable(...args) { return questionRenderer.renderSourceTable(...args); }
 function updateQuestionTranslations() {
   const visible = $('[data-question-translations]').checked;
   $$('[data-question-translation]').forEach(node => { node.hidden = !visible; });
@@ -1655,11 +1638,44 @@ function setupInteractiveFlashcardsPanel() {
   });
 }
 
+
+async function openReadingSuperCuration() {
+  if (superReaderLoading || state.system !== 'dse' || state.data?.id !== 'dse-2023-a' || state.fullExam || !state.user) return;
+  superReaderLoading = true;
+  const launch = $('[data-reading-super-open]');
+  const status = $('[data-reading-super-status]');
+  const owner = state.user.id;
+  launch.disabled = true; status.textContent = '正在載入完整導讀與原稿解說…';
+  try {
+    saveDseDraft();
+    pauseTimer(); pauseDseActivity(); el.audio.pause(); closePopovers();
+    if (superReader && superReaderUserId !== owner) { superReader.destroy(); superReader = null; }
+    if (!superReader) {
+      const { createReadingSuperCuration } = await import('./reading-super-curation.mjs?v=20261024-super5');
+      superReader = await createReadingSuperCuration({
+        article: state.data, userId: owner,
+        onClose: () => {
+          const url = new URL(location.href); url.searchParams.delete('curation'); history.replaceState({}, '', url);
+          resumeDseActivity();
+        },
+        onHome: () => { window.location.href = 'reading-comprehension.html'; }
+      });
+      superReaderUserId = owner;
+    }
+    if (state.user?.id !== owner || state.view !== 'exercise' || state.data?.id !== 'dse-2023-a' || state.fullExam) return;
+    const url = new URL(location.href); url.searchParams.set('curation', '1'); history.replaceState({}, '', url);
+    superReader.open(launch); status.textContent = '';
+  } catch (error) { status.textContent = error.message || '導讀載入失敗，請再試。'; resumeDseActivity(); }
+  finally { launch.disabled = false; superReaderLoading = false; }
+}
+$('[data-reading-super-open]').addEventListener('click', openReadingSuperCuration);
+
 async function openDseExercise(id) {
   if (state.opening) return; state.opening = true;
   try {
     pauseDseActivity();
     const requestedHash = new URL(location.href).hash;
+    const requestedCuration = new URL(location.href).searchParams.get('curation') === '1';
     if (state.system === 'dse' && state.view === 'exercise') {
       saveDseDraft();
       clearTimeout(state.dseSaveTimer);
@@ -1691,6 +1707,8 @@ async function openDseExercise(id) {
     if (requestedHash && /^#(?:paragraph|question)-\d+$/.test(requestedHash)) url.hash = requestedHash;
     history.replaceState({}, '', url); document.title = `${entry.title}｜DSE 閱讀理解`;
     showView('exercise'); updateTimer(); updateFloatingOffsets();
+    $('[data-reading-super-entry]').hidden = id !== 'dse-2023-a' || Boolean(state.fullExam);
+    if (requestedCuration && id === 'dse-2023-a' && !state.fullExam) void openReadingSuperCuration();
     if (url.hash) requestAnimationFrame(() => document.getElementById(url.hash.slice(1))?.scrollIntoView({ block: 'start' }));
   } catch (error) {
     console.warn('Could not open DSE Reading exercise', error); showToast(error.message || '未能載入 DSE 練習，請稍後再試。');

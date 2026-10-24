@@ -52517,8 +52517,8 @@
         }
       ],
       "meaning": {
-        "en": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
-        "zh": "忍受侮辱、責怪、失敗或惡劣對待而不作反駁或保護自己。",
+        "en": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
+        "zh": "忍受屈辱或不公平對待而不反駁；也可指被證明錯誤後，尷尬地低頭認錯。",
         "naturalZh": [
           "忍氣吞聲",
           "忍受屈辱",
@@ -52895,7 +52895,7 @@
           "answer": "Ben ate dirt whenever the coach insulted him because he wanted to keep his place on the team.",
           "answerZh": "每當教練侮辱本時，他都只好忍氣吞聲，因為他想保住自己在隊中的位置。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "ate dirt"
         },
         {
@@ -52915,7 +52915,7 @@
           "answer": "Carla ate dirt when the manager blamed her in front of everyone.",
           "answerZh": "經理在所有人面前責怪卡拉時，她只好忍受屈辱。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "ate dirt"
         },
         {
@@ -52935,7 +52935,7 @@
           "answer": "Sam ate dirt when the older boys made him feel small.",
           "answerZh": "幾名年長男生令森感到受辱時，他只能忍氣吞聲。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "ate dirt"
         },
         {
@@ -52955,7 +52955,7 @@
           "answer": "Owen had to eat dirt in public after his failed plan proved everyone else right.",
           "answerZh": "奧雲的失敗計劃證明其他人才是對的，他只好公開低頭認錯。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -52975,7 +52975,7 @@
           "answer": "The critics had to eat dirt when Ava’s book won a prize.",
           "answerZh": "艾娃的書得獎後，那些評論家只好尷尬地承認自己錯了。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -52995,7 +52995,7 @@
           "answer": "Nora ate dirt when the customer made rude comments.",
           "answerZh": "顧客說出無禮的話時，諾拉只好忍氣吞聲。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "ate dirt"
         },
         {
@@ -53015,7 +53015,7 @@
           "answer": "After laughing at us before the match, the other team had to eat dirt when they lost 5–0.",
           "answerZh": "另一隊在賽前嘲笑我們，卻以零比五落敗，只好難堪地低頭。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53035,7 +53035,7 @@
           "answer": "Daniel ate dirt when he was blamed for a mistake he had not made.",
           "answerZh": "丹尼爾因一個並非由他造成的錯誤而受責怪時，只能忍氣吞聲。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "ate dirt"
         },
         {
@@ -53055,7 +53055,7 @@
           "answer": "Grace had to eat dirt to keep her job when her boss criticised her unfairly.",
           "answerZh": "上司不公平地批評格蕾絲時，她為了保住工作只好忍受屈辱。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53075,7 +53075,7 @@
           "answer": "After boasting that he would win easily, Liam had to eat dirt when he lost in the first round.",
           "answerZh": "利亞姆誇口自己會輕易勝出，卻在第一輪落敗，只好丟臉地接受結果。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53095,7 +53095,7 @@
           "answer": "Ella often eats dirt when her supervisor speaks to her without respect.",
           "answerZh": "主管不尊重地跟艾拉說話時，她經常只能忍氣吞聲。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eats dirt"
         },
         {
@@ -53115,7 +53115,7 @@
           "answer": "The workers have been eating dirt for months whenever the owner insults them.",
           "answerZh": "幾個月來，每當老闆侮辱員工時，他們都只能忍氣吞聲。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eating dirt"
         },
         {
@@ -53135,7 +53135,7 @@
           "answer": "I may have to eat dirt again if the director blames me in public.",
           "answerZh": "如果主管再次公開責怪我，我可能又要忍受屈辱。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53155,7 +53155,7 @@
           "answer": "She will have to eat dirt if the new plan she mocked succeeds.",
           "answerZh": "如果她曾嘲笑的新計劃成功，她便只好尷尬地低頭認錯。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53175,7 +53175,7 @@
           "answer": "He refused to eat dirt just to join the group.",
           "answerZh": "他拒絕為了加入那個群體而低聲下氣地受辱。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53195,7 +53195,7 @@
           "answer": "No student should have to eat dirt when a teacher treats them badly.",
           "answerZh": "老師惡劣對待學生時，任何學生都不應被迫忍受屈辱。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53215,7 +53215,7 @@
           "answer": "No, I won’t eat dirt for a mistake I didn’t make.",
           "answerZh": "不，我不會為一個並非由我造成的錯誤而忍辱受責。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53235,7 +53235,7 @@
           "answer": "The boss made Leo eat dirt in public for the whole team’s error.",
           "answerZh": "老闆迫使里奧為整個團隊的錯誤而公開受辱。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53255,7 +53255,7 @@
           "answer": "The blogger had to eat dirt after the film became a hit.",
           "answerZh": "電影大受歡迎後，那名網誌作者只好尷尬地承認自己錯了。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53275,7 +53275,7 @@
           "answer": "The club leaders have made Rina eat dirt for years whenever anything has gone wrong.",
           "answerZh": "多年來，每當有事情出錯，社團領袖都迫使麗娜忍辱受責。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53295,7 +53295,7 @@
           "answer": "I eat dirt when the manager insults me because I need this job.",
           "answerZh": "經理侮辱我時，我只能忍氣吞聲，因為我需要這份工作。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53315,7 +53315,7 @@
           "answer": "I may have to eat dirt after saying that her shop would close within a month.",
           "answerZh": "我曾說她的店會在一個月內結業，現在可能只好尷尬地認錯。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53335,7 +53335,7 @@
           "answer": "The teacher had to eat dirt after wrongly accusing the class of cheating.",
           "answerZh": "老師錯誤指責全班作弊後，只好難堪地承認自己錯了。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53355,7 +53355,7 @@
           "answer": "Ken refused to eat dirt when the club leader insulted him and left instead.",
           "answerZh": "社團領袖侮辱阿健時，他拒絕忍氣吞聲，反而選擇離開。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53375,7 +53375,7 @@
           "answer": "The newspaper had to eat dirt when the young scientist’s idea later saved many lives.",
           "answerZh": "那名年輕科學家的想法後來挽救了許多生命，該報章只好難堪地承認看錯了。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53395,7 +53395,7 @@
           "answer": "The player had to eat dirt after laughing at the other team and then losing badly.",
           "answerZh": "那名球員嘲笑另一隊後，自己的球隊卻慘敗，只好低頭受辱。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53415,7 +53415,7 @@
           "answer": "The shop worker had to eat dirt even though the angry customer was wrong.",
           "answerZh": "即使發怒的顧客有錯，店員仍只好忍氣吞聲。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53435,7 +53435,7 @@
           "answer": "The family had eaten dirt for years while the landlord treated them badly because they could not afford to move.",
           "answerZh": "這個家庭無力搬走，因此多年來面對業主的惡劣對待都只能忍氣吞聲。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eaten dirt"
         },
         {
@@ -53455,7 +53455,7 @@
           "answer": "I will not eat dirt while they make me look foolish in front of the whole office.",
           "answerZh": "他們在整個辦公室面前令我難堪時，我不會忍氣吞聲。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53475,7 +53475,7 @@
           "answer": "The captain had to eat dirt after boasting that his team would be champions and then losing five games in a row.",
           "answerZh": "隊長誇口球隊會成為冠軍，其後卻連輸五場，只好難堪地面對結果。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53495,7 +53495,7 @@
           "answer": "Although Priya knew the blame was unfair, she ate dirt to protect her younger colleague.",
           "answerZh": "雖然普莉雅知道責怪並不公平，但她為了保護較年輕的同事而忍辱受責。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "ate dirt"
         },
         {
@@ -53515,7 +53515,7 @@
           "answer": "Because he had publicly called the plan useless, Marcus had to eat dirt when it worked.",
           "answerZh": "馬庫斯曾公開批評這個計劃毫無用處，因此計劃奏效後，他只好難堪地認錯。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53535,7 +53535,7 @@
           "answer": "Before joining the team, I was warned that I would have to eat dirt whenever the older players mocked me.",
           "answerZh": "加入球隊前，我曾被警告，每當年長球員嘲笑我時，我都要忍氣吞聲。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53555,7 +53555,7 @@
           "answer": "After strong sales proved her harsh review wrong, the editor quietly ate dirt.",
           "answerZh": "強勁銷量證明那篇嚴厲評論錯誤後，編輯只好低調地認錯。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "ate dirt"
         },
         {
@@ -53575,7 +53575,7 @@
           "answer": "If the company expects staff to eat dirt over every small problem, many of them will leave.",
           "answerZh": "如果公司要求員工為每個小問題公開忍辱受責，許多人都會離開。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53595,7 +53595,7 @@
           "answer": "Arun ate dirt when the owner shouted at him in front of the customers because he needed the money.",
           "answerZh": "店主在顧客面前大聲責罵阿倫時，他因為需要收入，只好忍氣吞聲。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "ate dirt"
         },
         {
@@ -53615,7 +53615,7 @@
           "answer": "When the singer’s next song reached number one, her critics were forced to eat dirt.",
           "answerZh": "當歌手的下一首歌曲登上第一位時，她的批評者只好難堪地認輸。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53635,7 +53635,7 @@
           "answer": "Rather than eat dirt after one more insult from the coach, Mei left the team.",
           "answerZh": "美怡不願在教練再次侮辱她後繼續忍氣吞聲，因此離開球隊。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53655,7 +53655,7 @@
           "answer": "Jonah was ready to eat dirt if it would repair the friendship.",
           "answerZh": "如果可以修補友誼，喬納願意放下自尊、承受難堪。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53675,7 +53675,7 @@
           "answer": "The old manager made everyone eat dirt, but the new manager apologised whenever he was wrong.",
           "answerZh": "舊經理迫使所有人忍辱受氣，但新經理每逢犯錯都會道歉。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53695,7 +53695,7 @@
           "answer": "When the real story came out, the head teacher had to eat dirt for blaming the pupil before checking the facts.",
           "answerZh": "真相公開後，校長只好為未查清事實便責怪學生而公開低頭認錯。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53715,7 +53715,7 @@
           "answer": "I suppose I have to eat dirt now that your online shop is bigger than mine.",
           "answerZh": "既然你的網店現在比我的更成功，我想我只好尷尬地認錯了。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53735,7 +53735,7 @@
           "answer": "Several junior workers left because the hotel expected them to eat dirt whenever guests treated them rudely.",
           "answerZh": "幾名初級員工離職，因為酒店要求他們在客人無禮對待時只能忍氣吞聲。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53755,7 +53755,7 @@
           "answer": "If the test results prove her warning correct, the people who mocked her may have to eat dirt.",
           "answerZh": "如果測試結果證明她的警告正確，曾嘲笑她的人可能只好尷尬地認錯。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53775,7 +53775,7 @@
           "answer": "The team leader ate dirt in front of the customer to protect the new worker.",
           "answerZh": "團隊領袖為了保護新員工，在顧客面前忍辱承受所有責難。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "ate dirt"
         },
         {
@@ -53795,7 +53795,7 @@
           "answer": "The actor now says that eating dirt for years while working for the famous director was not worth the chance of a major role.",
           "answerZh": "那名演員現在說，多年來在該著名導演手下忍辱受氣，並不值得以此換取重要角色的機會。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eating dirt"
         },
         {
@@ -53815,7 +53815,7 @@
           "answer": "I would rather resign than eat dirt for the company’s decision.",
           "answerZh": "我寧願辭職，也不願為公司的決定公開忍辱受責。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53835,7 +53835,7 @@
           "answer": "After confidently promising an easy victory, the politician may now have to eat dirt in public.",
           "answerZh": "那名政治人物自信地承諾會輕易勝出後，現在可能只好公開低頭認錯。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         },
         {
@@ -53855,7 +53855,7 @@
           "answer": "The workers had been eating dirt for months whenever the owner treated them unfairly, but speaking together stopped him from making them feel powerless.",
           "answerZh": "每當老闆不公平對待員工時，他們數月來都只能忍氣吞聲；但他們一起發聲後，老闆再也不能令他們感到無力。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eating dirt"
         },
         {
@@ -53875,7 +53875,7 @@
           "answer": "At the school assembly, the classmates who had called the quiet student stupid had to eat dirt when he won the top writing prize.",
           "answerZh": "在學校集會上，那名安靜的學生贏得最高寫作獎，曾罵他愚蠢的同學只好難堪地認錯。",
           "targetForm": "eat dirt",
-          "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+          "targetMeaning": "to endure humiliation or unfair treatment without protest; also, to admit an embarrassing mistake after being proved wrong",
           "highlight": "eat dirt"
         }
       ]
@@ -53951,8 +53951,8 @@
         }
       ],
       "meaning": {
-        "en": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
-        "zh": "對明知有問題、不公平、不安全、令人不快或違反規則的事情故意視而不見，通常是因為不想採取行動。這個慣用語不是指某人意外地沒有留意到事情。",
+        "en": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
+        "zh": "明知某事有問題、不公平或不安全，卻故意視而不見。",
         "naturalZh": [
           "視而不見",
           "隻眼開，隻眼閉",
@@ -54295,7 +54295,7 @@
           "answer": "The teacher turned a blind eye to Leo copying his friend’s homework.",
           "answerZh": "老師對里奧抄朋友功課一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54315,7 +54315,7 @@
           "answer": "The shop manager turned a blind eye to the employee giving free drinks to his friends.",
           "answerZh": "店舖經理對員工免費送飲品給朋友一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54335,7 +54335,7 @@
           "answer": "Anna’s parents turned a blind eye to her staying up very late every night.",
           "answerZh": "安娜的父母明知她每晚都很遲睡，卻視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54355,7 +54355,7 @@
           "answer": "The coach turned a blind eye to several players skipping the warm-up.",
           "answerZh": "教練對幾名球員不做熱身一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54375,7 +54375,7 @@
           "answer": "The guard turned a blind eye to the resident parking in a no-parking area.",
           "answerZh": "保安員對住客把車停在禁區一事隻眼開隻眼閉。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54395,7 +54395,7 @@
           "answer": "The café owner turned a blind eye to some workers taking food home without asking.",
           "answerZh": "咖啡店東主對部分員工未經同意把食物帶回家一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54415,7 +54415,7 @@
           "answer": "Several classmates turned a blind eye to a younger pupil being bullied.",
           "answerZh": "幾名同學對一名年幼學生被欺凌一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54435,7 +54435,7 @@
           "answer": "The company turned a blind eye to some staff arriving late almost every day.",
           "answerZh": "公司對部分員工幾乎每天遲到一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54455,7 +54455,7 @@
           "answer": "The bus driver turned a blind eye to the passenger not paying the fare.",
           "answerZh": "巴士司機對乘客沒有付車資一事隻眼開隻眼閉。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54475,7 +54475,7 @@
           "answer": "The school turned a blind eye to pupils leaving rubbish in the playground.",
           "answerZh": "學校對學生在操場亂拋垃圾一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54495,7 +54495,7 @@
           "answer": "For months, the restaurant manager turned a blind eye to workers not washing their hands properly.",
           "answerZh": "幾個月來，餐廳經理一直對員工沒有正確洗手一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54515,7 +54515,7 @@
           "answer": "The teacher often turns a blind eye to Jack talking during lessons.",
           "answerZh": "老師經常對傑克在課堂上說話一事隻眼開隻眼閉。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turns a blind eye to"
         },
         {
@@ -54535,7 +54535,7 @@
           "answer": "The sports club has turned a blind eye to members sharing entry cards for weeks.",
           "answerZh": "運動會所幾星期來一直對會員共用入場證一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54555,7 +54555,7 @@
           "answer": "Before the accident happened, the factory owner had turned a blind eye to the broken safety door.",
           "answerZh": "意外發生前，工廠東主早已對損壞的安全門視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54575,7 +54575,7 @@
           "answer": "If nobody complains, the manager will probably keep turning a blind eye to workers using their phones during work.",
           "answerZh": "如果沒有人投訴，經理大概會繼續對上班時使用手機的員工視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turning a blind eye to"
         },
         {
@@ -54595,7 +54595,7 @@
           "answer": "The coach may turn a blind eye to some players arriving late for training.",
           "answerZh": "教練可能會對有些球員訓練遲到一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turn a blind eye to"
         },
         {
@@ -54615,7 +54615,7 @@
           "answer": "The school should not turn a blind eye to pupils being bullied.",
           "answerZh": "學校不應對學生被欺凌一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turn a blind eye to"
         },
         {
@@ -54635,7 +54635,7 @@
           "answer": "I cannot turn a blind eye to the old man being treated unfairly.",
           "answerZh": "我不能對那名老人受到不公平對待一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turn a blind eye to"
         },
         {
@@ -54655,7 +54655,7 @@
           "answer": "The guard turned a blind eye to the damaged fire door.",
           "answerZh": "保安員對損壞的防火門視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54675,7 +54675,7 @@
           "answer": "Yes. The manager turned a blind eye to staff changing the prices.",
           "answerZh": "知道。經理對員工更改價格一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54695,7 +54695,7 @@
           "answer": "No. We cannot turn a blind eye to Eric being bullied; we need to tell a teacher.",
           "answerZh": "不。我們不能對埃里克被欺凌一事視而不見；我們需要告訴老師。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turn a blind eye to"
         },
         {
@@ -54715,7 +54715,7 @@
           "answer": "Because the guard knew Clara well and it was her first time, he turned a blind eye to her not having her staff card that day.",
           "answerZh": "因為保安員很熟悉克拉拉，而且她是第一次忘記帶證，他當天便對她沒有帶員工證一事隻眼開隻眼閉。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54735,7 +54735,7 @@
           "answer": "The teacher knew and turned a blind eye to the answers being shared.",
           "answerZh": "老師其實知道有人互相傳答案，卻選擇視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54755,7 +54755,7 @@
           "answer": "Staff members say that the owner is turning a blind eye to the broken lift.",
           "answerZh": "員工表示，東主正對損壞的升降機視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turning a blind eye to"
         },
         {
@@ -54775,7 +54775,7 @@
           "answer": "Customers kept receiving damaged goods because the shop manager turned a blind eye to the problem.",
           "answerZh": "顧客不斷收到損壞的貨品，因為店舖經理對問題視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54795,7 +54795,7 @@
           "answer": "The teacher usually turns a blind eye to pupils talking loudly in class.",
           "answerZh": "老師通常對學生在課堂上大聲說話一事隻眼開隻眼閉。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turns a blind eye to"
         },
         {
@@ -54815,7 +54815,7 @@
           "answer": "If the parents keep turning a blind eye to their son taking money from their wallets, the problem may become worse.",
           "answerZh": "如果父母繼續對兒子從他們的銀包拿錢一事視而不見，問題可能會惡化。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turning a blind eye to"
         },
         {
@@ -54835,7 +54835,7 @@
           "answer": "The school may be turning a blind eye to pupils selling snacks without permission.",
           "answerZh": "學校可能正對學生未經許可售賣零食一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turning a blind eye to"
         },
         {
@@ -54855,7 +54855,7 @@
           "answer": "After the accident, the company stopped turning a blind eye to workers breaking safety rules.",
           "answerZh": "意外發生後，公司不再對違反安全規則的員工視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turning a blind eye to"
         },
         {
@@ -54875,7 +54875,7 @@
           "answer": "No. We must not turn a blind eye to Daniel copying answers during the test.",
           "answerZh": "不。我們絕不能對丹尼爾在測驗期間抄答案一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turn a blind eye to"
         },
         {
@@ -54895,7 +54895,7 @@
           "answer": "Although the manager had warned everyone about being honest, he turned a blind eye to one worker stealing small amounts of money.",
           "answerZh": "雖然經理曾提醒所有人要誠實，但他對一名員工偷取小額金錢一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54915,7 +54915,7 @@
           "answer": "Because the owner turned a blind eye to the workers breaking the rule, they continued doing it.",
           "answerZh": "由於東主對員工違反規則一事視而不見，他們便繼續這樣做。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54935,7 +54935,7 @@
           "answer": "For years, local officers often turned a blind eye to drivers parking on the pavement.",
           "answerZh": "多年來，當區人員經常對司機把車停在人行道上一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -54955,7 +54955,7 @@
           "answer": "Parents believe the school is turning a blind eye to older pupils taking lunch money from younger ones.",
           "answerZh": "家長認為學校正對年長學生拿走年幼學生午膳錢一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turning a blind eye to"
         },
         {
@@ -54975,7 +54975,7 @@
           "answer": "A rule has little value when leaders turn a blind eye to people breaking it.",
           "answerZh": "如果負責人對違反規則的人視而不見，這項規則便沒有多大作用。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turn a blind eye to"
         },
         {
@@ -54995,7 +54995,7 @@
           "answer": "The old manager turned a blind eye to staff taking long breaks, but the new manager refuses to do so.",
           "answerZh": "舊經理對員工休息時間過長一事視而不見，但新經理拒絕再這樣做。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -55015,7 +55015,7 @@
           "answer": "Everyone turned a blind eye to what was happening in the back room.",
           "answerZh": "所有人都對後房正在發生的事情視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -55035,7 +55035,7 @@
           "answer": "The teacher turned a blind eye to pupils sharing answers through a chat group.",
           "answerZh": "老師對學生透過聊天群組互相傳答案一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -55055,7 +55055,7 @@
           "answer": "The café lost money because its owner had turned a blind eye to staff giving away food.",
           "answerZh": "咖啡店出現虧損，因為東主一直對員工把食物免費送人一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -55075,7 +55075,7 @@
           "answer": "By turning a blind eye to several small problems, the manager allowed them to continue.",
           "answerZh": "經理對幾個小問題視而不見，令問題持續下去。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turning a blind eye to"
         },
         {
@@ -55095,7 +55095,7 @@
           "answer": "The hospital cannot turn a blind eye to some workers not washing their hands before helping patients.",
           "answerZh": "醫院不能對有些員工在協助病人前沒有洗手一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turn a blind eye to"
         },
         {
@@ -55115,7 +55115,7 @@
           "answer": "We will not turn a blind eye to the reported bullying.",
           "answerZh": "我們不會對已被舉報的欺凌事件視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turn a blind eye to"
         },
         {
@@ -55135,7 +55135,7 @@
           "answer": "The coach might be turning a blind eye to players using another team’s equipment without permission.",
           "answerZh": "教練可能正對球員未經許可使用另一隊器材一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turning a blind eye to"
         },
         {
@@ -55155,7 +55155,7 @@
           "answer": "The weak checks make it easy for managers to turn a blind eye to false work records.",
           "answerZh": "寬鬆的檢查制度令經理容易對不實的工作記錄視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turn a blind eye to"
         },
         {
@@ -55175,7 +55175,7 @@
           "answer": "The manager admitted that the shop had turned a blind eye to the wrong prices for days.",
           "answerZh": "經理承認店舖連續幾天對錯誤價格視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -55195,7 +55195,7 @@
           "answer": "Unless the school stops turning a blind eye to pupils threatening others, parents will lose trust in the school.",
           "answerZh": "除非學校不再對威嚇他人的學生視而不見，否則家長會對學校失去信任。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turning a blind eye to"
         },
         {
@@ -55215,7 +55215,7 @@
           "answer": "The town leaders say that they will no longer turn a blind eye to people leaving rubbish beside the river.",
           "answerZh": "鎮上的負責人表示，他們將不再對在河邊留下垃圾的人視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turn a blind eye to"
         },
         {
@@ -55235,7 +55235,7 @@
           "answer": "The supervisor turned a blind eye to the workers breaking the rule in front of him.",
           "answerZh": "主管對員工在他面前違反規則一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         },
         {
@@ -55255,7 +55255,7 @@
           "answer": "I now regret turning a blind eye to my friend insulting younger pupils.",
           "answerZh": "我現在後悔當初對朋友侮辱年幼學生一事視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turning a blind eye to"
         },
         {
@@ -55275,7 +55275,7 @@
           "answer": "No. The leaders had turned a blind eye to the problem for months despite receiving complaints.",
           "answerZh": "不。負責人幾個月來一直收到投訴，卻對問題視而不見。",
           "targetForm": "turn a blind eye to",
-          "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+          "targetMeaning": "to deliberately ignore something wrong, unfair or unsafe that you know is happening",
           "highlight": "turned a blind eye to"
         }
       ]
@@ -59722,8 +59722,8 @@
         ]
       },
       "register": {
-        "labelEn": "Source-Guided Register",
-        "labelZh": "按原檔語域使用",
+        "labelEn": "Neutral to formal; mainly British English",
+        "labelZh": "中性至正式；主要見於英式英語",
         "summaryEn": "committees; management teams; business partners; professional groups; school leadership; shared ownership; political or public leadership; organisations in which members officially have equal status.",
         "summaryZh": "First among equals 屬於中性至正式表達。",
         "contextsEn": [
@@ -59746,7 +59746,7 @@
           "政治或公共領導",
           "成員正式地位平等的組織。"
         ],
-        "formalEn": "Use the idiom only in the contexts described in the source.",
+        "formalEn": "Use for a member whose formal status is equal to peers but whose responsibility or influence is slightly greater.",
         "formalZh": "共同擁有權； 政治或公共領導； 成員正式地位平等的組織。"
       },
       "fixedVariable": {
@@ -65525,8 +65525,8 @@
         }
       ],
       "meaning": {
-        "en": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
-        "zh": "選擇或支持了一個後來失敗的人、隊伍、立場、計劃、產品或其他選項。",
+        "en": "to support a person, team, plan or option that later proves unsuccessful",
+        "zh": "支持一個人、隊伍、計劃或選項，結果發現自己押錯了對象。",
         "naturalZh": [
           "支持錯了人或一方",
           "看錯人",
@@ -65965,7 +65965,7 @@
           "answer": "Ella backed the wrong horse in the class election by supporting Jason.",
           "answerZh": "艾拉在班級選舉中支持傑森，結果看錯了人。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -65985,7 +65985,7 @@
           "answer": "We backed the wrong horse in the school competition by supporting the blue team.",
           "answerZh": "我們在校內比賽中支持藍隊，結果押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66005,7 +66005,7 @@
           "answer": "The shop backed the wrong horse by choosing Anna’s cake idea for its new product.",
           "answerZh": "店舖選擇安娜的蛋糕構思作為新產品，結果選錯了方案。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66025,7 +66025,7 @@
           "answer": "David backed the wrong horse by supporting the new phone app.",
           "answerZh": "大衛支持這個新的手機應用程式，結果押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66045,7 +66045,7 @@
           "answer": "The family backed the wrong horse by choosing the cheaper holiday plan.",
           "answerZh": "這個家庭選擇較便宜的旅遊方案，結果選錯了。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66065,7 +66065,7 @@
           "answer": "Our group backed the wrong horse when we followed Ken’s plan for the project.",
           "answerZh": "我們的小組在項目中跟隨肯的方案，結果押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66085,7 +66085,7 @@
           "answer": "Nina backed the wrong horse when she chose the small café to provide food for the school event.",
           "answerZh": "妮娜選擇該小型咖啡店為學校活動提供食物，結果選錯了合作對象。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66105,7 +66105,7 @@
           "answer": "The club backed the wrong horse when it chose Paul as captain.",
           "answerZh": "俱樂部選擇保羅擔任隊長，結果看錯了人。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66125,7 +66125,7 @@
           "answer": "I backed the wrong horse when I chose the cheaper machine for the office.",
           "answerZh": "我為辦公室選擇較便宜的機器，結果選錯了。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66145,7 +66145,7 @@
           "answer": "The parents backed the wrong horse when they chose the company that promised the fastest repair.",
           "answerZh": "家長選擇那間承諾最快完成維修的公司，結果選錯了服務公司。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66165,7 +66165,7 @@
           "answer": "Ben often backs the wrong horse in class elections by supporting the loudest student.",
           "answerZh": "本在班級選舉中經常支持錯誤的人選，因為他常常支持聲音最大的學生。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backs the wrong horse"
         },
         {
@@ -66185,7 +66185,7 @@
           "answer": "Last year, the school backed the wrong horse by choosing the Moonlight Band for the show.",
           "answerZh": "去年，學校選擇月光樂隊參與表演，結果選錯了對象。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66205,7 +66205,7 @@
           "answer": "The manager may have backed the wrong horse by putting all his trust in the new sales idea.",
           "answerZh": "經理把所有希望都放在這個新的銷售構思上，可能是押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66225,7 +66225,7 @@
           "answer": "The team may have backed the wrong horse by choosing the online-only plan.",
           "answerZh": "團隊選擇只提供網上服務的方案，可能已經選錯了方向。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66245,7 +66245,7 @@
           "answer": "The film company could back the wrong horse by giving its biggest role to the young actor despite his last three unsuccessful films.",
           "answerZh": "儘管這名年輕演員最近三部電影都不成功，電影公司若把最重要的角色交給他，可能會看錯人。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "back the wrong horse"
         },
         {
@@ -66265,7 +66265,7 @@
           "answer": "We should be careful not to back the wrong horse by choosing the cheapest bus company only because of price, especially when its buses are often late.",
           "answerZh": "我們不應只因價格而選擇最便宜的巴士公司，尤其是該公司的巴士經常遲到，以免選錯服務公司。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "back the wrong horse"
         },
         {
@@ -66285,7 +66285,7 @@
           "answer": "I think Rachel is backing the wrong horse by trusting a plan that has already failed twice.",
           "answerZh": "我認為瑞秋相信一個已經失敗兩次的方案，是押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backing the wrong horse"
         },
         {
@@ -66305,7 +66305,7 @@
           "answer": "The club backed the wrong horse in the final by choosing Eastside.",
           "answerZh": "俱樂部在決賽中選擇支持東城隊，結果押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66325,7 +66325,7 @@
           "answer": "He backed the wrong horse in the sports club election by supporting the former captain.",
           "answerZh": "他在體育會選舉中支持前任隊長，結果看錯了人。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66345,7 +66345,7 @@
           "answer": "By the time the team changed its plan, it had already backed the wrong horse by choosing Liam’s idea weeks earlier.",
           "answerZh": "團隊更改方案時，早已在數星期前選擇利亞姆的構思，押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66365,7 +66365,7 @@
           "answer": "No. We may be backing the wrong horse by continuing to support Tom as team leader when he has missed every meeting and may leave.",
           "answerZh": "不應。湯姆錯過了每次會議，而且可能會離開；我們若繼續支持他擔任隊長，可能是在看錯人。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backing the wrong horse"
         },
         {
@@ -66385,7 +66385,7 @@
           "answer": "Oliver backed the wrong horse when he invested in Green Tech.",
           "answerZh": "奧利弗投資綠科公司，結果押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66405,7 +66405,7 @@
           "answer": "The parents backed the wrong horse when they chose the private tutor because of his big promises.",
           "answerZh": "家長因為這名私人導師作出很大的承諾而選擇他，結果看錯了人。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66425,7 +66425,7 @@
           "answer": "The team leader backed the wrong horse by trusting the new worker with the most important task.",
           "answerZh": "組長把最重要的工作交給新員工，結果看錯了人。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66445,7 +66445,7 @@
           "answer": "Carla backed the wrong horse in the singing contest by supporting the Red Stars.",
           "answerZh": "卡拉在歌唱比賽中支持紅星隊，結果押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66465,7 +66465,7 @@
           "answer": "The café backed the wrong horse by making the mango drink its main summer product.",
           "answerZh": "咖啡店把芒果飲品定為夏季主打產品，結果選錯了方向。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66485,7 +66485,7 @@
           "answer": "Our school might back the wrong horse if it chooses the cheaper computer system even though another school stopped using it within a week.",
           "answerZh": "即使另一間學校在一星期內便停止使用，若我們學校仍選擇較便宜的電腦系統，便可能會選錯方案。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "back the wrong horse"
         },
         {
@@ -66505,7 +66505,7 @@
           "answer": "The company backed the wrong horse by choosing the online star to advertise its product.",
           "answerZh": "公司選擇這名網絡紅人為產品宣傳，結果看錯了人。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66525,7 +66525,7 @@
           "answer": "I clearly backed the wrong horse by supporting the small team.",
           "answerZh": "我大力支持那支小隊，顯然是押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66545,7 +66545,7 @@
           "answer": "Nora backed the wrong horse by choosing Lee’s modern design for the product.",
           "answerZh": "諾拉為產品選擇李的現代化設計，結果選錯了方案。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66565,7 +66565,7 @@
           "answer": "Although everyone warned him, Daniel backed the wrong horse by supporting the new restaurant plan.",
           "answerZh": "雖然所有人都警告過他，丹尼爾仍支持新的餐廳計劃，結果押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66585,7 +66585,7 @@
           "answer": "Because the club believed Adam would attract new members, it backed the wrong horse by choosing him as chairperson.",
           "answerZh": "因為俱樂部相信亞當能吸引新會員，所以選擇他擔任主席，結果看錯了人。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66605,7 +66605,7 @@
           "answer": "It is too early to say whether the school has backed the wrong horse by choosing the new learning app.",
           "answerZh": "現在判斷學校選擇新的學習應用程式是否押錯了注，仍然言之過早。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66625,7 +66625,7 @@
           "answer": "I know. I backed the wrong horse in the cup by choosing City North without checking their recent results.",
           "answerZh": "我知道。我沒有查看北城隊最近的成績便在盃賽中支持他們，結果押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66645,7 +66645,7 @@
           "answer": "Before putting all the money into the new delivery plan, the manager should make sure that she is not backing the wrong horse.",
           "answerZh": "把所有資金投入新的送貨方案前，經理應先確保自己沒有選錯方案。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backing the wrong horse"
         },
         {
@@ -66665,7 +66665,7 @@
           "answer": "By choosing the hardest book for its reading project, the class backed the wrong horse.",
           "answerZh": "全班為閱讀項目選擇最難的書，結果選錯了。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66685,7 +66685,7 @@
           "answer": "We backed the wrong horse when we chose the least experienced person to lead the event.",
           "answerZh": "我們選擇經驗最少的人帶領活動，結果看錯了人。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66705,7 +66705,7 @@
           "answer": "The shop may be backing the wrong horse by spending all its money on DVD players that few customers buy.",
           "answerZh": "店舖把所有資金用於很少顧客購買的DVD播放機，可能正在押錯注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backing the wrong horse"
         },
         {
@@ -66725,7 +66725,7 @@
           "answer": "Even after the first bad results, the team kept backing the wrong horse by continuing with Mark’s plan.",
           "answerZh": "即使第一次結果已經很差，團隊仍繼續支持馬克的方案，一直押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backing the wrong horse"
         },
         {
@@ -66745,7 +66745,7 @@
           "answer": "Looking back, the coach backed the wrong horse by choosing Ryan instead of Ben.",
           "answerZh": "回頭看，教練選擇瑞安而不是本，確實看錯了人。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66765,7 +66765,7 @@
           "answer": "The club risks backing the wrong horse if it gives Sam another year as captain after the team has lost nearly every match under him.",
           "answerZh": "球隊在森帶領下幾乎每場比賽都落敗；俱樂部若讓他再做一年隊長，便有再次看錯人的風險。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backing the wrong horse"
         },
         {
@@ -66785,7 +66785,7 @@
           "answer": "The hotel backed the wrong horse by following one guest’s suggestion to remove its breakfast service.",
           "answerZh": "酒店採納一名住客提出取消早餐服務的建議，結果選錯了方向。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66805,7 +66805,7 @@
           "answer": "Because the first plan’s costs are rising, we should compare both plans carefully before we risk backing the wrong horse by choosing it.",
           "answerZh": "由於第一個方案的成本不斷上升，我們應仔細比較兩個方案，以免選擇它後才發現押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backing the wrong horse"
         },
         {
@@ -66825,7 +66825,7 @@
           "answer": "The school leaders backed the wrong horse when they trusted the company with the biggest promises to provide the new system.",
           "answerZh": "校方領導信任了作出最大承諾的公司為學校提供新系統，結果選錯了合作對象。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66845,7 +66845,7 @@
           "answer": "The community group backed the wrong horse by choosing a festival plan that required more money than the group could raise instead of the smaller one.",
           "answerZh": "社區小組選擇了一個所需金額超過其籌款能力的節日活動方案，而沒有選擇較小型的方案，結果選錯了方向。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66865,7 +66865,7 @@
           "answer": "Grace may have backed the wrong horse by strongly supporting the least experienced team.",
           "answerZh": "格雷絲大力支持經驗最少的隊伍，可能是押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66885,7 +66885,7 @@
           "answer": "If the office chooses the cheapest system, which often breaks down, it may back the wrong horse.",
           "answerZh": "辦公室如果選擇經常故障的最便宜系統，可能會選錯方案。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "back the wrong horse"
         },
         {
@@ -66905,7 +66905,7 @@
           "answer": "Yes, I may have backed the wrong horse when I invested in the new café without knowing another café would open next door.",
           "answerZh": "是的，我投資這間新咖啡店時不知道旁邊會有另一間咖啡店開業，可能是押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66925,7 +66925,7 @@
           "answer": "By choosing the fast plan instead of the safer one, the company backed the wrong horse.",
           "answerZh": "公司選擇較快的方案而不是較安全的方案，結果選錯了方向。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         },
         {
@@ -66945,7 +66945,7 @@
           "answer": "In choosing the large one-day event instead of the weekly classes, the local centre backed the wrong horse.",
           "answerZh": "本地中心選擇大型單日活動而不是每週課堂，結果押錯了注。",
           "targetForm": "back the wrong horse",
-          "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+          "targetMeaning": "to support a person, team, plan or option that later proves unsuccessful",
           "highlight": "backed the wrong horse"
         }
       ]
@@ -78224,8 +78224,8 @@
         ]
       },
       "register": {
-        "labelEn": "Source-Guided Register",
-        "labelZh": "按原檔語域使用",
+        "labelEn": "Neutral; vivid description",
+        "labelZh": "中性；帶生動描寫",
         "summaryEn": "everyday conversation; stories and personal accounts; news and feature writing; speeches and presentations; general descriptive writing.",
         "summaryZh": "這個表達的語氣屬中性至生動，可以用於日常對話、故事、個人敘述、新聞特寫、演講、簡報及一般描述文章。",
         "contextsEn": [
@@ -78236,7 +78236,7 @@
           "general descriptive writing"
         ],
         "contextsZh": [],
-        "formalEn": "Use the idiom only in the contexts described in the source.",
+        "formalEn": "Use for the cold middle of winter; in technical writing, exact dates or midwinter may be clearer.",
         "formalZh": "在高度技術性的文章中，使用確實日期或較直接的 midwinter 有時會更加清楚。"
       },
       "fixedVariable": {
@@ -79633,8 +79633,8 @@
         }
       ],
       "meaning": {
-        "en": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
-        "zh": "深夜時分；夜深人靜之時；夜晚最黑暗、最寂靜的時候",
+        "en": "the middle of the night, especially when it is very dark and quiet",
+        "zh": "深夜時分，尤其是漆黑而寂靜的夜晚。",
         "naturalZh": [
           "深夜時分",
           "夜深人靜之時",
@@ -79909,7 +79909,7 @@
           "answer": "The phone rang in the dead of night.",
           "answerZh": "電話在夜深人靜時響起。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -79929,7 +79929,7 @@
           "answer": "A baby suddenly began crying in the dead of night.",
           "answerZh": "一名嬰兒在深夜時分突然哭了起來。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -79949,7 +79949,7 @@
           "answer": "The dog began barking in the dead of night.",
           "answerZh": "那隻狗在夜深人靜時開始吠叫。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -79969,7 +79969,7 @@
           "answer": "A loud crash woke us in the dead of night.",
           "answerZh": "一聲巨響在深夜時分把我們吵醒了。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -79989,7 +79989,7 @@
           "answer": "The fire alarm sounded in the dead of night.",
           "answerZh": "火警鐘在夜深人靜時響起。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80009,7 +80009,7 @@
           "answer": "Heavy rain started in the dead of night while the whole village was sleeping.",
           "answerZh": "全村人都在睡覺的深夜時分，下起了大雨。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80029,7 +80029,7 @@
           "answer": "Someone knocked on our front door in the dead of night.",
           "answerZh": "有人在夜深人靜時敲我們的前門。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80049,7 +80049,7 @@
           "answer": "The electricity went off in the dead of night.",
           "answerZh": "電力在深夜時分中斷了。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80069,7 +80069,7 @@
           "answer": "We heard an owl calling in the dead of night.",
           "answerZh": "我們在夜深人靜時聽到貓頭鷹的叫聲。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80089,7 +80089,7 @@
           "answer": "The last train passed through the small town in the dead of night.",
           "answerZh": "尾班火車在深夜時分駛過這個小鎮。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80109,7 +80109,7 @@
           "answer": "The cat often wakes me in the dead of night.",
           "answerZh": "那隻貓經常在夜深人靜時把我吵醒。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80129,7 +80129,7 @@
           "answer": "Last winter, a tree fell across the road in the dead of night.",
           "answerZh": "去年冬天，一棵樹在深夜時分倒在馬路上。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80149,7 +80149,7 @@
           "answer": "The rescue team has been called to the house in the dead of night twice this month.",
           "answerZh": "救援隊本月已兩次在夜深人靜時被召到那間屋。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80169,7 +80169,7 @@
           "answer": "Tomorrow, the workers will move the large machine in the dead of night, when the roads are empty.",
           "answerZh": "工人明天會在夜深人靜、道路空無一人時搬運那部大型機器。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80189,7 +80189,7 @@
           "answer": "The storm could reach the island in the dead of night.",
           "answerZh": "風暴可能會在深夜時分抵達該島。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80209,7 +80209,7 @@
           "answer": "We had to leave the campsite in the dead of night.",
           "answerZh": "我們不得不在夜深人靜時離開營地。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80229,7 +80229,7 @@
           "answer": "The hotel guests were woken by an alarm in the dead of night.",
           "answerZh": "酒店住客在深夜時分被警報聲吵醒。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80249,7 +80249,7 @@
           "answer": "The fox may return to the garden in the dead of night.",
           "answerZh": "那隻狐狸可能會在夜深人靜時再次走進花園。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80269,7 +80269,7 @@
           "answer": "It returned in the dead of night while we were all asleep.",
           "answerZh": "電力在我們全都熟睡的深夜時分恢復了。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80289,7 +80289,7 @@
           "answer": "A car alarm woke me in the dead of night.",
           "answerZh": "一輛車的警報器在夜深人靜時把我吵醒了。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80309,7 +80309,7 @@
           "answer": "Yes. She started crying in the dead of night.",
           "answerZh": "有。她在夜深人靜時哭了起來。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80329,7 +80329,7 @@
           "answer": "The guest complained that loud music had started in the dead of night.",
           "answerZh": "住客投訴有人在夜深人靜時播放嘈吵音樂。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80349,7 +80349,7 @@
           "answer": "The caretaker noticed water coming through the ceiling in the dead of night.",
           "answerZh": "管理員在夜深人靜時發現有水從天花板滲下。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80369,7 +80369,7 @@
           "answer": "We were driving through the mountains in the dead of night when a deer crossed the road.",
           "answerZh": "我們在深夜駕車穿過山區時，一隻鹿橫過馬路。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80389,7 +80389,7 @@
           "answer": "The shop alarm suddenly went off in the dead of night, when the streets were completely empty.",
           "answerZh": "店舖的警報器在夜深人靜、街道空無一人時突然響起。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80409,7 +80409,7 @@
           "answer": "He said the horses became restless in the dead of night.",
           "answerZh": "他說那些馬在深夜時分變得不安。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80429,7 +80429,7 @@
           "answer": "A film crew moved its equipment through the city in the dead of night, when there was almost no traffic.",
           "answerZh": "一隊電影工作人員在夜深人靜、幾乎沒有車流時把器材運過市內。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80449,7 +80449,7 @@
           "answer": "The old sailor remembered hearing the ship’s bell in the dead of night.",
           "answerZh": "那名老水手記得自己曾在深夜時分聽到船鐘聲。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80469,7 +80469,7 @@
           "answer": "She sent the urgent message in the dead of night.",
           "answerZh": "她在夜深人靜時發出那則緊急訊息。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80489,7 +80489,7 @@
           "answer": "The nurse heard a patient calling softly in the dead of night.",
           "answerZh": "護士在夜深人靜時聽到一名病人輕聲呼喚。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80509,7 +80509,7 @@
           "answer": "Although deliveries normally came during the day, a lorry arrived in the dead of night while the town was asleep.",
           "answerZh": "雖然送貨通常在日間進行，一輛貨車卻在全鎮沉睡的深夜時分抵達。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80529,7 +80529,7 @@
           "answer": "Because the storm became stronger in the dead of night, the family moved away from the windows.",
           "answerZh": "由於風暴在深夜時分變得更猛烈，那家人走到遠離窗戶的地方。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80549,7 +80549,7 @@
           "answer": "In the dead of night, the church bell began to ring while the village was asleep.",
           "answerZh": "在夜深人靜、全村人都在沉睡時，教堂的鐘開始響起。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80569,7 +80569,7 @@
           "answer": "The hikers thought the forest was empty, but they heard footsteps in the dead of night.",
           "answerZh": "遠足者以為森林裡沒有人，但他們在深夜時分聽到腳步聲。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80589,7 +80589,7 @@
           "answer": "The train stopped far from the station in the dead of night, while nearly everyone on board was asleep.",
           "answerZh": "列車在夜深人靜、車上幾乎所有人都熟睡時，停在遠離車站的地方。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80609,7 +80609,7 @@
           "answer": "A water pipe had burst, so the repair workers had to work in the dead of night.",
           "answerZh": "有一條水管爆裂，所以維修工人不得不在夜深人靜時工作。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80629,7 +80629,7 @@
           "answer": "The reporter said the boat had probably reached the harbour in the dead of night.",
           "answerZh": "記者表示，那艘船很可能在夜深人靜時抵達海港。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80649,7 +80649,7 @@
           "answer": "The footprints suggest that someone might have entered the garden in the dead of night.",
           "answerZh": "那些腳印顯示，可能有人在深夜時分進入花園。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80669,7 +80669,7 @@
           "answer": "Only in the dead of night, after the house had become completely silent, did the strange tapping begin.",
           "answerZh": "只有到了夜深人靜、整間屋完全安靜下來後，奇怪的敲擊聲才開始出現。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80689,7 +80689,7 @@
           "answer": "In the dead of night, the bus finally arrived while the streets were empty and every window was dark.",
           "answerZh": "巴士終於在夜深人靜時抵達，當時街道空無一人，每扇窗戶都是黑的。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80709,7 +80709,7 @@
           "answer": "A water pipe broke beneath the main road in the dead of night, so emergency workers were called out.",
           "answerZh": "主要道路下方的一條水管在夜深人靜時爆裂，因此緊急維修人員被召來。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80729,7 +80729,7 @@
           "answer": "To avoid daytime traffic, the airport plans to move the old plane across the road in the dead of night.",
           "answerZh": "為了避開日間車流，機場計劃在夜深人靜時把舊飛機移過馬路。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80749,7 +80749,7 @@
           "answer": "Grandfather suddenly became ill in the dead of night, and we had to call a doctor.",
           "answerZh": "祖父在深夜時分突然不適，我們不得不致電醫生。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80769,7 +80769,7 @@
           "answer": "A camera in the woods showed that deer came to the lake in the dead of night.",
           "answerZh": "森林裡的攝影機拍到鹿群在夜深人靜時來到湖邊。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80789,7 +80789,7 @@
           "answer": "The school guard saw a classroom light come on in the dead of night, when the whole building should have been empty and silent.",
           "answerZh": "學校保安在夜深人靜、整座校舍理應空無一人時，看見一間課室的燈亮了。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80809,7 +80809,7 @@
           "answer": "The local paper described how the town’s warning bell rang in the dead of night without explanation.",
           "answerZh": "本地報章描述，鎮上的警報鐘在夜深人靜時無故響起。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80829,7 +80829,7 @@
           "answer": "No one knows exactly when the small boat arrived, but people nearby think it came in the dead of night, when the harbour was silent.",
           "answerZh": "沒有人確切知道那艘小船何時抵達，但附近的人認為，它是在夜深人靜、海港一片寂靜時抵達的。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80849,7 +80849,7 @@
           "answer": "If the river rises in the dead of night, families may have to leave their homes immediately.",
           "answerZh": "如果河水在深夜時分上漲，各家庭可能需要立即離開住所。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80869,7 +80869,7 @@
           "answer": "The café closed before midnight, but a cleaning van returned in the dead of night, when the street was completely quiet.",
           "answerZh": "咖啡店在午夜前關門，但一輛清潔車在夜深人靜、街道完全寂靜時返回。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         },
         {
@@ -80889,7 +80889,7 @@
           "answer": "In the dead of night, before even the bakers had begun work, a single bicycle bell sounded in the empty square while every window was still dark.",
           "answerZh": "在夜深人靜、連麵包師也尚未開工時，空蕩蕩的廣場上響起了一下單車鈴聲，而每扇窗戶仍然一片漆黑。",
           "targetForm": "The Dead of Night",
-          "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+          "targetMeaning": "the middle of the night, especially when it is very dark and quiet",
           "highlight": "the dead of night"
         }
       ]
@@ -82368,23 +82368,15 @@
         ]
       },
       "register": {
-        "labelEn": "Source-Guided Register",
-        "labelZh": "按原檔語域使用",
+        "labelEn": "Disapproving",
+        "labelZh": "帶批評意味",
         "summaryEn": "The expression is common in conversation, journalism, presentations and general commentary. Its tone is normally critical, disapproving or dismissive. It is not a swear word, but calling a person a paper tiger directly may sound insulting because it suggests that the person’s confidence or power is largely false. Cambridge specifically labels the expression as disapproving.",
         "summaryZh": "這個表達常見於對話、新聞報道、簡報和一般評論。 語氣通常帶有批評、不認同或輕視意味。 它不是粗俗用語，但直接把一個人稱為 a paper tiger 可能帶有侮辱性，因為這暗示對方的自信或權力大部分只是表象。",
         "contextsEn": [
-          "a",
-          "paper",
-          "tiger",
-          "The threat is a paper tiger",
-          "The organisation proved to be a paper tiger",
-          "paper tiger without an article ✗",
-          "a tiger of paper ✗",
-          "a papered tiger ✗",
-          "a tiger on paper ✗",
-          "a paper tigers ✗",
-          "the subject",
-          "the linking or reporting verb"
+          "conversation",
+          "journalism",
+          "presentations",
+          "general commentary"
         ],
         "contextsZh": [
           "主語",
@@ -82395,7 +82387,7 @@
           "解釋實際弱點的原因",
           "對比表面形象和實際情況的子句。"
         ],
-        "formalEn": "Use the idiom only in the contexts described in the source.",
+        "formalEn": "Use when apparent strength is not matched by real power; calling a person this may sound insulting.",
         "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
       },
       "fixedVariable": {
@@ -85121,8 +85113,8 @@
         }
       ],
       "meaning": {
-        "en": "It can also describe one activity, concern or priority becoming less important than another.",
-        "zh": "take a back seat 指某人退居較次要的位置，不再擔當最主動、最重要或最有影響力的角色，通常是讓另一個人帶領、發言或作主要決定。",
+        "en": "to take a less active or less important role; also, for one priority to become less important than another",
+        "zh": "退居較次要、不再主導的位置；也可指某件事的重要性讓位於另一件事。",
         "naturalZh": [
           "退居次要位置",
           "退居幕後",
@@ -85519,7 +85511,7 @@
           "answer": "I decided to take a back seat and let Priya lead the meeting.",
           "answerZh": "我決定退居次要位置，讓 Priya 主持會議。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -85539,7 +85531,7 @@
           "answer": "Daniel took a back seat during the presentation and let Aisha do most of the talking.",
           "answerZh": "Daniel 在簡報期間退居次要位置，讓 Aisha 負責大部分講解。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "took a back seat"
         },
         {
@@ -85559,7 +85551,7 @@
           "answer": "The old coach has taken a back seat and now gives advice to the new coach.",
           "answerZh": "舊教練已退居次要位置，現在主要向新教練提供意見。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "taken a back seat"
         },
         {
@@ -85579,7 +85571,7 @@
           "answer": "Ella usually takes a back seat in group discussions and lets other people speak first.",
           "answerZh": "Ella 在小組討論中通常退居次要位置，讓其他人先發言。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "takes a back seat"
         },
         {
@@ -85599,7 +85591,7 @@
           "answer": "I will take a back seat on this project and support you.",
           "answerZh": "我會在這個項目中退居次要位置，從旁支援你。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -85619,7 +85611,7 @@
           "answer": "The manager asked Owen to take a back seat and let the new team leader make the decisions.",
           "answerZh": "經理要求 Owen 退居次要位置，讓新任組長作決定。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -85639,7 +85631,7 @@
           "answer": "During the family meeting, Grandad took a back seat and let the younger adults make the final decision.",
           "answerZh": "在家庭會議中，祖父退居次要位置，讓較年輕的成年人作最後決定。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "took a back seat"
         },
         {
@@ -85659,7 +85651,7 @@
           "answer": "Since the new captain arrived, Joel has taken a back seat in the team.",
           "answerZh": "自從新隊長加入後，Joel 在球隊中已退居次要位置。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "taken a back seat"
         },
         {
@@ -85679,7 +85671,7 @@
           "answer": "My hobbies had to take a back seat while I studied for the exam.",
           "answerZh": "在我溫習考試期間，興趣活動只好暫時放在次要位置。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -85699,7 +85691,7 @@
           "answer": "Once the guests arrived, the organiser took a back seat and let the volunteers run the activities.",
           "answerZh": "賓客到場後，主辦者便退居次要位置，讓義工負責各項活動。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "took a back seat"
         },
         {
@@ -85719,7 +85711,7 @@
           "answer": "The director sometimes takes a back seat and allows her staff to solve problems.",
           "answerZh": "主管有時會退居次要位置，讓員工自行解決問題。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "takes a back seat"
         },
         {
@@ -85739,7 +85731,7 @@
           "answer": "After leading the club for years, Ms Wong is taking a back seat this term.",
           "answerZh": "Wong 女士帶領學會多年後，今個學期開始退居次要位置。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "taking a back seat"
         },
         {
@@ -85759,7 +85751,7 @@
           "answer": "You know this topic better than I do, so I can take a back seat and let you lead.",
           "answerZh": "你比我更熟悉這個題目，所以我可以退居次要位置，讓你帶領。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -85779,7 +85771,7 @@
           "answer": "Family time should not take a back seat to work every weekend.",
           "answerZh": "家庭時間不應在每個週末都讓位於工作。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -85799,7 +85791,7 @@
           "answer": "At the event, the music took a back seat to the speakers’ personal stories.",
           "answerZh": "在活動中，音樂退居次要位置，重點落在講者的個人故事上。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "took a back seat"
         },
         {
@@ -85819,7 +85811,7 @@
           "answer": "You know the client better, so I’ll take a back seat at the meeting.",
           "answerZh": "你比較了解客戶，所以我會在會議中退居次要位置。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -85839,7 +85831,7 @@
           "answer": "The parents agreed to take a back seat and let the children plan the party.",
           "answerZh": "家長同意退居次要位置，讓孩子自行策劃派對。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -85859,7 +85851,7 @@
           "answer": "This month, online sales have taken a back seat to improving customer service.",
           "answerZh": "今個月，網上銷售退居次要位置，改善顧客服務更為重要。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "taken a back seat"
         },
         {
@@ -85879,7 +85871,7 @@
           "answer": "He may need to take a back seat until he understands the new system.",
           "answerZh": "在他了解新系統之前，可能需要暫時退居次要位置。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -85899,7 +85891,7 @@
           "answer": "The senior nurse was unwilling to take a back seat and let the new nurse lead.",
           "answerZh": "資深護士不願退居次要位置，也不肯讓新護士帶領。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -85919,7 +85911,7 @@
           "answer": "Lena is taking a back seat at the planning meeting so that the new staff can share their ideas.",
           "answerZh": "Lena 正在規劃會議中退居次要位置，好讓新員工分享自己的想法。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "taking a back seat"
         },
         {
@@ -85939,7 +85931,7 @@
           "answer": "No. I’m going to take a back seat and let Sam handle the daily work.",
           "answerZh": "不會。我打算退居次要位置，讓 Sam 處理日常工作。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -85959,7 +85951,7 @@
           "answer": "The chef designed the menu, but on opening night she took a back seat and let her team serve the guests.",
           "answerZh": "廚師設計了餐單，但在開業當晚退居次要位置，讓團隊接待客人。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "took a back seat"
         },
         {
@@ -85979,7 +85971,7 @@
           "answer": "After the baby was born, travel took a back seat to the family’s needs.",
           "answerZh": "孩子出生後，旅行退居次要位置，家庭需要變得更重要。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "took a back seat"
         },
         {
@@ -85999,7 +85991,7 @@
           "answer": "The teachers took a back seat so that the students could be the centre of attention in the school play.",
           "answerZh": "老師退居次要位置，讓學生在學校話劇中成為焦點。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "took a back seat"
         },
         {
@@ -86019,7 +86011,7 @@
           "answer": "Arun took a back seat during the interview and let the team member who had done the work answer.",
           "answerZh": "Arun 在訪問中退居次要位置，讓真正完成工作的團隊成員作答。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "took a back seat"
         },
         {
@@ -86039,7 +86031,7 @@
           "answer": "Leah said that she would take a back seat once the new leader was ready.",
           "answerZh": "Leah 表示，新領袖準備好後，她便會退居次要位置。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86059,7 +86051,7 @@
           "answer": "The founder decided to take a back seat so that the team could make small decisions more quickly.",
           "answerZh": "創辦人決定退居次要位置，讓團隊可以更快作出小決定。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86079,7 +86071,7 @@
           "answer": "For now, decorating the hall may have to take a back seat to safety repairs.",
           "answerZh": "目前，裝飾禮堂可能要暫時讓位於安全維修。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86099,7 +86091,7 @@
           "answer": "By taking a back seat during the workshop, Naomi gave her assistant room to lead.",
           "answerZh": "Naomi 在工作坊中退居次要位置，讓助理有空間帶領活動。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "taking a back seat"
         },
         {
@@ -86119,7 +86111,7 @@
           "answer": "Although Leo had started the project, he took a back seat when the work moved into Fatima’s area of experience.",
           "answerZh": "雖然項目由 Leo 開始，但當工作進入 Fatima 較有經驗的範疇時，他便退居次要位置。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "took a back seat"
         },
         {
@@ -86139,7 +86131,7 @@
           "answer": "Because the children knew the game best, the adults took a back seat and let them explain the rules and organise the teams.",
           "answerZh": "因為孩子最熟悉這個遊戲，成年人便退居次要位置，讓他們解釋規則和安排隊伍。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "took a back seat"
         },
         {
@@ -86159,7 +86151,7 @@
           "answer": "I used to control every meeting, but now I take a back seat and let my colleagues lead more often.",
           "answerZh": "我以前會控制每次會議，但現在會退居次要位置，較常讓同事帶領。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86179,7 +86171,7 @@
           "answer": "Once the emergency was over, fear took a back seat to careful planning.",
           "answerZh": "緊急情況結束後，恐懼退居次要位置，團隊轉而重視仔細規劃。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "took a back seat"
         },
         {
@@ -86199,7 +86191,7 @@
           "answer": "The editor believed that her suggestions should take a back seat to the writer’s own voice.",
           "answerZh": "編輯認為，她的建議應退居次要位置，以作者本人的聲音為重。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86219,7 +86211,7 @@
           "answer": "Not this time. Rosa has prepared the whole lesson, so I’m taking a back seat and helping her.",
           "answerZh": "這次不是。Rosa 已準備整節課，所以我正退居次要位置，從旁協助她。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "taking a back seat"
         },
         {
@@ -86239,7 +86231,7 @@
           "answer": "During the student election, teachers will take a back seat and step in only if the rules are broken.",
           "answerZh": "在學生選舉期間，老師會退居次要位置，只在有人違反規則時介入。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86259,7 +86251,7 @@
           "answer": "If the client wants a different designer to lead, I am prepared to take a back seat on the project.",
           "answerZh": "如果客戶希望由另一位設計師帶領，我已準備好在項目中退居次要位置。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86279,7 +86271,7 @@
           "answer": "Good service must never take a back seat to speed.",
           "answerZh": "優質服務絕不能讓位於速度。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86299,7 +86291,7 @@
           "answer": "Once the new owner understood the shop, Mr Chan took a back seat in its daily running but remained available for advice.",
           "answerZh": "新店主了解店舖運作後，Chan 先生便在日常營運中退居次要位置，但仍會提供意見。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "took a back seat"
         },
         {
@@ -86319,7 +86311,7 @@
           "answer": "After guiding the group through its first year, the chairperson chose to take a back seat because the members were ready to lead it themselves.",
           "answerZh": "主席帶領小組度過第一年後，選擇退居次要位置，因為成員已準備好自行帶領。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86339,7 +86331,7 @@
           "answer": "During the heatwave, the usual paperwork had to take a back seat to helping people in need quickly.",
           "answerZh": "在熱浪期間，一般文書工作只好讓位於迅速協助有需要的人。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86359,7 +86351,7 @@
           "answer": "If the new singer continues to improve, the current lead singer may have to take a back seat next season.",
           "answerZh": "如果新歌手繼續進步，現任主唱下季可能要退居次要位置。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86379,7 +86371,7 @@
           "answer": "You’re right. Promotion should take a back seat to the charity’s work.",
           "answerZh": "你說得對。宣傳應退居次要位置，以慈善工作為重。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86399,7 +86391,7 @@
           "answer": "The founder has taken a back seat in the daily running of the company, although she still attends meetings.",
           "answerZh": "創辦人已在公司的日常運作中退居次要位置，雖然仍會出席會議。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "taken a back seat"
         },
         {
@@ -86419,7 +86411,7 @@
           "answer": "By taking a back seat during the interview, the manager allowed the worker who had completed the project to answer most questions.",
           "answerZh": "經理在訪問中退居次要位置，讓完成項目的員工回答大部分問題。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "taking a back seat"
         },
         {
@@ -86439,7 +86431,7 @@
           "answer": "Students’ health should never take a back seat to exam results.",
           "answerZh": "學生健康絕不能讓位於考試成績。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86459,7 +86451,7 @@
           "answer": "Once the younger doctors felt confident, Dr Lee was happy to take a back seat and help only when needed.",
           "answerZh": "年輕醫生建立信心後，Lee 醫生樂意退居次要位置，只在有需要時提供協助。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         },
         {
@@ -86479,7 +86471,7 @@
           "answer": "Although the product launch had filled every team meeting for weeks, it took a back seat to fixing the main problem after many customer complaints arrived.",
           "answerZh": "雖然產品推出事宜連續數星期佔據每次團隊會議，但收到大量顧客投訴後，它便退居次要位置， 解決主要問題變得更重要。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "took a back seat"
         },
         {
@@ -86499,7 +86491,7 @@
           "answer": "The younger musicians have good ideas, so I’ll take a back seat and help only when they ask.",
           "answerZh": "年輕樂手有很多好想法，所以我會退居次要位置，只在他們提出要求時協助。",
           "targetForm": "take a back seat",
-          "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+          "targetMeaning": "to take a less active or less important role; also, for one priority to become less important than another",
           "highlight": "take a back seat"
         }
       ]
@@ -90750,20 +90742,20 @@
         }
       ],
       "meaning": {
-        "en": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
-        "zh": "指家族、團隊或其他群體中，被其他成員視為名聲不佳、經常惹麻煩、令人難堪或不獲接納的人。",
+        "en": "a person whom a family or group regards as troublesome, shameful or different from its other members",
+        "zh": "被家族或群體視為惹麻煩、令其難堪或與其他成員格格不入的人。",
         "naturalZh": [
           "指家族、團隊或其他群體中，被其他成員視為名聲不佳、經常惹麻煩、令人難堪或不獲接納的人。"
         ]
       },
       "register": {
-        "labelEn": "Source-Guided Register",
-        "labelZh": "按原檔語域使用",
+        "labelEn": "Often disapproving; attribution matters",
+        "labelZh": "通常帶負面評價；須交代評價者",
         "summaryEn": "In careful communication, reporting frames such as is regarded as, is seen as or is unfairly treated as make it clear whose judgement is being described.",
         "summaryZh": "這個慣用語通常帶有負面和批判意味。 直接稱某人為 a black sheep，可能會顯得相當尖銳。",
         "contextsEn": [],
         "contextsZh": [],
-        "formalEn": "Use the idiom only in the contexts described in the source.",
+        "formalEn": "Attribute the label when it reflects a family or group judgement rather than the speaker’s own view.",
         "formalZh": "在較審慎的表達中，可以使用 is regarded as、is seen as 或 is unfairly treated as，清楚說明這是某個家庭或群體對當事人的評價，而不一定是說話者本人的判斷。"
       },
       "fixedVariable": {
@@ -90990,7 +90982,7 @@
           "answer": "Daniel is regarded as a black sheep in his family because he has repeatedly stolen money from them.",
           "answerZh": "丹尼爾多次偷取家人的金錢，因此被視為家中令人蒙羞的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91010,7 +91002,7 @@
           "answer": "Grace is known as a black sheep in her family because she causes serious trouble.",
           "answerZh": "格蕾絲經常闖下大禍，因此被視為家中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91030,7 +91022,7 @@
           "answer": "Ethan has become a black sheep in his family because of his dishonest actions.",
           "answerZh": "伊森因為不誠實的行為，已成為家中令人難堪的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91050,7 +91042,7 @@
           "answer": "Chloe is seen as a black sheep in her team because her bad behaviour has damaged its good name.",
           "answerZh": "克洛伊的不良行為損害了團隊聲譽，因此被視為隊中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91070,7 +91062,7 @@
           "answer": "Robert is now regarded as a black sheep in his family because he has broken the law several times.",
           "answerZh": "羅伯特曾多次違法，因此現在被家人視為不光彩的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91090,7 +91082,7 @@
           "answer": "Leo is considered a black sheep in the club because his behaviour keeps embarrassing the other members.",
           "answerZh": "里奧的行為不斷令其他成員難堪，因此被視為俱樂部中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91110,7 +91102,7 @@
           "answer": "Anna is considered a black sheep in her family because she has brought shame on them.",
           "answerZh": "安娜令家人蒙羞，因此被視為家中不光彩的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91130,7 +91122,7 @@
           "answer": "He is regarded as a black sheep in the group because he keeps cheating.",
           "answerZh": "他屢次作弊，因此被視為小組中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91150,7 +91142,7 @@
           "answer": "That worker is regarded as a black sheep by the other shop workers because he steals from customers.",
           "answerZh": "那名員工偷取顧客的財物，因此被其他店員視為害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91170,7 +91162,7 @@
           "answer": "Oliver is treated as a black sheep in his family because his actions often bring shame on them.",
           "answerZh": "奧利弗的行為經常令家人蒙羞，因此在家中被當成不受接納的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91190,7 +91182,7 @@
           "answer": "Ryan is often described as a black sheep in his family because of his gambling.",
           "answerZh": "賴恩因為賭博，經常被家人形容為家中的不光彩人物。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91210,7 +91202,7 @@
           "answer": "Helen was regarded as a black sheep in the volunteer group after she lied about the charity money.",
           "answerZh": "海倫在慈善款項一事上說謊後，被義工團體視為害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91230,7 +91222,7 @@
           "answer": "Priya has become a black sheep in the club after breaking its rules many times.",
           "answerZh": "普麗雅多次違反俱樂部規則，因而成為團體中令人蒙羞的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91250,7 +91242,7 @@
           "answer": "Marcus may become a black sheep in the sales team if he continues to lie to customers.",
           "answerZh": "如果馬庫斯繼續欺騙顧客，他可能會成為銷售團隊中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91270,7 +91262,7 @@
           "answer": "One more dishonest act could make Kevin a black sheep in his family.",
           "answerZh": "再有一次不誠實行為，便可能令凱文成為家中令人蒙羞的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91290,7 +91282,7 @@
           "answer": "Sophie is not a black sheep simply because she chose a different career.",
           "answerZh": "索菲不會只因選擇了不同的職業，就成為家中不受認同的人。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91310,7 +91302,7 @@
           "answer": "Amir is treated as a black sheep in his family because of his repeated fraud.",
           "answerZh": "阿米爾多次詐騙，因此被家人當成令人蒙羞的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91330,7 +91322,7 @@
           "answer": "Noah was regarded as a black sheep in the team after he was caught cheating.",
           "answerZh": "諾亞被揭發作弊後，被視為球隊中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91350,7 +91342,7 @@
           "answer": "The committee regards that member as a black sheep in the group because he secretly accepted gifts.",
           "answerZh": "委員會認為該成員暗中收受禮物，因此是團體中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91370,7 +91362,7 @@
           "answer": "No. Elena is treated as a black sheep in her family and blamed for every scandal.",
           "answerZh": "不。埃琳娜在家中被當成不受接納的一員，所有醜聞都被怪在她身上。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91390,7 +91382,7 @@
           "answer": "Clara is unfairly treated as a black sheep in her family because she is a street artist.",
           "answerZh": "克拉拉只因為是街頭藝術家，便被家人不公平地當成異類。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91410,7 +91402,7 @@
           "answer": "Paul may soon become a black sheep in the team because he keeps ignoring the safety rules and has already caused two accidents.",
           "answerZh": "保羅不斷無視安全規則，而且已造成兩宗意外，因此可能很快便會成為團隊中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91430,7 +91422,7 @@
           "answer": "The coach described Ben as a black sheep in the team because of his repeated cheating.",
           "answerZh": "教練因本多次作弊，而形容他是球隊中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91450,7 +91442,7 @@
           "answer": "Nora says she feels like a black sheep in her family because she left the family business.",
           "answerZh": "諾拉說，自己因離開家族生意而覺得是家中不受認同的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91470,7 +91462,7 @@
           "answer": "No. Yusuf is not a black sheep just because he is quiet and avoids social events.",
           "answerZh": "不是。優素福不會只因沉默寡言和避開社交活動，就成為家中不受認同的人。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91490,7 +91482,7 @@
           "answer": "Sam became a black sheep in the band after stealing the ticket money.",
           "answerZh": "森姆偷走門票收入後，成為樂隊中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91510,7 +91502,7 @@
           "answer": "Although her sisters are trusted teachers, Iris is regarded as a black sheep in her family because her repeated arrests embarrass them.",
           "answerZh": "雖然艾莉絲的姊妹都是受人信任的教師，但她多次被捕，令家人難堪，因此被視為家中不光彩的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91530,7 +91522,7 @@
           "answer": "They remember that boy as a black sheep in their class because he always cheated.",
           "answerZh": "他們記得那個男生經常作弊，是班中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91550,7 +91542,7 @@
           "answer": "Zoe may become a black sheep in her family if she keeps sharing private family stories online.",
           "answerZh": "如果佐伊繼續在網上公開家人的私事，她可能會成為家中令人難堪的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91570,7 +91562,7 @@
           "answer": "You are not a black sheep simply because you do not want to marry.",
           "answerZh": "你不會只因不想結婚，就成為家中不受認同的人。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91590,7 +91582,7 @@
           "answer": "Although Jack is kind to his neighbours, he is still regarded as a black sheep in his family because of his past fraud.",
           "answerZh": "雖然傑克善待鄰居，但家人仍因他過去的詐騙行為而視他為不光彩的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91610,7 +91602,7 @@
           "answer": "His decision to sell customer information made him a black sheep in the company.",
           "answerZh": "他出售顧客資料的決定，令他成為公司中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91630,7 +91622,7 @@
           "answer": "Aisha was once treated as a black sheep in her family, but her relatives now admire her success.",
           "answerZh": "艾莎曾因職業選擇而被家人當成異類，但親人現在已欣賞她的成就。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91650,7 +91642,7 @@
           "answer": "The director called the dishonest worker a black sheep in the organisation and said he did not represent the rest of the staff.",
           "answerZh": "主管稱該名不誠實的員工為機構中的害群之馬，並表示他不能代表其他員工。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91670,7 +91662,7 @@
           "answer": "Although his brothers are trusted doctors, he is regarded as a black sheep in his family because he has spent years cheating people.",
           "answerZh": "雖然他的兄弟都是受人信任的醫生，但他多年來一直欺騙別人，因此被視為家中令人蒙羞的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91690,7 +91682,7 @@
           "answer": "Dean is regarded as a black sheep in the club because he lied about the money.",
           "answerZh": "迪恩在款項問題上說謊，因此被視為俱樂部中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91710,7 +91702,7 @@
           "answer": "Although her family still supports her, Mei may be regarded as a black sheep in her family if she steals from them again.",
           "answerZh": "雖然家人目前仍支持美儀，但如果她再次偷取家人的財物，便可能被視為家中令人蒙羞的一員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91730,7 +91722,7 @@
           "answer": "Although Tariq is honest and respected, some relatives unfairly label him a black sheep in his family.",
           "answerZh": "雖然塔里克為人誠實並受人尊重，但一些親人仍不公平地把他標籤為家中的異類。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91750,7 +91742,7 @@
           "answer": "The new student should not be treated as a black sheep merely because she dresses differently.",
           "answerZh": "這名新生不應只因衣着與別不同，便被當成團體中不受接納的人。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91770,7 +91762,7 @@
           "answer": "Ella had been treated as a black sheep in her family for years before her relatives admitted that they had judged her unfairly.",
           "answerZh": "埃拉多年來一直被家人當成異類，直至親人承認自己一直不公平地批評她。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91790,7 +91782,7 @@
           "answer": "Although most officers followed the rules, one officer became a black sheep in the department after accepting secret payments.",
           "answerZh": "雖然大部分人員都遵守規則，但其中一人收受秘密款項後，成為部門中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91810,7 +91802,7 @@
           "answer": "Rina is not a black sheep simply because she moved abroad; her relatives merely dislike her choice.",
           "answerZh": "里娜不會只因移居外地，就成為家中不受認同的人；她的親人只是不喜歡她的選擇。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91830,7 +91822,7 @@
           "answer": "A journalist said the footballer could become a black sheep in the team if the cheating claims were proved.",
           "answerZh": "一名記者表示，如果作弊指控得到證實，該足球員可能會成為球隊中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91850,7 +91842,7 @@
           "answer": "Although everyone else in the restaurant worked hard to build trust, the manager became a black sheep there by secretly changing customers’ bills.",
           "answerZh": "雖然餐廳其他人都努力建立信譽，但該經理暗中更改顧客帳單，因而成為餐廳中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91870,7 +91862,7 @@
           "answer": "The charity described the volunteer as a black sheep in the organisation and said he did not represent its other workers.",
           "answerZh": "慈善機構形容該義工是組織中的害群之馬，並表示他不能代表其他工作人員。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91890,7 +91882,7 @@
           "answer": "Although Lana is treated as a black sheep in her family for becoming a musician, she believes their judgement is unfair.",
           "answerZh": "雖然拉娜因成為音樂人而被家人當成異類，但她認為這個評價並不公平。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91910,7 +91902,7 @@
           "answer": "No. A single disagreement does not make the new worker a black sheep in the team.",
           "answerZh": "不是。一次意見分歧不會令新員工成為團隊中不受認同的人。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91930,7 +91922,7 @@
           "answer": "If the leaders confirm that Victor lies to clients, he may be regarded as a black sheep in the group.",
           "answerZh": "如果領導證實維克托向客戶說謊，他可能會被視為團體中的害群之馬。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91950,7 +91942,7 @@
           "answer": "The school views the bully as a black sheep within the year group, not as a fair example of the other students.",
           "answerZh": "學校視該名欺凌者為同級學生中的害群之馬，而不是其他學生的代表。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         },
         {
@@ -91970,7 +91962,7 @@
           "answer": "The son had long been treated as a black sheep in his family, but the reason became clear only after his crimes became public.",
           "answerZh": "兒子長久以來一直被家人當成令人蒙羞的一員，但直至他的罪行公開後，原因才真正明朗。",
           "targetForm": "a black sheep",
-          "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+          "targetMeaning": "a person whom a family or group regards as troublesome, shameful or different from its other members",
           "highlight": "a black sheep"
         }
       ]
@@ -96447,19 +96439,29 @@
         }
       ],
       "meaning": {
-        "en": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
-        "zh": "按原檔示範答案所顯示的意思及用法，運用這個目標慣用語",
-        "naturalZh": []
+        "en": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
+        "zh": "透過挑起原本可能團結的人之間的分歧，維持自己的權力或控制",
+        "naturalZh": [
+          "分而治之"
+        ]
       },
       "register": {
-        "labelEn": "Source-Guided Register",
-        "labelZh": "按原檔語域使用",
-        "summaryEn": "Source-Guided Register",
-        "summaryZh": "按原檔語域使用",
-        "contextsEn": [],
-        "contextsZh": [],
-        "formalEn": "Use the idiom only in the contexts described in the source.",
-        "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+        "labelEn": "Disapproving; mainly British English",
+        "labelZh": "帶批評意味；主要見於英式英語",
+        "summaryEn": "A disapproving expression for power maintained by setting groups against one another.",
+        "summaryZh": "帶批評意味，形容掌權者挑起群體之間的分歧，令他們難以聯合反對自己。",
+        "contextsEn": [
+          "leadership",
+          "workplace power",
+          "politics"
+        ],
+        "contextsZh": [
+          "領導權力",
+          "職場權力關係",
+          "政治"
+        ],
+        "formalEn": "Use it when the division helps someone retain control; do not use it for every disagreement.",
+        "formalZh": "須有藉分化他人維持控制的目的；一般意見不合不足以使用。"
       },
       "fixedVariable": {
         "fixed": "Divide and Rule",
@@ -96561,7 +96563,7 @@
           "answer": "The manager tried to divide and rule by giving the two teams different stories about the new timetable.",
           "answerZh": "經理向兩個團隊提供有關新時間表的不同說法，企圖分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96581,7 +96583,7 @@
           "answer": "The club leader followed a policy of divide and rule to keep the two groups from acting together.",
           "answerZh": "學會領袖採取分而治之的政策，使兩個小組無法共同採取行動。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96601,7 +96603,7 @@
           "answer": "Divide and rule was the king’s main method of controlling the two towns.",
           "answerZh": "分而治之是國王控制兩個城鎮的主要手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "Divide and rule"
         },
         {
@@ -96621,7 +96623,7 @@
           "answer": "The coach’s praise for one group and blame for the other was a clear example of divide and rule.",
           "answerZh": "教練稱讚其中一批球員，卻指責另一批球員，明顯是一種分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96641,7 +96643,7 @@
           "answer": "The landlord made an attempt to divide and rule, blaming one group of tenants for the rent rise.",
           "answerZh": "業主把租金上升歸咎於其中一批租客，企圖分化租客。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96661,7 +96663,7 @@
           "answer": "The company used divide and rule when it gave different pay information to different groups of workers.",
           "answerZh": "公司向不同組別的員工提供不同薪酬資訊，採取了分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96681,7 +96683,7 @@
           "answer": "The governor’s strategy was divide and rule: he kept the regions separate and suspicious of one another.",
           "answerZh": "總督的策略是分而治之：他使各個地區保持分隔並互相猜疑。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96701,7 +96703,7 @@
           "answer": "The class captain may have been trying to divide and rule through different rumours spread among the two groups.",
           "answerZh": "班長可能曾透過在兩個小組之間散播不同謠言，企圖分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96721,7 +96723,7 @@
           "answer": "The workers recognised the use of divide and rule in the manager’s private promises to each team.",
           "answerZh": "員工從經理私下向每個團隊作出的不同承諾中，辨識出分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96741,7 +96743,7 @@
           "answer": "To divide and rule, the ruler encouraged the villages to quarrel.",
           "answerZh": "為了分而治之，統治者鼓勵各條村互相爭吵。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96761,7 +96763,7 @@
           "answer": "At every meeting, the supervisor seeks to divide and rule through different versions of the plan for each team.",
           "answerZh": "在每次會議中，主管都向每個團隊提供不同版本的計劃，企圖分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96781,7 +96783,7 @@
           "answer": "Before the staff compared their messages, the owner had used a system of divide and rule through different secret promises to each group.",
           "answerZh": "在員工比較彼此收到的訊息前，老闆曾透過不同的秘密承諾，採用一套分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96801,7 +96803,7 @@
           "answer": "The new leader may use divide and rule, offering better working hours to only one group.",
           "answerZh": "新領袖可能只向其中一組員工提供較好的工作時間，採取分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96821,7 +96823,7 @@
           "answer": "The committee should stop the chairperson from trying to divide and rule through separate secret meetings and different messages to each group.",
           "answerZh": "委員會應阻止主席透過分開進行的秘密會議及不同訊息，企圖分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96841,7 +96843,7 @@
           "answer": "Perhaps the manager wants to divide and rule by keeping the two departments apart.",
           "answerZh": "經理可能希望使兩個部門保持分隔，以分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96861,7 +96863,7 @@
           "answer": "The head of the club was accused of trying to divide and rule through different promises to different teams.",
           "answerZh": "學會主管被指控向不同團隊作出不同承諾，企圖分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96881,7 +96883,7 @@
           "answer": "The parent is using divide and rule, telling each child that the other caused the family problem.",
           "answerZh": "這名家長告訴每個孩子，是另一名孩子造成家庭問題，正在採取分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96901,7 +96903,7 @@
           "answer": "Before the staff compared their messages, the owner’s different promises had created a pattern of divide and rule.",
           "answerZh": "在員工比較彼此收到的訊息前，老闆所作出的不同承諾已形成分而治之的模式。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96921,7 +96923,7 @@
           "answer": "The leader could divide and rule more easily if the members stopped sharing information.",
           "answerZh": "如果成員停止分享資訊，領袖便可以更容易地分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96941,7 +96943,7 @@
           "answer": "The workers defeated an attempt to divide and rule when they shared every message and met as one group.",
           "answerZh": "員工分享所有訊息並共同開會，挫敗了分而治之的企圖。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96961,7 +96963,7 @@
           "answer": "He is clearly trying to divide and rule: he gave the two clubs opposite stories about the event date.",
           "answerZh": "他明顯正在企圖分而治之：他向兩個學會提供了互相矛盾的活動日期說法。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -96981,7 +96983,7 @@
           "answer": "The town leader’s actions showed divide and rule: he favoured one street and blamed another.",
           "answerZh": "鎮上領袖的行為顯示他正在分而治之：他偏袒其中一條街，卻指責另一條街。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97001,7 +97003,7 @@
           "answer": "The manager’s request that each team report the other team’s mistakes was divide and rule.",
           "answerZh": "經理要求每個團隊舉報另一個團隊的錯誤，是一種分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97021,7 +97023,7 @@
           "answer": "The coach was using divide and rule when he gave the players different private warnings.",
           "answerZh": "教練私下向不同球員發出不同警告時，正在採取分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97041,7 +97043,7 @@
           "answer": "The ruler’s reward for one region was part of a wider policy of divide and rule.",
           "answerZh": "統治者向其中一個地區提供的利益，是更廣泛的分而治之政策的一部分。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97061,7 +97063,7 @@
           "answer": "Journalists said the mayor was seeking to divide and rule by setting the two neighbourhoods against each other.",
           "answerZh": "記者表示，市長正挑起兩個社區互相爭鬥，企圖分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97081,7 +97083,7 @@
           "answer": "The school leader appeared to be using divide and rule in the way she explained the lost funding to the two clubs.",
           "answerZh": "校方主管向兩個學會解釋失去資助一事時，似乎正在採取分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97101,7 +97103,7 @@
           "answer": "The siblings discovered an attempt to divide and rule when they compared their aunt’s different stories about the family money.",
           "answerZh": "兄弟姊妹比較姨母所講述的不同說法後，發現了分而治之的企圖。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97121,7 +97123,7 @@
           "answer": "The manager may be relying on divide and rule through the different shifts given to the two teams.",
           "answerZh": "經理可能正透過向兩個團隊安排不同更份，採用分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97141,7 +97143,7 @@
           "answer": "The club rejected divide and rule and demanded one open meeting for every member.",
           "answerZh": "學會拒絕分而治之，並要求所有成員共同出席一次公開會議。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97161,7 +97163,7 @@
           "answer": "Although the director spoke about teamwork, his different stories to each department were a form of divide and rule.",
           "answerZh": "雖然總監談論團隊合作，但他向每個部門提供不同說法，是一種分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97181,7 +97183,7 @@
           "answer": "Because the tenants rarely spoke to one another, the owner was able to divide and rule, blaming each group for the building’s problems.",
           "answerZh": "由於租客很少互相交談，業主能夠把大廈問題歸咎於不同組別，從而分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97201,7 +97203,7 @@
           "answer": "Before the staff formed one group, management had relied on divide and rule, keeping the office and warehouse workers arguing over their bonuses.",
           "answerZh": "在員工組成共同團體前，管理層一直使辦公室及倉庫員工為獎金問題爭執，採取分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97221,7 +97223,7 @@
           "answer": "The captain’s unfair treatment of the players was not simple favouritism; it was divide and rule.",
           "answerZh": "隊長對球員的不公平待遇不只是普通偏袒，而是分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97241,7 +97243,7 @@
           "answer": "Rather than answer the shared complaint, the head teacher chose to divide and rule by asking each class to blame the others.",
           "answerZh": "校長沒有回應共同投訴，反而要求每個班別指責其他班別，選擇分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97261,7 +97263,7 @@
           "answer": "Divide and rule worked only while the two groups failed to compare the leader’s messages.",
           "answerZh": "只有在兩個小組沒有比較領袖所發出的訊息時，分而治之的手段才能奏效。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "Divide and rule"
         },
         {
@@ -97281,7 +97283,7 @@
           "answer": "The manager’s attempt to divide and rule failed because the teams shared the reward and stayed united.",
           "answerZh": "由於各團隊分享了獎勵並保持團結，經理分而治之的企圖失敗了。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97301,7 +97303,7 @@
           "answer": "By making each branch believe that the others received more money, the owner created a system of divide and rule.",
           "answerZh": "老闆使每間分店都相信其他分店獲得更多金錢，建立了一套分而治之的制度。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97321,7 +97323,7 @@
           "answer": "The governor spoke of unity in public but relied on divide and rule in private through messages that encouraged distrust between the regions.",
           "answerZh": "總督公開談論團結，私下卻透過鼓勵各地區互不信任的訊息，採取分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97341,7 +97343,7 @@
           "answer": "If the members continue meeting separately, the chairperson may be able to divide and rule, turning their differences into personal fights.",
           "answerZh": "如果成員繼續分開會面，主席可能會把他們的分歧變成私人爭鬥，從而分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97361,7 +97363,7 @@
           "answer": "The community centre manager seems to be using divide and rule, asking the youth and parent groups to complain about each other separately.",
           "answerZh": "社區中心經理似乎正要求青年小組及家長小組分別投訴對方，採取分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97381,7 +97383,7 @@
           "answer": "The hospital administrator may have tried to divide and rule through opposite stories given to the day and night teams.",
           "answerZh": "醫院行政人員可能曾向日間及夜間團隊提供相反說法，企圖分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97401,7 +97403,7 @@
           "answer": "After the hotel workers raised the same question about working hours, the manager’s response was divide and rule: he made different promises to each floor.",
           "answerZh": "酒店員工提出相同的工作時間問題後，經理以分而治之作回應，向每一層的員工作出不同承諾。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97421,7 +97423,7 @@
           "answer": "The history article describes the governors’ separate dealings with local leaders as a policy of divide and rule.",
           "answerZh": "這篇歷史文章把總督分別與各地領袖交涉的做法，形容為分而治之的政策。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97441,7 +97443,7 @@
           "answer": "She may be trying to divide and rule by making the two clubs compete for one room.",
           "answerZh": "她可能正迫使兩個學會競爭同一個房間，企圖分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97461,7 +97463,7 @@
           "answer": "Even though the two work groups had different needs, they recognised divide and rule in management’s attempt to stop a joint request.",
           "answerZh": "雖然兩個工作小組有不同需要，但他們辨識出管理層企圖阻止共同要求的分而治之手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97481,7 +97483,7 @@
           "answer": "The leader’s policy of divide and rule would succeed only if the villages continued blaming one another for the water shortage.",
           "answerZh": "只有在各條村繼續為缺水問題互相指責時，領袖的分而治之政策才能成功。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97501,7 +97503,7 @@
           "answer": "The members exposed divide and rule when they shared images of the moderator’s different private messages.",
           "answerZh": "成員分享管理員所發出的不同私人訊息截圖，揭露了分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97521,7 +97523,7 @@
           "answer": "The committee could not tell whether the chairperson was confused or was deliberately trying to divide and rule with conflicting instructions.",
           "answerZh": "委員會無法確定主席只是感到混亂，還是正刻意透過互相矛盾的指示企圖分而治之。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         },
         {
@@ -97541,7 +97543,7 @@
           "answer": "The public report concluded that the agency had used divide and rule, giving different communities conflicting explanations for the same decision.",
           "answerZh": "公開報告總結指出，該機構就同一項決定向不同社區提供互相矛盾的解釋，採取了分而治之的手段。",
           "targetForm": "Divide and Rule",
-          "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+          "targetMeaning": "to stay in power by causing disagreements among people who might otherwise unite and oppose you",
           "highlight": "divide and rule"
         }
       ]
@@ -102142,8 +102144,8 @@
         }
       ],
       "meaning": {
-        "en": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
-        "zh": "這是一個帶有幽默、而且通常帶有諷刺意味的表達，用來表示某件事幾乎完全不可能發生。",
+        "en": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
+        "zh": "用幽默、通常帶諷刺的語氣，表示某件事幾乎不可能發生。",
         "naturalZh": [
           "這是一個帶有幽默、而且通常帶有諷刺意味的表達，用來表示某件事幾乎完全不可能發生。"
         ]
@@ -102427,7 +102429,7 @@
           "answer": "And pigs might fly!",
           "answerZh": "那才怪呢！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102447,7 +102449,7 @@
           "answer": "Pigs might fly!",
           "answerZh": "才不可能呢！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "Pigs might fly"
         },
         {
@@ -102467,7 +102469,7 @@
           "answer": "Yes, and pigs might fly.",
           "answerZh": "是啊，才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102487,7 +102489,7 @@
           "answer": "And pigs might fly!",
           "answerZh": "那才怪呢！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102507,7 +102509,7 @@
           "answer": "Sure, and pigs can fly.",
           "answerZh": "當然啦，才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs can fly"
         },
         {
@@ -102527,7 +102529,7 @@
           "answer": "Perhaps—and pigs might fly.",
           "answerZh": "也許吧——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102547,7 +102549,7 @@
           "answer": "And pigs might fly!",
           "answerZh": "那才怪呢！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102567,7 +102569,7 @@
           "answer": "I suppose pigs might fly too.",
           "answerZh": "我看這也根本不可能吧。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102587,7 +102589,7 @@
           "answer": "Pigs might fly!",
           "answerZh": "根本不可能！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "Pigs might fly"
         },
         {
@@ -102607,7 +102609,7 @@
           "answer": "Right, and pigs can fly.",
           "answerZh": "對啊，才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs can fly"
         },
         {
@@ -102627,7 +102629,7 @@
           "answer": "He might apologise, and pigs might fly.",
           "answerZh": "他可能會道歉——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102647,7 +102649,7 @@
           "answer": "And pigs might fly!",
           "answerZh": "那才怪呢！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102667,7 +102669,7 @@
           "answer": "Rosa may repay everyone this week, and pigs might fly.",
           "answerZh": "羅莎本星期可能會還錢給所有人——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102687,7 +102689,7 @@
           "answer": "Perhaps they will—and pigs might fly.",
           "answerZh": "或許真的會吧——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102707,7 +102709,7 @@
           "answer": "Sure, Mark will volunteer every weekend—and pigs can fly.",
           "answerZh": "當然啦，馬克真的會每個週末做義工——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs can fly"
         },
         {
@@ -102727,7 +102729,7 @@
           "answer": "“Pigs might fly,” Ana replied.",
           "answerZh": "「才怪呢。」安娜回答。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "Pigs might fly"
         },
         {
@@ -102747,7 +102749,7 @@
           "answer": "And pigs might fly!",
           "answerZh": "那才怪呢！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102767,7 +102769,7 @@
           "answer": "He could, and pigs might fly.",
           "answerZh": "他是可能會啊——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102787,7 +102789,7 @@
           "answer": "Karen might stop buying shoes, and pigs might fly.",
           "answerZh": "凱倫可能真的會停止買鞋——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102807,7 +102809,7 @@
           "answer": "And pigs can fly!",
           "answerZh": "那才怪呢！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs can fly"
         },
         {
@@ -102827,7 +102829,7 @@
           "answer": "And pigs might fly!",
           "answerZh": "那才怪呢！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102847,7 +102849,7 @@
           "answer": "Pigs might fly!",
           "answerZh": "根本不可能！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "Pigs might fly"
         },
         {
@@ -102867,7 +102869,7 @@
           "answer": "He might—and pigs might fly.",
           "answerZh": "他可能會吧——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102887,7 +102889,7 @@
           "answer": "Yes, and pigs might fly.",
           "answerZh": "是啊，才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102907,7 +102909,7 @@
           "answer": "Sure, and pigs can fly.",
           "answerZh": "當然啦，才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs can fly"
         },
         {
@@ -102927,7 +102929,7 @@
           "answer": "“And pigs might fly,” Nina said.",
           "answerZh": "「那才怪呢。」妮娜說。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102947,7 +102949,7 @@
           "answer": "He might finish it before lunch, and pigs might fly.",
           "answerZh": "他可能會在午飯前完成——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102967,7 +102969,7 @@
           "answer": "Sam might admit it tomorrow—and pigs might fly.",
           "answerZh": "森姆明天可能會承認錯誤——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -102987,7 +102989,7 @@
           "answer": "And pigs might fly!",
           "answerZh": "那才怪呢！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103007,7 +103009,7 @@
           "answer": "Yes, they will—and pigs can fly.",
           "answerZh": "是啊，他們當然會贏——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs can fly"
         },
         {
@@ -103027,7 +103029,7 @@
           "answer": "The printer might work for ever without repair, and pigs might fly.",
           "answerZh": "打印機可能不用維修也能永遠運作——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103047,7 +103049,7 @@
           "answer": "Jade might wake up at five every day, and pigs might fly.",
           "answerZh": "潔德可能真的每天五時起床——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103067,7 +103069,7 @@
           "answer": "The project might be finished by Friday—and pigs might fly.",
           "answerZh": "項目可能會在星期五前完成——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103087,7 +103089,7 @@
           "answer": "And pigs might fly!",
           "answerZh": "那才怪呢！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103107,7 +103109,7 @@
           "answer": "“Pigs can fly,” his sister replied.",
           "answerZh": "「才怪呢。」他的姊姊回答。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "Pigs can fly"
         },
         {
@@ -103127,7 +103129,7 @@
           "answer": "He might change overnight, and pigs might fly.",
           "answerZh": "他可能會在一夜之間徹底改變——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103147,7 +103149,7 @@
           "answer": "She might return them all tomorrow, and pigs might fly.",
           "answerZh": "她明天可能會全部歸還——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103167,7 +103169,7 @@
           "answer": "Yes, we can win without training, and pigs might fly.",
           "answerZh": "是啊，我們不用訓練也能勝出——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103187,7 +103189,7 @@
           "answer": "There might be no further delay, and pigs might fly.",
           "answerZh": "之後可能真的不會再延誤——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103207,7 +103209,7 @@
           "answer": "Sure, and pigs can fly.",
           "answerZh": "當然啦，才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs can fly"
         },
         {
@@ -103227,7 +103229,7 @@
           "answer": "He’ll repay me before breakfast, and pigs might fly.",
           "answerZh": "他會在早餐前還錢給我——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103247,7 +103249,7 @@
           "answer": "And pigs might fly!",
           "answerZh": "那才怪呢！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103267,7 +103269,7 @@
           "answer": "The meeting might last only five minutes—and pigs might fly.",
           "answerZh": "會議可能真的只會持續五分鐘——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103287,7 +103289,7 @@
           "answer": "He might submit all three early, and pigs might fly.",
           "answerZh": "他可能真的會提早提交三份功課——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103307,7 +103309,7 @@
           "answer": "Maybe it will, and pigs can fly.",
           "answerZh": "也許真的會吧——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs can fly"
         },
         {
@@ -103327,7 +103329,7 @@
           "answer": "Yes, and pigs might fly.",
           "answerZh": "是啊，才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103347,7 +103349,7 @@
           "answer": "And pigs might fly!",
           "answerZh": "那才怪呢！",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103367,7 +103369,7 @@
           "answer": "We might finish it by lunchtime, and pigs might fly.",
           "answerZh": "我們可能會在午飯前完成——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103387,7 +103389,7 @@
           "answer": "Uncle Henry might cook Christmas dinner, and pigs might fly.",
           "answerZh": "亨利叔叔可能真的會準備聖誕晚餐——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs might fly"
         },
         {
@@ -103407,7 +103409,7 @@
           "answer": "Sure, he’ll become the world champion next week—and pigs can fly.",
           "answerZh": "當然啦，他下星期真的會成為世界冠軍——才怪呢。",
           "targetForm": "pigs might fly",
-          "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+          "targetMeaning": "a humorous, often sarcastic way to say that something is extremely unlikely to happen",
           "highlight": "pigs can fly"
         }
       ]
@@ -103506,13 +103508,23 @@
         ]
       },
       "register": {
-        "labelEn": "Source-Guided Register",
-        "labelZh": "按原檔語域使用",
-        "summaryEn": "Source-Guided Register",
-        "summaryZh": "按原檔語域使用",
-        "contextsEn": [],
-        "contextsZh": [],
-        "formalEn": "Use the idiom only in the contexts described in the source.",
+        "labelEn": "Neutral to supportive; figurative or literal",
+        "labelZh": "中性至支持；可作比喻或字面理解",
+        "summaryEn": "People can stand physically side by side, or work and support one another in a shared effort.",
+        "summaryZh": "可指人們實際並肩站立，也可比喻彼此合作、互相支持。",
+        "contextsEn": [
+          "shared work",
+          "joint effort",
+          "public solidarity",
+          "physical proximity"
+        ],
+        "contextsZh": [
+          "共同工作",
+          "合作努力",
+          "公開表達團結",
+          "實際並肩站立"
+        ],
+        "formalEn": "Distinguish physical closeness from cooperation; the lesson targets united effort.",
         "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
       },
       "fixedVariable": {
@@ -111707,15 +111719,17 @@
         }
       ],
       "meaning": {
-        "en": "walk on eggshells",
-        "zh": "Accepted Alternative 可接受變體",
+        "en": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
+        "zh": "因害怕觸怒他人或令緊張情況惡化，說話做事時步步為營。",
         "naturalZh": [
-          "Accepted Alternative 可接受變體"
+          "步步為營",
+          "小心翼翼，唯恐得罪別人",
+          "如履薄冰"
         ]
       },
       "register": {
-        "labelEn": "Source-Guided Register",
-        "labelZh": "按原檔語域使用",
+        "labelEn": "Conversational; context-sensitive",
+        "labelZh": "適合談話；須留意關係語境",
         "summaryEn": "news reports; writing about relationships or group atmosphere.",
         "summaryZh": "walk on eggshells 屬於非正式至中性的表達，常見於日常對話、個人敘述、工作討論、訪問、新聞報道，以及描述關係或團隊氣氛的文章。",
         "contextsEn": [
@@ -111732,7 +111746,7 @@
           "an unhealthy lack of open communication"
         ],
         "contextsZh": [],
-        "formalEn": "Use the idiom only in the contexts described in the source.",
+        "formalEn": "Use for careful behaviour motivated by fear of upsetting someone, not ordinary politeness.",
         "formalZh": "在較嚴重的語境中，長期需要在伴侶或家人面前步步為營，可能表示某人感到害怕或受到控制。 使用這個表達時，不應把責任歸咎於感到害怕的人。"
       },
       "fixedVariable": {
@@ -112308,7 +112322,7 @@
           "answer": "Everyone walks on eggshells around Owen because he becomes upset over small comments.",
           "answerZh": "大家在歐文身邊說話都處處小心，因為一些小評論也會令他不高興。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walks on eggshells"
         },
         {
@@ -112328,7 +112342,7 @@
           "answer": "I walk on eggshells when I speak to my sister because she is still upset about yesterday’s argument.",
           "answerZh": "我與妹妹說話時處處小心，因為她仍然為昨天的爭執感到不高興。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -112348,7 +112362,7 @@
           "answer": "The staff are walking on eggshells around the manager today.",
           "answerZh": "職員今天在經理面前都戰戰兢兢。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112368,7 +112382,7 @@
           "answer": "We had to walk on eggshells throughout dinner because Dad was in a bad mood.",
           "answerZh": "爸爸心情不好，因此整頓晚飯期間我們都必須步步為營。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -112388,7 +112402,7 @@
           "answer": "Grace walks on eggshells whenever she discusses money with her flatmate, who easily feels criticised.",
           "answerZh": "Grace 每次與容易覺得受批評的室友討論金錢時，說話都處處小心。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walks on eggshells"
         },
         {
@@ -112408,7 +112422,7 @@
           "answer": "The children have been walking on eggshells around their coach during practice for several weeks.",
           "answerZh": "幾個星期以來，孩子們練習時在教練面前都戰戰兢兢。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112428,7 +112442,7 @@
           "answer": "You need to walk on eggshells when asking the customer about the missing payment.",
           "answerZh": "向顧客詢問失蹤款項時，你需要說話非常小心。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -112448,7 +112462,7 @@
           "answer": "I felt as though I was walking on eggshells during my conversation with Clara.",
           "answerZh": "與 Clara 交談時，我覺得自己每句說話都要非常小心。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112468,7 +112482,7 @@
           "answer": "The team must walk on eggshells with every comment after the argument.",
           "answerZh": "爭執過後，團隊每說一句話都必須小心翼翼。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -112488,7 +112502,7 @@
           "answer": "Everyone in the shop walks on eggshells around the owner because he treats every suggestion as a personal criticism.",
           "answerZh": "店內所有人在店主面前都說話處處小心，因為他把每項建議都視為對自己的批評。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walks on eggshells"
         },
         {
@@ -112508,7 +112522,7 @@
           "answer": "Daniel walks on eggshells around his uncle at every family meeting.",
           "answerZh": "每次家庭聚會，Daniel 在叔叔面前都說話處處小心。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walks on eggshells"
         },
         {
@@ -112528,7 +112542,7 @@
           "answer": "We walked on eggshells when we told Lucy that the trip had been cancelled.",
           "answerZh": "我們告訴 Lucy 旅程已經取消時，說話戰戰兢兢。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walked on eggshells"
         },
         {
@@ -112548,7 +112562,7 @@
           "answer": "The new assistant will have to walk on eggshells when discussing the mistake with the director tomorrow.",
           "answerZh": "新助理明天與主管討論錯誤時，將需要非常小心。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -112568,7 +112582,7 @@
           "answer": "The whole office has been walking on eggshells since the manager shouted at a worker on Monday.",
           "answerZh": "經理星期一向一名職員大吼後，整間辦公室的人說話都一直處處小心。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112588,7 +112602,7 @@
           "answer": "You may have to walk on eggshells when you ask Ryan why he missed the deadline.",
           "answerZh": "你詢問 Ryan 為何錯過限期時，可能需要步步為營。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -112608,7 +112622,7 @@
           "answer": "A healthy team should allow disagreement without making people walk on eggshells.",
           "answerZh": "健康的團隊應該容許不同意見，而不會令人戰戰兢兢。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -112628,7 +112642,7 @@
           "answer": "Do I have to walk on eggshells around the angry customer?",
           "answerZh": "我在憤怒的顧客面前是否必須每句說話都非常小心？",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -112648,7 +112662,7 @@
           "answer": "His sudden changes of mood keep everyone in the office walking on eggshells.",
           "answerZh": "他突然轉變的情緒令辦公室內所有人一直戰戰兢兢。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112668,7 +112682,7 @@
           "answer": "The fear of upsetting the client left us walking on eggshells throughout the call.",
           "answerZh": "由於害怕令客戶不高興，我們整段通話期間都說話處處小心。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112688,7 +112702,7 @@
           "answer": "Walking on eggshells around someone all day is exhausting.",
           "answerZh": "整天在一個人身邊說話處處小心，實在令人疲倦。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "Walking on eggshells"
         },
         {
@@ -112708,7 +112722,7 @@
           "answer": "I’m tired of walking on eggshells around you because you become angry so easily.",
           "answerZh": "我厭倦了在你面前每句說話都要小心，因為你實在太容易發怒。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112728,7 +112742,7 @@
           "answer": "Rather than walk on eggshells around him, we should speak honestly.",
           "answerZh": "與其在他面前步步為營，我們應該坦誠地說話。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -112748,7 +112762,7 @@
           "answer": "I want meetings where people can disagree openly without having to walk on eggshells around the manager.",
           "answerZh": "我希望會議容許大家公開提出不同意見，而不需要在經理面前戰戰兢兢。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -112768,7 +112782,7 @@
           "answer": "The need to walk on eggshells around the coach is making the players anxious.",
           "answerZh": "球員需要在教練面前處處小心，令他們感到焦慮。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -112788,7 +112802,7 @@
           "answer": "It is an office where everyone walks on eggshells whenever the director visits.",
           "answerZh": "這是一間每當主管到訪時，所有人都變得戰戰兢兢的辦公室。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walks on eggshells"
         },
         {
@@ -112808,7 +112822,7 @@
           "answer": "Clara spoke as though she were walking on eggshells because she was afraid of offending her guest.",
           "answerZh": "Clara 說話時彷彿步步為營，因為她害怕冒犯客人。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112828,7 +112842,7 @@
           "answer": "Having walked on eggshells around the angry customer all morning, Ben felt relieved when the meeting ended.",
           "answerZh": "Ben 整個早上在憤怒的顧客面前都小心翼翼，因此會議結束時感到如釋重負。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walked on eggshells"
         },
         {
@@ -112848,7 +112862,7 @@
           "answer": "We found ourselves walking on eggshells after the chairperson criticised the first speaker.",
           "answerZh": "主席批評第一名發言者後，我們發現自己開始說話處處小心。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112868,7 +112882,7 @@
           "answer": "Why is everyone walking on eggshells around Henry after he became angry at the last meeting?",
           "answerZh": "Henry 在上次會議發怒後，為甚麼所有人在他身邊都說話處處小心？",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112888,7 +112902,7 @@
           "answer": "The new rule has every worker walking on eggshells because it is unclear and the punishment is harsh.",
           "answerZh": "新規則並不清楚，而且懲罰嚴厲，因此令每名職員都戰戰兢兢。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112908,7 +112922,7 @@
           "answer": "Although we were walking on eggshells around Grace, she still misunderstood our question.",
           "answerZh": "雖然我們在 Grace 身邊已經非常小心，但她仍然誤解了我們的問題。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112928,7 +112942,7 @@
           "answer": "Ever since the complaint, the receptionist has been walking on eggshells whenever she speaks to the customer.",
           "answerZh": "自從投訴發生後，接待員每次與顧客說話都處處小心。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112948,7 +112962,7 @@
           "answer": "Until the manager explains what went wrong, we will continue to walk on eggshells when discussing the missing money.",
           "answerZh": "在經理解釋出了甚麼問題前，我們討論失蹤款項時會繼續步步為營。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -112968,7 +112982,7 @@
           "answer": "It felt like walking on eggshells throughout the interview because the guest might take offence.",
           "answerZh": "整場訪問都令人感到步步為營，因為嘉賓可能會感到受冒犯。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -112988,7 +113002,7 @@
           "answer": "What made me feel as if I were walking on eggshells was the director’s habit of becoming angry at small questions.",
           "answerZh": "令我感到說話時步步為營的，是主管連聽到小問題也會發怒的習慣。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -113008,7 +113022,7 @@
           "answer": "Walking on eggshells may prevent one argument tonight, but it cannot solve the real communication problem.",
           "answerZh": "步步為營可能可以避免今晚的一場爭執，但不能解決真正的溝通問題。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "Walking on eggshells"
         },
         {
@@ -113028,7 +113042,7 @@
           "answer": "The supervisor told the staff not to walk on eggshells around the customer, but to answer honestly.",
           "answerZh": "主管叫職員不要在顧客面前過分戰戰兢兢，而應坦誠回答問題。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -113048,7 +113062,7 @@
           "answer": "No one should have to walk on eggshells in their own home because they fear another person’s reaction.",
           "answerZh": "任何人都不應該因為害怕另一個人的反應，而在自己家中戰戰兢兢。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -113068,7 +113082,7 @@
           "answer": "If you are always walking on eggshells around a friend, the friendship may not feel safe.",
           "answerZh": "如果你在朋友身邊總是戰戰兢兢，這段友誼可能不會令你感到安心。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -113088,7 +113102,7 @@
           "answer": "The fact that everyone is walking on eggshells shows that the atmosphere in the meeting is tense.",
           "answerZh": "所有人都小心翼翼這個事實，顯示會議的氣氛十分緊張。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -113108,7 +113122,7 @@
           "answer": "Everyone has been walking on eggshells around the chairperson since yesterday’s argument.",
           "answerZh": "自從昨天的爭執後，所有人在主席面前都說話處處小心。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -113128,7 +113142,7 @@
           "answer": "By reacting differently each time, the director keeps the staff walking on eggshells as they try to guess which comments will upset him.",
           "answerZh": "主管每次都有不同反應，令職員猜測哪些評論會觸怒他，並一直戰戰兢兢。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -113148,7 +113162,7 @@
           "answer": "The more unpredictable her reactions became, the more we had to walk on eggshells around her.",
           "answerZh": "她的反應越難預測，我們在她身邊便越需要步步為營。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -113168,7 +113182,7 @@
           "answer": "Only after the manager left did we realise how long we had been walking on eggshells around him.",
           "answerZh": "直至經理離開後，我們才發現自己在他身邊戰戰兢兢已有很長時間。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -113188,7 +113202,7 @@
           "answer": "Had the teacher welcomed questions, the pupils would not have had to walk on eggshells around him.",
           "answerZh": "如果老師當時歡迎學生提問，學生便不需要在他面前戰戰兢兢。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -113208,7 +113222,7 @@
           "answer": "Not wanting to walk on eggshells any longer, the group asked the leader to set clear rules.",
           "answerZh": "小組不想再說話時處處小心，因此要求領袖制定清楚規則。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -113228,7 +113242,7 @@
           "answer": "So used were we to walking on eggshells that we did not notice how tense the office had become.",
           "answerZh": "我們已經太習慣每句說話都小心翼翼，以致沒有察覺辦公室的氣氛已變得多麼緊張。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -113248,7 +113262,7 @@
           "answer": "Whether we agree or not, we should not have to walk on eggshells to ask a fair question.",
           "answerZh": "不論我們是否意見一致，都不應該只為了提出合理問題而戰戰兢兢。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walk on eggshells"
         },
         {
@@ -113268,7 +113282,7 @@
           "answer": "What began as simple politeness turned into walking on eggshells whenever the owner entered the room.",
           "answerZh": "原本只是一般禮貌的行為，後來變成每當店主進入房間時，職員都戰戰兢兢。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         },
         {
@@ -113288,7 +113302,7 @@
           "answer": "After months of walking on eggshells at work, the team finally agreed that no workplace should make people fear every small comment.",
           "answerZh": "在工作場所戰戰兢兢了幾個月後，團隊終於同意任何工作環境都不應令人害怕每個小評論。",
           "targetForm": "Walk on Eggs / Walk on Eggshells",
-          "targetMeaning": "walk on eggshells",
+          "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
           "highlight": "walking on eggshells"
         }
       ]
@@ -121457,8 +121471,8 @@
         }
       ],
       "meaning": {
-        "en": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
-        "zh": "a Trojan horse 指一個表面看來無害、有用或友善的人、團體、計劃、提議、規則或事物，但其實被秘密安插或利用，以欺騙、削弱、控制或從內部破壞某個團體。",
+        "en": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
+        "zh": "表面無害或有用，實際卻被用來從內部欺騙、削弱或攻擊某個群體的人或事物。",
         "naturalZh": [
           "特洛伊木馬",
           "打入內部的棋子",
@@ -122009,7 +122023,7 @@
           "answer": "Ava was a Trojan horse within the drama club, secretly sending its plans to a rival school.",
           "answerZh": "艾娃其實是敵對學校安插在戲劇學會內的棋子，暗中把學會的計劃傳出去。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122029,7 +122043,7 @@
           "answer": "The friendly adviser was a Trojan horse for the rival company.",
           "answerZh": "這名友善的顧問其實是競爭公司安插在我們公司內的棋子。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122049,7 +122063,7 @@
           "answer": "What looked like a generous gift was a Trojan horse designed to influence the committee.",
           "answerZh": "表面慷慨的禮物，其實是企圖影響委員會的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122069,7 +122083,7 @@
           "answer": "Our new member turned out to be a Trojan horse who passed our plans to another team.",
           "answerZh": "我們的新成員原來是打入團隊內部的棋子，暗中把計劃傳給另一個團隊。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122089,7 +122103,7 @@
           "answer": "This free offer was a Trojan horse intended to gain control of the project.",
           "answerZh": "這項免費提議其實是企圖取得項目控制權的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122109,7 +122123,7 @@
           "answer": "Farah was used as a Trojan horse to influence the charity from within.",
           "answerZh": "法拉被利用作為打入慈善機構內部並影響其決定的棋子。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122129,7 +122143,7 @@
           "answer": "A rival club sent a Trojan horse into our team in the form of a helpful new volunteer.",
           "answerZh": "敵對學會以一名表面熱心的新義工作掩飾，把內部棋子安插進我們的團隊。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122149,7 +122163,7 @@
           "answer": "The new rule was a Trojan horse that gave the manager more power over staff decisions.",
           "answerZh": "新規則表面公平，實際上卻令經理在員工決定上取得更多權力。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122169,7 +122183,7 @@
           "answer": "Daniel proved to be a Trojan horse within the neighbourhood group, secretly helping a property company.",
           "answerZh": "丹尼爾後來證實是潛伏在居民小組內的棋子，暗中協助一間地產公司。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122189,7 +122203,7 @@
           "answer": "What seemed to be help for the club was actually a Trojan horse.",
           "answerZh": "表面上對學會有幫助的安排，其實暗藏從內部削弱學會的目的。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122209,7 +122223,7 @@
           "answer": "The proposal may be a Trojan horse for closing the local centre.",
           "answerZh": "這項提議可能是日後關閉本地中心的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122229,7 +122243,7 @@
           "answer": "Chloe could be a Trojan horse sent into the parents’ group by an outside company.",
           "answerZh": "克洛伊可能是外來公司安插進家長小組的內部棋子。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122249,7 +122263,7 @@
           "answer": "Some people described the plan as a Trojan horse for higher fees.",
           "answerZh": "有些人形容這項計劃只是日後提高收費的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122269,7 +122283,7 @@
           "answer": "To influence the charity from within, the company used Ethan as a Trojan horse.",
           "answerZh": "為了從內部影響慈善機構，公司利用伊森作為打入機構內部的棋子。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122289,7 +122303,7 @@
           "answer": "In the end, the new programme turned out to be a Trojan horse that collected private details for an outside group.",
           "answerZh": "新計劃最後證實是一項暗藏目的的安排，替外來團體收集私人資料。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122309,7 +122323,7 @@
           "answer": "A small donation served as a Trojan horse, giving the company a trusted place on the committee.",
           "answerZh": "一筆小額捐款成了取得內部影響力的隱藏手段，讓公司得到委員會的信任和席位。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122329,7 +122343,7 @@
           "answer": "They feared that the friendly offer might be a Trojan horse for taking over the club.",
           "answerZh": "他們擔心這項友善提議可能是接管學會的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122349,7 +122363,7 @@
           "answer": "Our team discovered that one new member was a Trojan horse sent by the rival club.",
           "answerZh": "我們的團隊發現，其中一名新成員其實是敵對學會安插進來的棋子。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122369,7 +122383,7 @@
           "answer": "A Trojan horse can seem helpful until it gains a trusted place inside a group.",
           "answerZh": "這種內部威脅在取得團體信任前，可以一直表現得十分有幫助。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "A Trojan horse"
         },
         {
@@ -122389,7 +122403,7 @@
           "answer": "By accepting the adviser, the organisation may have brought in a Trojan horse.",
           "answerZh": "組織接受這名顧問時，可能同時把一個暗藏目的的內部威脅帶了進來。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122409,7 +122423,7 @@
           "answer": "It could be a Trojan horse that lets them control our club.",
           "answerZh": "這項提議可能是讓他們從內部控制我們學會的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122429,7 +122443,7 @@
           "answer": "Their offer may be a Trojan horse designed to influence our decisions.",
           "answerZh": "他們的提議可能是一項企圖影響我們決定的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122449,7 +122463,7 @@
           "answer": "Rather than a harmless change, the new rule was a Trojan horse that quietly reduced workers’ say.",
           "answerZh": "新規則並非無害改動，而是一項暗中削弱員工發言權的安排。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122469,7 +122483,7 @@
           "answer": "The group saw the new adviser as a Trojan horse within the committee.",
           "answerZh": "小組認為新顧問是潛伏在委員會內部的威脅。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122489,7 +122503,7 @@
           "answer": "What seemed to be a kind donation became a Trojan horse that allowed the larger company to control the project.",
           "answerZh": "表面出於善意的捐款，最後成了讓較大公司控制項目的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122509,7 +122523,7 @@
           "answer": "By accepting the deal, the school may be bringing a Trojan horse into its sports programme.",
           "answerZh": "學校接受這項交易時，可能同時把一個暗藏目的的外來威脅帶進體育計劃。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122529,7 +122543,7 @@
           "answer": "The newspaper called the plan a Trojan horse designed to close small shops.",
           "answerZh": "報章形容這項計劃是企圖令小店結業的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122549,7 +122563,7 @@
           "answer": "Hidden inside the partnership was a Trojan horse that could give the larger company control.",
           "answerZh": "這項合作內暗藏一項安排，可能令較大的公司取得控制權。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122569,7 +122583,7 @@
           "answer": "Sofia warned that the new agreement might be a Trojan horse that would remove the club’s independence.",
           "answerZh": "索菲亞警告，新協議可能是一項令學會失去自主權的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122589,7 +122603,7 @@
           "answer": "Behind the promise of free support was a Trojan horse designed to control the club.",
           "answerZh": "免費支援的承諾背後，其實暗藏一項控制學會的計劃。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122609,7 +122623,7 @@
           "answer": "Although the plan looked fair, it was a Trojan horse that reduced staff power.",
           "answerZh": "雖然這項計劃表面公平，但實際上卻暗中削弱員工權力。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122629,7 +122643,7 @@
           "answer": "Because the outside group wanted control from within, it used Victor as a Trojan horse.",
           "answerZh": "由於外來團體希望從內部取得控制，它利用維克托作為打入組織的棋子。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122649,7 +122663,7 @@
           "answer": "If the offer gives the company control over every decision, it may be a Trojan horse.",
           "answerZh": "如果這項提議讓公司控制所有決定，它便可能是一項暗藏目的的內部控制手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122669,7 +122683,7 @@
           "answer": "Seen as a Trojan horse designed to weaken the local team, the plan was rejected.",
           "answerZh": "由於被視為企圖從內部削弱本地團隊的隱藏手段，這項計劃遭到拒絕。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122689,7 +122703,7 @@
           "answer": "In fact, the friendly campaign was a Trojan horse designed to take over the organisation.",
           "answerZh": "事實上，這項友善活動其實是一項企圖接管組織的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122709,7 +122723,7 @@
           "answer": "Only later did the committee realise that it had welcomed a Trojan horse into the group.",
           "answerZh": "委員會後來才發現，自己把一名暗藏目的的內部棋子歡迎進了小組。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122729,7 +122743,7 @@
           "answer": "Not every helpful-looking plan is a Trojan horse, but this one gave an outside company secret control.",
           "answerZh": "並非每項表面有幫助的計劃都暗藏威脅，但這一項確實讓外來公司秘密取得了控制權。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122749,7 +122763,7 @@
           "answer": "What the school accepted as free support later proved to be a Trojan horse that allowed the outside group to change school rules.",
           "answerZh": "學校原本視為免費支援的安排，後來證實是讓外來團體改變校規的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122769,7 +122783,7 @@
           "answer": "The new policy acted as a Trojan horse, giving one team control from inside the organisation.",
           "answerZh": "新政策成了從內部取得控制的隱藏手段，讓其中一個團隊控制整個組織。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122789,7 +122803,7 @@
           "answer": "Rather than genuine help, the charity treated the offer of free staff as a Trojan horse.",
           "answerZh": "慈善機構不把免費員工的提議視為真正幫助，而是視為企圖從內部取得影響力的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122809,7 +122823,7 @@
           "answer": "People who opposed the membership plan said it was a Trojan horse intended to push smaller groups out of the club.",
           "answerZh": "反對會員計劃的人表示，這項計劃其實暗中企圖把較小的團體趕出學會。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122829,7 +122843,7 @@
           "answer": "The hospital rejected the partnership because it could have been a Trojan horse designed to give a private company control.",
           "answerZh": "醫院拒絕這項合作，因為它可能是一項讓私人公司取得控制權的隱藏安排。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122849,7 +122863,7 @@
           "answer": "Unless the two teams share information, the adviser may continue to serve as a Trojan horse for the rival company.",
           "answerZh": "除非兩個團隊分享資訊，否則這名顧問可能繼續充當競爭公司安插在組織內部的棋子。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122869,7 +122883,7 @@
           "answer": "A Trojan horse does not attack openly; it gains trust before causing harm from within.",
           "answerZh": "這種內部威脅不會公開攻擊，而是先取得信任，然後才從內部造成破壞。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "A Trojan horse"
         },
         {
@@ -122889,7 +122903,7 @@
           "answer": "The town leaders’ free service was described as a Trojan horse for future charges.",
           "answerZh": "鎮上主管推出的免費服務被形容為日後收費的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122909,7 +122923,7 @@
           "answer": "The manager did not see the new reporting system as help; she saw it as a Trojan horse that would bring outside control.",
           "answerZh": "經理不認為新的匯報制度是在提供幫助；她認為這是一項讓外來公司取得控制的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122929,7 +122943,7 @@
           "answer": "By the time the club understood the plan, a Trojan horse had already entered through the new partnership.",
           "answerZh": "當學會明白真正計劃時，一項暗藏目的的外來威脅早已透過新合作進入學會內部。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122949,7 +122963,7 @@
           "answer": "The offer might not be a gift at all; it could be a Trojan horse intended to take over the project.",
           "answerZh": "這項提議可能根本不是禮物，而是企圖接管項目的隱藏手段。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122969,7 +122983,7 @@
           "answer": "What worried the staff was the possibility that the friendly visitor was a Trojan horse.",
           "answerZh": "令員工擔心的是，這名友善訪客可能是被安插進來、企圖從內部削弱組織的棋子。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         },
         {
@@ -122989,7 +123003,7 @@
           "answer": "Only after the agreement gave the larger company control did the smaller company realise that it had accepted a Trojan horse.",
           "answerZh": "直至協議令較大的公司取得控制權後，較小的公司才發現自己接受了一項暗藏內部威脅的安排。",
           "targetForm": "a Trojan horse",
-          "targetMeaning": "Cambridge defines the expression as a person or thing that deceives a group or organisation in order to attack it from the inside. Merriam-Webster similarly describes somebody or something intended to defeat or weaken from within by deceptive means. Collins emphasises that the person or thing hides somebody’s true purpose or intentions.",
+          "targetMeaning": "a person or thing that appears harmless or helpful but secretly aims to weaken or attack a group from within",
           "highlight": "a Trojan horse"
         }
       ]
@@ -126346,8 +126360,8 @@
         }
       ],
       "meaning": {
-        "en": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
-        "zh": "Turn the corner 表示某人或某個情況渡過最艱難的階段，並開始好轉。",
+        "en": "to pass the worst stage of a difficult situation and begin to improve",
+        "zh": "渡過最艱難的階段，並開始好轉。",
         "naturalZh": [
           "渡過難關",
           "開始好轉",
@@ -126874,7 +126888,7 @@
           "answer": "After several bad weeks, the shop has finally turned the corner.",
           "answerZh": "經過數星期的困難後，店舖終於開始走出低谷。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -126894,7 +126908,7 @@
           "answer": "The patient has turned the corner now that her fever has started to fall.",
           "answerZh": "病人的體溫開始下降，顯示她已渡過最危險的階段。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -126914,7 +126928,7 @@
           "answer": "Her reading has turned the corner since she began practising every day.",
           "answerZh": "自從每天練習後，她的閱讀能力已開始出現明顯改善。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -126934,7 +126948,7 @@
           "answer": "The football team turned the corner after changing its training plan.",
           "answerZh": "足球隊改變訓練計劃後開始走出低谷。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -126954,7 +126968,7 @@
           "answer": "Since changing its menu, the café has turned the corner.",
           "answerZh": "自從更改餐牌後，咖啡店已開始走出低谷。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -126974,7 +126988,7 @@
           "answer": "Our class project turned the corner when everyone agreed on one clear goal.",
           "answerZh": "所有人同意一個清楚目標後，我們的班級項目開始走出困境。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -126994,7 +127008,7 @@
           "answer": "The garden has turned the corner now that new leaves are appearing.",
           "answerZh": "新葉開始長出，顯示花園的情況已經開始好轉。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127014,7 +127028,7 @@
           "answer": "After months of arguments, their friendship has finally turned the corner.",
           "answerZh": "經過數月爭吵後，他們的友誼終於開始好轉。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127034,7 +127048,7 @@
           "answer": "Sales turned the corner in June.",
           "answerZh": "銷售額在六月開始回升。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127054,7 +127068,7 @@
           "answer": "After a difficult start to the season, the school team has turned the corner.",
           "answerZh": "校隊在經歷艱難的球季開局後，已開始走出低谷。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127074,7 +127088,7 @@
           "answer": "The new medicine may help Daniel turn the corner.",
           "answerZh": "新藥可能幫助 Daniel 渡過病情最危險的階段。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127094,7 +127108,7 @@
           "answer": "After weeks of slow progress, the repair project is finally turning the corner.",
           "answerZh": "經過數星期的緩慢進展後，維修項目終於開始走出困境。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turning the corner"
         },
         {
@@ -127114,7 +127128,7 @@
           "answer": "We hope the business will turn the corner before the end of the year.",
           "answerZh": "我們希望這盤生意會在年底前開始復蘇。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127134,7 +127148,7 @@
           "answer": "The town’s bus service seems to have turned the corner since the new timetable began.",
           "answerZh": "新時間表開始後，小鎮的巴士服務似乎已經開始好轉。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127154,7 +127168,7 @@
           "answer": "With regular practice, Chloe’s spoken English could turn the corner within a few months.",
           "answerZh": "透過持續練習，Chloe 的英語口語可能在數月內出現明顯改善。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127174,7 +127188,7 @@
           "answer": "The patient had turned the corner before he left hospital.",
           "answerZh": "病人在離開醫院前已渡過最危險的階段。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127194,7 +127208,7 @@
           "answer": "The school has not yet turned the corner on its attendance problem.",
           "answerZh": "學校在改善出席率問題方面尚未出現轉機。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127214,7 +127228,7 @@
           "answer": "The changes should help the online shop turn the corner after months of complaints.",
           "answerZh": "這些改變應能幫助網店在連續數月收到投訴後開始改善。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127234,7 +127248,7 @@
           "answer": "If customers keep returning, the restaurant may soon turn the corner.",
           "answerZh": "如果顧客繼續回來，餐廳可能很快便會開始走出低谷。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127254,7 +127268,7 @@
           "answer": "It took the club a full year to turn the corner.",
           "answerZh": "學會花了整整一年才開始走出困境。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127274,7 +127288,7 @@
           "answer": "We may be turning the corner, but it is too early to be certain.",
           "answerZh": "我們可能正在走出低谷，但現在仍然太早，未能確定。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turning the corner"
         },
         {
@@ -127294,7 +127308,7 @@
           "answer": "Has the patient turned the corner, or is she still in danger?",
           "answerZh": "病人是否已渡過最危險的階段，還是仍然有危險？",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127314,7 +127328,7 @@
           "answer": "The coach believes the team has turned the corner.",
           "answerZh": "教練相信球隊已經開始走出低谷。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127334,7 +127348,7 @@
           "answer": "The new teacher helped the class turn the corner with shorter practice sessions.",
           "answerZh": "新老師透過較短的練習時段，幫助全班開始取得改善。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127354,7 +127368,7 @@
           "answer": "It looks as though the family has finally turned the corner after a very difficult year.",
           "answerZh": "這個家庭經歷了非常困難的一年後，看來終於開始走出困境。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127374,7 +127388,7 @@
           "answer": "The business did not turn the corner until the company reduced its costs.",
           "answerZh": "公司減少開支後，這盤生意才開始復蘇。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127394,7 +127408,7 @@
           "answer": "The hospital hopes to turn the corner on long waiting times with its new booking system.",
           "answerZh": "醫院希望透過新的預約系統，開始改善輪候時間過長的問題。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127414,7 +127428,7 @@
           "answer": "Although the shop has turned the corner, it still has several large debts.",
           "answerZh": "雖然店舖已開始走出困境，但仍然有數筆巨額債務。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127434,7 +127448,7 @@
           "answer": "The project began to turn the corner once the missing parts arrived.",
           "answerZh": "欠缺的零件送到後，項目開始走出困境。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127454,7 +127468,7 @@
           "answer": "When did the team finally turn the corner?",
           "answerZh": "球隊最終在甚麼時候開始走出低谷？",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127474,7 +127488,7 @@
           "answer": "Only after the two sides began speaking honestly did their relationship turn the corner.",
           "answerZh": "雙方開始坦誠溝通後，這段關係才開始好轉。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127494,7 +127508,7 @@
           "answer": "The manager says the business is turning the corner, although its profits are still low.",
           "answerZh": "經理表示這盤生意正開始復蘇，儘管利潤仍然偏低。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turning the corner"
         },
         {
@@ -127514,7 +127528,7 @@
           "answer": "Although his health appears to have turned the corner, the doctor still wants him to rest.",
           "answerZh": "雖然他的健康狀況似乎已渡過最危險的階段，但醫生仍希望他休息。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127534,7 +127548,7 @@
           "answer": "Doctors are hopeful that the child will turn the corner soon.",
           "answerZh": "醫生希望孩子的情況很快便會開始好轉。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127554,7 +127568,7 @@
           "answer": "If the weather stays dry, the building project could finally turn the corner next week.",
           "answerZh": "如果天氣保持乾燥，建築項目下星期可能終於會開始走出困境。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127574,7 +127588,7 @@
           "answer": "After changing how it answered complaints, the hotel began to turn the corner.",
           "answerZh": "酒店改變回應投訴的方法後，情況開始好轉。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127594,7 +127608,7 @@
           "answer": "The new study plan may be what helps her turn the corner in maths.",
           "answerZh": "新的溫習計劃可能正是幫助她在數學方面開始進步的因素。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127614,7 +127628,7 @@
           "answer": "What convinced you that the business had turned the corner?",
           "answerZh": "甚麼令你相信這盤生意已開始復蘇？",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127634,7 +127648,7 @@
           "answer": "Having turned the corner, the team can now focus on reaching the final.",
           "answerZh": "球隊開始走出低谷後，現在可以專注爭取進入決賽。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127654,7 +127668,7 @@
           "answer": "The community garden has turned the corner, thanks to the residents who now water it every day.",
           "answerZh": "多得居民現在每天澆水，社區花園的情況已開始好轉。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127674,7 +127688,7 @@
           "answer": "Despite one better month, the company may not have turned the corner yet.",
           "answerZh": "儘管有一個月的表現較好，公司可能仍未真正走出低谷。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127694,7 +127708,7 @@
           "answer": "The school will know it has turned the corner when attendance improves for several months, not just one week.",
           "answerZh": "當出席率持續數月改善，而不只是改善一星期時，學校才能確定已經走出困境。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127714,7 +127728,7 @@
           "answer": "It was the first month without a loss that showed the café had turned the corner.",
           "answerZh": "第一個沒有虧損的月份，顯示咖啡店已開始走出低谷。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127734,7 +127748,7 @@
           "answer": "The doctor would not say that the patient had turned the corner until his breathing became steady.",
           "answerZh": "醫生直至病人的呼吸變得穩定後，才表示他已渡過最危險的階段。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127754,7 +127768,7 @@
           "answer": "Whether the project has truly turned the corner depends on what happens after the extra money is spent.",
           "answerZh": "這個項目是否真正開始走出困境，要視乎額外資金用完後的情況。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127774,7 +127788,7 @@
           "answer": "By keeping the same study routine, Aaron may be able to turn the corner in English.",
           "answerZh": "Aaron 持續保持相同的溫習習慣，可能有助他在英語方面開始取得真正進步。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127794,7 +127808,7 @@
           "answer": "The fall in complaints suggests that the bus service is beginning to turn the corner.",
           "answerZh": "投訴數字下降，顯示巴士服務正開始好轉。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127814,7 +127828,7 @@
           "answer": "Even if the team has turned the corner, one good week does not mean that every problem has been solved.",
           "answerZh": "即使球隊已開始走出低谷，一星期的良好表現亦不代表所有問題都已解決。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turned the corner"
         },
         {
@@ -127834,7 +127848,7 @@
           "answer": "The museum hopes its new programme will help it turn the corner after a long fall in visitor numbers.",
           "answerZh": "博物館希望新活動會幫助它在參觀人數長期下降後開始復蘇。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turn the corner"
         },
         {
@@ -127854,7 +127868,7 @@
           "answer": "Once the local centre turns the corner, it plans to offer more free classes.",
           "answerZh": "本地中心一旦開始走出困境，便計劃提供更多免費課堂。",
           "targetForm": "TURN THE CORNER",
-          "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+          "targetMeaning": "to pass the worst stage of a difficult situation and begin to improve",
           "highlight": "turns the corner"
         }
       ]
@@ -131085,8 +131099,8 @@
         }
       ],
       "meaning": {
-        "en": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
-        "zh": "slip on a banana skin 指某人犯下一個愚蠢或本可避免的錯誤，或意外失敗，結果令自己出醜並引起麻煩。",
+        "en": "to make a foolish or avoidable mistake that causes embarrassment or failure",
+        "zh": "犯下愚蠢或本可避免的錯誤，因而出醜或失敗。",
         "naturalZh": [
           "因低級錯誤而失手",
           "犯下令人尷尬的錯誤",
@@ -131553,7 +131567,7 @@
           "answer": "At the company meeting, the presenter slipped on a banana skin by showing last year’s sales figures.",
           "answerZh": "主持人在公司會議上展示去年的銷售數字，因低級錯誤而出醜。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -131573,7 +131587,7 @@
           "answer": "Despite being the clear favourite, the school team slipped on a banana skin against a much weaker team.",
           "answerZh": "儘管校隊是明顯的大熱門，卻在面對實力弱得多的球隊時意外失手。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -131593,7 +131607,7 @@
           "answer": "When every customer received the wrong discount code, the shop slipped on a banana skin.",
           "answerZh": "所有顧客收到錯誤折扣碼，令店舖因低級錯誤而失手。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -131613,7 +131627,7 @@
           "answer": "During the live interview, the actor slipped on a banana skin when he forgot the title of his own film.",
           "answerZh": "演員在直播訪問中忘記自己電影的名稱，因而尷尬出醜。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -131633,7 +131647,7 @@
           "answer": "After praising an idea that she had rejected the day before, the manager slipped on a banana skin.",
           "answerZh": "經理稱讚了一項自己前一天才反對的建議，因低級錯誤而出醜。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -131653,7 +131667,7 @@
           "answer": "A careless answer about school fees made the candidate slip on a banana skin during the interview.",
           "answerZh": "一個有關學費的大意回答，令候選人在訪問中犯下尷尬錯誤。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -131673,7 +131687,7 @@
           "answer": "On its opening night, the restaurant slipped on a banana skin over an advertised dish that was unavailable.",
           "answerZh": "餐廳在開業當晚因宣傳一道沒有供應的菜式而出醜。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -131693,7 +131707,7 @@
           "answer": "On stage, the singer slipped on a banana skin when he thanked the wrong city.",
           "answerZh": "歌手在台上向錯誤的城市致謝，因而尷尬出醜。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -131713,7 +131727,7 @@
           "answer": "In what should have been an easy cup match, the football club slipped on a banana skin against a lower-league team.",
           "answerZh": "在一場原本應該輕鬆取勝的盃賽中，足球會意外敗給較低級別聯賽的球隊。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -131733,7 +131747,7 @@
           "answer": "One large spelling mistake on the new sign made the company slip on a banana skin.",
           "answerZh": "新招牌上的一個顯眼拼字錯誤，令公司因低級錯誤而出醜。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -131753,7 +131767,7 @@
           "answer": "If he answers before checking the facts, the minister may slip on a banana skin in public.",
           "answerZh": "如果部長未核實事實便回答，他可能會在公開場合犯下尷尬錯誤。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -131773,7 +131787,7 @@
           "answer": "Despite its recent success, the favourite could still slip on a banana skin against the bottom team.",
           "answerZh": "儘管最近表現出色，大熱門仍可能在面對榜尾球隊時意外失手。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -131793,7 +131807,7 @@
           "answer": "The organisers must avoid slipping on a banana skin over the ticket numbers.",
           "answerZh": "主辦者必須避免在門票號碼上犯下令人尷尬的低級錯誤。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipping on a banana skin"
         },
         {
@@ -131813,7 +131827,7 @@
           "answer": "Without slipping on a banana skin, the speaker completed the difficult interview successfully.",
           "answerZh": "講者沒有犯下任何尷尬錯誤，成功完成了這次困難的訪問。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipping on a banana skin"
         },
         {
@@ -131833,7 +131847,7 @@
           "answer": "The company has slipped on a banana skin over the double charges to some customers.",
           "answerZh": "公司向部分顧客重複收費，因而犯下令人尷尬的錯誤。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -131853,7 +131867,7 @@
           "answer": "Before the open day even began, the school had already slipped on a banana skin by printing the wrong date.",
           "answerZh": "開放日尚未開始，學校已因印錯日期而犯下尷尬錯誤。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -131873,7 +131887,7 @@
           "answer": "“No. We must not slip on a banana skin in Saturday’s match,” the coach replied.",
           "answerZh": "教練回答：「不行。我們絕不能在星期六的比賽中因低級錯誤而失手。」",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -131893,7 +131907,7 @@
           "answer": "There is a real risk that the bank will slip on a banana skin when it launches the new app.",
           "answerZh": "銀行推出新應用程式時，確實有可能因低級錯誤而出醜。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -131913,7 +131927,7 @@
           "answer": "During her first public meeting, the last thing the mayor wants is to slip on a banana skin.",
           "answerZh": "在第一次公開會議中，市長最不希望發生的事，就是因低級錯誤而出醜。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -131933,7 +131947,7 @@
           "answer": "Slipping on a banana skin over the final contract could cost the company the whole deal.",
           "answerZh": "公司如果在最終合約上犯下低級錯誤，可能會失去整宗交易。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "Slipping on a banana skin"
         },
         {
@@ -131953,7 +131967,7 @@
           "answer": "“Exactly. We must not slip on a banana skin in tomorrow’s match,” the captain said.",
           "answerZh": "隊長說：「正是如此。我們絕不能在明天的比賽中意外失手。」",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -131973,7 +131987,7 @@
           "answer": "“Has the government slipped on a banana skin over the application forms?” the reporter asked.",
           "answerZh": "記者問：「政府是否在申請表格問題上犯下了尷尬錯誤？」",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -131993,7 +132007,7 @@
           "answer": "If she continues speaking without notes, critics expect the new director to slip on a banana skin sooner or later.",
           "answerZh": "如果新董事繼續不用筆記便發言，批評者預期她遲早會犯下尷尬錯誤。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132013,7 +132027,7 @@
           "answer": "Now that the captain is back, the team is unlikely to slip on a banana skin against this opponent.",
           "answerZh": "隊長歸隊後，球隊不大可能在面對這個對手時意外失手。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132033,7 +132047,7 @@
           "answer": "The company nearly slipped on a banana skin when it almost sent private details to the wrong customer.",
           "answerZh": "公司差點把私人資料寄給錯誤顧客，險些犯下尷尬錯誤。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -132053,7 +132067,7 @@
           "answer": "The teacher warned that the class could slip on a banana skin over one missing name on the project.",
           "answerZh": "老師警告，全班可能只因專題習作上少了一個名稱而尷尬失分。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132073,7 +132087,7 @@
           "answer": "“How did the club manage to slip on a banana skin over such a simple booking?” the organiser asked.",
           "answerZh": "主辦者問：「會所怎會在如此簡單的預訂上犯下低級錯誤？」",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132093,7 +132107,7 @@
           "answer": "“Then we cannot afford to slip on a banana skin during tomorrow’s safety check,” the manager replied.",
           "answerZh": "經理回答：「那麼，我們絕不能在明天的安全檢查中犯下低級錯誤。」",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132113,7 +132127,7 @@
           "answer": "To avoid slipping on a banana skin, the presenter checked every name before the awards show.",
           "answerZh": "為免在頒獎禮上犯下尷尬錯誤，主持人事前核對了每一個姓名。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipping on a banana skin"
         },
         {
@@ -132133,7 +132147,7 @@
           "answer": "After slipping on a banana skin in the first interview, the candidate prepared much more carefully for the second.",
           "answerZh": "候選人在第一次面試中因低級錯誤而失手後，為第二次面試作了更仔細的準備。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipping on a banana skin"
         },
         {
@@ -132153,7 +132167,7 @@
           "answer": "Although the company had planned the launch for months, it slipped on a banana skin over the payment page.",
           "answerZh": "雖然公司已籌備產品推出數月，卻在付款頁面上犯下尷尬錯誤。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -132173,7 +132187,7 @@
           "answer": "Because the team treated the match as easy, it slipped on a banana skin against the youngest side in the league.",
           "answerZh": "球隊因輕視比賽而意外敗給聯賽中最年輕的隊伍。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -132193,7 +132207,7 @@
           "answer": "The director seemed certain to win the award, only to slip on a banana skin with an offensive joke.",
           "answerZh": "導演看來肯定會獲獎，最後卻因一個冒犯性的笑話而失手。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132213,7 +132227,7 @@
           "answer": "“Rather than slip on a banana skin during the debate, I will admit when I do not know an answer,” the candidate said.",
           "answerZh": "候選人說：「與其在辯論中因胡亂回答而出醜，我會在不知道答案時坦白承認。」",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132233,7 +132247,7 @@
           "answer": "Even a highly experienced manager can slip on a banana skin if a basic detail is ignored.",
           "answerZh": "即使是經驗豐富的經理，也可能因忽略基本細節而犯下尷尬錯誤。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132253,7 +132267,7 @@
           "answer": "What looked like a minor wording error caused the newspaper to slip on a banana skin in its front-page report.",
           "answerZh": "一個看似輕微的措辭錯誤，令報章在頭版報道中犯下尷尬錯誤。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132273,7 +132287,7 @@
           "answer": "If two people checked every advertisement, the company would be less likely to slip on a banana skin.",
           "answerZh": "如果每則廣告由兩個人核對，公司因低級錯誤而出醜的可能性便會降低。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132293,7 +132307,7 @@
           "answer": "By announcing the result too early, the host slipped on a banana skin during the live show.",
           "answerZh": "主持人過早宣布結果，在直播節目中犯下了令人尷尬的錯誤。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -132313,7 +132327,7 @@
           "answer": "Despite several difficult questions, the committee has so far avoided slipping on a banana skin.",
           "answerZh": "儘管面對數條困難問題，委員會至今仍避免了因低級錯誤而出醜。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipping on a banana skin"
         },
         {
@@ -132333,7 +132347,7 @@
           "answer": "Had the team checked the rules, it might not have slipped on a banana skin in the final.",
           "answerZh": "如果球隊曾核對規則，便可能不會在決賽中因低級錯誤而失手。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -132353,7 +132367,7 @@
           "answer": "Although the government’s new plan is popular, one careless promise could make it slip on a banana skin before the campaign ends.",
           "answerZh": "雖然政府的新計劃十分受歡迎，但一個大意承諾可能會令政府在宣傳結束前因低級錯誤而失手。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132373,7 +132387,7 @@
           "answer": "It would be embarrassing for a major hospital to slip on a banana skin over such a simple booking error.",
           "answerZh": "一間大型醫院因如此簡單的預約錯誤而出醜，將會十分尷尬。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132393,7 +132407,7 @@
           "answer": "As the public event becomes larger, the chance that the organisers will slip on a banana skin also increases.",
           "answerZh": "隨着公開活動規模擴大，主辦者因低級錯誤而出醜的機會亦會增加。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132413,7 +132427,7 @@
           "answer": "No matter how strong the team looks, it can still slip on a banana skin against an opponent with nothing to lose.",
           "answerZh": "無論球隊看來多麼強大，面對毫無壓力的對手時仍可能意外失手。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         },
         {
@@ -132433,7 +132447,7 @@
           "answer": "Just as the company was about to sign its largest deal, it slipped on a banana skin over an email sent to its rival.",
           "answerZh": "公司正要簽署歷來最大交易之際，卻因一封寄給競爭對手的電郵而尷尬失手。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -132453,7 +132467,7 @@
           "answer": "Once the minister had slipped on a banana skin with the false claim, reporters questioned every later statement.",
           "answerZh": "部長因失實聲稱而犯下尷尬錯誤後，記者便質疑他其後所作的每一項陳述。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -132473,7 +132487,7 @@
           "answer": "The manager’s final check prevented the company from slipping on a banana skin over the wrong advertised prices.",
           "answerZh": "經理的最後檢查避免了公司因錯誤的廣告價格而公開出醜。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipping on a banana skin"
         },
         {
@@ -132493,7 +132507,7 @@
           "answer": "Whether or not the favourite is stronger, it must play seriously to avoid slipping on a banana skin in the first round.",
           "answerZh": "無論大熱門是否實力較強，也必須認真作賽，以免在第一圈意外失手。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipping on a banana skin"
         },
         {
@@ -132513,7 +132527,7 @@
           "answer": "According to the report, the department may already have slipped on a banana skin by promising a service it cannot yet provide.",
           "answerZh": "報告指出，該部門承諾提供一項尚未有能力提供的服務，可能已經犯下尷尬錯誤。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slipped on a banana skin"
         },
         {
@@ -132533,7 +132547,7 @@
           "answer": "Unless the incorrect figures are corrected before publication, the council could slip on a banana skin at the very end of the project.",
           "answerZh": "除非錯誤數字在公布前得到修正，否則市議會可能會在項目最後階段因低級錯誤而失手。",
           "targetForm": "Slip on a Banana Skin",
-          "targetMeaning": "It is often used when a person, team, company or government appears successful or confident but is embarrassed by one simple mistake or an unexpectedly difficult situation. Collins defines it as saying or doing something that makes you look stupid and causes problems, while Merriam-Webster describes it as failing in an embarrassing way.",
+          "targetMeaning": "to make a foolish or avoidable mistake that causes embarrassment or failure",
           "highlight": "slip on a banana skin"
         }
       ]
@@ -147511,10 +147525,11 @@
         }
       ],
       "meaning": {
-        "en": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
-        "zh": "本練習包括的意思",
+        "en": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
+        "zh": "不斷向司機提供未經要求的意見的乘客；也可比喻沒有直接負責，卻試圖指揮他人工作的人。",
         "naturalZh": [
-          "本練習包括的意思"
+          "不請自來地指揮司機的人",
+          "從旁干預他人工作的人"
         ]
       },
       "register": {
@@ -148115,7 +148130,7 @@
           "answer": "Leo is a back-seat driver whenever I drive.",
           "answerZh": "每當我駕駛時，里奧總會在旁不斷指點。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148135,7 +148150,7 @@
           "answer": "My aunt becomes a back-seat driver on every family journey.",
           "answerZh": "姨姨在每次家庭旅程中都會變成一個不斷指點司機的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148155,7 +148170,7 @@
           "answer": "Please do not be a back-seat driver while I am parking.",
           "answerZh": "我泊車時，請不要不斷在旁指點。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148175,7 +148190,7 @@
           "answer": "Nobody wants a back-seat driver beside them on a busy road.",
           "answerZh": "沒有人希望在繁忙道路上駕駛時，身旁有人不停指點。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148195,7 +148210,7 @@
           "answer": "I hate having a back-seat driver in the car.",
           "answerZh": "我討厭車內有人不斷在旁指點我駕駛。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148215,7 +148230,7 @@
           "answer": "Grace called her brother a back-seat driver after their journey.",
           "answerZh": "旅程結束後，格蕾絲說弟弟總是在旁胡亂指點司機。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148235,7 +148250,7 @@
           "answer": "A back-seat driver can make the person at the wheel nervous.",
           "answerZh": "有人不斷在旁指點，可能會令正在駕駛的人感到緊張。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148255,7 +148270,7 @@
           "answer": "The last thing I need in heavy traffic is a back-seat driver.",
           "answerZh": "我在繁忙交通中最不需要的，就是有人不斷在旁指點。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148275,7 +148290,7 @@
           "answer": "Daniel sounded like a back-seat driver throughout Eva’s first journey as the driver.",
           "answerZh": "在伊娃首次駕駛的整段旅程中，丹尼爾聽起來像一個不斷在旁指點司機的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148295,7 +148310,7 @@
           "answer": "Stop being a back-seat driver and let Priya concentrate.",
           "answerZh": "不要再不斷指點司機，讓普麗雅集中精神。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148315,7 +148330,7 @@
           "answer": "His mother can be a back-seat driver on long journeys.",
           "answerZh": "在長途旅程中，他的母親可能會變得愛在旁指點司機。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148335,7 +148350,7 @@
           "answer": "I accused Noah of being a back-seat driver after his fifth interruption.",
           "answerZh": "諾亞第五次打斷我後，我指責他總是在旁胡亂指點。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148355,7 +148370,7 @@
           "answer": "Being a back-seat driver may make the person at the wheel nervous.",
           "answerZh": "在旁不斷指點司機，可能會令正在駕駛的人感到緊張。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148375,7 +148390,7 @@
           "answer": "Sophie has turned into a back-seat driver since she passed her driving test.",
           "answerZh": "蘇菲自從考獲駕駛執照後，便變得愛在旁指點司機。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148395,7 +148410,7 @@
           "answer": "If you keep interrupting the driver, you will become a back-seat driver.",
           "answerZh": "如果你繼續打斷司機，你便會變成一個愛在旁指點的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148415,7 +148430,7 @@
           "answer": "He thinks I am being a back-seat driver whenever he drives.",
           "answerZh": "他認為每當他駕駛時，我都在旁不斷指點。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148435,7 +148450,7 @@
           "answer": "We did not need a back-seat driver during our first journey through the city.",
           "answerZh": "我們首次駕車穿過市區時，不需要有人不斷在旁指點。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148455,7 +148470,7 @@
           "answer": "Oliver promised not to be a back-seat driver during the journey.",
           "answerZh": "奧利弗答應在旅途中不會不停指點司機。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148475,7 +148490,7 @@
           "answer": "She may not mean to be a back-seat driver, but she is distracting the driver.",
           "answerZh": "她可能並非有意在旁不斷指點，但她正在令司機分心。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148495,7 +148510,7 @@
           "answer": "What annoys him most is having a back-seat driver beside him.",
           "answerZh": "最令他煩厭的，是身旁有人不斷指點他駕駛。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148515,7 +148530,7 @@
           "answer": "Although Clara was only trying to help, she came across as a back-seat driver.",
           "answerZh": "雖然克拉拉只是想幫忙，但她給人的感覺像一個愛在旁指揮的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148535,7 +148550,7 @@
           "answer": "Rather than be a back-seat driver, Ethan checked the map quietly and spoke only when asked.",
           "answerZh": "伊森沒有在旁胡亂指點，而是安靜地查看地圖，只在司機主動詢問時才說話。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148555,7 +148570,7 @@
           "answer": "The driver described Ryan as a back-seat driver after the journey.",
           "answerZh": "旅程結束後，司機形容賴恩是一個愛在旁指點司機的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148575,7 +148590,7 @@
           "answer": "I do not want to sound like a back-seat driver, but the traffic light has turned red.",
           "answerZh": "我不想聽起來像一個愛在旁指點司機的人，但交通燈已轉為紅色。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148595,7 +148610,7 @@
           "answer": "The instructor warned the passenger that constant interruptions could make him a back-seat driver.",
           "answerZh": "導師警告乘客，反覆打斷司機可能會令他變成一個愛在旁指點的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148616,7 +148631,7 @@
           "answer": "Ava dislikes being called a back-seat driver after every family journey.",
           "answerZh": "艾娃不喜歡每次家庭旅程後都被人說成愛在旁指點司機。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148636,7 +148651,7 @@
           "answer": "Once the journey began, Henry quickly became a back-seat driver.",
           "answerZh": "旅程一開始，亨利便很快變成一個不斷在旁指點司機的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148656,7 +148671,7 @@
           "answer": "There is no need to be a back-seat driver; Ruby knows the route.",
           "answerZh": "沒有必要在旁不斷指點；露比知道路線。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148676,7 +148691,7 @@
           "answer": "If Oscar had remained quiet, nobody would have called him a back-seat driver.",
           "answerZh": "如果奧斯卡保持安靜，便沒有人會說他愛在旁指點司機。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148696,7 +148711,7 @@
           "answer": "Only speak if she asks; otherwise, you may seem like a back-seat driver.",
           "answerZh": "只有她主動詢問時才說；否則，你可能會顯得愛在旁胡亂指點。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148716,7 +148731,7 @@
           "answer": "Even though James was sitting in the front passenger seat, he was still a back-seat driver.",
           "answerZh": "雖然詹姆斯坐在前排乘客座位，他仍然是一個不斷在旁指點司機的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148736,7 +148751,7 @@
           "answer": "By commenting on every small movement, Alice made herself sound like a back-seat driver.",
           "answerZh": "愛麗斯評論司機的每一個小動作，令自己聽起來像一個愛在旁指點司機的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148756,7 +148771,7 @@
           "answer": "As soon as the car moved off, Victor began behaving like a back-seat driver.",
           "answerZh": "汽車一開出，維克托便開始表現得像一個不斷在旁指點司機的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148776,7 +148791,7 @@
           "answer": "What started as one helpful comment soon made Chloe look like a back-seat driver.",
           "answerZh": "起初只是一個有用意見，但克洛伊很快便顯得像一個愛在旁指點司機的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148796,7 +148811,7 @@
           "answer": "The driver would rather stop and check the map than listen to a back-seat driver.",
           "answerZh": "司機寧願停車查看地圖，也不願聽一個愛在旁指點的人說話。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148816,7 +148831,7 @@
           "answer": "Since Liam was new to the road, one helpful warning was welcome, but having a back-seat driver was not.",
           "answerZh": "由於利亞姆不熟悉那條道路，一次有用警告是受歡迎的，但有人不斷在旁指點便不受歡迎。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148836,7 +148851,7 @@
           "answer": "The passenger may have thought he was helping, yet he behaved like a back-seat driver throughout the journey.",
           "answerZh": "乘客可能以為自己正在幫忙，但他在整段旅程中都表現得像一個不斷在旁指點司機的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148856,7 +148871,7 @@
           "answer": "It was unfair to call Nina a back-seat driver because she spoke only when she saw real danger.",
           "answerZh": "說妮娜愛在旁胡亂指點並不公平，因為她只在看到真正危險時才說話。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148876,7 +148891,7 @@
           "answer": "Whenever the traffic became heavy, Rosa’s father changed from a calm passenger into a back-seat driver.",
           "answerZh": "每當交通變得繁忙，露莎的父親便會由冷靜的乘客變成一個不斷在旁指點司機的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148896,7 +148911,7 @@
           "answer": "If the passenger had stopped after one warning, he would not have seemed like a back-seat driver.",
           "answerZh": "如果乘客在一次警告後便停止，他便不會顯得愛在旁胡亂指點。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148916,7 +148931,7 @@
           "answer": "The former manager has become a back-seat driver in the company he once led.",
           "answerZh": "前任經理在自己曾經領導的公司中，變成了一個仍然從旁指手畫腳的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148936,7 +148951,7 @@
           "answer": "The committee accused the former chairperson of being a back-seat driver.",
           "answerZh": "委員會指責前主席仍然在幕後指手畫腳。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148956,7 +148971,7 @@
           "answer": "Although he no longer leads the club, Aaron acts like a back-seat driver at every meeting.",
           "answerZh": "雖然亞倫已不再領導組織，但他在每次會議上都像一個從旁指手畫腳的人。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148976,7 +148991,7 @@
           "answer": "A back-seat driver can weaken a new leader by trying to control decisions from outside.",
           "answerZh": "一個從旁指手畫腳的人試圖從外部控制決定，可能會削弱新領袖的權威。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -148996,7 +149011,7 @@
           "answer": "The new team does not need a back-seat driver from the old management group.",
           "answerZh": "新團隊不需要舊管理團隊的人在旁指手畫腳。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -149016,7 +149031,7 @@
           "answer": "Being a back-seat driver on the project stopped Ella from letting the new leader work independently.",
           "answerZh": "艾拉在項目中不斷從旁干預，令她無法放手讓新領袖獨立工作。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -149036,7 +149051,7 @@
           "answer": "She denied being a back-seat driver, but she still wanted the final say on every change.",
           "answerZh": "她否認自己在幕後指手畫腳，但仍希望對每項改動擁有最終決定權。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -149056,7 +149071,7 @@
           "answer": "If the founder continues interfering after leaving, staff may see him as a back-seat driver.",
           "answerZh": "如果創辦人離開後仍繼續干預，員工可能會認為他仍在幕後指手畫腳。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -149076,7 +149091,7 @@
           "answer": "Rather than become a back-seat driver, the retired coach offered advice only when asked.",
           "answerZh": "退休教練沒有在旁指手畫腳，只在別人主動詢問時提供意見。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         },
         {
@@ -149096,7 +149111,7 @@
           "answer": "What the new director feared most was a back-seat driver from outside the organisation.",
           "answerZh": "新主管最擔心的是，組織外有人不斷從旁指手畫腳。",
           "targetForm": "back-seat driver",
-          "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+          "targetMeaning": "a passenger who repeatedly gives a driver unwanted advice; also, a person who tries to control work entrusted to someone else",
           "highlight": "back-seat driver"
         }
       ]
